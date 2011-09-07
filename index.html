@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>JHU MT course</title>
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="screen.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+
+<div class="site">
+
+  <div class="leftsidebar">
+    <p><img src="img/artsrouni.jpg" width="180" 
+      alt="mechanical brain"/><p><i>Georges Artrouni's mechanical brain, a translation device patented in France in 1933.</i>
+  </div>
+
+  <div class="content">
+    <h1>Machine Translation <font color="lightgrey">: Spring 2012</font></h1>
+<div id="course" class="cv">
+
+<p><b>Instructors:</b>
+<ul class="posts">
+	<li><a href="http://www.cs.jhu.edu/~ccb">Chris Callison-Burch</a></li>
+  <li><a href="http://www.cs.jhu.edu/~alopez">Adam Lopez</a></li>
+  <li><a href="http://cs.rochester.edu/~post/">Matt Post</a></li>
+</ul>
+
+<p><b>Level</b>: Senior undergraduate or graduate.
+<p><b>Course Catalog Description</b>: 
+<a href="http://translate.google.com">Google translate</a> can instantly
+translate between any pair of over fifty human languages (for instance, from
+French to English), although its accuracy varies. How does it do that?
+And how can you build something better? Modern translation systems learn
+how to translate by reading millions of words of already translated text, 
+and in this course you'll build a system that does exactly that. Get ready 
+to put everything you know about computer science and language to good use: 
+you'll need some linguistics, machine learning, algorithms, data structures,
+and formal language theory. We'll cover what you need to know (if you don't 
+already) and help you apply it to a very real and difficult problem in 
+artificial intelligence.
+
+<p><b>Goals</b>:
+By the end of the course, you should have a good grasp of what goes into
+a building a large-scale machine translation system, and exeperience 
+selecting and applying diverse techniques from computer science to solve
+real-world problems.
+
+<p><b>Requirements</b>:
+You'll need strong programming skills  for the course homework and projects.
+Experience with linguistics, machine learning, and formal language theory
+aren't required, but helpful. Contact the course instructors if you aren't
+sure about prerequisites.
+
+<h2>Course Structure</h2>
+The class meetings will consist mainly of lectures, but the only way to 
+fully understand all of the problems that you need to solve in building a 
+translation system is to go out and build one. To that end, the course will
+be evaluated on homeworks consisting of focused data analysis and programming
+exercises (60%) and a final project (40%).
+
+<h2>Books</h2>
+The book <a href="http://www.statmt.org/book/">Statistical Machine Translation</a> by <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/">Philipp Koehn</a> is recommended, but not required.  
+A much more compact <a href="http://www.cs.jhu.edu/~alopez/papers/survey.pdf">survey</a> by <a href="index.html">Adam Lopez</a> is available for free.
+
+<h2>Tentative Schedule</h2>
+
+<table>
+  <tbody>
+    <tr bgcolor="lightgrey">
+      <td valign="top">
+        <b>Date</b>
+      </td>
+      <td valign="top">
+        <b>Topics</b>
+      </td>
+      <td valign="top">
+        <b>Readings</b>
+      </td>
+      <td valign="top">
+        <b>Assignments</b>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        Week of January 30
+      </td>
+      <td valign="top">
+        Introduction
+      </td>
+      <td valign="top">
+        This week should be heavily exercise/ example-focused. Why is translation hard?
+      </td>
+      <td valign="top">
+        <a href="http://www.cs.jhu.edu/~alopez/talks/esslli-exercise.pdf">In-class exercise.</a></br>
+        Homework 1 Assigned
+      </td>
+    </tr>
+    <tr bgcolor="lightgrey">
+      <td valign="top">
+        Week of February 6
+      </td>
+      <td valign="top">
+        Modeling translation, take 1: Words<br/>
+        Probability review
+      </td>
+      <td valign="top">
+        IBM Model (or simpler descriptions thereof) readings
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        Week of February 13
+      </td>
+      <td valign="top">
+        Language models<br/>
+        Supervised learning<br/>
+      </td>
+      <td valign="top">
+        ???
+      </td>
+      <td valign="top">
+        Homework 1 Deadline<br/>
+        Homework 2 Assigned
+      </td>
+    </tr>
+    <tr bgcolor="lightgrey">
+      <td valign="top">
+        Week of February 20 
+      </td>
+      <td valign="top">
+        Alignment<br/>
+        Latent variable models and unsupervised learning
+      </td>
+      <td valign="top">
+        Readings on EM algorithm, HMM, Berkeley aligner(?)
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        Week of February 27
+      </td>
+      <td valign="top">
+        Translating: decoding new input<br/>
+        Graph algorithms and complexity
+      </td>
+      <td valign="top">
+        Knight paper on complexity, some (?) decoding paper
+      </td>
+      <td valign="top">
+        Homework 2 Deadline<br/>
+        Homework 3 Assigned
+      </td>
+    </tr>
+    <tr bgcolor="lightgrey">
+      <td valign="top">
+        Week of March 5
+      </td>
+      <td valign="top">
+        Modeling translation: weighted automata
+      </td>
+      <td valign="top">
+        Mohri; Bill Byrne & Shankar Kumar papers
+      </td>
+      <td valign="top">
+        Initial project proposals due
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        Week of March 12
+      </td>
+      <td align="top">
+        Modeling translation, take 2: phrases
+      </td>
+      <td align="top">
+        Koehn paper, Marcu and Wong(?), DeNero(?), other(?)
+      <td valign="top">
+        Homework 3 Due
+      </td>
+    </tr>
+    <tr bgcolor="lightgrey">
+      <td valign="top">
+        Week of March 26
+      </td>
+      <td valign="top">
+        Evaluation<br/>
+        Discriminative learning
+      </td>
+      <td valign="top">
+        BLEU and MERT papers :( 11,000 features(?), MIRA(?), tuning as ranking (?)
+      </td>
+      <td valign="top">
+        Homework 4 Assigned
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        Week of April 2
+      </td>
+      <td valign="top">
+        Modeling translation, take 3: grammars 
+      </td>
+      <td valign="top">
+        ITG (?) Hiero papers
+      </td>
+      <td valign="top">
+      </td>
+    </tr>
+    <tr bgcolor="lightgrey">
+      <td valign="top">
+        Week of April 9
+      </td>
+      <td valign="top">
+        Synchronous grammars and automata theory
+      </td>
+      <td valign="top">
+        ISI, Cambridge group papers
+      </td>
+      <td valign="top">
+        Project progress reports due
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        Week of April 16
+      </td>
+      <td valign="top">
+        Data gathering: paraphrasing and crowdsourcing
+      </td>
+      <td valign="top">
+        CCB papers
+      </td>
+      <td valign="top">
+        Homework 4 Due
+      </td>
+    </tr>
+    <tr bgcolor="lightgrey">
+      <td valign="top">
+        Week of April 23
+      </td>
+      <td valign="top">
+        Distributed computation<br/>
+        Approximate reprsentations
+      </td>
+      <td valign="top">
+        Google papers (Brants et al.; Talbot)
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        Week of April 30
+      </td>
+      <td valign="top">
+        Wrap-up (flex time)
+      </td>
+      <td valign="top">
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        Exam Week
+      </td>
+      <td valign="top">
+      </td>
+      <td valign="top">
+      </td>
+      <td valign="top">
+        Final project presentations
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<h2>Software</h2>
+State-of-the-art translation algorithms are implemented in a number of
+open-source projects. The most popular of these are listed below.
+They are all actively maintained and have significant userbases.  
+You are free to use and extend these tools (or others) in devising your 
+final project.
+<ul>
+  <li><a href="http://cs.jhu.edu/~ccb/joshua/">Joshua</a>: a translation toolkit for syntax-based translation, developed at Johns Hopkins (Java).</li>
+  <li><a href="http://www.statmt.org/moses/">Moses</a>: a widely-used toolkit implementing most major translation algorithms (C++).</li>
+  <li><a href="http://www.cdec-decoder.org">cdec</a>: a fast decoder for a variety of translation models (C++).</li>
+  <li><a href="http://kheafield.com/code/kenlm/">KenLM</a>: a fast language-modeling toolkit, can be used with the above systems (C++).</li>
+  <li><a href="http://www.speech.sri.com/projects/srilm/">SRI-LM</a>: a widely-used language modeling toolkit with many features, used with the above systems (C++).</li>
+  <li><a href="http://code.google.com/p/giza-pp/">Giza++</a>: a widely-used word alignment toolkit, originally developed at a Johns Hopkins summer workshop (C++).</li>
+  <li><a href="http://nlp.cs.berkeley.edu/Main.html#WordAligner">Berkeley Aligner</a>: a robust Java implementation of several innovative alignment algorithms (Java).</li>
+</ul>
+
+<h2>Data</h2>
+Modern machine translation systems work by learning from large amounts
+of data. Many datasets are freely available. You should use whatever data
+is appropriate to the problem that you decide to work on for your project. 
+<ul>
+  <li><a href="http://www.statmt.org/wmt11/translation-task.html">Machine Translation workshop 2011 shared task data</a>, used in research evaluations (French-English, Spanish-English, Czech-English, Haitian Creole-English).</li>
+  <li><a href="http://langtech.jrc.it/JRC-Acquis.html">JRC-Acquis</a>, legislative text of the European Union (22 European languages).</li>
+  <li><a href="http://statmt.org/europarl/">Europarl</a>, proceedings of the European Parliament (22 European languages).</li>
+  <li><a href="http://www.isi.edu/natural-language/download/hansard/">Canadian Hansards</a>, proceedings of the Canadian Parliament (French and English).</li>
+</ul>
+
+<h2>Other Machine Classes</h2>
+<ul>
+	<li>Chris Callison-Burch taught a one-week machine translation course at ESSLLI 2005 with <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/">Philipp Koehn</a>:
+    <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/publications/esslli-slides-day1.pdf">1</a>, 
+    <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/publications/esslli-slides-day2.pdf">2</a>,
+    <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/publications/esslli-slides-day3.pdf">3</a>,
+    <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/publications/esslli-slides-day4.pdf">4</a>,
+    <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/publications/esslli-slides-day5.pdf">5</a>.</li>
+  <li>Adam Lopez taught a one-week <a href="http://www.cs.jhu.edu/~alopez/esslli2010.html">machine translation course</a> at ESSLLI 2010.</li>
+  <li><a href="http://nlg.isi.edu/teaching/cs599mt/">University of Southern California</a>.</li>
+  <li><a href="http://www.inf.ed.ac.uk/teaching/courses/mt/">University of Edinburgh</a>.</li>
+  <li><a href="https://catalyst.uw.edu/workspace/kristout/20547/123745">University of Washington</a>.</li>
+  <li><a href="http://www.cs.cmu.edu/afs/cs/project/cmt-55/lti/Courses/731/www/Spring-11/ClassSchedule2011.htm">Carnegie Mellon University</a>.</li>
+</ul>
+</div>
+
+</body>
+</html>

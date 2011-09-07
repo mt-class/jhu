@@ -1,0 +1,106 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font: palatino;
+  text-align: center; 
+}
+
+h1, h2 {
+  font-weight: lighter;
+  margin-bottom: 4pt;
+  margin-top: 8pt;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #00a;
+  text-decoration: none;
+}
+
+a[subtle="yes"] {
+  color: black;
+}
+
+.hidden-abstract, .unhidden-abstract {
+  text-indent: 0pt;
+  margin: 10pt;
+}
+
+.hidden-abstract { 
+  display: none; 
+}
+
+.unhidden-abstract { 
+  display: block; 
+  padding: 5pt;
+  background-color: #D8D8D8;
+}
+
+.news {
+  background-color: #CCFFFF;
+  padding: 2pt;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+ul {
+  list-style-type: none;
+  margin-bottom: 7pt;
+}
+
+li {
+  text-indent: -10pt;
+  margin-left: 10pt;
+  margin-top: 5pt;
+}
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 90%;
+  text-align: justify;
+  margin: 10px;
+}
+
+  .site .leftsidebar {
+    margin-top: -10pt;
+    float: left;
+    width: 180px;
+    text-align: left;
+  }
+  .site .content {
+    margin-top: 20pt;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+  }
+
