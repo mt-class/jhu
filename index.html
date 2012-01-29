@@ -23,12 +23,11 @@
 <div id="course" class="cv">
 
 <p><b>Instructors:</b>
-<ul class="posts">
-	<li><a href="http://www.cs.jhu.edu/~ccb">Chris Callison-Burch</a></li>
-  <li><a href="http://www.cs.jhu.edu/~alopez">Adam Lopez</a></li>
-  <li><a href="http://www.cs.jhu.edu/~post/">Matt Post</a></li>
-</ul>
+	<a href="http://www.cs.jhu.edu/~ccb">Chris Callison-Burch</a>,
+  <a href="http://www.cs.jhu.edu/~alopez">Adam Lopez</a>, and 
+  <a href="http://www.cs.jhu.edu/~post/">Matt Post</a>.
 
+<p><b>Time and Place:</b> Tuesdays and Thursdays from 3:00-4:15, Hackerman 320
 <p><b>Level</b>: Senior undergraduate or first-year graduate.
 <p><b>Course Catalog Description</b>: 
 <a href="http://translate.google.com">Google translate</a> can instantly
@@ -53,16 +52,38 @@ Natural language processing (<a href="http://www.cs.jhu.edu/~jason/465/">465</a>
 is recommended, but not required.
 
 
-<h2>Course Structure</h2>
+<h2>Course Structure and Assignments</h2>
 Class meetings will consist mainly of lectures, but the only way to 
 fully understand all of the problems that you need to solve in building a 
 language processing system is to go out and build one. To that end, the course
-will be evaluated on four homeworks consisting of focused data analysis and 
-programming exercises (60%) and a final project (40%). The final project will
-be designed by the student or groups of students, with guidance from the 
-instructors. It should be on well-defined problem with clearly identified 
-input, output, and evalution, and executed with creativity and depth.
+will be evaluated on four <i>competitive</i> homework assignments and a final
+project.
 
+<p>The goal of each homework assignment will be to build a system the solves 
+some well-defined subproblem of machine translation. Students will earn a passing
+grade by correctly implementing a standard algorithm, and  additional credit
+for the best systems according to an objective metric. For each task we will
+provide a simple baseline, datasets, and metrics. The tasks are:
+<ul>
+<li><b>Alignment</b>: given a set of translated documents that are aligned at the sentence level,
+  identify the words that are translations of each other.</li>
+<li><b>Decoding</b>: find the most probable translation of a sentence, given a 
+  translation model and a new input sentence.</li>
+<li><b>Reranking</b>: find the most <i>accurate</i> translation of a sentence,
+  given an input and a list of ranked alternative translations.</li>
+<li><b>Evaluation</b>: design a metric of translation accuracy  that correlates 
+  with human judgement..</li>
+
+</ul>
+
+The final project will
+be designed by the student or groups of students, with guidance from the 
+instructors. As with the homework assignments, should be on well-defined 
+problem with clearly identified input, output, and evalution, and executed 
+with creativity and depth.
+
+Finally, each student will be required to give a short (~10 minute) presentation
+on a particular language during one class session.
 <h2>Textbook</h2>
 Some readings will be drawn from <a href="http://www.statmt.org/book/">Statistical Machine Translation</a> 
 by <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/">Philipp Koehn</a> 
@@ -74,7 +95,7 @@ aren't strictly required; what's required is that you understand the concepts an
 
 <h2>Tentative Schedule</h2>
 
-<table>
+<table> 
   <tbody>
     <tr bgcolor="lightgrey">
       <td valign="top">
@@ -84,245 +105,179 @@ aren't strictly required; what's required is that you understand the concepts an
         <b>Topics</b>
       </td>
       <td valign="top">
-        <b>Readings</b>
+        <b>Lecturer</b>
+      </td>
+      <td valign="top">
+        <b>Readings</b> (starred readings are strongly recommended to graduate students)
       </td>
       <td valign="top">
         <b>Assignments</b>
       </td>
     </tr>
-    <tr>
-      <td valign="top">
-        Week of January 30
-      </td>
-      <td valign="top">
-        Introduction: the problem of translation.<br/>
-        A brief tour of linguistic phenomena.
-      </td>
-      <td valign="top">
-        Koehn chapter 1<br/>
-        <i>Recommended:</i><br/>
-        Weaver, <a href="http://www.mt-archive.info/Weaver-1949.pdf">Translation</a><br/>
-        Kay, <a href="http://www.stanford.edu/~mjkay/CurrentState.pdf">Translation</a><br/>
-        Church and Hovy, <a href="http://www.mt-archive.info/Neal-1991-Church.pdf">Good Applications of Crummy Machine Translation</a>
-      </td>
-      <td valign="top">
-        <a href="http://www.cs.jhu.edu/~alopez/talks/esslli-exercise.pdf">In-class exercise.</a></br>
-        Homework 1 Assigned
-      </td>
-    </tr>
-    <tr bgcolor="lightgrey">
-      <td valign="top">
-        Week of February 6
-      </td>
-      <td valign="top">
-        Modeling translation, take 1: Words.<br/>
-        Probability review.
-      </td>
-      <td valign="top">
-        Koehn chapters 2-3<br/>
-        <i>Recommended</i>:<br/>
-        Brown et al., <a href="http://aclweb.org/anthology-new/J/J90/J90-2002.pdf">A Statistical Approach to Machine Translation</a>.
-      </td>
-      <td valign="top">
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        Week of February 13
-      </td>
-      <td valign="top">
-        Language models<br/>
-        Supervised learning<br/>
-      </td>
-      <td valign="top">
-        Koehn chapter 7<br/>
-      </td>
-      <td valign="top">
-        Homework 1 Deadline<br/>
-        Homework 2 Assigned
-      </td>
-    </tr>
-    <tr bgcolor="lightgrey">
-      <td valign="top">
-        Week of February 20 
-      </td>
-      <td valign="top">
-        Alignment<br/>
-        Latent variables and unsupervised learning
-      </td>
-      <td valign="top">
-        Koehn chapter 4<br/>
-        <i>Recommended:</i><br/>
-        Vogel and Ney, <a href="http://aclweb.org/anthology-new/C/C96/C96-2141.pdf">HMM-based word alignment in statistical translation</a><br/>
-        Liang et al., <a href="http://aclweb.org/anthology-new/N/N06/N06-1014.pdf">Alignment by Agreement</a>
-      </td>
-      <td valign="top">
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        Week of February 27
-      </td>
-      <td valign="top">
-        Translating: decoding new input<br/>
-        Graph algorithms and complexity
-      </td>
-      <td valign="top">
-        Koehn chapter 6<br/>
-        <i>Recommended:</i>:<br/>
-        Knight, <a href="http://aclweb.org/anthology-new/J/J99/J99-4005.pdf">Decoding Complexity in Word-Replacement Translation Models</a><br/>
-        Germann et al., <a href="http://aclweb.org/anthology-new/P/P01/">Fast Decoding and Optimal Decoding for Machine Translation</a>
-      </td>
-      <td valign="top">
-        Homework 2 Deadline<br/>
-        Homework 3 Assigned
-      </td>
-    </tr>
-    <tr bgcolor="lightgrey">
-      <td valign="top">
-        Week of March 5
-      </td>
-      <td valign="top">
-        Modeling translation: weighted automata
-      </td>
-      <td valign="top">
-        Mohri, <a href="http://www.cs.nyu.edu/~mohri/pub/cl1.pdf">Finite-State Transducers in Language and Speech Processing.</a><br/>
-        Kumar et al., <a href="http://mi.eng.cam.ac.uk/~wjb31/ppubs/ttmjnle.pdf"> A weighted finite state transducer translation template model for statistical machine translation</a>
-      </td>
-      <td valign="top">
-        Initial project proposals due
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        Week of March 12
-      </td>
-      <td align="top">
-        Modeling translation, take 2: phrases
-      </td>
-      <td align="top">
-        Koehn chapter 5<br/>
-        <i>Recommended:</i><br/>
-        Marcu and Wong, <a href="http://www.aclweb.org/anthology-new/W/W02/W02-1018.pdf">A Phrase-Based,Joint Probability Model for Statistical Machine Translation</a><br/>
-        DeNero et al., <a href="http://aclweb.org/anthology-new/D/D08/D08-1033.pdf">Sampling Alignment Structure under a Bayesian Translation Model</a>
-      <td valign="top">
-        Homework 3 Due
-      </td>
-    </tr>
-    <tr bgcolor="lightgrey">
-      <td valign="top">
-        Week of March 26
-      </td>
-      <td valign="top">
-        Evaluation<br/>
-        Discriminative learning<br/>
-        Feature engineering<br/>
-      </td>
-      <td valign="top">
-        Koehn chapters 8-9<br/>
-        <i>Recommended:</i><br/>
-        Papineni et al., <a href="http://aclweb.org/anthology-new/P/P02/P02-1040.pdf">Bleu: a Method for Automatic Evaluation of Machine Translation</a><br/>
-        Callison-Burch, <a href="http://aclweb.org/anthology-new/E/E06/E06-1032.pdf">Re-Evaluating the Role of BLEU in Machine Translation Research</a><br/>
-        Och, <a href="http://aclweb.org/anthology-new/P/P03/P03-1021.pdf">Minimum Error Rate Training in Statistical Machine Translation</a><br/>
-        Hopkins and May, <a href="http://aclweb.org/anthology-new/D/D11/D11-1125.pdf">Tuning as Ranking</a>
-      </td>
-      <td valign="top">
-        Homework 4 Assigned
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        Week of April 2
-      </td>
-      <td valign="top">
-        Modeling translation, take 3: grammars 
-      </td>
-      <td valign="top">
-        Collins et al., <a href="http://aclweb.org/anthology-new/P/P05/P05-1066.pdf">Clause Restructuring for Statistical Machine Translation</a><br/>
-        Chiang, <a href="http://isi.edu/~chiang/papers/synchtut.pdf">An Introduction to Synchronous Grammars</a><br/>
-        Wu, <a href="http://aclweb.org/anthology-new/J/J97/J97-3002.pdf">Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora</a><br/>
-        Chiang, <a href="http://aclweb.org/anthology-new/J/J07/J07-2003.pdf">Hierarchical Phrase-based Translation</a><br/>
-      </td>
-      <td valign="top">
-      </td>
-    </tr>
-    <tr bgcolor="lightgrey">
-      <td valign="top">
-        Week of April 9
-      </td>
-      <td valign="top">
-        Synchronous grammars, automata theory, and algorithmics
-      </td>
-      <td valign="top">
-        Yamada and Knight, <a href="http://aclweb.org/anthology-new/P/P01/P01-1067.pdf">Syntax-based Statistical Machine Translation</a><br/>
-        Fox, <a href="http://www.aclweb.org/anthology-new/W/W02/W02-1039.pdf">Phrasal Cohesion and Statistical Machine Translation</a><br/>
-        Galley et al., <a href="http://aclweb.org/anthology-new/N/N04/N04-1035.pdf">What's in a Translation Rule?</a><br/>
-        Iglesias et al., <a href="http://aclweb.org/anthology-new/N/N09/N09-1049.pdf">Hierarchical Phrase-Based Translation with Weighted Finite State Transducers</a><br/>
-        <i>Recommended:</i><br/>
-        Iglesias et al., <a href="http://aclweb.org/anthology-new/D/D11/D11-1127.pdf">Hierarchical Phrase-Based Translation Representations</a><br/>
-      </td>
-      <td valign="top">
-        Project progress reports due
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        Week of April 16
-      </td>
-      <td valign="top">
-        The Secret Life of Data
-      </td>
-      <td valign="top">
-        Oard et al., <a href="http://aclweb.org/anthology-new/N/N03/N03-2026.pdf">Desperately Seeking Cebuano</a><br/>
-        Munteanu and Marcu, <a href="http://aclweb.org/anthology-new/J/J05/J05-4003.pdf">Improving Machine Translation Performance by Exploiting Non-Parallel Corpora</a>
-        Callison-Burch et al., <a href="http://aclweb.org/anthology-new/N/N06/N06-1003.pdf">Improved Statistical Machine Translation Using Paraphrases</a><br/>
-        Callison-Burch, <a href="http://aclweb.org/anthology-new/D/D09/D09-1030.pdf">Fast, Cheap, and Creative: Evaluating Translation Quality Using Amazon’s Mechanical Turk</a><br/>
-      </td>
-      <td valign="top">
-        Homework 4 Due
-      </td>
-    </tr>
-    <tr bgcolor="lightgrey">
-      <td valign="top">
-        Week of April 23
-      </td>
-      <td valign="top">
-        Efficient Representations<br/>
-        Distributed computation<br/>
-      </td>
-      <td valign="top">
-        Lopez, <a href="http://aclweb.org/anthology-new/D/D07/D07-1104.pdf">Hierarchical Phrase-Based Translation with Sufﬁx Arrays</a><br/>
-        Brants et al., <a href="http://aclweb.org/anthology-new/D/D07/D07-1090.pdf">Large Language Models in Machine Translation</a><br/>
-        Talbot and Brants, <a href="http://aclweb.org/anthology-new/P/P08/P08-1058.pdf">Randomized Language Models via Perfect Hash Functions</a><br/>
-      </td>
-      <td valign="top">
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        Week of April 30
-      </td>
-      <td valign="top">
-        Advanced Topics and Wrap-up
-      </td>
-      <td valign="top">
-        TBD
-      </td>
-      <td valign="top">
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">
-        Exam Week
-      </td>
-      <td valign="top">
-      </td>
-      <td valign="top">
-      </td>
-      <td valign="top">
-        Final project presentations
-      </td>
-    </tr>
+
+<script type="text/javascript">
+var dates = [
+"Jan 31",
+"Feb 2",
+"Feb 7", 
+"Feb 9",
+"Feb 14",
+"Feb 16",
+"Feb 21",
+"Feb 23",
+"Feb 28",
+"Mar 1",
+"Mar 6",
+"Mar 8",
+"Mar 13",
+"Mar 15",
+"Mar 27",
+"Mar 29",
+"Apr 3",
+"Apr 5",
+"Apr 10",
+"Apr 12",
+"Apr 17",
+"Apr 19",
+"Apr 24",
+"Apr 26",
+"May 1",
+"May 3"
+];
+var topics = [
+  ["Introduction", 
+   "Lopez", 
+    ['Koehn chapter 1',
+     '* Weaver, <a href="http://www.mt-archive.info/Weaver-1949.pdf">Translation</a>',
+     '* Kay, <a href="http://www.stanford.edu/~mjkay/CurrentState.pdf">Translation</a>',
+    ]],
+  ["Probability and Language Models", 
+   "Lopez", 
+    ['Koehn chapters 2 and 7']],
+  ["Modeling Translation: Word-based Models", 
+   "Lopez", 
+    ['Koehn chapter 3',
+     '* Brown et al., <a href="http://aclweb.org/anthology-new/J/J90/J90-2002.pdf">A Statistical Approach to Machine Translation</a>'
+    ]],
+  ["Learning Word-based Models: Word Alignment", 
+   "Lopez",
+    ['Koehn chapter 4',
+     '* Vogel and Ney, <a href="http://aclweb.org/anthology-new/C/C96/C96-2141.pdf">HMM-based word alignment in statistical translation</a>',
+     '* Liang et al., <a href="http://aclweb.org/anthology-new/N/N06/N06-1014.pdf">Alignment by Agreement</a>'
+    ]],
+  ["Decoding: Predicting Translations", 
+   "Post",
+    ['* Knight, <a href="http://aclweb.org/anthology-new/J/J99/J99-4005.pdf">Decoding Complexity in Word-Replacement Translation Models</a>'
+    ]],
+  ["Decoding continued", 
+   "Post",
+    ['Koehn chapter 6',
+     '* Germann et al., <a href="http://aclweb.org/anthology-new/P/P01/">Fast Decoding and Optimal Decoding for Machine Translation</a>'
+    ]],
+  ["Evaluating Translation Systems", "Callison-Burch",
+    ['Koehn chapter 8',
+     '* Papineni et al., <a href="http://aclweb.org/anthology-new/P/P02/P02-1040.pdf">Bleu: a Method for Automatic Evaluation of Machine Translation</a>',
+     '* Callison-Burch et al., <a href="http://aclweb.org/anthology-new/E/E06/E06-1032.pdf">Re-Evaluating the Role of BLEU in Machine Translation Research</a>'
+    ]],
+  ["Phrase-based Models", "Callison-Burch",
+    ['Koehn chapter 5',
+     '* Koehn et al., <a href="http://aclweb.org/anthology-new/N/N03/N03-1017.pdf">Statistical Phrase-Based Translation</a>',
+     '* Marcu and Wong, <a href="http://www.aclweb.org/anthology-new/W/W02/W02-1018.pdf">A Phrase-Based,Joint Probability Model for Statistical Machine Translation</a>',
+     '* DeNero et al., <a href="http://aclweb.org/anthology-new/D/D08/D08-1033.pdf">Sampling Alignment Structure under a Bayesian Translation Model</a>'
+    ]],
+  ["Discriminative Modeling", "Lopez",
+    ['Koehn chapters 9',
+     '* Och, <a href="http://aclweb.org/anthology-new/P/P03/P03-1021.pdf">Minimum Error Rate Training in Statistical Machine Translation</a>',
+     '* Hopkins and May, <a href="http://aclweb.org/anthology-new/D/D11/D11-1125.pdf">Tuning as Ranking</a>'
+    ]],
+  ["Catch-up / Project Proposals", "",
+    []],
+  ["Weighted Automata", "Lopez",
+    ['Mohri, <a href="http://www.cs.nyu.edu/~mohri/pub/cl1.pdf">Finite-State Transducers in Language and Speech Processing.</a>'
+    ]],
+  ["Modeling Translation with Weighted Automata", "Lopez",
+    ['* Kumar et al., <a href="http://mi.eng.cam.ac.uk/~wjb31/ppubs/ttmjnle.pdf"> A weighted finite state transducer translation template model for statistical machine translation</a>'
+    ]],
+  ["Syntax-based Translation", "Callison-Burch",
+    ['Collins et al., <a href="http://aclweb.org/anthology-new/P/P05/P05-1066.pdf">Clause Restructuring for Statistical Machine Translation</a>',
+     'Chiang, <a href="http://isi.edu/~chiang/papers/synchtut.pdf">An Introduction to Synchronous Grammars</a>',
+     '* Wu, <a href="http://aclweb.org/anthology-new/J/J97/J97-3002.pdf">Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora</a>',
+    ]],
+  ["Syntax-based Translation", "Callison-Burch",
+    ['Yamada and Knight, <a href="http://aclweb.org/anthology-new/P/P01/P01-1067.pdf">Syntax-based Statistical Machine Translation</a>',
+     'Fox, <a href="http://www.aclweb.org/anthology-new/W/W02/W02-1039.pdf">Phrasal Cohesion and Statistical Machine Translation</a>',
+     '* Galley et al., <a href="http://aclweb.org/anthology-new/N/N04/N04-1035.pdf">What&rsquo;s in a Translation Rule?</a>'
+    ]],
+  ["Syntax-based Decoding", "Post",
+    [
+     'Chiang, <a href="http://aclweb.org/anthology-new/J/J07/J07-2003.pdf">Hierarchical Phrase-based Translation</a>',
+     '* Iglesias et al., <a href="http://aclweb.org/anthology-new/N/N09/N09-1049.pdf">Hierarchical Phrase-Based Translation with Weighted Finite State Transducers</a>',
+     '* Iglesias et al., <a href="http://aclweb.org/anthology-new/D/D11/D11-1127.pdf">Hierarchical Phrase-Based Translation Representations</a>'
+    ]],
+  ["Tree Automata", "Lopez",
+    ["TBD"]],
+  ["Morphology and Translation", "Post",
+    ["TBD"]],
+  ["Creative Data Collection", "Callison-Burch",
+    ['Oard et al., <a href="http://aclweb.org/anthology-new/N/N03/N03-2026.pdf">Desperately Seeking Cebuano</a>',
+     'Munteanu and Marcu, <a href="http://aclweb.org/anthology-new/J/J05/J05-4003.pdf">Improving Machine Translation Performance by Exploiting Non-Parallel Corpora</a>'
+    ]],
+  ["More Creative Data Collection", "Callison-Burch",
+    [
+     'Callison-Burch, <a href="http://aclweb.org/anthology-new/D/D09/D09-1030.pdf">Fast, Cheap, and Creative: Evaluating Translation Quality Using Amazon’s Mechanical Turk</a>'
+    ]],
+  ["Guest Lecture: Translation without Parallel Corpora", "Irvine and Smith",
+    []],
+  ["Syntax-based Language Models", "Post",
+    ["TBD"
+    ]],
+  ["Applications of Word Alignment", "Post",
+    ["TBD"
+    ]],
+  ["Representing Huge Translation Models", "Lopez",
+    ['Callison-Burch et al., <a href="http://aclweb.org/anthology-new/P/P05/P05-1032.pdf">Scaling Phrase-Based Statistical Machine Translation to Larger Corpora and Longer Phrases</a>',
+     'Lopez, <a href="http://aclweb.org/anthology-new/D/D07/D07-1104.pdf">Hierarchical Phrase-Based Translation with Sufﬁx Arrays</a>'
+    ]],
+  ["Representing Huge Language Models", "Lopez",
+    ['Brants et al., <a href="http://aclweb.org/anthology-new/D/D07/D07-1090.pdf">Large Language Models in Machine Translation</a>',
+     'Talbot and Brants, <a href="http://aclweb.org/anthology-new/P/P08/P08-1058.pdf">Randomized Language Models via Perfect Hash Functions</a>'
+    ]],
+  ["Paraphrasing", "Callison-Burch",
+    ['Callison-Burch et al., <a href="http://aclweb.org/anthology-new/N/N06/N06-1003.pdf">Improved Statistical Machine Translation Using Paraphrases</a>',
+    ]],
+  ["Domain Adaptation", "TBD",
+    ["TBD"]]
+];
+var assignments = {
+  "Jan 31" : "Homework 1 assigned",
+  "Feb 16" : "Homework 1 due"
+}
+for (i=0; i<dates.length; i++){
+  document.write('<tr');
+  if (i%2==1){ document.write(' bgcolor="lightblue"'); }
+  document.write('>');
+  document.write('<td>' + dates[i] + '</td>');
+  if (i<topics.length){
+    document.write('<td>' + topics[i][0] + '</td>');
+    document.write('<td>' + topics[i][1] + '</td>');
+    document.write('<td>');
+    document.write('<ul>');
+    if (topics[i].length >2){
+      for (j=0; j<topics[i][2].length; j++){
+       document.write('<li>' + topics[i][2][j] + '</li>');
+      }
+    }
+    document.write('</ul>');
+    document.write('</td>');
+    document.write('<td>');
+    if (dates[i] in assignments){
+      document.write(assignments[dates[i]]);
+    }
+    document.write('</td>');
+  }
+  document.write('</tr>');
+}
+</script>
 
   </tbody>
 </table>
@@ -352,11 +307,13 @@ is appropriate to the problem that you decide to work on for your project.
   <li><a href="http://langtech.jrc.it/JRC-Acquis.html">JRC-Acquis</a>, legislative text of the European Union (22 European languages).</li>
   <li><a href="http://statmt.org/europarl/">Europarl</a>, proceedings of the European Parliament (22 European languages).</li>
   <li><a href="http://www.isi.edu/natural-language/download/hansard/">Canadian Hansards</a>, proceedings of the Canadian Parliament (French and English).</li>
+  <li><a href="http://opus.lingfil.uu.se/">OPUS</a> is a collection of parallel corpora in a variety of languages and domains. Includes some interesting domains such as film subtitles.
 </ul>
 
 <h2>Other Resources and Classes</h2>
 <ul>
-  <li>The <a href="http://mt-archive.info/">MT Archive</a> holds many, if not most, modern research papers on machine translation.</li>
+  <li>The <a href="http://aclweb.org/anthology-new/">ACL Anthology</a> archives papers published by the Association for Computational Linguistics, which covers a wide variety of topics in natural language processing, including many of the classic papers on machine translation.
+  <li>The <a href="http://mt-archive.info/">MT Archive</a> holds historical and modern research papers on machine translation. There is some overlap with the ACL Anthology, but also it includes many papers from other venues, as well as historical papers..</li>
   <li><a href="http://www.cs.jhu.edu/~jason">Jason Eisner</a>'s <a href="http://www.cs.jhu.edu/~jason/465/">natural language processing class</a> at JHU.
   <li><a href="http://www.cs.jhu.edu/~mdredze/">Mark Dredze</a>'s <a href="http://www.cs.jhu.edu/~mdredze/teaching/2011_600_475/">machine learning class</a> at JHU.
 	<li>Chris Callison-Burch taught a one-week machine translation course at ESSLLI 2005 with <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/">Philipp Koehn</a>:
@@ -371,6 +328,8 @@ is appropriate to the problem that you decide to work on for your project.
   <li>Machine translation course at <a href="https://catalyst.uw.edu/workspace/kristout/20547/123745">University of Washington</a>.</li>
   <li>Machine translation course at <a href="http://www.cs.cmu.edu/afs/cs/project/cmt-55/lti/Courses/731/www/Spring-11/ClassSchedule2011.htm">Carnegie Mellon University</a>.</li>
   <li>Machine translation course at <a href="https://sites.google.com/site/comse6998machinetranslation/">Columbia University</a>.</li>
+  <li>Machine translation course at <a href="http://www.cs.sfu.ca/~anoop/teaching/CMPT-882-Fall-2011/">Simon Fraser University</a>.</li>
+  <li>A course in advanced topics in machine translation at <a href="http://www.cs.cmu.edu/afs/cs/project/cmt-55/lti/Courses/734/www/">Carnegie Mellon University</a> runs concurrently with this class.</li>
 </ul>
 </div>
 
