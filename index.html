@@ -53,17 +53,18 @@ is recommended, but not required.
 
 
 <h2>Course Structure and Assignments</h2>
-Class meetings will consist mainly of lectures, but the only way to 
+<p>Class meetings will consist mainly of lectures, but the only way to 
 fully understand all of the problems that you need to solve in building a 
 language processing system is to go out and build one. To that end, the course
 will be evaluated on four <i>competitive</i> homework assignments and a final
-project.
+project.</p>
 
 <p>The goal of each homework assignment will be to build a system the solves 
 some well-defined subproblem of machine translation. Students will earn a passing
 grade by correctly implementing a standard algorithm, and  additional credit
 for the best systems according to an objective metric. For each task we will
-provide a simple baseline, datasets, and metrics. The tasks are:
+provide a simple baseline, datasets, and metrics. The tasks are:</p>
+
 <ul>
 <li><b>Alignment</b>: given a set of translated documents that are aligned at the sentence level,
   identify the words that are translations of each other.</li>
@@ -73,28 +74,29 @@ provide a simple baseline, datasets, and metrics. The tasks are:
   given an input and a list of ranked alternative translations.</li>
 <li><b>Evaluation</b>: design a metric of translation accuracy  that correlates 
   with human judgement..</li>
-
 </ul>
 
-The final project will
+<p>The final project will
 be designed by the student or groups of students, with guidance from the 
 instructors. As with the homework assignments, should be on well-defined 
 problem with clearly identified input, output, and evalution, and executed 
-with creativity and depth.
+with creativity and depth.</p>
 
-Finally, each student will be required to give a short (~10 minute) presentation
-on a particular language during one class session.
+<p>Finally, each student will be required to give a short (~10 minute) presentation
+on a particular language during one class session.</p>
+
 <h2>Textbook</h2>
 Some readings will be drawn from <a href="http://www.statmt.org/book/">Statistical Machine Translation</a> 
-by <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/">Philipp Koehn</a> 
+by <a href="http://homepages.inf.ed.ac.uk/pkoehn/">Philipp Koehn</a> 
 (You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
 or purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>).
 A more compact (but therefore less thorough) <a href="http://www.cs.jhu.edu/~alopez/papers/survey.pdf">survey</a> by 
-<a href="index.html">Adam Lopez</a> is available for free. Note that the readings (and therefore the textbook) 
+<a href="http://www.cs.jhu.edu/~alopez">Adam Lopez</a> is available for free. Note that the readings (and therefore the textbook) 
 aren't strictly required; what's required is that you understand the concepts and are able to apply them.
 
 <h2>Tentative Schedule</h2>
 
+<p>Subject to change as the term progresses.</p>
 <table> 
   <tbody>
     <tr bgcolor="lightgrey">
@@ -172,7 +174,7 @@ var topics = [
   ["Decoding continued", 
    "Post",
     ['Koehn chapter 6',
-     '* Germann et al., <a href="http://aclweb.org/anthology-new/P/P01/">Fast Decoding and Optimal Decoding for Machine Translation</a>'
+     '* Germann et al., <a href="http://aclweb.org/anthology-new/P/P01/P01-1030.pdf">Fast Decoding and Optimal Decoding for Machine Translation</a>'
     ]],
   ["Evaluating Translation Systems", "Callison-Burch",
     ['Koehn chapter 8',
@@ -196,7 +198,8 @@ var topics = [
     ['Mohri, <a href="http://www.cs.nyu.edu/~mohri/pub/cl1.pdf">Finite-State Transducers in Language and Speech Processing.</a>'
     ]],
   ["Modeling Translation with Weighted Automata", "Lopez",
-    ['* Kumar et al., <a href="http://mi.eng.cam.ac.uk/~wjb31/ppubs/ttmjnle.pdf"> A weighted finite state transducer translation template model for statistical machine translation</a>'
+    ['Knight and Al-Onaizan, <a href="http://www.isi.edu/natural-language/mt/mt-wfst.ps">Translation with Finite-State Devices</a>',
+     '* Kumar et al., <a href="http://mi.eng.cam.ac.uk/~wjb31/ppubs/ttmjnle.pdf"> A weighted finite state transducer translation template model for statistical machine translation</a>'
     ]],
   ["Syntax-based Translation", "Callison-Burch",
     ['Collins et al., <a href="http://aclweb.org/anthology-new/P/P05/P05-1066.pdf">Clause Restructuring for Statistical Machine Translation</a>',
@@ -312,16 +315,17 @@ is appropriate to the problem that you decide to work on for your project.
 
 <h2>Other Resources and Classes</h2>
 <ul>
-  <li>The <a href="http://aclweb.org/anthology-new/">ACL Anthology</a> archives papers published by the Association for Computational Linguistics, which covers a wide variety of topics in natural language processing, including many of the classic papers on machine translation.
-  <li>The <a href="http://mt-archive.info/">MT Archive</a> holds historical and modern research papers on machine translation. There is some overlap with the ACL Anthology, but also it includes many papers from other venues, as well as historical papers..</li>
+  <li>The <a href="http://aclweb.org/anthology-new/">ACL Anthology</a> archives papers published by the Association for Computational Linguistics, which covers a wide variety of topics in natural language processing. It includes many of the classic papers on machine translation.
+  <li>The <a href="http://mt-archive.info/">MT Archive</a> holds historical and modern research papers on machine translation. There is some overlap with the ACL Anthology, but it is focused specifically on machine translation, and also includes many papers from other venues, as well as historical papers..</li>
+  <li><a href="http://homepages.inf.ed.ac.uk/pkoehn/">Philipp Koehn</a> maintains <a href="http://statmt.org/">statmt.org</a>, with pointers to various resources.
   <li><a href="http://www.cs.jhu.edu/~jason">Jason Eisner</a>'s <a href="http://www.cs.jhu.edu/~jason/465/">natural language processing class</a> at JHU.
   <li><a href="http://www.cs.jhu.edu/~mdredze/">Mark Dredze</a>'s <a href="http://www.cs.jhu.edu/~mdredze/teaching/2011_600_475/">machine learning class</a> at JHU.
-	<li>Chris Callison-Burch taught a one-week machine translation course at ESSLLI 2005 with <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/">Philipp Koehn</a>:
-    <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/publications/esslli-slides-day1.pdf">1</a>, 
-    <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/publications/esslli-slides-day2.pdf">2</a>,
-    <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/publications/esslli-slides-day3.pdf">3</a>,
-    <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/publications/esslli-slides-day4.pdf">4</a>,
-    <a href="http://www.iccs.informatics.ed.ac.uk/~pkoehn/publications/esslli-slides-day5.pdf">5</a>.</li>
+	<li>Chris Callison-Burch taught a one-week machine translation course at ESSLLI 2005 with <a href="http://homepages.inf.ed.ac.uk/pkoehn/">Philipp Koehn</a>:
+    <a href="http://homepages.inf.ed.ac.uk/pkoehn/publications/esslli-slides-day1.pdf">1</a>, 
+    <a href="http://homepages.inf.ed.ac.uk/pkoehn/publications/esslli-slides-day2.pdf">2</a>,
+    <a href="http://homepages.inf.ed.ac.uk/pkoehn/publications/esslli-slides-day3.pdf">3</a>,
+    <a href="http://homepages.inf.ed.ac.uk/pkoehn/publications/esslli-slides-day4.pdf">4</a>,
+    <a href="http://homepages.inf.ed.ac.uk/pkoehn/publications/esslli-slides-day5.pdf">5</a>.</li>
   <li>Adam Lopez taught a one-week <a href="http://www.cs.jhu.edu/~alopez/esslli2010.html">machine translation course</a> at ESSLLI 2010.</li>
   <li>Machine translation course at <a href="http://nlg.isi.edu/teaching/cs599mt/">University of Southern California</a>.</li>
   <li>Machine translation course at <a href="http://www.inf.ed.ac.uk/teaching/courses/mt/">University of Edinburgh</a>.</li>
