@@ -26,8 +26,17 @@
 	<a href="http://www.cs.jhu.edu/~ccb">Chris Callison-Burch</a>,
   <a href="http://www.cs.jhu.edu/~alopez">Adam Lopez</a>, and 
   <a href="http://www.cs.jhu.edu/~post/">Matt Post</a>.
+</p>
+
+<p><b>TAs:</b>
+  <a href="http://www.cs.jhu.edu/~jonny/">Jonny Weese</a> and 
+  <a href="http://www.cs.jhu.edu/~juri/">Juri Ganitkevitch</a>.
+</p>
+
 
 <p><b>Time and Place:</b> Tuesdays and Thursdays from 3:00-4:15, Hackerman 320
+<p><b>Office Hours:</b> Tuesdays and Thursdays from 4:15 (immediately after class) or by appointment.</p>
+<div class="news"><p><b><a href="https://piazza.com/jhu/spring2012/en600468">Forum for announcements, questions, discussion, etc.</a></b></p></div>
 <p><b>Level</b>: Senior undergraduate or first-year graduate.
 <p><b>Course Catalog Description</b>: 
 <a href="http://translate.google.com">Google translate</a> can instantly
@@ -39,6 +48,16 @@ and this course will show you how they work. The course covers a diverse set
 of fundamental building blocks from linguistics, machine learning, algorithms, 
 data structures, and formal language theory, along with their application to
 a real and difficult problem in artificial intelligence. 
+
+<p><b>Textbook:</b>
+Some readings will be drawn from <a href="http://www.statmt.org/book/">Statistical Machine Translation</a> 
+by <a href="http://homepages.inf.ed.ac.uk/pkoehn/">Philipp Koehn</a> 
+(You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
+or purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>).
+A more compact (but therefore less thorough) <a href="http://www.cs.jhu.edu/~alopez/papers/survey.pdf">survey</a> by 
+<a href="http://www.cs.jhu.edu/~alopez">Adam Lopez</a> is available for free. Note that the readings (and therefore the textbook) 
+aren't strictly required; what's required is that you understand the concepts and are able to apply them.</p>
+
 
 <p><b>Goals</b>:
 By the end of the course, you should have a good grasp of what goes into
@@ -52,7 +71,8 @@ Natural language processing (<a href="http://www.cs.jhu.edu/~jason/465/">465</a>
 is recommended, but not required.
 
 
-<h2>Course Structure and Assignments</h2>
+<h2>Course Structure and Grading</h2>
+<h3>Homework (4 assignments, 10 points apiece)</h3>
 <p>Class meetings will consist mainly of lectures, but the only way to 
 fully understand all of the problems that you need to solve in building a 
 language processing system is to go out and build one. To that end, the course
@@ -60,10 +80,13 @@ will be evaluated on four <i>competitive</i> homework assignments and a final
 project.</p>
 
 <p>The goal of each homework assignment will be to build a system the solves 
-some well-defined subproblem of machine translation. Students will earn a passing
-grade by correctly implementing a standard algorithm, and  additional credit
-for the best systems according to an objective metric. For each task we will
-provide a simple baseline, datasets, and metrics. The tasks are:</p>
+a well-defined subproblem of machine translation. Students will earn a passing
+grade (7 points) by correctly implementing a standard algorithm that we specify, 
+and additional credit for building the best system according to an objective 
+metric: 6 points for the best system, 5 points for the second best, and so on. 
+To receive an A in the class, you must compete!
+For each task we will provide a simple baseline, datasets, and metrics. The tasks 
+are:</p>
 
 <ul>
 <li><b>Alignment</b>: given a set of translated documents that are aligned at the sentence level,
@@ -76,23 +99,52 @@ provide a simple baseline, datasets, and metrics. The tasks are:</p>
   with human judgement..</li>
 </ul>
 
+<h3>In-Class Presentation: Language in Ten Minutes (10 points)</h3>
+<p>How are you going to build a machine translation system unless you know at
+least a little bit about language? You will be required to give 
+a short presentation (~10 minutes) on a particular language <i>that you do 
+not speak natively</i>, e.g., Arabic, Chinese, Czech, Hindi, Italian, or Maltese.</p>
+
+<p>You should prepare three to six slides for your presentation, covering
+language facts (demographics, location, etc.) important linguistic 
+characteristics (orthography, morphology, syntax) and computational efforts 
+such as resources, tools, papers. For instance,  how many entries are there
+about the language in the <a href="http://www.mt-archive.info">MT 
+Archive?</a> and what are they generally about? Be creative and have fun. 
+Asking for help from native speakers or language experts is great. But you are 
+ultimately responsible for the presentation.</p>
+
+<p>This assignment was inspired by <a href="http://www.nizarhabash.com/">Nizar Habash</a>. 
+You might want to browse the 
+<a href="https://sites.google.com/site/comse6998machinetranslation/language-in-10-minutes">examples
+from his class</a>, and his list of recommended resources: 
+<a href="http://www.ethnologue.com/">Ethnologue</a>, 
+<a href="http://www.omniglot.com/">Omniglot</a>,
+<a href="http://www.aboutworldlanguages.com/">About World Languages</a>, and the
+<a href="http://www.mt-archive.info/">Machine Translation Archive</a>.</p>
+
+<p>Presentations will be graded on thoroughness and clarity. What 
+did you learn from your research that was really interesting? Tell us!</p> 
+
+<h3>Final Projects (40 points)</h3>
+
 <p>The final project will
 be designed by the student or groups of students, with guidance from the 
 instructors. As with the homework assignments, should be on well-defined 
 problem with clearly identified input, output, and evalution, and executed 
 with creativity and depth.</p>
 
-<p>Finally, each student will be required to give a short (~10 minute) presentation
-on a particular language during one class session.</p>
+<p>Towards the middle of the term you will be required to turn in a brief
+project proposal (10 points), laying out the problem, your proposed solution, and a
+plan for implementation and evaluation. Your final project report (20 points) should explain 
+your implementation, evaluation, and analysis, focusing on a single question:
+What did you learn? The projects will be presented during an interactive poster
+session during the final exam period (10 points).
 
-<h2>Textbook</h2>
-Some readings will be drawn from <a href="http://www.statmt.org/book/">Statistical Machine Translation</a> 
-by <a href="http://homepages.inf.ed.ac.uk/pkoehn/">Philipp Koehn</a> 
-(You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
-or purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>).
-A more compact (but therefore less thorough) <a href="http://www.cs.jhu.edu/~alopez/papers/survey.pdf">survey</a> by 
-<a href="http://www.cs.jhu.edu/~alopez">Adam Lopez</a> is available for free. Note that the readings (and therefore the textbook) 
-aren't strictly required; what's required is that you understand the concepts and are able to apply them.
+<h3>Quizzes (10 points)</h3>
+
+<p>These are mainly designed to help us understand how well you're following along.</p>
+
 
 <h2>Tentative Schedule</h2>
 
@@ -253,7 +305,7 @@ var topics = [
 ];
 var assignments = {
   "Jan 31" : "Homework 1 assigned",
-  "Feb 16" : "Homework 1 due"
+  "Feb 21" : "Homework 1 due (tentative)"
 }
 for (i=0; i<dates.length; i++){
   document.write('<tr');
