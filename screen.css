@@ -67,11 +67,23 @@ ul {
   margin-bottom: 7pt;
 }
 
+ul.real { 
+  list-style-type: circle;
+  margin-bottom: 0pt;
+}
+
 li {
   text-indent: -10pt;
   margin-left: 10pt;
   margin-top: 5pt;
 }
+
+li.real {
+  text-indent: 0pt;
+  margin-left: 20pt;
+  margin-top: 5pt;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -104,3 +116,4 @@ li {
     overflow: hidden;
   }
 
+  
