@@ -11,6 +11,17 @@
   padding: 0;
 }
 
+table {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  spacing: 0px;
+  border: 0px;
+}
+
 body {
   background-color: white;
   font: palatino;
