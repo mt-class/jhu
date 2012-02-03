@@ -78,17 +78,17 @@
 <script type="text/javascript" src="http://cs.jhu.edu/~post/mt-class/leaderboard.js"></script>
 <script type="text/javascript" src="http://cs.jhu.edu/~post/mt-class/leaderboard-old.js"></script>
 <script type="text/javascript">
-var ranks = new Array();
+var oldranks = new Array();
 for (i = 0; i < olddata.length; i++)
-  ranks[olddata[i][0]] = i;
+  oldranks[olddata[i][0]] = i;
 for (i=0; i<data.length; i++){
   document.write('<tr');
   if (i%2==1){ document.write(' bgcolor="lightblue"'); }
   document.write('>');
-  if (ranks[data[i][0]] < i)                         
-    document.write('<td><img class="arrow" src="img/up.png"</td>');
-  else if (ranks[data[i][0]] > i)
+  if (oldranks[data[i][0]] < i)                         
     document.write('<td><img class="arrow" src="img/down.png"</td>');
+  else if (oldranks[data[i][0]] > i)
+    document.write('<td><img class="arrow" src="img/up.png"</td>');
   else
     document.write('<td></td>');
   document.write('<td>' + data[i][0] + '</td>');
