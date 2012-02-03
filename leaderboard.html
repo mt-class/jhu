@@ -41,6 +41,7 @@
 <table>
   <thead bgcolor="lightgrey">
     <tr>
+      <td width="10"></td>
       <td></td>
       <th colspan="5" align="center">
         Assignments
@@ -48,6 +49,7 @@
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td valign="top">
         <b>Handle</b>
       </td>
@@ -74,11 +76,21 @@
   <tbody>
 
 <script type="text/javascript" src="http://cs.jhu.edu/~post/mt-class/leaderboard.js"></script>
+<script type="text/javascript" src="http://cs.jhu.edu/~post/mt-class/leaderboard-old.js"></script>
 <script type="text/javascript">
+var ranks = new Array();
+for (i = 0; i < olddata.length; i++)
+  ranks[olddata[i][0]] = i;
 for (i=0; i<data.length; i++){
   document.write('<tr');
   if (i%2==1){ document.write(' bgcolor="lightblue"'); }
   document.write('>');
+  if (ranks[data[i][0]] < i)                         
+    document.write('<td><img class="arrow" src="img/up.png"</td>');
+  else if (ranks[data[i][0]] > i)
+    document.write('<td><img class="arrow" src="img/down.png"</td>');
+  else
+    document.write('<td></td>');
   document.write('<td>' + data[i][0] + '</td>');
   document.write('<td align="right">' + data[i][1] + '</td>');
   document.write('<td align="right">' + data[i][2] + '</td>');
