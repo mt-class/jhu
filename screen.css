@@ -22,6 +22,11 @@ td {
   border: 0px;
 }
 
+img.arrow {
+  width: 13;
+  height: 13;
+}
+
 body {
   background-color: white;
   font: palatino;
