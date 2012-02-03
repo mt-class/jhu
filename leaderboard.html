@@ -104,7 +104,7 @@ for (i=0; i<data.length; i++){
 
   var user = data[i][0];
   var rank = scoreranks[score];
-  var oldrank = old_scoreranks[score];
+  var oldrank = (score in old_scoreranks) ? old_scoreranks[score] : 100000;
 
   if (rank > oldrank)
     document.write('<td><img class="arrow" src="img/down.png" /></td>');
