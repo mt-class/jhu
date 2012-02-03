@@ -39,12 +39,14 @@
     <tr>
       <td></td>
       <td></td>
+      <td></td>
       <th colspan="5" align="center">
         Assignments
       </th>
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td></td>
       <td valign="top">
         <b>Handle</b>
@@ -74,16 +76,38 @@
 <script type="text/javascript" src="http://cs.jhu.edu/~post/mt-class/leaderboard.js"></script>
 <script type="text/javascript" src="http://cs.jhu.edu/~post/mt-class/leaderboard-old.js"></script>
 <script type="text/javascript">
-var oldranks = new Array();
-for (i = 0; i < olddata.length; i++)
-  oldranks[olddata[i][0]] = i;
+var assNo = 0;
+
+var old_scoreranks = new Array();
+for (i = 0; i < olddata.length; i++) {
+  var prevscore = (i == 0) ? -1 : olddata[i-1][1+assNo];
+  var score = olddata[i][1+assNo];
+  if (score != prevscore)
+    old_scoreranks[score] = i;
+}
+
+var scoreranks = new Array();
 for (i=0; i<data.length; i++){
   document.write('<tr');
   if (i%2==1){ document.write(' bgcolor="lightblue"'); }
   document.write('>');
-  if (oldranks[data[i][0]] < i)                         
+
+  var prevscore = (i == 0) ? -1 : data[i-1][1+assNo];
+  var score = data[i][1+assNo];
+  if (score != prevscore) {
+    scoreranks[score] = i;
+    document.write('<td>' + (i+1) + '</td>');
+  } else {
+    document.write('<td></td>');
+  }
+
+  var user = data[i][0];
+  var rank = scoreranks[score];
+  var oldrank = old_scoreranks[score];
+
+  if (rank > oldrank)
     document.write('<td><img class="arrow" src="img/down.png" /></td>');
-  else if (oldranks[data[i][0]] > i)
+  else if (rank < oldrank)
     document.write('<td><img class="arrow" src="img/up.png" /></td>');
   else
     document.write('<td></td>');
