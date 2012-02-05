@@ -84,7 +84,7 @@ ul {
 }
 
 ul.real { 
-  list-style-type: circle;
+  list-style: disc inside;
   margin-bottom: 0pt;
 }
 
