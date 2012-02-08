@@ -59,7 +59,11 @@
 
 <p><b>Time and Place:</b> Tuesdays and Thursdays from 3:00-4:15, Hackerman 320
 <p><b>Office Hours:</b> Tuesdays and Thursdays from 4:15 (immediately after class) or by appointment.</p>
-<div class="news"><p><b><a href="https://piazza.com/jhu/spring2012/en600468">Forum for announcements, questions, discussion, etc.</a></b></p></div>
+<div class="news">
+  <ul class="real">
+    <li><b><a href="hw1.html">Assignment 1 is due on Feb 22</a></b></li>
+    <li><b><a href="https://piazza.com/jhu/spring2012/en600468">Forum for announcements, questions, discussion, etc.</a></b></li>
+</div>
 <p><b>Level</b>: Senior undergraduate or first-year graduate.
 <p><b>Course Catalog Description</b>: 
 <a href="http://translate.google.com">Google translate</a> can instantly
@@ -114,8 +118,8 @@ For each task we will provide a simple baseline, datasets, and metrics. The task
 are:</p>
 
 <ul>
-<li><b>Alignment</b>: given a set of translated documents that are aligned at the sentence level,
-  identify the words that are translations of each other.</li>
+<li><a href="hw1.html"><b>Alignment</b>: given a set of translated documents that are aligned at the sentence level,
+  identify the words that are translations of each other.</a> (<b>Due Feb 22</b>)</li>
 <li><b>Decoding</b>: find the most probable translation of a sentence, given a 
   translation model and a new input sentence.</li>
 <li><b>Reranking</b>: find the most <i>accurate</i> translation of a sentence,
@@ -189,9 +193,6 @@ session during the final exam period (10 points).
       <td valign="top">
         <b>Readings</b> (starred readings are strongly recommended to graduate students)
       </td>
-      <td valign="top">
-        <b>Assignments</b>
-      </td>
     </tr>
 
 <script type="text/javascript">
@@ -234,7 +235,7 @@ var topics = [
   ['Probability and Language Models<br/> <a href="slides/JHU_MT_lecture_2012-02-02.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-02-02.key">[keynote]</a>', 
    "Lopez", 
     ['Koehn chapters 2 and 7']],
-  ["Modeling Translation: Word-based Models", 
+  ['Learning Translation Models: Word Alignment <a href="slides/JHU_MT_lecture_2012-02-07.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-02-07.key">[keynote]</a>', 
    "Lopez", 
     ['Koehn chapter 3',
      '<a href="http://www.isi.edu/natural-language/mt/wkbk.rtf">Kevin Knight&rsquo;s tutorial on the IBM Models and EM</a>',
@@ -350,11 +351,6 @@ for (i=0; i<dates.length; i++){
       }
     }
     document.write('</ul>');
-    document.write('</td>');
-    document.write('<td>');
-    if (dates[i] in assignments){
-      document.write(assignments[dates[i]]);
-    }
     document.write('</td>');
   }
   document.write('</tr>');
