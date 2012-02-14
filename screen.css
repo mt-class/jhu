@@ -130,6 +130,7 @@ li.real {
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
+    clear: both;
   }
 
   

@@ -25,32 +25,18 @@
 
   <div class="content">
     <h1>Leaderboard</h1>
-<div id="course" class="cv">
+    <div id="course" class="cv">
 
   <p>
     This page contains the assignment leaderboard.  The
-    leaderboard is updated as follows.  Every ten minutes, on the
-    ten-minute mark, every assignment not yet past its due date is
+    leaderboard is updated as follows.  Every five minutes, on the
+    five-minute mark, every assignment not yet past its due date is
     downloaded according the base URL and assignment number you turned
     in with <a href="assignment0.html">Assignment 0</a>.  The output
     is rescored if it changed.
     </p>
 
-  <p>
-    A value of -1 indicates that the assignment file was found but
-    contained invalid content.
-  </p>
-
-  <p>
-    The <span style="background-color: LightCoral">light coral</span>
-    line is the default system; it is what you should get if you run
-    the code that was provided for you.  The row highlighted
-    with <span style="background-color: PaleGoldenRod">pale golden
-    rod</span> is the baseline you should strive to beat.  Typically,
-    this line depicts the minimal effort required, which will earn you
-    a B on the project.
-  </p>
-
+  <div style="float: left">
 <table>
   <thead bgcolor="lightgrey">
     <tr>
@@ -145,6 +131,25 @@ $("#baseline").css({'background-color': 'LightCoral'});
 </script>
   </tbody>
 </table>
+</div>
+
+  <div style="position: relative; left: 20px;">
+    <h3>Legend</h3>
+    <p>
+      A value of -1 indicates that the assignment file was found but
+      contained invalid content.
+    </p>
+
+    <p>
+      The <span style="background-color: LightCoral">light coral</span>
+      line is the default system; it is what you should get if you run
+      the code that was provided for you.  The row highlighted
+      with <span style="background-color: PaleGoldenRod">pale golden
+        rod</span> is the baseline you should strive to beat.  Typically,
+      this line depicts the minimal effort required, which will earn you
+      a B on the project.
+    </p>
+  </div>
 </div>
 
 <div class="footer">
