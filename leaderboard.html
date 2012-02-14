@@ -12,6 +12,8 @@
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="screen.css" type="text/css" media="screen, projection" />
+
+   <script src="http://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -37,6 +39,16 @@
   <p>
     A value of -1 indicates that the assignment file was found but
     contained invalid content.
+  </p>
+
+  <p>
+    The <span style="background-color: LightCoral">light coral</span>
+    line is the default system; it is what you should get if you run
+    the code that was provided for you.  The row highlighted
+    with <span style="background-color: PaleGoldenRod">pale golden
+    rod</span> is the baseline you should strive to beat.  Typically,
+    this line depicts the minimal effort required, which will earn you
+    a B on the project.
   </p>
 
 <table>
@@ -94,7 +106,9 @@ for (i = 0; i < olddata.length; i++) {
 
 var scoreranks = new Array();
 for (i=0; i<data.length; i++){
-  document.write('<tr');
+  var user = data[i][0];
+
+  document.write('<tr id="' + user + '"');
   if (i%2==1){ document.write(' bgcolor="lightblue"'); }
   document.write('>');
 
@@ -107,7 +121,6 @@ for (i=0; i<data.length; i++){
     document.write('<td></td>');
   }
 
-  var user = data[i][0];
   var rank = scoreranks[score];
   var oldrank = (score in old_scoreranks) ? old_scoreranks[score] : 100000;
 
@@ -126,6 +139,9 @@ for (i=0; i<data.length; i++){
   document.write('<td align="right">' + data[i][6] + '</td>');
   document.write('</tr>');
 }
+
+$("#hw1").css({'background-color': 'PaleGoldenRod'});
+$("#baseline").css({'background-color': 'LightCoral'});
 </script>
   </tbody>
 </table>
