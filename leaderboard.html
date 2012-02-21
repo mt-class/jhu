@@ -43,7 +43,7 @@
       <td></td>
       <td></td>
       <td></td>
-      <th colspan="5" align="center">
+      <th colspan="4" align="center">
         Assignments
       </th>
       <td></td>
@@ -70,9 +70,6 @@
       <th valign="top">
         #4
       </th>
-      <th valign="top">
-        Mean
-      </th>
     </tr>
   </thead>
   <tbody>
@@ -80,7 +77,7 @@
 <script type="text/javascript" src="http://cs.jhu.edu/~post/mt-class/leaderboard.js"></script>
 <script type="text/javascript" src="http://cs.jhu.edu/~post/mt-class/leaderboard-old.js"></script>
 <script type="text/javascript">
-var assNo = 0;
+var assNo = 1;
 
 var old_scoreranks = new Array();
 for (i = 0; i < olddata.length; i++) {
@@ -122,7 +119,6 @@ for (i=0; i<data.length; i++){
   document.write('<td align="right">' + data[i][3] + '</td>');
   document.write('<td align="right">' + data[i][4] + '</td>');
   document.write('<td align="right">' + data[i][5] + '</td>');
-  document.write('<td align="right">' + data[i][6] + '</td>');
   document.write('</tr>');
 }
 
@@ -147,7 +143,9 @@ $("#baseline").css({'background-color': 'LightCoral'});
       with <span style="background-color: PaleGoldenRod">pale golden
         rod</span> is the baseline you should strive to beat.  Typically,
       this line depicts the minimal effort required, which will earn you
-      a B on the project.
+      a B (7 points) on the project. The best system will earn an additional
+      6 points, the second best will earn an additional 5 points, and
+      so on.
     </p>
   </div>
 </div>
