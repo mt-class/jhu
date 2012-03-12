@@ -80,7 +80,7 @@ you can update it from anywhere in your project directory by running the command
 <p>Under the new <tt>decode</tt> directory, We have provided you with a very 
 simple decoder written in Python (v.2.6-2.7; older versions will not work!) 
 The decoder translates monotonically &mdash; that is, without reordering the
-target phrases &mdash; and by default it also uses very strict pruning limits, 
+English phrases &mdash; and by default it also uses very strict pruning limits, 
 which you can vary on the command line.
 There is also a data directory containing a translation model, a language 
 model, and a set of input sentences to translate. Run the decoder using this 
@@ -103,7 +103,7 @@ it is easier to do this exactly than it is to find the optimal translation.
 In fact, if you look at the grade script you may get some hints about 
 how to do the assignment!) 
 Improving the search algorithm in the decoder &mdash; for instance by enabling
-it to search over permutations of target phrases &mdash; should permit you 
+it to search over permutations of English phrases &mdash; should permit you 
 to find more probable English translations
 of the input French sentences than the ones found by the baseline system. 
 This assignment differs from <a href="hw1.html">Homework 1</a>, in that there
@@ -137,8 +137,8 @@ outputs.</p>
 find a phrase segmentation, translation of each resulting phrase,
 and permutation of those phrases such that the product of the phrase
 translation probabilities and the language model score of the resulting
-sentence is as high as possible. Arbitrary permutations of target phrases are
-allowed, provided that the phrase translations are one-to-one and
+sentence is as high as possible. Arbitrary permutations of the English 
+phrases are allowed, provided that the phrase translations are one-to-one and
 exactly cover the input sentence. the This problem is
 NP-Complete, so we recommend that you solve it using an approximate
 method like stack decoding, discussed in Chapter 6 of the textbook. You 
