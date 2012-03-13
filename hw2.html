@@ -125,7 +125,7 @@ French sentence and \(e\) is an English sentence. In the model we have
 provided you, \( p(e) = p(e_1|START) \times \prod_{j=2}^J p(e_j|e_{j-1}e_{j-2}) \times p(END|e_J) \)
 and \( p(f|e) = p(segmentation) \times p(reordering) \times p(phrase~translation) \).
 We will make the simplifying assumption that segmentation and reordering
-probabilities are uniform across all sentences, and hence constant This results
+probabilities are uniform across all sentences, and hence constant. This results
 in a model whose probability density function does not sum to one. But from a
 practical perspective, it slightly simplifies the implementation without
 substantially harming empirical accuracy. This means that you only need
@@ -150,7 +150,7 @@ helpful to work in logspace to avoid numerical underflow. We instead solve for
 \log p(e_1|START) + \sum_{j=2}^J \log p(e_j|e_{j-1}e_{j-2}) + \log p(END|e_J) +
 \sum_{\langle i,i',j,j' \rangle \in a} \log p(f_{\langle i,i' \rangle}|e_{\langle j,j' \rangle})
 \). 
-The baseline decoder already works with log probabilities, so it should
+The baseline decoder already works with log probabilities, so it is 
 not necessary for you to perform any additional conversion; you can simply work
 with the sum of the scores that the model provides for you. Note that
 since probabilities are always less than or equal to one, their equivalent 
