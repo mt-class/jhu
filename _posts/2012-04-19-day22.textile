@@ -1,0 +1,6 @@
+---
+title: Applications of Word Alignment
+lecturer: Post
+slides: false
+---
+

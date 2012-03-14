@@ -1,0 +1,11 @@
+---
+title: Paraphrasing
+lecturer: Callison-Burch
+slides: false
+reading:
+  -
+    author: Callison-Burch et al.
+    title: Improved Statistical Machine Translation Using Paraphrases
+    url: http://aclweb.org/anthology-new/N/N06/N06-1003.pdf
+---
+

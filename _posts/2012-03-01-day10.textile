@@ -1,0 +1,17 @@
+---
+title: Loss-Sensitive Training of Feature-Based Models
+lecturer: Lopez
+slides: false
+reading:
+  -
+    author: Och
+    url: http://aclweb.org/anthology-new/P/P03/P03-1021.pdf
+    title: Minimum Error Rate Training in Statistical Machine Translation
+    optional: true
+  -
+    author: Hopkins and May
+    url: http://aclweb.org/anthology-new/D/D11/D11-1125.pdf
+    title: Tuning as Ranking
+    optional: true
+---
+

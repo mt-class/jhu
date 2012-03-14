@@ -1,0 +1,6 @@
+---
+title: Guest Lecture&colon; Translation without Parallel Corpora
+lecturer: Irvine and Smith
+slides: false
+---
+

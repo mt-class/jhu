@@ -1,0 +1,10 @@
+---
+title: Probability and Language Models 
+lecturer: Lopez 
+slides: true
+reading:
+  -
+    author: Koehn 
+    title: chapters 2 and 7 
+---
+

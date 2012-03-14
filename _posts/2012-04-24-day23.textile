@@ -1,0 +1,15 @@
+---
+title: Representing Huge Translation Models
+lecturer: Lopez
+slides: false
+reading:
+  -
+    author: Callison-Burch et al.
+    title: Scaling Phrase-Based Statistical Machine Translation to Larger Corpora and Longer Phrases
+    url: http://aclweb.org/anthology-new/P/P05/P05-1032.pdf
+  -
+    author: Lopez 
+    title: Hierarchical Phrase-Based Translation with Sufﬁx Arrays
+    url: http://aclweb.org/anthology-new/D/D07/D07-1104.pdf
+---
+

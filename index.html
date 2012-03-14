@@ -226,185 +226,52 @@ partners carefully.
 <p>Subject to change as the term progresses.</p>
 <table> 
   <tbody>
-    <tr bgcolor="lightgrey">
-      <td valign="top">
-        <b>Date</b>
-      </td>
-      <td valign="top">
-        <b>Topics</b>
-      </td>
-      <td valign="top">
-        <b>Lecturer</b>
-      </td>
-      <td valign="top">
-        <b>Readings</b> (starred readings are strongly recommended to graduate students)
-      </td>
+    <tr><th>Date</th><th>Topics</th><th>Lecturer</th><th>Readings (*=graduate level)</th>
     </tr>
 
-<script type="text/javascript">
-var dates = [
-"Jan 31",
-"Feb 2",
-"Feb 7", 
-"Feb 9",
-"Feb 14",
-"Feb 16",
-"Feb 21",
-"Feb 23",
-"Feb 28",
-"Mar 1",
-"Mar 6",
-"Mar 8",
-"Mar 13",
-"Mar 15",
-"Mar 27",
-"Mar 29",
-"Apr 3",
-"Apr 5",
-"Apr 10",
-"Apr 12",
-"Apr 17",
-"Apr 19",
-"Apr 24",
-"Apr 26",
-"May 1",
-"May 3"
-];
-var topics = [
-  ['Introduction<br/> <a href="slides/JHU_MT_lecture_2012-01-31.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-01-31.key">[keynote]</a>', 
-   "All", 
-    ['Koehn chapter 1',
-     'Knight, <a href="http://www.isi.edu/natural-language/mt/aimag97.pdf">Automating Knowledge Acquisition for Machine Translation</a>',
-     '* Weaver, <a href="http://www.mt-archive.info/Weaver-1949.pdf">Translation</a>',
-     '* Kay, <a href="http://www.stanford.edu/~mjkay/CurrentState.pdf">Translation</a>',
-    ]],
-  ['Probability and Language Models<br/> <a href="slides/JHU_MT_lecture_2012-02-02.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-02-02.key">[keynote]</a>', 
-   "Lopez", 
-    ['Koehn chapters 2 and 7']],
-  ['Learning Translation Models: Word Alignment<br/> <a href="slides/JHU_MT_lecture_2012-02-07.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-02-07.key">[keynote]</a>', 
-   "Lopez", 
-    ['Koehn chapter 3',
-     '<a href="http://www.isi.edu/natural-language/mt/wkbk.rtf">Kevin Knight&rsquo;s tutorial on the IBM Models and EM</a>',
-     '<a href="http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/ibm12.pdf">Michael Collins&rsquo; notes on the IBM Models</a>',
-     '* Brown et al., <a href="http://aclweb.org/anthology-new/J/J90/J90-2002.pdf">A Statistical Approach to Machine Translation</a>'
-    ]],
-  ['Learning Better Translation Models<br/><a href="slides/JHU_MT_lecture_2012-02-09.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-02-09.key">[keynote]</a><br/>Language in 10 minutes: Afrikaans<br/><a href="slides/Afrikaans.pdf">[pdf]</a> <a href="slides/Afrikaans.key">[keynote]</a>', 
-   "Lopez",
-    ['Koehn chapter 4',
-     '* Brown et al. <a href="http://aclweb.org/anthology-new/J/J93/J93-2003.pdf">The Mathematics of Statistical Machine Translation: Parameter Estimation</a>',
-     '* Vogel and Ney, <a href="http://aclweb.org/anthology-new/C/C96/C96-2141.pdf">HMM-based word alignment in statistical translation</a>',
-     '* Liang et al., <a href="http://aclweb.org/anthology-new/N/N06/N06-1014.pdf">Alignment by Agreement</a>'
-    ]],
-  ['Decoding: Predicting Translations<br/> <a href="slides/JHU_MT_lecture_2012-02-14.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-02-14.key">[keynote]</a> <a href="http://github.com/mjpost/word-decoder">[code]</a>', 
-   "Post",
-    ['Koehn chapter 6',
-     '* Germann et al., <a href="http://aclweb.org/anthology-new/P/P01/P01-1030.pdf">Fast Decoding and Optimal Decoding for Machine Translation</a>'
-    ]],
-  ['Decoding continued<br/> <a href="slides/JHU_MT_lecture_2012-02-16.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-02-16.key">[keynote]</a> <a href="http://cs.jhu.edu/~post/mt-class/stack-decoder/">[live demo]</a>', 
-   "Post",
-    ['* Knight, <a href="http://aclweb.org/anthology-new/J/J99/J99-4005.pdf">Decoding Complexity in Word-Replacement Translation Models</a>'
-    ]],
-  ['Phrase-based Models<br/> <a href="slides/JHU_MT_lecture_2012-02-21.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-02-21.key">[keynote]</a>', "Lopez",
-    ['Koehn sections 5.1-5.2',
-     '* Koehn et al., <a href="http://aclweb.org/anthology-new/N/N03/N03-1017.pdf">Statistical Phrase-Based Translation</a>',
-     '* Marcu and Wong, <a href="http://www.aclweb.org/anthology-new/W/W02/W02-1018.pdf">A Phrase-Based,Joint Probability Model for Statistical Machine Translation</a>',
-     '* DeNero et al., <a href="http://aclweb.org/anthology-new/D/D08/D08-1033.pdf">Sampling Alignment Structure under a Bayesian Translation Model</a>'
-    ]],
-  ['Evaluating Translation Systems<br/><a href="slides/JHU_MT_lecture_2012-02-23.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-02-23.key">[keynote]</a><br/>Language in 10 minutes: German <a href="slides/German.pdf">[pdf]</a> <a href="slides/German.key">[ppt]</a>',
-"Callison-Burch",
-    ['Koehn chapter 8',
-     '* Papineni et al., <a href="http://aclweb.org/anthology-new/P/P02/P02-1040.pdf">Bleu: a Method for Automatic Evaluation of Machine Translation</a>',
-     '* Callison-Burch et al., <a href="http://aclweb.org/anthology-new/E/E06/E06-1032.pdf">Re-Evaluating the Role of BLEU in Machine Translation Research</a>'
-    ]],
-  ['Feature-Based Models<br/> <a href="slides/JHU_MT_lecture_2012-02-28.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-02-28.key">[keynote]</a>', "Lopez",
-    ['Koehn chapters 9'
-    ]],
-  ["Loss-Sensitive Training of Feature-Based Models", "Lopez",
-    ['* Och, <a href="http://aclweb.org/anthology-new/P/P03/P03-1021.pdf">Minimum Error Rate Training in Statistical Machine Translation</a>',
-     '* Hopkins and May, <a href="http://aclweb.org/anthology-new/D/D11/D11-1125.pdf">Tuning as Ranking</a>'
-    ]],
-  ["Weighted Automata", "Lopez",
-    ['Mohri, <a href="http://www.cs.nyu.edu/~mohri/pub/cl1.pdf">Finite-State Transducers in Language and Speech Processing.</a>'
-    ]],
-  ["Modeling Translation with Weighted Automata", "Lopez",
-    ['Knight and Al-Onaizan, <a href="http://www.isi.edu/natural-language/mt/mt-wfst.ps">Translation with Finite-State Devices</a>',
-     '* Kumar et al., <a href="http://mi.eng.cam.ac.uk/~wjb31/ppubs/ttmjnle.pdf"> A weighted finite state transducer translation template model for statistical machine translation</a>'
-    ]],
-  ['Syntax-based Translation <br/> <a href="slides/JHU_MT_lecture_2012-03-13.pdf">[pdf]</a> <a href="slides/JHU_MT_lecture_2012-03-13.key">[keynote]</a>', 
-    "Callison-Burch",
-    ['Collins et al., <a href="http://aclweb.org/anthology-new/P/P05/P05-1066.pdf">Clause Restructuring for Statistical Machine Translation</a>',
-     'Chiang, <a href="http://isi.edu/~chiang/papers/synchtut.pdf">An Introduction to Synchronous Grammars</a>',
-     '* Wu, <a href="http://aclweb.org/anthology-new/J/J97/J97-3002.pdf">Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora</a>',
-    ]],
-  ["Syntax-based Translation", "Callison-Burch",
-    ['Yamada and Knight, <a href="http://aclweb.org/anthology-new/P/P01/P01-1067.pdf">Syntax-based Statistical Machine Translation</a>',
-     'Fox, <a href="http://www.aclweb.org/anthology-new/W/W02/W02-1039.pdf">Phrasal Cohesion and Statistical Machine Translation</a>',
-     '* Galley et al., <a href="http://aclweb.org/anthology-new/N/N04/N04-1035.pdf">What&rsquo;s in a Translation Rule?</a>'
-    ]],
-  ["Syntax-based Decoding", "Post",
-    [
-     'Chiang, <a href="http://aclweb.org/anthology-new/J/J07/J07-2003.pdf">Hierarchical Phrase-based Translation</a>',
-     '* Iglesias et al., <a href="http://aclweb.org/anthology-new/N/N09/N09-1049.pdf">Hierarchical Phrase-Based Translation with Weighted Finite State Transducers</a>',
-     '* Iglesias et al., <a href="http://aclweb.org/anthology-new/D/D11/D11-1127.pdf">Hierarchical Phrase-Based Translation Representations</a>'
-    ]],
-  ["Tree Automata", "Lopez",
-    ["TBD"]],
-  ["Morphology and Translation", "Post",
-    ["TBD"]],
-  ["Creative Data Collection", "Callison-Burch",
-    ['Oard et al., <a href="http://aclweb.org/anthology-new/N/N03/N03-2026.pdf">Desperately Seeking Cebuano</a>',
-     'Munteanu and Marcu, <a href="http://aclweb.org/anthology-new/J/J05/J05-4003.pdf">Improving Machine Translation Performance by Exploiting Non-Parallel Corpora</a>'
-    ]],
-  ["More Creative Data Collection", "Callison-Burch",
-    [
-     'Callison-Burch, <a href="http://aclweb.org/anthology-new/D/D09/D09-1030.pdf">Fast, Cheap, and Creative: Evaluating Translation Quality Using Amazon’s Mechanical Turk</a>'
-    ]],
-  ["Guest Lecture: Translation without Parallel Corpora", "Irvine and Smith",
-    []],
-  ["Syntax-based Language Models", "Post",
-    ["TBD"
-    ]],
-  ["Applications of Word Alignment", "Post",
-    ["TBD"
-    ]],
-  ["Representing Huge Translation Models", "Lopez",
-    ['Callison-Burch et al., <a href="http://aclweb.org/anthology-new/P/P05/P05-1032.pdf">Scaling Phrase-Based Statistical Machine Translation to Larger Corpora and Longer Phrases</a>',
-     'Lopez, <a href="http://aclweb.org/anthology-new/D/D07/D07-1104.pdf">Hierarchical Phrase-Based Translation with Sufﬁx Arrays</a>'
-    ]],
-  ["Representing Huge Language Models", "Lopez",
-    ['Brants et al., <a href="http://aclweb.org/anthology-new/D/D07/D07-1090.pdf">Large Language Models in Machine Translation</a>',
-     'Talbot and Brants, <a href="http://aclweb.org/anthology-new/P/P08/P08-1058.pdf">Randomized Language Models via Perfect Hash Functions</a>'
-    ]],
-  ["Paraphrasing", "Callison-Burch",
-    ['Callison-Burch et al., <a href="http://aclweb.org/anthology-new/N/N06/N06-1003.pdf">Improved Statistical Machine Translation Using Paraphrases</a>',
-    ]],
-  ["Domain Adaptation", "TBD",
-    ["TBD"]]
-];
-var assignments = {
-  "Feb 21" : "Homework 1 due (tentative)"
-}
-for (i=0; i<dates.length; i++){
-  document.write('<tr');
-  if (i%2==1){ document.write(' bgcolor="lightblue"'); }
-  document.write('>');
-  document.write('<td>' + dates[i] + '</td>');
-  if (i<topics.length){
-    document.write('<td>' + topics[i][0] + '</td>');
-    document.write('<td>' + topics[i][1] + '</td>');
-    document.write('<td>');
-    document.write('<ul>');
-    if (topics[i].length >2){
-      for (j=0; j<topics[i][2].length; j++){
-       document.write('<li>' + topics[i][2][j] + '</li>');
-      }
-    }
-    document.write('</ul>');
-    document.write('</td>');
-  }
-  document.write('</tr>');
-}
-</script>
+    {{ site.posts }}
+    {% for post in site.posts reversed %}
+    <tr>
+    <td>{{ post.date | date: "%b %d" }}
+    </td>
+    <td><ul>
+      <li>{{ post.title }}</li>
+      {% if post.slides %}
+      <li>
+      <a href="slides/JHU_MT_lecture_{{ post.date | date: '%Y-%m-%d' }}.pdf">[pdf]</a>
+      <a href="slides/JHU_MT_lecture_{{ post.date | date: '%Y-%m-%d' }}.key">[keynote]</a>
+      {% if post.otherstuff %}
+        {% for otherstuff in post.otherstuff %}
+          <a href="{{ otherstuff.url }}">[{{ otherstuff.name }}]</a>
+        {% endfor %}
+      {% endif %}
+      </li>
+      {% endif %}
+      {% if post.language-in-10 %}
+      <li>Language in 10: <a href="slides/{{post.language-in-10}}.pdf">{{ post.language-in-10 }}</a></li>
+      {% endif %}
+      </ul>
+    </td>
+    <td>{{ post.lecturer }}</td>
+    <td>
+      {% if post.reading %}
+        <ul>
+        {% for reading in post.reading %}
+          <li>
+          {% if reading.optional %}* {% endif %}
+          {{ reading.author }},
+          {% if reading.url %}
+          <a href="{{ reading.url }}">{{ reading.title }}</a>
+          {% else %}
+          {{ reading.title }} 
+          {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </td>
+    </tr>
+    {% endfor %}
 
   </tbody>
 </table>

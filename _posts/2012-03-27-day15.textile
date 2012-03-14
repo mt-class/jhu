@@ -1,0 +1,11 @@
+---
+title: Syntax-Based Decoding
+lecturer: Post
+slides: false
+reading:
+  -
+    author: Chiang
+    url: http://aclweb.org/anthology-new/J/J07/J07-2003.pdf
+    title: Hierarchical Phrase-based Translation
+---
+

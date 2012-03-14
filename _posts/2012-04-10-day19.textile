@@ -1,0 +1,11 @@
+---
+title: More Creative Data Collection
+lecturer: Callison-Burch
+slides: false
+reading:
+  -
+    author: Callison-Burch
+    title: Fast, Cheap, and Creative&colon; Evaluating Translation Quality Using Amazon’s Mechanical Turk
+    url: http://aclweb.org/anthology-new/D/D09/D09-1030.pdf
+---
+

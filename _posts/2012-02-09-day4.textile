@@ -1,0 +1,26 @@
+---
+title: Learning Better Translation Models
+lecturer: Lopez
+slides: true
+language-in-10: Afrikaans
+reading:
+  -
+    author: Koehn 
+    title: chapter 4
+  -
+    author: Brown et al.
+    title: The Mathematics of Statical Machine Translation&colon; Parameter Estimation
+    url: http://aclweb.org/anthology-new/J/J93/J93-2003.pdf
+    optional: true
+  -
+    author: Vogel and Ney
+    title: HMM-based word alignment in statistical translation
+    url: http://aclweb.org/anthology-new/C/C96/C96-2141.pdf
+    optional: true
+  -
+    author: Liang et al.
+    title: Alignment by Agreement
+    url: http://aclweb.org/anthology-new/N/N06/N06-1014.pdf
+    optional: true
+---
+

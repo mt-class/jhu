@@ -1,0 +1,25 @@
+---
+title: Introduction
+lecturer: All
+slides: true
+reading:
+  -
+    author: Koehn 
+    title: chapter 1
+  -
+    author: Knight
+    title:  Automating Knowledge Acquisition for Machine Translation
+    url: http://www.isi.edu/natural-language/mt/aimag97.pdf
+    optional: true
+  -
+    author: Weaver
+    title: Translation
+    url: http://www.mt-archive.info/Weaver-1949.pdf
+    optional: true
+  -
+    author: Kay
+    title: Translation
+    url: http://www.stanford.edu/~mjkay/CurrentState.pdf
+    optional: true
+---
+
