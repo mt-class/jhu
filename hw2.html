@@ -122,7 +122,7 @@ with the highest possible probability</b>.
 Formally, this means your goal is to solve the problem:
 \( \mathop{\arg\,\max}\limits_e~ p(f|e) \times p(e) \), where \(f\) is a
 French sentence and \(e\) is an English sentence. In the model we have 
-provided you, \( p(e) = p(e_1|START) \times \prod_{j=2}^J p(e_j|e_{j-1}e_{j-2}) \times p(END|e_J) \)
+provided you, \( p(e) = p(e_1|START) \times \prod_{j=2}^J p(e_j|e_{j-1}e_{j-2}) \times p(END|e_J,e_{J-1}) \)
 and \( p(f|e) = p(segmentation) \times p(reordering) \times p(phrase~translation) \).
 We will make the simplifying assumption that segmentation and reordering
 probabilities are uniform across all sentences, and hence constant. This results
