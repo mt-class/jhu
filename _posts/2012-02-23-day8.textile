@@ -1,0 +1,21 @@
+---
+title: Evaluating Translation Systems
+lecturer: Callison-Burch
+slides: true
+language-in-10: German
+reading:
+  -
+    author: Koehn 
+    title: chapter 8
+  -
+    author: Papineni et al.
+    url: http://aclweb.org/anthology-new/P/P02/P02-1040.pdf
+    title: Bleu&colon; a Method for Automatic Evaluation of Machine Translation
+    optional: true
+  -
+    author: Callison-Burch et al.
+    title: Re-Evaluating the Role of BLEU in Machine Translation Research
+    url: http://aclweb.org/anthology-new/E/E06/E06-1032.pdf
+    optional: true
+---
+

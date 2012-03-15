@@ -1,0 +1,20 @@
+---
+title: Syntax-Based Translation Part 2
+lecturer: Callison-Burch
+slides: false
+reading:
+  -
+    author: Yamada and Knight
+    title: Syntax-based Statistical Machine Translation
+    url: http://aclweb.org/anthology-new/P/P01/P01-1067.pdf
+  -
+    author: Heidi Fox
+    title: Phrasal Cohesion and Statistical Machine Translation
+    url: http://www.aclweb.org/anthology-new/W/W02/W02-1039.pdf
+  -
+    author: Galley et al.
+    title: What&rsquo;s in a Translation Rule?
+    url: http://aclweb.org/anthology-new/N/N04/N04-1035.pdf
+    optional: true
+---
+

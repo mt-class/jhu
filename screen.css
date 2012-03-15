@@ -22,6 +22,14 @@ td,th {
   border: 0px;
 }
 
+th {
+  background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+  background-color: lightblue;
+}
+
 img.arrow {
   width: 13px;
   height: 13px;

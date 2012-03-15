@@ -1,0 +1,20 @@
+---
+title: Syntax-based Translation Part 1&colon; Reordering for Phrase-Based Translation
+lecturer: Callison-Burch
+slides: true
+reading:
+  -
+    author: Collins et al.
+    title: Clause Restructuring for Statistical Machine Translation
+    url: http://aclweb.org/anthology-new/P/P05/P05-1066.pdf
+  -
+    author: Chiang
+    title: An Introduction to Synchronous Grammars
+    url: http://isi.edu/~chiang/papers/synchtut.pdf
+  -
+    author: Wu
+    title: Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora
+    url: http://aclweb.org/anthology-new/J/J97/J97-3002.pdf
+    optional: true
+---
+

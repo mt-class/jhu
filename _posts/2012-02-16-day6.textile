@@ -1,0 +1,16 @@
+---
+title: Decoding continued
+lecturer: Post
+slides: true
+reading:
+  -
+    author: Knight
+    title: Decoding Complexity in Word-Replacement Translation Models
+    url: http://aclweb.org/anthology-new/J/J99/J99-4005.pdf
+    optional: true
+otherstuff:
+  -
+    name: live demo
+    url: http://cs.jhu.edu/~post/mt-class/stack-decoder/
+---
+

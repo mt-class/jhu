@@ -1,0 +1,12 @@
+---
+title: Weighted Automata
+lecturer: Lopez
+slides: true
+reading:
+  -
+    author: Mohri
+    url: http://www.cs.nyu.edu/~mohri/pub/cl1.pdf
+    title: Finite-State Transducers in Language and Speech Processing
+    optional: true
+---
+

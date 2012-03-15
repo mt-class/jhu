@@ -1,0 +1,25 @@
+---
+title: Phrase-based Models
+lecturer: Lopez
+slides: true
+reading:
+  -
+    author: Koehn 
+    title: sections 5.1-5.2
+  -
+    author: Koehn et al.
+    url: http://aclweb.org/anthology-new/N/N03/N03-1017.pdf
+    title: Statistical Phrase-Based Translation
+    optional: true
+  -
+    author: Marcu and Wong
+    url: http://www.aclweb.org/anthology-new/W/W02/W02-1018.pdf
+    title: A Phrase-Based, Joint Probability Model for Statistical Machine Translation
+    optional: true
+  -
+    author: DeNero et al.
+    url: http://aclweb.org/anthology-new/D/D08/D08-1033.pdf
+    title: Sampling Alignment Structure under a Bayesian Translation Model
+    optional: true
+---
+
