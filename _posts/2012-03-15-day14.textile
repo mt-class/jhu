@@ -1,5 +1,5 @@
 ---
-title: Syntax-Based Translation Part 2
+title: Syntax-Based Translation Part 2: Synchronous Grammars
 lecturer: Callison-Burch
 slides: true
 reading:
