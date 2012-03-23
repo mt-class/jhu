@@ -1,5 +1,5 @@
 ---
-title: Representing Huge Translation Models
+title: Representing Huge Language Models
 lecturer: Lopez
 slides: false
 reading:
