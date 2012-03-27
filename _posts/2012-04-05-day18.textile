@@ -1,16 +1,11 @@
 ---
-title: Creative Data Collection
+title: More Creative Data Collection
 lecturer: Callison-Burch
 slides: false
 reading:
   -
-    author: Oard et al.
-    title: Desperately Seeking Cebuano
-    url: http://aclweb.org/anthology-new/N/N03/N03-2026.pdf
-  -
-    author: Munteanu and Marcu
-    title: Improving Machine Translation Performance by Exploiting Non-Parallel Corpora
-    url: http://aclweb.org/anthology-new/J/J05/J05-4003.pdf
-    optional: true
+    author: Callison-Burch
+    title: Fast, Cheap, and Creative&colon; Evaluating Translation Quality Using Amazon’s Mechanical Turk
+    url: http://aclweb.org/anthology-new/D/D09/D09-1030.pdf
 ---
 

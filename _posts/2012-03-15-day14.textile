@@ -1,7 +1,7 @@
 ---
-title: Syntax-Based Translation Part 2
+title: Syntax-Based Translation Part 2&colon; Synchronous Grammars
 lecturer: Callison-Burch
-slides: false
+slides: true
 reading:
   -
     author: Yamada and Knight
