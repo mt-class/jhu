@@ -1,6 +1,15 @@
 ---
-title: Morphology and Translation
+title: Syntax-Based Language Models
 lecturer: Post
 slides: false
+reading:
+  -
+    author: Chelba and Jelinek
+    url: http://acl.ldc.upenn.edu/C/C98/C98-1035.pdf
+    title: Exploiting Syntactic Structure for Language Modeling
+  -
+    author: Charniak et al.
+    url: http://aclweb.org/anthology-new/J/J07/J07-2003.pdf
+    title: Syntax-based language models for statistical machine translation
 ---
 

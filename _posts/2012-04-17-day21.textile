@@ -1,5 +1,5 @@
 ---
-title: Syntax-Based Language Models
+title: Morphology and Translation
 lecturer: Post
 slides: false
 ---
