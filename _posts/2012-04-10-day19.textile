@@ -9,7 +9,7 @@ reading:
     title: Exploiting Syntactic Structure for Language Modeling
   -
     author: Charniak et al.
-    url: http://aclweb.org/anthology-new/J/J07/J07-2003.pdf
+    url: http://www.isi.edu/natural-language/projects/rewrite/mtsummit03.pdf
     title: Syntax-based language models for statistical machine translation
 ---
 
