@@ -1,6 +1,6 @@
 ---
 title: Applications of Word Alignment
-lecturer: Post
+lecturer: Weese
 slides: false
 ---
 
