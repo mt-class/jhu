@@ -1,0 +1,273 @@
+---
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Homework 3: Evaluation</title>
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="screen.css" type="text/css" media="screen, projection" />
+
+   <!-- MathJax -->
+   <script type="text/javascript"
+     src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+   </script>
+</head>
+<body>
+
+<div class="site">
+
+  <div class="leftsidebar">
+    <img src="img/exam.jpg" width="180" alt="The Rosetta Stone"/>
+    <p><i>Image courtesy of 
+     <a href="http://www.flickr.com/photos/gianellbendijo/4034021658/">gianellbendijo</a> (used with permission).</i></p>
+<hr/>
+      <p>
+        <b>Challenge 3</b>
+        <ul>
+          <li><b><a href="#overview">Overview</a></b></li>
+          <li><b><a href="#starting">Getting Started</a></b></li>
+          <li><b><a href="#challenge">The Challenge</a></b></li>
+          <li><b><a href="#rules">Ground Rules</a></b></li>
+          <li><b><a href="leaderboard.html">Leaderboard</a></b></li>
+          <li><b><a href="https://piazza.com/jhu/spring2012/en600468">Discussion Forum</a></b></li>
+          <li><b><a href="index.html">Course page</a></b></li>
+        </ul>
+      </p>
+  </div>
+
+<div class="content">
+<a name="overview"></a>
+<h1>Evaluation<font color="lightgrey">: Challenge Problem 3</font></h1>
+<div id="course" class="cv">
+
+<p>Machine translation systems are typically evaluated through relative
+ranking. For instance, given the following German sentences:
+</p>
+
+<center>
+<p><i>Die Prager Börse stürzt gegen Geschäftsschluss ins Minus. <br/>
+Nach dem steilen Abfall am Morgen konnte die Prager Börse die Verluste korrigieren. 
+</i></p>
+</center>
+
+<p>...One machine translation system produces this output:</p>
+<center>
+<p><i>The Prague stock exchange throws into the minus against closing time. <br/>
+After the steep drop in the morning the Prague stock exchange could correct the losses. 
+</i></p>
+</center>
+
+<p>...And a second machine translation system produces this output:</p>
+<center>
+<p><i>The Prague stock exchange risks geschäftsschluss against the down. <br/>
+After the steilen waste on the stock market Prague, was aez almost half of the normal tagesgeschäfts. 
+</i></p>
+</center>
+
+<p>A plausible ranking of the translation systems would place the first
+system higher than the second. While neither translation is perfect, the 
+first one is clearly easier to understand and conveys more of the original
+meaning. <b>Your challenge is to write a program that ranks the systems  in 
+the same order that a human evaluator would</b>. 
+</p>
+
+<p>There is great need to evaluate translation systems: to 
+decide whether to purchase one system or another, or to assess incremental
+changes to a system &mdash; since, as you saw in the first two assignments,
+there are many choices in the design of a system that naturally lead to
+different translations. Ideally such comparisons between systems should be 
+done by humans, but human rankings are slow and costly to obtain, making 
+them less feasible when comparisons are must be done frequently or between 
+large numbers of systems. Furthermore, as you saw in class, it is possible
+to use machine learning techniques to directly optimize machine translation 
+towards an objective function. If we could write a function that 
+correctly ranked systems, we could, in principle achieve better translation
+through optimization. Hence automatic evaluation has become a topic
+of intense study.
+</p>
+
+
+<a name="starting"></a>
+<h2>Getting Started</h2>
+
+<p>If you already have a clone of the repository from the previous assignments
+you can update it from anywhere in your project directory by running the command:</p>
+
+<p><pre>git pull origin master</pre></p>
+
+<p>Alternatively, clone a fresh version of the repository by running:</p>
+
+<p><pre>git clone https://github.com/alopez/dreamt.git</pre></p>
+
+<p>Under the new <tt>evaluate</tt> directory, We have provided you with a very 
+simple evaluation program written in Python. There is also a directory containing
+a development dataset and a test dataset. Each dataset consists of 
+a human translation and many machine translations of some German documents.
+The evaluator compares each machine translation to a human 
+<i>reference translation</i> sentence by sentence, computing how many words 
+they have in common. It then ranks the machine translation systems according 
+to the percentage of words that also appear in the reference.
+Run the evaluator on the development data using this command:</p>
+
+<p><tt>evaluate &gt; output</tt></p>
+
+<p>This runs the evaluation and stores the final ranking in 
+<tt>output</tt>. You can see the rank order of the systems simply by looking
+at the file &mdash; the first line is the best system, the second is second
+best, and so on. To calculate the correlation between this ranking and a 
+human ranking of the same set of systems, run the command:
+</p>
+
+<p><tt>grade &lt; output</tt></p>
+
+<p>This command computes 
+<a href="http://en.wikipedia.org/wiki/Spearman's_rank_correlation_coefficient">
+Spearman's rank correlation coefficient</a> (\(\rho\)) between the automatic ranking
+and a human ranking of the systems (see Section 4 of 
+<a href="http://aclweb.org/anthology-new/W/W11/W11-2103.pdf">this paper</a> for an explanation
+of how the human rankings were obtained). A \( \rho \) of 1 means that the rankings
+are identical; a rank of zero means that they are uncorrelated; and a negative
+rank means that they are inversely correlated.</p>
+
+<p>You should also rank the test data, for which we did not provide human
+rankings. To do this, run the command:</p>
+
+<p><tt>evaluate -d data/test &gt; output</tt></p>
+
+<p>You can confirm that the output is a valid ranking of the test data 
+using the check command:</p>
+
+<p><tt>check &lt; output</tt></p>
+
+<p>Your ranking should be a total ordering of the systems &mdash;
+ties are not allowed.
+</p>
+
+<a name="challenge"></a>
+<h2>The Challenge</h2>
+
+<p>Improving the evaluation algorithm should cause \(\rho\)
+to increase. Your task for this assignment is to <b>obtain a
+Spearman's rank correlation coefficient that is as high as possible on the 
+test data.</b> Whoever obtains the highest \(\rho\) will receive the most 
+points. 
+<p>
+
+<p>One way to improve over the default system is to implement the 
+well-known <a href="http://aclweb.org/anthology-new/P/P02/P02-1040.pdf">
+BLEU</a> metric. You may find it useful to experiment with BLEU's parameters,
+or to retokenize the data in some way. However, there are many, many 
+alternatives to BLEU &mdash; the topic of evaluation is so popular that
+Yorick Wilks, a well-known researcher, once remarked that  
+<i>more has been written about machine translation evaluation than about
+machine translation itself</i>. Some of the techniques people have tried
+may result in stronger correlation with human judgement, including:
+</p> 
+
+<ul class="real">
+  <li><a href="http://aclweb.org/anthology-new/W/W11/W11-2105.pdf">Incorporating recall statistics into the metric.</a></li>
+  <li><a href="http://aclweb.org/anthology-new/W/W07/W07-0734.pdf">Stemming the words, or counting synonyms as matches.</a></li>
+  <li><a href="http://aclweb.org/anthology-new/W/W11/W11-2112.pdf">Analyzing predicate-argument structure and distributional semantics of the translations</a>.</li>
+  <li><a href="http://aclweb.org/anthology-new/W/W11/W11-2106.pdf">Combining many of these features with machine learning techniques</a> (you could train on the development data).</li>
+  <li><a href="http://aclweb.org/anthology-new/W/W11/W11-2113.pdf">Combining only simple features with machine learning</a>.</li>
+</ul>
+
+<p>But the sky's the limit! There are many, many ways to automatically evaluate
+machine translation systems, and
+you can try anything you want as long as you follow the ground rules:
+</p>
+
+<a name="rules"></a>
+<h2>Ground Rules</h2>
+
+<ul class="real">
+<li>
+   You may work in independently or in groups of any size, under these 
+   conditions: 
+   <ol>
+   <li>
+   You must notify us by posting a public note to piazza.
+   </li>
+   <li>
+   Everyone in the group will receive the same grade on the assignment. 
+   </li>
+   <li>
+   You can add people or merge groups at any time before you post your
+   final submission. HOWEVER, you cannot drop people from your group once 
+   you've added them. <b>Collaboration is fine with us</b>, but 
+   adjudicating Rashomon-style stories about who did or did not
+   contribute is not. 
+   </li>
+  </ol>
+</li>
+<li> You must turn in three things:
+  <ol class="real">
+  <li>
+  Your rankings of the test dataset, uploaded to BASE_URL/assignment3.txt
+  following the <a href="assignment0.html">Assignment 0 instructions</a>. 
+  You can upload new output as often as you like. Your rankings will be
+  evaluated using a hidden metric. However, the 
+  <tt>grade</tt> program will give you a good indication of how you're doing.
+  Whoever has the highest score on the leaderboard at the assignment 
+  deadline will receive the most bonus points.
+  </li>
+  <li>
+  Your code. Send us a URL from which we can get the code and git revision
+  history (a link to a tarball will suffice, but you're free to send us a 
+  github link if you don't mind making your code public). This is due at the
+  deadline: when you upload your final answer, send us the code.
+  You are free to extend the code we provide or roll your own in whatever
+  langugage you like, but the code should be self-contained, 
+  self-documenting, and easy to use. 
+  </li>
+  <li>
+  A description of your algorithm, posted to piazza. 
+  Brevity is encouraged, as long as it is clear what you did; a paragraph or 
+  even bullet points is fine. You should tell us not only about your final 
+  algorithm, but also things that you tried that didn't work, experiments that
+  you did, or other interesting things that you observed while working on it.
+  What did you learn? Do you think that this is a reasonable way to evaluate
+  machine translation systems? Please post your 
+  response within two days of submitting your final solution to the 
+  leaderboard; we will withold your grade until we receive it.
+  </li>
+  </ol>
+</li>
+<li>
+   You should feel free to use additional data resources such as thesauruses, 
+   WordNet, or parallel data. You are also free to use additional codebases and libraries 
+   <b>except for those expressly intended to evaluate machine translation 
+   systems</b>. You must write your own evaluation metric. However, if you 
+   want your evaluation to depend on lemmatizers, stemmers, automatic parsers,
+   or part-of-speech taggers, or you would like to <i>learn</i> a metric using 
+   a general machine learning toolkit, that is fine. But translation metrics including 
+   (but not limited too) available implementations of BLEU, METEOR, TER, 
+   NIST, and others are not permitted. You may of course inspect these systems
+   if you want to understand how they work, although they tend to include
+   other functionality that is not the focus of this assignment.
+   It is possible to complete the assignment with a very modest amount
+   of python code. If you aren't sure whether something is permitted, ask us.
+</li>
+</ul>
+<p>If you have any questions or you're confused about anything, 
+<a href="https://piazza.com/jhu/spring2012/en600468">just ask</a>.
+
+<div class="footer">
+  <p>Last updated on {{ site.time | date: "%B %d, %Y" }}.  Site created using 
+  <a href="http://git-scm.com/">git</a>,
+  <a href="http://github.com/mojombo/jekyll/tree/master">jekyll</a>,
+  and <a href="http://www.gnu.org/software/emacs/">emacs</a>, and hosted on <a href="https://github.com/">github</a>.</p>
+  <p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+    <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a><br />
+      Except where noted, the lectures, assignments, and other material hosted on this page were created by
+      <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Adam Lopez, Chris Callison-Burch, and Matt Post</span> and are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+  That means you're free to reuse the 
+  <a href="http://github.com/mt-class/mt-class.github.com">source code</a>, though please acknowledge that you got it from us. Thanks!</p>
+</div>
+
+
+</body></html>
