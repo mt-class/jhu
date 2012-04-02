@@ -71,7 +71,7 @@ After the steilen waste on the stock market Prague, was aez almost half of the n
 <p>A plausible ranking of the translation systems would place the first
 system higher than the second. While neither translation is perfect, the 
 first one is clearly easier to understand and conveys more of the original
-meaning. <b>Your challenge is to write a program that ranks the systems  in 
+meaning. <b>Your challenge is to write a program that ranks the systems in 
 the same order that a human evaluator would</b>. 
 </p>
 
@@ -84,10 +84,9 @@ done by humans, but human rankings are slow and costly to obtain, making
 them less feasible when comparisons are must be done frequently or between 
 large numbers of systems. Furthermore, as you saw in class, it is possible
 to use machine learning techniques to directly optimize machine translation 
-towards an objective function. If we could write a function that 
+towards an objective function. If we could devise a function that 
 correctly ranked systems, we could, in principle achieve better translation
-through optimization. Hence automatic evaluation has become a topic
-of intense study.
+through optimization. Hence automatic evaluation is a topic of intense study.
 </p>
 
 
@@ -110,7 +109,9 @@ a human translation and many machine translations of some German documents.
 The evaluator compares each machine translation to a human 
 <i>reference translation</i> sentence by sentence, computing how many words 
 they have in common. It then ranks the machine translation systems according 
-to the percentage of words that also appear in the reference.
+to the percentage of words that also appear in the reference. Note that while we
+collect statistics for each sentence, and the best system on each sentence
+will vary, the final ranking is at the system level.
 Run the evaluator on the development data using this command:</p>
 
 <p><tt>evaluate &gt; output</tt></p>
@@ -207,7 +208,7 @@ you can try anything you want as long as you follow the ground rules:
 <li> You must turn in three things:
   <ol class="real">
   <li>
-  Your rankings of the test dataset, uploaded to BASE_URL/assignment3.txt
+  Your ranking of the systems in the test dataset, uploaded to BASE_URL/assignment3.txt
   following the <a href="assignment0.html">Assignment 0 instructions</a>. 
   You can upload new output as often as you like. Your rankings will be
   evaluated using a hidden metric. However, the 
