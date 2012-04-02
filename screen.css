@@ -60,6 +60,10 @@ a[subtle="yes"] {
   color: black;
 }
 
+.small {
+  font-size: 75%;
+}
+
 .hidden-abstract, .unhidden-abstract {
   text-indent: 0pt;
   margin: 10pt;
