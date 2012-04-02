@@ -1,15 +1,17 @@
 ---
-title: Syntax-Based Language Models
-lecturer: Post
+title: Guest Lecture&colon; Translation without Parallel Corpora
+lecturer: Smith
 slides: false
 reading:
   -
-    author: Chelba and Jelinek
-    url: http://acl.ldc.upenn.edu/C/C98/C98-1035.pdf
-    title: Exploiting Syntactic Structure for Language Modeling
+    author: Munteanu and Marcu
+    title: Improving Machine Translation Performance by Exploiting Non-Parallel Corpora
+    url: http://aclweb.org/anthology-new/J/J05/J05-4003.pdf
+    optional: true
   -
-    author: Charniak et al.
-    url: http://www.isi.edu/natural-language/projects/rewrite/mtsummit03.pdf
-    title: Syntax-based language models for statistical machine translation
+    author: Smith et al.
+    title: Extracting Parallel Sentences from Comparable Corpora using Document Level Alignment
+    url: http://aclweb.org/anthology-new/N/N10/N10-1063.pdf
+    optional: true
 ---
 
