@@ -5,7 +5,7 @@ slides: true
 reading:
   -
     author: Zaidan and Callison-Burch
-    title: Crowdsourcing Translation: Professional Quality from Non-Professionals
+    title: Crowdsourcing Translation&colon; Professional Quality from Non-Professionals
     url: http://www.aclweb.org/anthology-new/P/P11/P11-1122.pdf
   -
     author: Oard et al.
