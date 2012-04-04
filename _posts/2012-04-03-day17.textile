@@ -1,7 +1,7 @@
 ---
-title: Creative Data Collection
+title: Creative Data Collection - Crowdsourcing Translation
 lecturer: Callison-Burch
-slides: false
+slides: true
 reading:
   -
     author: Oard et al.
