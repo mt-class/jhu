@@ -1,5 +1,5 @@
 ---
-title: Guest Lecture&colon; Translation without Parallel Corpora
+title: Guest Lecture&colon; Translation with Comparable Corpora
 lecturer: Smith
 slides: false
 reading:
