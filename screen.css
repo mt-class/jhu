@@ -24,6 +24,7 @@ td,th {
 
 th {
   background-color: lightgray;
+  text-align: center;
 }
 
 tr:nth-child(odd) {
