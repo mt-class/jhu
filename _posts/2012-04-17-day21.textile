@@ -1,7 +1,7 @@
 ---
 title: Representing Huge Translation Models
 lecturer: Lopez
-slides: false
+slides: true
 reading:
   -
     author: Callison-Burch et al.
