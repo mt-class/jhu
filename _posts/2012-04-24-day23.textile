@@ -2,6 +2,7 @@
 title: Morphology and Translation
 lecturer: Post
 slides: false
+reading:
   -
     author: Koehn and Knight
     url: http://www.aclweb.org/anthology/E03-1076.pdf
