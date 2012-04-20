@@ -2,5 +2,12 @@
 title: Morphology and Translation
 lecturer: Post
 slides: false
+  -
+    author: Koehn and Knight
+    url: http://www.aclweb.org/anthology/E03-1076.pdf
+    title: Empirical Methods for Compound Splitting
+  -
+    author: Koehn and Hoang
+    url: http://www.aclweb.org/anthology/D/D07/D07-1091
+    title: Factored Translation Models
 ---
-
