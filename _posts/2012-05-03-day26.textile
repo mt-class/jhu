@@ -1,6 +1,6 @@
 ---
-title: Domain Adaptation
-lecturer: 
+title: Course Wrap-up
+lecturer: All
 slides: false
 ---
 
