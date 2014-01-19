@@ -1,46 +1,58 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
 
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="assets/css/bootstrap-glyphicons.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/mt-class.css" rel="stylesheet">   
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 
     <!-- MathJax -->
     <script type="text/javascript"
       src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <!-- JavaScript plugins (requires jQuery) -->
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <a class="sr-only" href="#content">Skip to main content</a>
 
-    <header class="navbar navbar-default navbar-fixed-top">
+    <!-- Docs master nav -->
+    <header class="navbar navbar-fixed-top navbar-default" role="banner">
       <div class="container">
-      <ul class="nav nav-pills">
-        <li><a class="navbar-brand" href="index.html">Machine Translation</a></li>
-        <li><a href="syllabus.html">Syllabus</a></li>
-        <li>
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework <span class="caret"></span></a>
-          <ol class="dropdown-menu">
-            <li><a href="hw1.html">Alignment</a></li>
-            <li class="disabled"><a href="hw2.html">Decoding</a></li>
-            <li class="disabled"><a href="hw3.html">Reranking</a></li>
-            <li class="disabled"><a href="hw4.html">Evaluation</a></li>
-          </ol>
-        </li>
-        <li><a href="leaderboard.html">Leaderboard</a></li>
-        <li><a href="project.html">Final Project</a></li>
-        <li><a href="lin10.html">Language in 10 Minutes</a></li>
-      </ul>
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">Machine Translation</a>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li><a href="syllabus.html">Syllabus</a></li>
+            <li>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework <span class="caret"></span></a>
+              <ol class="dropdown-menu">
+                <li><a href="hw1.html">Alignment</a></li>
+                <li class="disabled"><a href="hw2.html">Decoding</a></li>
+                <li class="disabled"><a href="hw3.html">Reranking</a></li>
+                <li class="disabled"><a href="hw4.html">Evaluation</a></li>
+              </ol>
+            </li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <li><a href="project.html">Final Project</a></li>
+            <li><a href="lin10.html">Presentation</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
@@ -70,6 +82,13 @@
         <br/><br/>
       </footer>
     </div>
+
+    <!-- Page content of course! -->
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap.js"></script>
   </body>
 </html>
-
