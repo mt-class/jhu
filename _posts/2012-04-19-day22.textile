@@ -1,6 +1,0 @@
----
-title: Applications of Word Alignment
-lecturer: Weese
-slides: false
----
-

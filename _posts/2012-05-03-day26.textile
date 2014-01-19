@@ -1,6 +1,0 @@
----
-title: Course Wrap-up
-lecturer: All
-slides: false
----
-

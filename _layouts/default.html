@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <header class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+      <ul class="nav nav-pills">
+        <li><a class="navbar-brand" href="index.html">Machine Translation</a></li>
+        <li><a href="syllabus.html">Syllabus</a></li>
+        <li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework <span class="caret"></span></a>
+          <ol class="dropdown-menu">
+            <li><a href="hw1.html">Alignment</a></li>
+            <li class="disabled"><a href="hw2.html">Decoding</a></li>
+            <li class="disabled"><a href="hw3.html">Reranking</a></li>
+            <li class="disabled"><a href="hw4.html">Evaluation</a></li>
+          </ol>
+        </li>
+        <li><a href="leaderboard.html">Leaderboard</a></li>
+        <li><a href="project.html">Final Project</a></li>
+        <li><a href="lin10.html">Language in 10 Minutes</a></li>
+      </ul>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          {% if page.img_link %}<a href="{{ page.img_link }}">{% endif %} 
+          <img src="assets/img/{{ page.img }}.jpg" class="img-responsive img-rounded" alt="{{ page.picture }}"/>
+          {% if page.img_link %}</a>{% endif %} 
+          <span class="text-muted"><i>{{ page.caption }}</i></span>
+        </div>
+        <div class="col-sm-8">
+          {{ content }}
+        </div>
+      </div>
+
+      <footer class="text-center text-muted">
+        <hr/>
+        Last updated {{ site.time | date: "%B %d, %Y" }}.<br/>
+        Created with 
+        <a href="http://git-scm.com/">git</a>,
+        <a href="http://jekyllrb.com">jekyll</a>,
+        <a href="http://getbootstrap.com/">bootstrap</a>,
+        and <a href="http://www.vim.org/">vim</a>.<br/> 
+        Feel free to reuse the 
+        <a href="https://github.com/alopez/mt-class">source code</a>.<br/>
+        <br/><br/>
+      </footer>
+    </div>
+  </body>
+</html>
+
