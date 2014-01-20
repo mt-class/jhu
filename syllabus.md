@@ -24,10 +24,11 @@ Subject to change as the term progresses.
       </td>
       <td>
         {% if lecture.reading %}
-          <ul>
+          <ul class="fa-ul">
           {% for reading in lecture.reading %}
             <li>
-            {% if reading.optional %}<span class="glyphicon glyphicon-star"/> {% endif %}
+            {% if reading.optional %}<i class="fa-li fa fa-star"> </i>
+            {% else %}<i class="fa-li fa"> </i> {% endif %}
             {{ reading.author }},
             {% if reading.url %}
             <a href="{{ reading.url }}">{{ reading.title }}</a>
