@@ -1,7 +1,9 @@
 ---
 layout: default
-img: placeholder
+img: do_not_want
+img_link: http://winterson.com/2005/06/episode-iii-backstroke-of-west.html
 title: Syllabus
+active_tab: syllabus
 ---
 
 Subject to change as the term progresses.

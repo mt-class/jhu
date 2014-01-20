@@ -3,6 +3,7 @@ layout: default
 img: race
 img_link: http://www.flickr.com/photos/nationaalarchief/3198249977/
 title: Leaderboard
+active_tab: leaderboard
 ---
 
 This page contains the assignment leaderboard. 

@@ -4,6 +4,7 @@ img: rosetta
 img_url: http://www.flickr.com/photos/calotype46/6683293633/
 caption: Rosetta stone (credit&#59; calotype46)
 title: Homework 1 | Alignment
+active_tab: homework
 ---
 
 Alignment <span class="text-muted">Challenge Problem 1</span>
