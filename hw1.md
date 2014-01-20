@@ -72,12 +72,12 @@ It then aligns all pairs of words with a score over 0.5.
 Run the baseline heuristic model 1,000 sentences
 using the command:
 
-`align -n 1000 &gt; dice.a`
+`align -n 1000 > dice.a`
 
 This runs the aligner and stores the output in `dice.a`. To view and
 score the alignments, run this command:
 
-`grade &lt; dice.a`
+`grade < dice.a`
 
 This command scores the alignment quality by comparing the output alignments
 against a set of human alignment annotations using a metric called the 
