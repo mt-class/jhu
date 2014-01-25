@@ -25,6 +25,12 @@ Instructors
 :[Adam Lopez](http://www.cs.jhu.edu/~alopez/) and 
 [Matt Post](http://www.cs.jhu.edu/~post/)
 
+Course Assistant
+:Yuan Cao
+
+Discussion Forum
+:[Piazza](https://piazza.com/jhu/spring2014/en600468/home)
+
 Time and place
 :TuTh 1:30-2:45, Hackerman 320
 
