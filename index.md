@@ -22,30 +22,31 @@ language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
 Instructors
-:[Adam Lopez](http://www.cs.jhu.edu/~alopez/) and 
-[Matt Post](http://www.cs.jhu.edu/~post/)
+: [Adam Lopez](http://www.cs.jhu.edu/~alopez/) and 
+  [Matt Post](http://www.cs.jhu.edu/~post/)
 
 Course Assistant
-:Yuan Cao
+: Yuan Cao
 
 Discussion Forum
-:[Piazza](https://piazza.com/jhu/spring2014/en600468/home)
+: [Piazza](https://piazza.com/jhu/spring2014/en600468/home)
 
 Time and place
-:TuTh 1:30-2:45, Hackerman 320
+: TuTh 1:30-2:45, Hackerman 320
 
 Office hours
-:TBD
+: TBD
 
 Textbook
-:[Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
+: [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
 by <a href="http://homepages.inf.ed.ac.uk/pkoehn/">Philipp Koehn</a> 
 You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
 or purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>.
 
 Grading
-:To understand how machine translation works, you must build a translation system.
+: To understand how machine translation works, you must build a translation system.
 We will mainly grade hands-on work.
+
 * Five programming assignments (10% each)
 * Final project (40%)
 * In-class presentation: Language in ten minutes (10%)
