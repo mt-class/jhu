@@ -13,7 +13,7 @@ Subject to change as the term progresses.
     <tr>
       <th>Date</th>
       <th>Topic</th>
-      <th>Readings (<span class="glyphicon glyphicon-star"/>=graduate level)</th>
+      <th>Readings (<i class="fa-li fa fa-star"> </i>=graduate level)</th>
     </tr>
     {% for lecture in site.data.syllabus %}
     <tr>
