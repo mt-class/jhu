@@ -23,6 +23,7 @@ But you are ultimately responsible for the presentation.
 
 [Nizar Habash](http://www.nizarhabash.com/) inspired this assignment.
 For inspiration, check out:
+
 * [Examples from Nizar's class](https://sites.google.com/site/comse6998machinetranslation/language-in-10-minutes)
 * [Ethnologue](http://www.ethnologue.com/)
 * [Omniglot](http://www.omniglot.com/)
