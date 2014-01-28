@@ -57,7 +57,7 @@ Getting Started
 
 Run this command:
 
-    git clone https://github.com/alopez/en400.468.git
+    git clone https://github.com/alopez/en600.468.git
 
 In the `aligner` directory you will find a python program called
 `align`, which contains a complete but very simple alignment algorithm.
@@ -67,7 +67,7 @@ to be translations. Our aligner first computes the similarity of these sets  wit
 [Dice's coefficient](http://en.wikipedia.org/wiki/Dice's_coefficient/). Given
 sets $$X$$ and $$Y$$, Dice's coefficient is:
 
-$$\delta(X,Y) = \frac{2 \times |X \cap Y|}{|X| + |Y|}
+<p>$$\delta(X,Y) = \frac{2 \times |X \cap Y|}{|X| + |Y|}$$</p>
 
 For any two sets $$X$$ and $$Y$$, $$\delta(X,Y)$$ will be a number between
 0 and 1. The baseline aligner will align any word pair with a 
@@ -112,7 +112,8 @@ thes parameters come from? You will first learn them from the data using
 expectation maximization (EM), and then use them to align. EM attempts to
 maximize the *observed* data likelihood $$P({\bf e}|{\bf f})$$, which does not contain
 alignments. To do this, we marginalize over the alignment variable:
-$$P({\bf e}|{\bf f}) = \prod_i \sum_j P(a_i = j | |{\bf e}|)$$.
+
+<p>$$P({\bf e}|{\bf f}) = \prod_i \sum_j P(a_i = j | |{\bf e}|)$$</p>
 
 This problem can't be solved in closed form, but we can iteratively
 hill-climb on the likelihood by first fixing some parameters, computing
