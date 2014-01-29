@@ -4,32 +4,58 @@ img: race
 img_link: http://www.flickr.com/photos/nationaalarchief/3198249977/
 title: Leaderboard
 active_tab: leaderboard
+jquery: true
 ---
 
 <script type="text/javascript" src="http://jhumtclass.appspot.com/leaderboard.js"></script>
 
-This page contains the assignment leaderboard. 
+# Leaderboard
 
+<table class="table table-hover table-condensed">
+  <thead>
+    <tr>
+      <th>
+        Rank
+      </th>
+      <th>
+        Handle
+      </th>
+      <th valign="top">
+        <a href="hw0.html">#0</a>
+      </th>
+      <th valign="top">
+        <a href="hw1.html">#1</a>
+      </th>
+      <th valign="top">
+        <a href="hw2.html">#2</a>
+      </th>
+      <th valign="top">
+        <a href="hw3.html">#3</a>
+      </th>
+      <th valign="top">
+        <a href="hw4.html">#4</a>
+      </th>
+      <th valign="top">
+        <a href="hw5.html">#5</a>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
 
-_TODO: Fill in leaderboard code_
+<script type="text/javascript" src="leaderboard-code.js"></script>
 
-Legend
-------
-A value of -1 indicates that the assignment file was found but
-contained invalid content.
+<div class="panel panel-default">
+    <div class="panel-heading">Legend</div>
+    <div class="panel-body">
 
-The <span style="background-color: LightCoral">light coral</span>
-line is the default system; it is what you should get if you run
-the code that was provided for you.  The row highlighted
-with <span style="background-color: PaleGoldenRod">pale golden
-  rod</span> is the baseline you should strive to beat.  Typically,
-this line depicts the effort required to earn a B on the project.
-Additional points will be rewarded for beating the baseline by 
-a significant amount, and the most points will be awarded for placing
-at or near the top of the rankings.
+   <p>A value of -1 indicates that the assignment file was found but
+   contained invalid content.</p>
 
-The <span style="background-color: LimeGreen">oracle
-system</span> is a metric-aware composite of the best results
-from each student submission.  It is not possible to beat the
-oracle, but it gives you an idea of how much improvement there
-is for your system to find.
+   <p>The <span class="text-success">oracle (best possible)</span>, <span
+   class="text-danger">default</span> and 
+   <span class="text-warning">baseline (minimum performance for a B)</span> lines are
+   highlighted.
+  </div>
+</div>
