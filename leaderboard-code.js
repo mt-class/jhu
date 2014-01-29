@@ -10,7 +10,7 @@ for (i = 0; i < data.length; i++) {
     var user = data[i][0];
 
     rows += '<tr id="' + user + '">';
-    var prevscore = (i == 0) ? -1 : data[i-1][1+assNo];
+    var prevscore = (i == 0) ? -1 : data[i-1][1+assignment_number];
     var score = data[i][1+assignment_number];
     if (score != prevscore) {
         scoreranks[score] = i;
