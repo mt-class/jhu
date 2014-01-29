@@ -7,9 +7,9 @@ active_tab: leaderboard
 jquery: true
 ---
 
-<script type="text/javascript" src="http://jhumtclass.appspot.com/leaderboard.js"></script>
+Submit your assignments [here](http://jhumtclass.appspot.com). Results will be updated immediately.
 
-# Leaderboard
+<script type="text/javascript" src="http://jhumtclass.appspot.com/leaderboard.js"></script>
 
 <table class="table table-hover table-condensed">
   <thead>
