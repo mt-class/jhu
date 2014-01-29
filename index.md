@@ -21,6 +21,12 @@ machine learning, algorithms, data structures, and formal
 language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
+<div class="alert alert-info" markdown="span">
+  [Homework 1](hw1.html) is posted.
+  The implementation is due on February 17, at 6pm.
+  The writeup is due February 18 in class.
+</div>
+
 Instructors
 : [Adam Lopez](http://www.cs.jhu.edu/~alopez/) and 
   [Matt Post](http://www.cs.jhu.edu/~post/)

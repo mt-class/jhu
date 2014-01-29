@@ -7,6 +7,11 @@ title: Homework 1 | Alignment
 active_tab: homework
 ---
 
+<div class="alert alert-info">
+  Implementation due February 17, at 6pm.
+  Writeup due February 18 in class.
+</div>
+
 Alignment <span class="text-muted">Challenge Problem 1</span>
 =============================================================
 
@@ -55,7 +60,8 @@ does not capture every nuance, but it is still very useful.
 Getting Started
 ---------------
 
-Run this command:
+You must have git and python (2.7) on your system to run the assignments.
+Once you've confirmed this, run this command:
 
     git clone https://github.com/alopez/en600.468.git
 
@@ -73,11 +79,11 @@ For any two sets $$X$$ and $$Y$$, $$\delta(X,Y)$$ will be a number between
 0 and 1. The baseline aligner will align any word pair with a 
 coefficient over 0.5. Run it on 1000 sentences:
 
-    ./align -n 1000 > dice.a
+    python align -n 1000 > dice.a
 
 This command stores the output in `dice.a`. To compute accuracy, run:
 
-    ./score-alignments < dice.a
+    python score-alignments < dice.a
 
 This compares the alignments against human-produced alignments, computing 
 [alignment error rate](http://aclweb.org/anthology-new/P/P00/P00-1056.pdf), 
@@ -85,7 +91,7 @@ which balances precision and recall. It will also show you the comparison
 in a grid. Look at the terrible output of this heuristic method -- it's 
 better than chance, but not any good. Try training on 10,000 sentences:
 
-    ./align -n 10000 | ./score-alignments 
+    python align -n 10000 | python score-alignments 
 
 Performance should improve, but only slightly! Try changing the
 threshold for alignment. How does this affect alignment error rate?
