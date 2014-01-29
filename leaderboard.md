@@ -6,7 +6,10 @@ title: Leaderboard
 active_tab: leaderboard
 ---
 
+<script type="text/javascript" src="http://jhumtclass.appspot.com/leaderboard.js"></script>
+
 This page contains the assignment leaderboard. 
+
 
 _TODO: Fill in leaderboard code_
 
