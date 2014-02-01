@@ -165,13 +165,17 @@ Ground Rules
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
 * You must turn in three things:
-  1. An alignment of the entire dataset, uploaded to BASE_URL/assignment1.txt
-     following the <a href="assignment0.html">Assignment 0 instructions</a>. You can upload new output as often
+  1. An alignment of the entire dataset, uploaded to the [leaderboard submission site](jhumtclass.appspot.com) according to <a href="assignment0.html">the Assignment 0 instructions</a>. You can upload new output as often
      as you like, up until the assignment deadline. The output will be evaluated 
      using a secret metric, but the `grade` program will give you a good
      idea of how well you're doing, and you can use the `check` program
      to see whether your output is formatted correctly. Whoever has
      the highest score at the deadline will receive the most bonus points.
+
+     *Note*. The upload site will reject files larger than 1 MB, so please reduce your file to only the first 1,000 lines before uploading, e.g.,
+
+          python align | head -n1000 > output.txt
+
   1. Your code. Send us a URL from which we can get the code and git revision
      history (a link to a tarball will suffice, but you're free to send us a 
      github link if you don't mind making your code public). This is due at the
