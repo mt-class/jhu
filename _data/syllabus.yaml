@@ -33,13 +33,6 @@
       title: chapters 2 and 7 
 -
   date: 2014-02-04
-  title: Probability and Language Models 
-  reading:
-    -
-      author: Koehn 
-      title: chapters 2 and 7 
--
-  date: 2014-02-06
   title: Learning Translation Models&colon; Word Alignment
   reading:
     -
@@ -59,7 +52,7 @@
       url: http://aclweb.org/anthology-new/J/J90/J90-2002.pdf
       optional: true
 -
-  date: 2014-02-11
+  date: 2014-02-06
   title: Learning Better Translation Models
   reading:
     -
@@ -81,7 +74,7 @@
       url: http://aclweb.org/anthology-new/N/N06/N06-1014.pdf
       optional: true
 -
-  date: 2014-02-13
+  date: 2014-02-11
   title: Decoding&colon; Predicting Translations
   reading:
     -
@@ -93,7 +86,7 @@
       url: http://aclweb.org/anthology-new/P/P01/P01-1030.pdf
       optional: true
 -
-  date: 2014-02-18
+  date: 2014-02-13
   title: Decoding continued
   reading:
     -
@@ -102,7 +95,7 @@
       url: http://aclweb.org/anthology-new/J/J99/J99-4005.pdf
       optional: true
 -
-  date: 2014-02-20
+  date: 2014-02-18
   title: Phrase-based Models
   reading:
     -
@@ -124,7 +117,7 @@
       title: Sampling Alignment Structure under a Bayesian Translation Model
       optional: true
 -
-  date: 2014-02-25
+  date: 2014-02-20
   title: Evaluating Translation Systems
   reading:
     -
@@ -141,14 +134,14 @@
       url: http://aclweb.org/anthology-new/E/E06/E06-1032.pdf
       optional: true
 -
-  date: 2014-02-27
+  date: 2014-02-25
   title: Feature-Based Models
   reading:
     -
       author: Koehn
       title: chapter 9
 -
-  date: 2014-03-04
+  date: 2014-02-27
   title: Loss-Sensitive Training of Feature-Based Models
   reading:
     -
@@ -162,7 +155,7 @@
       title: Tuning as Ranking
       optional: true
 -
-  date: 2014-03-06
+  date: 2014-03-04
   title: Weighted Automata
   reading:
     -
@@ -171,7 +164,7 @@
       title: Finite-State Transducers in Language and Speech Processing
       optional: true
 -
-  date: 2014-03-11
+  date: 2014-03-06
   title: Modeling Translation with Weighted Automata
   reading:
     -
@@ -184,7 +177,7 @@
       title: A weighted finite state transducer translation template model for statistical machine translation
       optional: true
 -
-  date: 2014-03-13
+  date: 2014-03-11
   title: Syntax-based Translation Part 1&colon; Reordering for Phrase-Based Translation
   reading:
     -
@@ -201,7 +194,7 @@
       url: http://aclweb.org/anthology-new/J/J97/J97-3002.pdf
       optional: true
 -
-  date: 2014-03-25
+  date: 2014-03-13
   title: Syntax-Based Translation Part 2&colon; Synchronous Grammars
   reading:
     -
@@ -218,7 +211,7 @@
       url: http://aclweb.org/anthology-new/N/N04/N04-1035.pdf
       optional: true
 -
-  date: 2014-03-27
+  date: 2014-03-25
   title: Syntax-Based Decoding
   reading:
     -
@@ -226,7 +219,7 @@
       url: http://aclweb.org/anthology-new/J/J07/J07-2003.pdf
       title: Hierarchical Phrase-based Translation
 -
-  date: 2014-04-01
+  date: 2014-03-27
   title: Syntax-Based Decoding with Weighted Automata
   reading:
     -
@@ -240,7 +233,7 @@
       url: http://aclweb.org/anthology-new/D/D11/D11-1127.pdf
       optional: true
 -
-  date: 2014-04-03
+  date: 2014-04-01
   title: Creative Data Collection&colon; Crowdsourcing Translation
   reading:
     -
@@ -253,7 +246,7 @@
       url: http://aclweb.org/anthology-new/N/N03/N03-2026.pdf
       optional: true
 -
-  date: 2014-04-08
+  date: 2014-04-03
   title: More Data Collection&colon; Harvesting Translations from the Web
   reading:
     -
@@ -271,7 +264,7 @@
       url: http://www.aclweb.org/anthology-new/D/D11/D11-1126.pdf
       optional: true
 -
-  date: 2014-04-10
+  date: 2014-04-08
   title: Guest Lecture&colon; Translation with Comparable Corpora
   reading:
     -
@@ -285,7 +278,7 @@
       url: http://aclweb.org/anthology-new/N/N10/N10-1063.pdf
       optional: true
 -
-  date: 2014-04-15
+  date: 2014-04-10
   title: Syntax-Based Language Models
   reading:
     -
@@ -297,7 +290,7 @@
       url: http://www.isi.edu/natural-language/projects/rewrite/mtsummit03.pdf
       title: Syntax-based language models for statistical machine translation
 -
-  date: 2014-04-17
+  date: 2014-04-15
   title: Representing Huge Translation Models
   reading:
     -
@@ -309,10 +302,10 @@
       title: Hierarchical Phrase-Based Translation with Sufﬁx Arrays
       url: http://aclweb.org/anthology-new/D/D07/D07-1104.pdf
 -
-  date: 2014-04-22
+  date: 2014-04-17
   title: Applications of Word Alignment
 -
-  date: 2014-04-24
+  date: 2014-04-22
   title: Morphology and Translation
   reading:
     -
@@ -324,7 +317,7 @@
       url: http://www.aclweb.org/anthology/D/D07/D07-1091
       title: Factored Translation Models
 -
-  date: 2014-04-29
+  date: 2014-04-24
   title: Representing Huge Language Models
   reading:
     -
@@ -336,11 +329,13 @@
       title: Randomized Language Models via Perfect Hash Functions
       url: http://aclweb.org/anthology-new/P/P08/P08-1058.pdf
 -
-  date: 2014-05-01
+  date: 2014-04-29
   title: Paraphrasing
   reading:
     -
       author: Callison-Burch et al.
       title: Improved Statistical Machine Translation Using Paraphrases
       url: http://aclweb.org/anthology-new/N/N06/N06-1003.pdf
-
+-
+  date: 2014-05-01
+  title: TBD
