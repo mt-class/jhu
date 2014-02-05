@@ -20,16 +20,17 @@ for (i = 0; i < data.length; i++) {
     }
 
     var rank = scoreranks[score];
-    
-    for (j = 0; j < data[i].length; j++)
-        rows += '<td>' + data[i][j] + '</td>';
+
+    rows += '<td>' + data[i][0] + '</td>';    
+    for (j = 1; j < data[i].length; j++)
+        rows += '<td class="score">' + data[i][j] + '</td>';
     for (j = data[i].length; j < max_assignment_number + 2; j++)
         rows += '<td></td>';
     rows += "</tr>";
 }
 
 $('tbody:last').append(rows);
-
+$("td.score").addClass("text-right");
 $("#baseline").addClass('warning');
 $("#default").addClass('danger');
 $("#oracle").addClass('success');

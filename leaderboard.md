@@ -20,22 +20,22 @@ Submit your assignments [here](http://jhumtclass.appspot.com). Results will be u
       <th>
         Handle
       </th>
-      <th valign="top">
-        <a href="hw0.html">#0</a>
+      <th class="text-center">
+        <a href="hw0.html">#0</a><br/><span class="small text-muted">Scalar (% N)</span>
       </th>
-      <th valign="top">
-        <a href="hw1.html">#1</a>
+      <th class="text-center">
+        <a href="hw1.html">#1</a><br/><span class="small text-muted">Alignment (1-AER)</span>
       </th>
-      <th valign="top">
+      <th class="text-center">
         <a href="hw2.html">#2</a>
       </th>
-      <th valign="top">
+      <th class="text-center">
         <a href="hw3.html">#3</a>
       </th>
-      <th valign="top">
+      <th class="text-center">
         <a href="hw4.html">#4</a>
       </th>
-      <th valign="top">
+      <th class="text-center">
         <a href="hw5.html">#5</a>
       </th>
     </tr>
