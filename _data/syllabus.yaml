@@ -55,6 +55,8 @@
 -
   date: 2014-02-06
   title: Learning Better Translation Models
+  language: German
+  language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-06-german.pdf
   reading:
     -
       author: Koehn 

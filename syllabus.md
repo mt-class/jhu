@@ -21,6 +21,9 @@ Subject to change as the term progresses.
       <td>
         {% if lecture.slides %}<a href="{{ lecture.slides }}">{{ lecture.title }}</a>
         {% else %}{{ lecture.title }}{% endif %}
+	{% if lecture.language %}
+	<br/><a href="lin10.html">Language in 10</a>: <a href="{{ lecture.language_slides }}">{{ lecture.language }}</a>
+        {% endif %}
       </td>
       <td>
         {% if lecture.reading %}
