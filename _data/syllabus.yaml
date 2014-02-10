@@ -79,20 +79,35 @@
       optional: true
 -
   date: 2014-02-11
-  title: Decoding&colon; Predicting Translations
+  title: Phrase-based alignment models
   reading:
     -
       author: Koehn 
-      title: chapter 6
+      title: chapter 5.1, 5.2, 5.5
+    -
+      author: Marcu and Wong
+      url: http://www.aclweb.org/anthology-new/W/W02/W02-1018.pdf
+      title: A Phrase-Based, Joint Probability Model for Statistical Machine Translation
+      optional: true
+    -
+      author: Blunsom &amp; Cohn
+      url: http://www.aclweb.org/anthology/P06-1009.pdf
+      title: Discriminative Word Alignment with Conditional Random Fields
+      optional: true
+    -
+      author: DeNero et al.
+      url: http://aclweb.org/anthology-new/D/D08/D08-1033.pdf
+      title: Sampling Alignment Structure under a Bayesian Translation Model
+      optional: true
+-
+  date: 2014-02-13
+  title: Decoding
+  reading:
     -
       author: Germann et al.
       title: Fast Decoding and Optimal Decoding for Machine Translation
       url: http://aclweb.org/anthology-new/P/P01/P01-1030.pdf
       optional: true
--
-  date: 2014-02-13
-  title: Decoding continued
-  reading:
     -
       author: Knight
       title: Decoding Complexity in Word-Replacement Translation Models
@@ -100,25 +115,15 @@
       optional: true
 -
   date: 2014-02-18
-  title: Phrase-based Models
+  title: Decoding with Phrase-based Models
   reading:
     -
       author: Koehn 
-      title: sections 5.1-5.2
+      title: sections 5.3--5.4
     -
       author: Koehn et al.
       url: http://aclweb.org/anthology-new/N/N03/N03-1017.pdf
       title: Statistical Phrase-Based Translation
-      optional: true
-    -
-      author: Marcu and Wong
-      url: http://www.aclweb.org/anthology-new/W/W02/W02-1018.pdf
-      title: A Phrase-Based, Joint Probability Model for Statistical Machine Translation
-      optional: true
-    -
-      author: DeNero et al.
-      url: http://aclweb.org/anthology-new/D/D08/D08-1033.pdf
-      title: Sampling Alignment Structure under a Bayesian Translation Model
       optional: true
 -
   date: 2014-02-20
