@@ -24,7 +24,7 @@ Submit your assignments [here](http://jhumtclass.appspot.com). Results will be u
         <a href="hw0.html">#0</a><br/><span class="small text-muted">Scalar (% N)</span>
       </th>
       <th class="text-center">
-        <a href="hw1.html">#1</a><br/><span class="small text-muted">Alignment (1-AER)</span>
+        <a href="hw1.html">#1</a><br/><span class="small text-muted">Alignment (AER)</span>
       </th>
       <th class="text-center">
         <a href="hw2.html">#2</a>
