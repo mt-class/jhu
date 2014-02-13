@@ -21,7 +21,9 @@ for (i = 0; i < data.length; i++) {
 
     var rank = scoreranks[score];
 
-    rows += '<td>' + data[i][0] + '</td>';    
+    if (hidden_users[user])
+      user = "<i><strike>" + user + "</strike> (hidden)</i>";
+    rows += '<td>' + user + '</td>';
     for (j = 1; j < data[i].length; j++)
         rows += '<td class="score">' + data[i][j] + '</td>';
     for (j = data[i].length; j < max_assignment_number + 2; j++)
