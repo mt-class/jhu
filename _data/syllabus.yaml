@@ -80,6 +80,7 @@
 -
   date: 2014-02-11
   title: Phrase-based alignment models
+  slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-02-11.pdf
   reading:
     -
       author: Koehn 
@@ -88,11 +89,6 @@
       author: Marcu and Wong
       url: http://www.aclweb.org/anthology-new/W/W02/W02-1018.pdf
       title: A Phrase-Based, Joint Probability Model for Statistical Machine Translation
-      optional: true
-    -
-      author: Blunsom &amp; Cohn
-      url: http://www.aclweb.org/anthology/P06-1009.pdf
-      title: Discriminative Word Alignment with Conditional Random Fields
       optional: true
     -
       author: DeNero et al.
