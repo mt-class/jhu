@@ -186,7 +186,7 @@ Ground Rules
   1. A clear, mathematical description of your algorithm and its motivation
      written in scientific style. This needn't be long, but it should be
      clear enough that one of your fellow students could re-implement it 
-     exactly. We will review examples in class before the due date.
+     exactly. [We will review examples in class before the due date](hw-writing-exercise.html).
 * You may only use data or code resources other than the ones we
   provide _with advance permission_. We will ask you to make 
   your resources available to everyone. If you have a cool idea 
