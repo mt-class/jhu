@@ -1,7 +1,7 @@
 ---
 layout: default
 img: vermeer-writing 
-img_url: http://en.wikipedia.org/wiki/A_Lady_Writing_a_Letter
+img_link: http://en.wikipedia.org/wiki/A_Lady_Writing_a_Letter
 title: Writing Exercise
 active_tab: homework
 ---
