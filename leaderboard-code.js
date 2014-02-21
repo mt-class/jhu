@@ -27,9 +27,9 @@ for (i = 0; i < data.length; i++) {
       rows += '<td>' + user
     if (names[user])
       rows += ' (' + names[user] + ')';
-    rows += '</td>';
+    rows = rows + '</td>';
     for (j = 1; j < data[i].length; j++)
-        rows += '<td class="score">' + data[i][j] + '</td>';
+        rows = rows + '<td class="score">' + data[i][j] + '</td>';
     for (j = data[i].length; j < max_assignment_number + 2; j++)
         rows += '<td></td>';
     rows += "</tr>";

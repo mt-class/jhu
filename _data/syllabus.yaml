@@ -111,7 +111,9 @@
       optional: true
 -
   date: 2014-02-18
-  title: Decoding with Phrase-based Models
+  title: In-class writing exercise
+  language: Polari
+  language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-18-polari.pdf
   reading:
     -
       author: Koehn 
