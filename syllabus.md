@@ -15,7 +15,7 @@ Subject to change as the term progresses.
       <th>Topic</th>
       <th>Readings (starred=graduate level)</th>
     </tr>
-    {% for lecture in site.data.syllabus %}
+    {% for lecture in site.data.syllabus.past %}
     <tr>
       <td>{{ lecture.date | date: "%b %d" }}</td>
       <td>

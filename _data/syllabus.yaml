@@ -1,348 +1,356 @@
--
-  date: 2014-01-28
-  title: Introduction
-  lecturer: All
-  slides: http://www.slideshare.net/alopezfoo/jhu-mt-lecture2014012 
-  reading:
-    -
-      author: Koehn 
-      title: chapter 1
-    -
-      author: Knight
-      title:  Automating Knowledge Acquisition for Machine Translation
-      url: http://www.isi.edu/natural-language/mt/aimag97.pdf
-      optional: true
-    -
-      author: Weaver
-      title: Translation
-      url: http://www.mt-archive.info/Weaver-1949.pdf
-      optional: true
-    -
-      author: Kay
-      title: Translation
-      url: http://www.stanford.edu/~mjkay/CurrentState.pdf
-      optional: true
--
-  date: 2014-01-30
-  title: Probability and Language Models 
-  slides: http://www.slideshare.net/alopezfoo/jhu-mt-lecture20140130
-  lecturer: Lopez 
-  reading:
-    -
-      author: Koehn 
-      title: chapters 2 and 7 
--
-  date: 2014-02-04
-  title: Learning Translation Models&colon; Word Alignment
-  slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-02-04.pdf
-  reading:
-    -
-      author: Koehn 
-      title: chapter 3
-    -
-      author: Knight
-      title: A Tutorial MT Workbook
-      url: http://www.isi.edu/natural-language/mt/wkbk.rtf
-    -
-      author: Collins
-      title: Statistical Machine Translation&colon; IBM Models 1 and 2
-      url: http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/ibm12.pdf
-    -
-      author: Brown et al.
-      title: A Statistical Approach to Machine Translation
-      url: http://aclweb.org/anthology-new/J/J90/J90-2002.pdf
-      optional: true
--
-  date: 2014-02-06
-  title: Learning Better Translation Models
-  slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-02-06.pdf
-  language: German
-  language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-06-german.pdf
-  reading:
-    -
-      author: Koehn 
-      title: chapter 4
-    -
-      author: Brown et al.
-      title: The Mathematics of Statical Machine Translation&colon; Parameter Estimation
-      url: http://aclweb.org/anthology-new/J/J93/J93-2003.pdf
-      optional: true
-    -
-      author: Vogel and Ney
-      title: HMM-based word alignment in statistical translation
-      url: http://aclweb.org/anthology-new/C/C96/C96-2141.pdf
-      optional: true
-    -
-      author: Liang et al.
-      title: Alignment by Agreement
-      url: http://aclweb.org/anthology-new/N/N06/N06-1014.pdf
-      optional: true
--
-  date: 2014-02-11
-  title: Phrase-based alignment models
-  slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-02-11.pdf
-  reading:
-    -
-      author: Koehn 
-      title: chapter 5.1, 5.2, 5.5
-    -
-      author: Marcu and Wong
-      url: http://www.aclweb.org/anthology-new/W/W02/W02-1018.pdf
-      title: A Phrase-Based, Joint Probability Model for Statistical Machine Translation
-      optional: true
-    -
-      author: DeNero et al.
-      url: http://aclweb.org/anthology-new/D/D08/D08-1033.pdf
-      title: Sampling Alignment Structure under a Bayesian Translation Model
-      optional: true
--
-  date: 2014-02-13
-  title: Decoding
-  reading:
-    -
-      author: Germann et al.
-      title: Fast Decoding and Optimal Decoding for Machine Translation
-      url: http://aclweb.org/anthology-new/P/P01/P01-1030.pdf
-      optional: true
-    -
-      author: Knight
-      title: Decoding Complexity in Word-Replacement Translation Models
-      url: http://aclweb.org/anthology-new/J/J99/J99-4005.pdf
-      optional: true
--
-  date: 2014-02-18
-  title: In-class writing exercise
-  language: Polari
-  language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-18-polari.pdf
-  reading:
-    -
-      author: Koehn 
-      title: sections 5.3--5.4
-    -
-      author: Koehn et al.
-      url: http://aclweb.org/anthology-new/N/N03/N03-1017.pdf
-      title: Statistical Phrase-Based Translation
-      optional: true
--
-  date: 2014-02-20
-  title: Evaluating Translation Systems
-  reading:
-    -
-      author: Koehn 
-      title: chapter 8
-    -
-      author: Papineni et al.
-      url: http://aclweb.org/anthology-new/P/P02/P02-1040.pdf
-      title: Bleu&colon; a Method for Automatic Evaluation of Machine Translation
-      optional: true
-    -
-      author: Callison-Burch et al.
-      title: Re-Evaluating the Role of BLEU in Machine Translation Research
-      url: http://aclweb.org/anthology-new/E/E06/E06-1032.pdf
-      optional: true
--
-  date: 2014-02-25
-  title: Feature-Based Models
-  reading:
-    -
-      author: Koehn
-      title: chapter 9
--
-  date: 2014-02-27
-  title: Loss-Sensitive Training of Feature-Based Models
-  reading:
-    -
-      author: Och
-      url: http://aclweb.org/anthology-new/P/P03/P03-1021.pdf
-      title: Minimum Error Rate Training in Statistical Machine Translation
-      optional: true
-    -
-      author: Hopkins and May
-      url: http://aclweb.org/anthology-new/D/D11/D11-1125.pdf
-      title: Tuning as Ranking
-      optional: true
--
-  date: 2014-03-04
-  title: Weighted Automata
-  reading:
-    -
-      author: Mohri
-      url: http://www.cs.nyu.edu/~mohri/pub/cl1.pdf
-      title: Finite-State Transducers in Language and Speech Processing
-      optional: true
--
-  date: 2014-03-06
-  title: Modeling Translation with Weighted Automata
-  reading:
-    -
-      author: Knight and Al-Onaizan
-      url: http://www.isi.edu/natural-language/mt/mt-wfst.ps
-      title: Translation with Finite-State Devices
-    -
-      author: Kumar et al.
-      url: http://mi.eng.cam.ac.uk/~wjb31/ppubs/ttmjnle.pdf
-      title: A weighted finite state transducer translation template model for statistical machine translation
-      optional: true
--
-  date: 2014-03-11
-  title: Syntax-based Translation Part 1&colon; Reordering for Phrase-Based Translation
-  reading:
-    -
-      author: Collins et al.
-      title: Clause Restructuring for Statistical Machine Translation
-      url: http://aclweb.org/anthology-new/P/P05/P05-1066.pdf
-    -
-      author: Chiang
-      title: An Introduction to Synchronous Grammars
-      url: http://isi.edu/~chiang/papers/synchtut.pdf
-    -
-      author: Wu
-      title: Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora
-      url: http://aclweb.org/anthology-new/J/J97/J97-3002.pdf
-      optional: true
--
-  date: 2014-03-13
-  title: Syntax-Based Translation Part 2&colon; Synchronous Grammars
-  reading:
-    -
-      author: Yamada and Knight
-      title: Syntax-based Statistical Machine Translation
-      url: http://aclweb.org/anthology-new/P/P01/P01-1067.pdf
-    -
-      author: Heidi Fox
-      title: Phrasal Cohesion and Statistical Machine Translation
-      url: http://www.aclweb.org/anthology-new/W/W02/W02-1039.pdf
-    -
-      author: Galley et al.
-      title: What&rsquo;s in a Translation Rule?
-      url: http://aclweb.org/anthology-new/N/N04/N04-1035.pdf
-      optional: true
--
-  date: 2014-03-25
-  title: Syntax-Based Decoding
-  reading:
-    -
-      author: Chiang
-      url: http://aclweb.org/anthology-new/J/J07/J07-2003.pdf
-      title: Hierarchical Phrase-based Translation
--
-  date: 2014-03-27
-  title: Syntax-Based Decoding with Weighted Automata
-  reading:
-    -
-      author: Iglesias et al.
-      title: Hierarchical Phrase-Based Translation with Weighted Finite State Transducers
-      url: http://aclweb.org/anthology-new/N/N09/N09-1049.pdf
-      optional: true
-    -
-      author: Iglesias et al.
-      title: Hierarchical Phrase-Based Translation Representations
-      url: http://aclweb.org/anthology-new/D/D11/D11-1127.pdf
-      optional: true
--
-  date: 2014-04-01
-  title: Creative Data Collection&colon; Crowdsourcing Translation
-  reading:
-    -
-      author: Zaidan and Callison-Burch
-      title: Crowdsourcing Translation&colon; Professional Quality from Non-Professionals
-      url: http://www.aclweb.org/anthology-new/P/P11/P11-1122.pdf
-    -
-      author: Oard et al.
-      title: Desperately Seeking Cebuano
-      url: http://aclweb.org/anthology-new/N/N03/N03-2026.pdf
-      optional: true
--
-  date: 2014-04-03
-  title: More Data Collection&colon; Harvesting Translations from the Web
-  reading:
-    -
-      author: Uszkoreit et al
-      title: Large Scale Parallel Document Mining for Machine Translation
-      url: http://www.aclweb.org/anthology/C/C10/C10-1124.pdf
-    -
-      author: Smith and Resnik
-      title: The Web As A Parallel Corpus
-      url: http://www.aclweb.org/anthology-new/J/J03/J03-3002.pdf
-      optional: true
-    -
-      author: Venugopal et al.
-      title: Watermarking the Outputs of Structured Prediction with an application in Statistical Machine Translation
-      url: http://www.aclweb.org/anthology-new/D/D11/D11-1126.pdf
-      optional: true
--
-  date: 2014-04-08
-  title: Guest Lecture&colon; Translation with Comparable Corpora
-  reading:
-    -
-      author: Munteanu and Marcu
-      title: Improving Machine Translation Performance by Exploiting Non-Parallel Corpora
-      url: http://aclweb.org/anthology-new/J/J05/J05-4003.pdf
-      optional: true
-    -
-      author: Smith et al.
-      title: Extracting Parallel Sentences from Comparable Corpora using Document Level Alignment
-      url: http://aclweb.org/anthology-new/N/N10/N10-1063.pdf
-      optional: true
--
-  date: 2014-04-10
-  title: Syntax-Based Language Models
-  reading:
-    -
-      author: Chelba and Jelinek
-      url: http://acl.ldc.upenn.edu/C/C98/C98-1035.pdf
-      title: Exploiting Syntactic Structure for Language Modeling
-    -
-      author: Charniak et al.
-      url: http://www.isi.edu/natural-language/projects/rewrite/mtsummit03.pdf
-      title: Syntax-based language models for statistical machine translation
--
-  date: 2014-04-15
-  title: Representing Huge Translation Models
-  reading:
-    -
-      author: Callison-Burch et al.
-      title: Scaling Phrase-Based Statistical Machine Translation to Larger Corpora and Longer Phrases
-      url: http://aclweb.org/anthology-new/P/P05/P05-1032.pdf
-    -
-      author: Lopez 
-      title: Hierarchical Phrase-Based Translation with Sufﬁx Arrays
-      url: http://aclweb.org/anthology-new/D/D07/D07-1104.pdf
--
-  date: 2014-04-17
-  title: Applications of Word Alignment
--
-  date: 2014-04-22
-  title: Morphology and Translation
-  reading:
-    -
-      author: Koehn and Knight
-      url: http://www.aclweb.org/anthology/E03-1076.pdf
-      title: Empirical Methods for Compound Splitting
-    -
-      author: Koehn and Hoang
-      url: http://www.aclweb.org/anthology/D/D07/D07-1091
-      title: Factored Translation Models
--
-  date: 2014-04-24
-  title: Representing Huge Language Models
-  reading:
-    -
-      author: Brants et al.
-      title: Large Language Models in Machine Translation
-      url: http://aclweb.org/anthology-new/D/D07/D07-1090.pdf
-    -
-      author: Talbot and Brants
-      title: Randomized Language Models via Perfect Hash Functions
-      url: http://aclweb.org/anthology-new/P/P08/P08-1058.pdf
--
-  date: 2014-04-29
-  title: Paraphrasing
-  reading:
-    -
-      author: Callison-Burch et al.
-      title: Improved Statistical Machine Translation Using Paraphrases
-      url: http://aclweb.org/anthology-new/N/N06/N06-1003.pdf
--
-  date: 2014-05-01
-  title: TBD
+past:
+  -
+    date: 2014-01-28
+    title: Introduction
+    lecturer: All
+    slides: http://www.slideshare.net/alopezfoo/jhu-mt-lecture2014012 
+    reading:
+      -
+        author: Koehn 
+        title: chapter 1
+      -
+        author: Knight
+        title:  Automating Knowledge Acquisition for Machine Translation
+        url: http://www.isi.edu/natural-language/mt/aimag97.pdf
+        optional: true
+      -
+        author: Weaver
+        title: Translation
+        url: http://www.mt-archive.info/Weaver-1949.pdf
+        optional: true
+      -
+        author: Kay
+        title: Translation
+        url: http://www.stanford.edu/~mjkay/CurrentState.pdf
+        optional: true
+  -
+    date: 2014-01-30
+    title: Probability and Language Models 
+    slides: http://www.slideshare.net/alopezfoo/jhu-mt-lecture20140130
+    lecturer: Lopez 
+    reading:
+      -
+        author: Koehn 
+        title: chapters 2 and 7 
+  -
+    date: 2014-02-04
+    title: Learning Translation Models&colon; Word Alignment
+    slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-02-04.pdf
+    reading:
+      -
+        author: Koehn 
+        title: chapter 3
+      -
+        author: Knight
+        title: A Tutorial MT Workbook
+        url: http://www.isi.edu/natural-language/mt/wkbk.rtf
+      -
+        author: Collins
+        title: Statistical Machine Translation&colon; IBM Models 1 and 2
+        url: http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/ibm12.pdf
+      -
+        author: Brown et al.
+        title: A Statistical Approach to Machine Translation
+        url: http://aclweb.org/anthology-new/J/J90/J90-2002.pdf
+        optional: true
+  -
+    date: 2014-02-06
+    title: Learning Better Translation Models
+    slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-02-06.pdf
+    language: German
+    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-06-german.pdf
+    reading:
+      -
+        author: Koehn 
+        title: chapter 4
+      -
+        author: Brown et al.
+        title: The Mathematics of Statical Machine Translation&colon; Parameter Estimation
+        url: http://aclweb.org/anthology-new/J/J93/J93-2003.pdf
+        optional: true
+      -
+        author: Vogel and Ney
+        title: HMM-based word alignment in statistical translation
+        url: http://aclweb.org/anthology-new/C/C96/C96-2141.pdf
+        optional: true
+      -
+        author: Liang et al.
+        title: Alignment by Agreement
+        url: http://aclweb.org/anthology-new/N/N06/N06-1014.pdf
+        optional: true
+  -
+    date: 2014-02-11
+    title: Phrase-based alignment models
+    slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-02-11.pdf
+    reading:
+      -
+        author: Koehn 
+        title: chapter 5.1, 5.2, 5.5
+      -
+        author: Marcu and Wong
+        url: http://www.aclweb.org/anthology-new/W/W02/W02-1018.pdf
+        title: A Phrase-Based, Joint Probability Model for Statistical Machine Translation
+        optional: true
+      -
+        author: DeNero et al.
+        url: http://aclweb.org/anthology-new/D/D08/D08-1033.pdf
+        title: Sampling Alignment Structure under a Bayesian Translation Model
+        optional: true
+  -
+    date: 2014-02-13
+    title: Snow day
+    reading:
+      -
+        author: Germann et al.
+        title: Fast Decoding and Optimal Decoding for Machine Translation
+        url: http://aclweb.org/anthology-new/P/P01/P01-1030.pdf
+        optional: true
+      -
+        author: Knight
+        title: Decoding Complexity in Word-Replacement Translation Models
+        url: http://aclweb.org/anthology-new/J/J99/J99-4005.pdf
+        optional: true
+  -
+    date: 2014-02-18
+    title: In-class writing exercise
+    slides: hw-writing-exercise.html
+    language: Polari
+    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-18-polari.pdf
+  -
+    date: 2014-02-20
+    title: Phrase-based translation
+    slides: http://www.slideshare.net/alopezfoo/jhu-mt-class-phrasebased-translation
+    language: Welsh
+    reading:
+      -
+        author: Koehn 
+        title: sections 5.3--5.4
+      -
+        author: Koehn et al.
+        url: http://aclweb.org/anthology-new/N/N03/N03-1017.pdf
+        title: Statistical Phrase-Based Translation
+        optional: true
+future:
+  -
+    date: 2014-02-20
+    title: Evaluating Translation Systems
+    reading:
+      -
+        author: Koehn 
+        title: chapter 8
+      -
+        author: Papineni et al.
+        url: http://aclweb.org/anthology-new/P/P02/P02-1040.pdf
+        title: Bleu&colon; a Method for Automatic Evaluation of Machine Translation
+        optional: true
+      -
+        author: Callison-Burch et al.
+        title: Re-Evaluating the Role of BLEU in Machine Translation Research
+        url: http://aclweb.org/anthology-new/E/E06/E06-1032.pdf
+        optional: true
+  -
+    date: 2014-02-25
+    title: Feature-Based Models
+    reading:
+      -
+        author: Koehn
+        title: chapter 9
+  -
+    date: 2014-02-27
+    title: Loss-Sensitive Training of Feature-Based Models
+    reading:
+      -
+        author: Och
+        url: http://aclweb.org/anthology-new/P/P03/P03-1021.pdf
+        title: Minimum Error Rate Training in Statistical Machine Translation
+        optional: true
+      -
+        author: Hopkins and May
+        url: http://aclweb.org/anthology-new/D/D11/D11-1125.pdf
+        title: Tuning as Ranking
+        optional: true
+  -
+    date: 2014-03-04
+    title: Weighted Automata
+    reading:
+      -
+        author: Mohri
+        url: http://www.cs.nyu.edu/~mohri/pub/cl1.pdf
+        title: Finite-State Transducers in Language and Speech Processing
+        optional: true
+  -
+    date: 2014-03-06
+    title: Modeling Translation with Weighted Automata
+    reading:
+      -
+        author: Knight and Al-Onaizan
+        url: http://www.isi.edu/natural-language/mt/mt-wfst.ps
+        title: Translation with Finite-State Devices
+      -
+        author: Kumar et al.
+        url: http://mi.eng.cam.ac.uk/~wjb31/ppubs/ttmjnle.pdf
+        title: A weighted finite state transducer translation template model for statistical machine translation
+        optional: true
+  -
+    date: 2014-03-11
+    title: Syntax-based Translation Part 1&colon; Reordering for Phrase-Based Translation
+    reading:
+      -
+        author: Collins et al.
+        title: Clause Restructuring for Statistical Machine Translation
+        url: http://aclweb.org/anthology-new/P/P05/P05-1066.pdf
+      -
+        author: Chiang
+        title: An Introduction to Synchronous Grammars
+        url: http://isi.edu/~chiang/papers/synchtut.pdf
+      -
+        author: Wu
+        title: Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora
+        url: http://aclweb.org/anthology-new/J/J97/J97-3002.pdf
+        optional: true
+  -
+    date: 2014-03-13
+    title: Syntax-Based Translation Part 2&colon; Synchronous Grammars
+    reading:
+      -
+        author: Yamada and Knight
+        title: Syntax-based Statistical Machine Translation
+        url: http://aclweb.org/anthology-new/P/P01/P01-1067.pdf
+      -
+        author: Heidi Fox
+        title: Phrasal Cohesion and Statistical Machine Translation
+        url: http://www.aclweb.org/anthology-new/W/W02/W02-1039.pdf
+      -
+        author: Galley et al.
+        title: What&rsquo;s in a Translation Rule?
+        url: http://aclweb.org/anthology-new/N/N04/N04-1035.pdf
+        optional: true
+  -
+    date: 2014-03-25
+    title: Syntax-Based Decoding
+    reading:
+      -
+        author: Chiang
+        url: http://aclweb.org/anthology-new/J/J07/J07-2003.pdf
+        title: Hierarchical Phrase-based Translation
+  -
+    date: 2014-03-27
+    title: Syntax-Based Decoding with Weighted Automata
+    reading:
+      -
+        author: Iglesias et al.
+        title: Hierarchical Phrase-Based Translation with Weighted Finite State Transducers
+        url: http://aclweb.org/anthology-new/N/N09/N09-1049.pdf
+        optional: true
+      -
+        author: Iglesias et al.
+        title: Hierarchical Phrase-Based Translation Representations
+        url: http://aclweb.org/anthology-new/D/D11/D11-1127.pdf
+        optional: true
+  -
+    date: 2014-04-01
+    title: Creative Data Collection&colon; Crowdsourcing Translation
+    reading:
+      -
+        author: Zaidan and Callison-Burch
+        title: Crowdsourcing Translation&colon; Professional Quality from Non-Professionals
+        url: http://www.aclweb.org/anthology-new/P/P11/P11-1122.pdf
+      -
+        author: Oard et al.
+        title: Desperately Seeking Cebuano
+        url: http://aclweb.org/anthology-new/N/N03/N03-2026.pdf
+        optional: true
+  -
+    date: 2014-04-03
+    title: More Data Collection&colon; Harvesting Translations from the Web
+    reading:
+      -
+        author: Uszkoreit et al
+        title: Large Scale Parallel Document Mining for Machine Translation
+        url: http://www.aclweb.org/anthology/C/C10/C10-1124.pdf
+      -
+        author: Smith and Resnik
+        title: The Web As A Parallel Corpus
+        url: http://www.aclweb.org/anthology-new/J/J03/J03-3002.pdf
+        optional: true
+      -
+        author: Venugopal et al.
+        title: Watermarking the Outputs of Structured Prediction with an application in Statistical Machine Translation
+        url: http://www.aclweb.org/anthology-new/D/D11/D11-1126.pdf
+        optional: true
+  -
+    date: 2014-04-08
+    title: Guest Lecture&colon; Translation with Comparable Corpora
+    reading:
+      -
+        author: Munteanu and Marcu
+        title: Improving Machine Translation Performance by Exploiting Non-Parallel Corpora
+        url: http://aclweb.org/anthology-new/J/J05/J05-4003.pdf
+        optional: true
+      -
+        author: Smith et al.
+        title: Extracting Parallel Sentences from Comparable Corpora using Document Level Alignment
+        url: http://aclweb.org/anthology-new/N/N10/N10-1063.pdf
+        optional: true
+  -
+    date: 2014-04-10
+    title: Syntax-Based Language Models
+    reading:
+      -
+        author: Chelba and Jelinek
+        url: http://acl.ldc.upenn.edu/C/C98/C98-1035.pdf
+        title: Exploiting Syntactic Structure for Language Modeling
+      -
+        author: Charniak et al.
+        url: http://www.isi.edu/natural-language/projects/rewrite/mtsummit03.pdf
+        title: Syntax-based language models for statistical machine translation
+  -
+    date: 2014-04-15
+    title: Representing Huge Translation Models
+    reading:
+      -
+        author: Callison-Burch et al.
+        title: Scaling Phrase-Based Statistical Machine Translation to Larger Corpora and Longer Phrases
+        url: http://aclweb.org/anthology-new/P/P05/P05-1032.pdf
+      -
+        author: Lopez 
+        title: Hierarchical Phrase-Based Translation with Sufﬁx Arrays
+        url: http://aclweb.org/anthology-new/D/D07/D07-1104.pdf
+  -
+    date: 2014-04-17
+    title: Applications of Word Alignment
+  -
+    date: 2014-04-22
+    title: Morphology and Translation
+    reading:
+      -
+        author: Koehn and Knight
+        url: http://www.aclweb.org/anthology/E03-1076.pdf
+        title: Empirical Methods for Compound Splitting
+      -
+        author: Koehn and Hoang
+        url: http://www.aclweb.org/anthology/D/D07/D07-1091
+        title: Factored Translation Models
+  -
+    date: 2014-04-24
+    title: Representing Huge Language Models
+    reading:
+      -
+        author: Brants et al.
+        title: Large Language Models in Machine Translation
+        url: http://aclweb.org/anthology-new/D/D07/D07-1090.pdf
+      -
+        author: Talbot and Brants
+        title: Randomized Language Models via Perfect Hash Functions
+        url: http://aclweb.org/anthology-new/P/P08/P08-1058.pdf
+  -
+    date: 2014-04-29
+    title: Paraphrasing
+    reading:
+      -
+        author: Callison-Burch et al.
+        title: Improved Statistical Machine Translation Using Paraphrases
+        url: http://aclweb.org/anthology-new/N/N06/N06-1003.pdf
+  -
+    date: 2014-05-01
+    title: TBD
