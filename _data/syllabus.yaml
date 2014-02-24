@@ -121,6 +121,7 @@ past:
     title: Phrase-based translation
     slides: http://www.slideshare.net/alopezfoo/jhu-mt-class-phrasebased-translation
     language: Welsh
+    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-20-Cymraeg.pdf
     reading:
       -
         author: Koehn 
