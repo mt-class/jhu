@@ -137,7 +137,7 @@ past:
     slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-02-25-stack-decoding.pdf
     links:
       -
-        text: Demo
+        text: (Demo)
         url: stack-decoder/
     reading:
       -
