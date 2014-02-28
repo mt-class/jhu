@@ -147,8 +147,8 @@ past:
     date: 2014-02-27
     title: Human evaluation of machine translation
     slides: http://www.slideshare.net/alopezfoo/jhu-mt-lecture20140227
-    language: Welsh
-    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-28-Welsh.pdf
+    language: Finnish 
+    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-28-Finnish.pdf
     reading:
       -
         author: Koehn 
