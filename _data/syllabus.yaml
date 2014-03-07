@@ -197,6 +197,8 @@ future:
   -
     date: 2014-03-06
     title: Modeling Translation with Weighted Automata
+    language: Italian
+    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-03-06-Italian.pdf
     reading:
       -
         author: Knight and Al-Onaizan
