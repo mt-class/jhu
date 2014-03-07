@@ -58,7 +58,7 @@ past:
     title: Learning Better Translation Models
     slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-02-06.pdf
     language: German
-    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-06-german.pdf
+    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-06-German.pdf
     reading:
       -
         author: Koehn 
@@ -115,7 +115,7 @@ past:
     title: In-class writing exercise
     slides: hw-writing-exercise.html
     language: Polari
-    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-18-polari.pdf
+    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-02-18-Polari.pdf
   -
     date: 2014-02-20
     title: Phrase-based translation
