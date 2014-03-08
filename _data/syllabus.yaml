@@ -163,14 +163,19 @@ past:
         title: Re-Evaluating the Role of BLEU in Machine Translation Research
         url: http://aclweb.org/anthology-new/E/E06/E06-1032.pdf
         optional: true
-future:
   -
-    date: 2014-02-25
-    title: Feature-Based Models
+    date: 2014-03-04
+    title: Automatic evaluation of machine translation
+    slides: http://www.slideshare.net/alopezfoo/jhu-mt-lecture20140303
+  -
+    date: 2014-03-06
+    title: Feature-based models
+    slides: http://www.slideshare.net/alopezfoo/jhu-mt-class-featurebased-models
     reading:
       -
         author: Koehn
         title: chapter 9
+future:
   -
     date: 2014-02-27
     title: Loss-Sensitive Training of Feature-Based Models
