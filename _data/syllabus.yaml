@@ -191,11 +191,13 @@ past:
         url: http://aclweb.org/anthology-new/P/P03/P03-1021.pdf
         title: Minimum Error Rate Training in Statistical Machine Translation
         optional: true
-      -
   -
     date: 2014-03-13
     title: Large-scale discriminative training of feature-based models
     reading:
+      - 
+        author: Koehn
+        title: section 9.4
       -
         author: Cherry &amp; Foster 
         url: http://aclweb.org/anthology-new/N/N12/N12-1047v2.pdf
