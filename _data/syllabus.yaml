@@ -125,7 +125,7 @@ past:
     reading:
       -
         author: Koehn 
-        title: sections 5.3--5.4
+        title: sections 5.3 &ndash; 5.4
       -
         author: Koehn et al.
         url: http://aclweb.org/anthology-new/N/N03/N03-1017.pdf
@@ -175,21 +175,33 @@ past:
       -
         author: Koehn
         title: chapter 9
-future:
   -
-    date: 2014-02-27
+    date: 2014-03-11
     title: Loss-Sensitive Training of Feature-Based Models
     reading:
+      - 
+        author: Todd Balf
+        url: http://www.nytimes.com/2014/03/09/magazine/the-story-behind-the-sat-overhaul.html
+        title: The Story Behind the SAT Overhaul
+      - 
+        author: Koehn
+        title: sections 9.1 &ndash; 9.3
       -
         author: Och
         url: http://aclweb.org/anthology-new/P/P03/P03-1021.pdf
         title: Minimum Error Rate Training in Statistical Machine Translation
         optional: true
       -
-        author: Hopkins and May
-        url: http://aclweb.org/anthology-new/D/D11/D11-1125.pdf
-        title: Tuning as Ranking
+  -
+    date: 2014-03-13
+    title: Large-scale discriminative training of feature-based models
+    reading:
+      -
+        author: Cherry &amp; Foster 
+        url: http://aclweb.org/anthology-new/N/N12/N12-1047v2.pdf
+        title: Batch Tuning Strategies for Statistical Machine Translation
         optional: true
+future:
   -
     date: 2014-03-04
     title: Weighted Automata
