@@ -178,6 +178,7 @@ past:
   -
     date: 2014-03-11
     title: Loss-Sensitive Training of Feature-Based Models
+    slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-03-11-mert.pdf
     reading:
       - 
         author: Todd Balf
