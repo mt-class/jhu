@@ -97,7 +97,6 @@ that yield improved predictions of relative translation accuracy. Some
 things that you might try:
 
 * Learn [a classifier](http://aclweb.org/anthology//W/W11/W11-2113.pdf) from the training data.
-* Learn [a probabilistic model of system ability](http://aclweb.org/anthology//P/P13/P13-1139.pdf).
 * Use [WordNet](http://wordnet.princeton.edu/) to match synonyms.
 * Compute string similarity using [string subsequence kernels](http://jmlr.org/papers/volume2/lodhi02a/lodhi02a.pdf).
 * Use an n-gram language model to better assess fluency.
