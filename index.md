@@ -23,8 +23,8 @@ real-word artificial intelligence problem.
 
 <div class="alert alert-info" markdown="span">
   [Homework 3](hw3.html) is posted.
-  The implementation is due on March 24 at 6pm.
-  The writeup is due March 25 in class.
+  The implementation is due on March 26 at 6pm.
+  The writeup is due March 27 in class.
 </div>
 
 Instructors
