@@ -206,6 +206,11 @@ past:
         url: http://aclweb.org/anthology-new/N/N12/N12-1047v2.pdf
         title: Batch Tuning Strategies for Statistical Machine Translation
         optional: true
+      -
+        author: Hopkins &amp; May
+        url: http://aclweb.org/anthology/D/D11/D11-1125.pdf
+        title: Tuning as Ranking
+        optional: true
 future:
   -
     date: 2014-03-04
