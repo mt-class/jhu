@@ -19,6 +19,7 @@ input, output, and evaluation measures. You should make an appointment with
 the instructors to discuss your project prior to the first due date. To
 keep you on track, there are three:
 
+* BEFORE April 1: Meet with your instructors, by appointment.
 * April 1: Project proposals (10 points)
 * April 22: Interim report (5 points)
 * May 2: Final project report (10 points)
