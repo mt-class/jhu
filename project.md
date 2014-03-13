@@ -21,8 +21,8 @@ keep you on track, there are three:
 
 * April 1: Project proposals (10 points)
 * April 22: Interim report (5 points)
+* May 2: Final project report (10 points)
 * May 9: Final project presentation (5 points)
-* May 14: Final project report (10 points)
 
 All projects will include a final written report.
 
