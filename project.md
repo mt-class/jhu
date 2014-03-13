@@ -21,7 +21,10 @@ keep you on track, there are three:
 
 * April 1: Project proposals (10 points)
 * April 22: Interim report (5 points)
-* May 9: Final project presentation (15 points)
+* May 9: Final project presentation (5 points)
+* May 14: Final project report (10 points)
+
+All projects will include a final written report.
 
 Project Proposal
 ----------------
@@ -77,8 +80,12 @@ Many topics related to machine translation are welcome. Some suggestions:
 * Translation of social media text.
 * Translation of speech.
 * Translation of data different from available training data, such as medical texts.
+* Pushing further on one of the homeworks, say by incorporating more advanced techniques and more
+  data.
+* [Writing your own MT class assignment](http://mt-class.org/penn/project.html)
 * Principled methods for incorporating non-parallel data 
-  (e.g. dictionaries, grammars, or thesauri) into translation models.
+  (e.g., dictionaries, grammars, or thesauri) into translation models.
+* Rule-based translation (e.g., from manually-developed rules)
 * GPU algorithms for translation. 
 * Learning translation dictionaries without parallel data.
 * Interactive machine translation that assists human translators.
@@ -86,7 +93,8 @@ Many topics related to machine translation are welcome. Some suggestions:
 * Machine learning techniques for translation: neural networks, Bayesian models, etc.
 * Advanced decoding algorithms.
 * Models for translation evaluation.
-
+* Post-processing MT output (e.g., applying correct capitalization, removing unnecessary spaces,
+  combining compounds)
 
 Group Work
 ----------
