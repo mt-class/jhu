@@ -197,6 +197,7 @@ past:
     title: Large-scale discriminative training of feature-based models
     language: Korean
     language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-03-13-Korean.pdf
+    slides:  http://cs.jhu.edu/~post/mt-class/2014/2014-03-13-large-scale-training.pdf
     reading:
       - 
         author: Koehn
