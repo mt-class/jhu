@@ -30,7 +30,7 @@ Submit your assignments [here](http://jhumtclass.appspot.com). Results will be u
         <a href="hw2.html">#2</a><br/><span class="small text-muted">Model score</span>
       </th>
       <th class="text-center">
-        <a href="hw3.html">#3</a>
+        <a href="hw3.html">#3</a><br/><span class="small text-muted">Accuracy</span>
       </th>
       <th class="text-center">
         <a href="hw4.html">#4</a>
