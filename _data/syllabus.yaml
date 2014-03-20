@@ -212,6 +212,12 @@ past:
         url: http://aclweb.org/anthology/D/D11/D11-1125.pdf
         title: Tuning as Ranking
         optional: true
+  -
+    date: 2014-03-18
+    title: No class: Spring Break
+  -
+    date: 2014-03-20
+    title: No class: Spring Break
 future:
   -
     date: 2014-03-04
