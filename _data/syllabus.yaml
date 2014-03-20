@@ -214,10 +214,10 @@ past:
         optional: true
   -
     date: 2014-03-18
-    title: No class: Spring Break
+    title: No class &mdash; Spring Break
   -
     date: 2014-03-20
-    title: No class: Spring Break
+    title: No class &mdash; Spring Break
 future:
   -
     date: 2014-03-04
