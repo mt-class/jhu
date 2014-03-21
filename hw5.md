@@ -30,30 +30,34 @@ There are two types of morphology:
 [inflectional morphology](http://en.wikipedia.org/wiki/Inflection)
 studies how words change to reflect grammatical properties,
 roles, and other information, while
-[derivational morphology](http://en.wikipedia.org/wiki/Derivation_(linguistics)))
+[derivational morphology](http://en.wikipedia.org/wiki/Derivation_(linguistics))
 describes how words changes as they are adapted to different
 parts of speech. Of these, inflectional morphology is the
 more important modeling omission in natural language
 generation tasks like machine translation, because choosing
-the right form of a word is necessary to generate
+the right form of a word is necessary to produce
 grammatical output.
 
-Fortunately for the development of field, English has little
-inflectional morphology. Its inflectional morphology
-reflects only a subset of
+The inflectional morphology of English is simple. It is
+mostly limited to verbs and pronouns, which reflect only a
+subset of
 [person](http://en.wikipedia.org/wiki/Grammatical_person),
 [number](http://en.wikipedia.org/wiki/Grammatical_number),
 and one of two
 [cases](http://en.wikipedia.org/wiki/Grammatical_case), and
 the forms overlap among the possible combinations. We can
 translate into English fairly well without bothering with
-morphology.
+morphology
+([an auspicious fact for the development of field](http://cs.jhu.edu/~post/bitext/#same-language)).
 
 However, this is not the case for many of the world's
-languages. The vast number of potential word forms creates
-data sparsity, an issue that is exacerbated by the fact
-that morphologically complex languages are often the ones
-without much in the way of parallel data.
+languages. Languages such as Russian, Turkish, and Finnish
+have complex case systems that can produce hundreds of
+surface variations of a single lemma. The vast number of
+potential word forms creates data sparsity, an issue that is
+exacerbated by the fact that morphologically complex
+languages are often the ones without much in the way of
+parallel data.
 
 In this assignment, you will attempt to solve this problem.
 The setting is simple: you are presented with a sequence of
@@ -68,9 +72,9 @@ inflected forms.
 Getting Started
 ---------------
 
-<div class="alert alert-danger"> <b>Important!</b> The
-  [data used in this assignment](http://catalog.ldc.upenn.edu/LDC2006T01)
-  is released through the <a
+<div class="alert alert-danger"> <b>Important!</b> The <a
+  href="http://catalog.ldc.upenn.edu/LDC2006T01">data used
+  in this assignment</a> is released through the <a
   href="http://ldc.upenn.edu">Linguistic Data Consortium
   (LDC)</a>, and the license agreement prohibits
   redistribution of the data as we did for other
@@ -95,20 +99,20 @@ please observe the warning that began this section):
     cd inflect
     bash scripts/link_data.sh
 
-You will then find two sets of parallel files under `data`:
+You will then find three sets of parallel files under `data`:
 training data (for building models), development test data
 (for testing your model), and held-out test data (for
-submitting to the [leaderboard](leaderboard.html). Sentences
+submitting to the [leaderboard](leaderboard.html)). Sentences
 are parallel at the line level, and the words on each line
 also correspond exactly across files. The parallel files
-have the prefix `train`, `dev`, and `test`, and the
+have the prefix `train`, `dtest`, and `etest`, and the
 following suffixes:
 
 - `*.lemma` contains the lemmatized version of the data. Each
   lemma can be inflected to one or more fully inflected
   forms (that may or may not share the same surface form).
 
-- `*.pos` contains a two-character sequence denoting each
+- `*.tag` contains a two-character sequence denoting each
   word's part of speech
 
 - `*.tree` contains dependency trees, which
@@ -116,10 +120,10 @@ following suffixes:
   generating their arguments. The tree format is described
   below.
 
-- `*.word` contains the fully inflected form. Note that we
-  provide `dev.word` to you (the grading script needs it),
+- `*.form` contains the fully inflected form. Note that we
+  provide `dev.form` to you (the grading script needs it),
   but you should not look at it or build models over
-  it. `test.word` is kept hidden.
+  it. `test.form` is kept hidden.
 
 Scoring is on the development data (don't peek at the
 results).  The `scripts/` subdirectory contains a number of
@@ -127,9 +131,9 @@ scripts, including a grader and a default implementation
 that simply chooses the most likely inflection for each word:
 
     # Check the baseline score
-    cat data/dev.lemma | ./scripts/grade data/dev.word
+    cat data/dtest.lemma | ./scripts/grade data/dtest.form
     # Choose the most likely inflection
-    cat data/dev.lemma | ./scripts/inflect -t data/train | ./scripts/grade data/dev.word
+    cat data/dtest.lemma | ./scripts/inflect -t data/train | ./scripts/grade data/dtest.form
 
 The evaluation method is accuracy: what percentage of the
 correct inflections did you choose?
@@ -196,20 +200,28 @@ Line 3 here corresponds to the following dependency tree:
 ![Dependency tree](assets/img/hw5_dep.png)
 
 To avoid duplicated work, a class is provided to you that
-will read the dependency structure and provide you with
+will read the dependency structure for you, providing
 direct access to each word's (a) head and (b) children (if
 any), along with the labels of these edges. Example usage:
 
-    for lemmaline, treeline in izip(open('data/train.lemma'), open('data/train.tree')):
-      tree = DepTree(treeline)
-      lemmas = lemmaline.rstrip().split()
-      for lemma, node in izip(lemmas, tree):
-        print lemmas[node.index], '<-', node.parent
-        for child in node.children:
-          print '  ->', child
+    from tree import DepTree
+
+    for line in izip(open('data/train.tree')):
+      tree = DepTree(line)
+
+      # linear traversal
+      for i,node in enumerate(tree, 1):
+        print '%d -%s-> %d' % (node.parent_index(), node.label(), i)
+
+      # depth-first traversal
+      kids = [tree.root()]
+      while len(kids) > 0:
+        node = kids.pop(0)
+        kids = node.children() + kids
+        print node
 
 The API can be found in `scripts/DepTree.py`. For a list of
-analytical functions (labels on the edges),
+analytical functions (the edge labels),
 [see this document](https://ufal.mff.cuni.cz/pdt2.0/doc/manuals/en/a-layer/html/ch03.html#s1-list-anal-func).
 
 Ground Rules
