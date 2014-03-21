@@ -214,10 +214,44 @@ past:
         optional: true
   -
     date: 2014-03-18
-    title: No class &mdash; Spring Break
+    title: Spring Break
   -
     date: 2014-03-20
-    title: No class &mdash; Spring Break
+    title: Spring Break
+  -
+    date: 2014-03-25
+    title: Syntax-based Translation Part 1&colon; Reordering for Phrase-Based Translation
+    reading:
+      -
+        author: Chiang
+        title: An Introduction to Synchronous Grammars
+        url: http://isi.edu/~chiang/papers/synchtut.pdf
+      -
+        author: Collins et al.
+        title: Clause Restructuring for Statistical Machine Translation
+        url: http://aclweb.org/anthology-new/P/P05/P05-1066.pdf
+      -
+        author: Wu
+        title: Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora
+        url: http://aclweb.org/anthology-new/J/J97/J97-3002.pdf
+        optional: true
+  -
+    date: 2014-03-27
+    title: Syntax-Based Translation Part 2&colon; Synchronous Grammars
+    reading:
+      -
+        author: Yamada and Knight
+        title: Syntax-based Statistical Machine Translation
+        url: http://aclweb.org/anthology-new/P/P01/P01-1067.pdf
+      -
+        author: Heidi Fox
+        title: Phrasal Cohesion and Statistical Machine Translation
+        url: http://www.aclweb.org/anthology-new/W/W02/W02-1039.pdf
+      -
+        author: Galley et al.
+        title: What&rsquo;s in a Translation Rule?
+        url: http://aclweb.org/anthology-new/N/N04/N04-1035.pdf
+        optional: true
 future:
   -
     date: 2014-03-04
@@ -244,39 +278,6 @@ future:
         title: A weighted finite state transducer translation template model for statistical machine translation
         optional: true
   -
-    date: 2014-03-11
-    title: Syntax-based Translation Part 1&colon; Reordering for Phrase-Based Translation
-    reading:
-      -
-        author: Collins et al.
-        title: Clause Restructuring for Statistical Machine Translation
-        url: http://aclweb.org/anthology-new/P/P05/P05-1066.pdf
-      -
-        author: Chiang
-        title: An Introduction to Synchronous Grammars
-        url: http://isi.edu/~chiang/papers/synchtut.pdf
-      -
-        author: Wu
-        title: Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora
-        url: http://aclweb.org/anthology-new/J/J97/J97-3002.pdf
-        optional: true
-  -
-    date: 2014-03-13
-    title: Syntax-Based Translation Part 2&colon; Synchronous Grammars
-    reading:
-      -
-        author: Yamada and Knight
-        title: Syntax-based Statistical Machine Translation
-        url: http://aclweb.org/anthology-new/P/P01/P01-1067.pdf
-      -
-        author: Heidi Fox
-        title: Phrasal Cohesion and Statistical Machine Translation
-        url: http://www.aclweb.org/anthology-new/W/W02/W02-1039.pdf
-      -
-        author: Galley et al.
-        title: What&rsquo;s in a Translation Rule?
-        url: http://aclweb.org/anthology-new/N/N04/N04-1035.pdf
-        optional: true
   -
     date: 2014-03-25
     title: Syntax-Based Decoding
