@@ -15,91 +15,94 @@ active_tab: homework
 Inflection <span class="text-muted">Challenge Problem 5</span>
 ==============================================================
 
-Introduction
-------------
-
-The traditional formulation of the problems in machine
+The traditional formulations of the main problems in machine
 translation, from alignment to model extraction to decoding
-and through evaluation, ignores completely the linguistic
-phenomenon of morphology, instead treating all words as
-distinct atoms. This clearly misses out on a number of
-generalizations; for example, in alignment, it could be
-useful to accumulate evidence across the various inflections
-of a verb such as *walk*: *walk*, *walked*, *walks*, and
-*walking* all likely have related translations.
+and through evaluation, ignore the linguistic phenomenon of
+[morphology](http://en.wikipedia.org/wiki/Morphology_(linguistics)),
+instead treating all words as distinct atoms. This misses
+out on a number of generalizations; for example, in
+alignment, it could be useful to accumulate evidence across
+the various inflections of a verb such as *walk*, since
+*walk*, *walked*, *walks*, and *walking* all likely have
+related translations.
 
-The study of morphology is often split into two classes:
-[inflectional](http://en.wikipedia.org/wiki/Inflection)
-morphology studies how words change to reflect grammatical
-properties, roles, and other information, while
-[derivational](http://en.wikipedia.org/wiki/Derivation_(linguistics)))
-morphology describes how words change across as they are
-adapted across parts of speech. Of these, inflectional
-morphology is the more important one for natural language
-generation tasks such as machine translation, because
-getting the right form of a word is important in generating
+There are two types of morphology:
+[inflectional morphology](http://en.wikipedia.org/wiki/Inflection)
+studies how words change to reflect grammatical properties,
+roles, and other information, while
+[derivational morphology](http://en.wikipedia.org/wiki/Derivation_(linguistics)))
+describes how words changes as they are adapted to different
+parts of speech. Of these, inflectional morphology is the
+more important modeling omission in natural language
+generation tasks like machine translation, because choosing
+the right form of a word is necessary to generate
 grammatical output.
 
-Fortunately for the development of field, English has very
-little inflectional morphology. Its inflectional morphology
-encodes only
+Fortunately for the development of field, English has little
+inflectional morphology. Its inflectional morphology
+reflects only a subset of
 [person](http://en.wikipedia.org/wiki/Grammatical_person),
 [number](http://en.wikipedia.org/wiki/Grammatical_number),
 and one of two
 [cases](http://en.wikipedia.org/wiki/Grammatical_case), and
-the forms overlap among the possible
-combinations. We can translate into English just fine
-without the complexity of modeling morphology. 
+the forms overlap among the possible combinations. We can
+translate into English fairly well without bothering with
+morphology.
 
 However, this is not the case for many of the world's
 languages. The vast number of potential word forms creates
-data sparsity, which is exacerbated by the fact that
-morphologically complex languages are often also
-under-resourced. 
+data sparsity, an issue that is exacerbated by the fact
+that morphologically complex languages are often the ones
+without much in the way of parallel data.
 
-This assignment challenges you to model morphology in some
-form in the generation of Czech. The setting is very simple:
-you are given a training corpus of Czech sentences along
-with a parallel, reduced form containing only the word
-lemmas. Your task is to build a model that can produce the
-fully-inflected forms given only a development test set
-containing only lemmas.
+In this assignment, you will attempt to solve this problem.
+The setting is simple: you are presented with a sequence of
+Czech lemmas, and your task is to choose the correct
+inflected form for each of them. You can imagine this as a
+translation task itself, except with no reordering and with
+a bijection between the source and target words. To support
+you in this task, you are provided with a parallel training
+corpus containing sentence pairs in both reduced and
+inflected forms.
 
 Getting Started
 ---------------
 
-<div class="alert alert-danger"> 
-  <b>Important!</b>
-  The data used in this assignment is released under the <a
-  href="http://ldc.upenn.edu">LDC</a>, and cannot be
-  distributed as we did for other assignments. You will need
-  a CLSP account in order to complete the assignment. Our
-  license agreement with the LDC stipulates that the data
-  not be removed from CLSP servers, so please do your work
-</div>
+<div class="alert alert-danger"> <b>Important!</b> The
+  [data used in this assignment](http://catalog.ldc.upenn.edu/LDC2006T01)
+  is released through the <a
+  href="http://ldc.upenn.edu">Linguistic Data Consortium
+  (LDC)</a>, and the license agreement prohibits
+  redistribution of the data as we did for other
+  assignments. You will need a CLSP account to work on this
+  assignment, and please do not remove the data from those
+  servers (except to upload your output on the test
+  data).</div>
 
-If you have a clone of the repository from previous
-homeworks, you can update it from your working directory:
-
-    git pull origin master
-
-Alternatively, get a fresh copy:
+Start by cloning the assignment repo:
 
     git clone https://github.com/alopez/en600.468.git
 
-Change to the `generate` directory, and type the following
+Alternately, you can pull in the latest commits containing
+this assignment by typing the following from the repo directory:
+
+    git pull origin master
+
+Change to the `inflect` directory, and type the following
 to create symlinks to the training and development data (and
 please observe the warning that began this section):
 
-    cd generate
+    cd inflect
     bash scripts/link_data.sh
 
 You will then find two sets of parallel files under `data`:
-training data (for building models) and development test
-data (for testing your model). Sentences are parallel at the
-line level, and the words on each line also correspond
-exactly across files. The parallel files have the prefix
-`train` and `dev`, and the following suffixes:
+training data (for building models), development test data
+(for testing your model), and held-out test data (for
+submitting to the [leaderboard](leaderboard.html). Sentences
+are parallel at the line level, and the words on each line
+also correspond exactly across files. The parallel files
+have the prefix `train`, `dev`, and `test`, and the
+following suffixes:
 
 - `*.lemma` contains the lemmatized version of the data. Each
   lemma can be inflected to one or more fully inflected
@@ -115,7 +118,8 @@ exactly across files. The parallel files have the prefix
 
 - `*.word` contains the fully inflected form. Note that we
   provide `dev.word` to you (the grading script needs it),
-  but you should not look at it or build models over it.
+  but you should not look at it or build models over
+  it. `test.word` is kept hidden.
 
 Scoring is on the development data (don't peek at the
 results).  The `scripts/` subdirectory contains a number of
@@ -144,22 +148,23 @@ word or lemma). However, as described above, we have
 provided plenty more information to you that should permit
 much subtler approaches. Here are some suggestions:
 
-* Incorporate part-of-speech tags
+* Incorporate part-of-speech tags.
 * Implement a bigram language model over inflected forms.
 * Implement a longer n-gram model and a custom backoff
   structure that consider shorter contexts, POS tags, the
-  lemma, etc
+  lemma, etc.
 * Train your language model on more data, perhaps pulled
-  from the web
+  from the web.
 * Model long-distance agreement by incorporating the labeled
   dependency structure. For example, you could build a
   bigram language model that decomposes over the dependency
-  tree, instead of the immediate n-gram history
+  tree, instead of the immediate n-gram history.
+* Implement multiple approaches and take a vote on each word.
 
-Obviously, you should feel free to pursue other ideas as
-they come to you. Morphology for machine translation is an
-understudied problem, so it's possible you could come up
-with an idea that people have not tried before!
+Obviously, you should feel free to pursue other ideas.
+Morphology for machine translation is an understudied
+problem, so it's possible you could come up with an idea
+that people have not tried before!
 
 ### POS tags and dependency trees
 
@@ -190,7 +195,21 @@ Line 3 here corresponds to the following dependency tree:
 
 ![Dependency tree](assets/img/hw5_dep.png)
 
-For a list of analytical functions (labels on the edges),
+To avoid duplicated work, a class is provided to you that
+will read the dependency structure and provide you with
+direct access to each word's (a) head and (b) children (if
+any), along with the labels of these edges. Example usage:
+
+    for lemmaline, treeline in izip(open('data/train.lemma'), open('data/train.tree')):
+      tree = DepTree(treeline)
+      lemmas = lemmaline.rstrip().split()
+      for lemma, node in izip(lemmas, tree):
+        print lemmas[node.index], '<-', node.parent
+        for child in node.children:
+          print '  ->', child
+
+The API can be found in `scripts/DepTree.py`. For a list of
+analytical functions (labels on the edges),
 [see this document](https://ufal.mff.cuni.cz/pdt2.0/doc/manuals/en/a-layer/html/ch03.html#s1-list-anal-func).
 
 Ground Rules
@@ -205,8 +224,12 @@ Ground Rules
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
 * You must turn in three things:
-  1. Your automatic judgements of the development test set (`data/dev.lemma`), uploaded to the [leaderboard submission site](http://jhumtclass.appspot.com) according to <a href="assignment0.html">the Assignment 0 instructions</a>. You can upload new output as often
-     as you like, up until the assignment deadline. 
+  1. The output of your inflector on the test set
+     (`data/test.lemma`), uploaded to the
+     [leaderboard submission site](http://jhumtclass.appspot.com)
+     according to <a href="assignment0.html">the Assignment 0
+     instructions</a>. You can upload new output as often as
+     you like, up until the assignment deadline. 
   1. Your code. Send us a URL from which we can get the code and git revision
      history (a link to a tarball will suffice, but you're free to send us a 
      github link if you don't mind making your code public). This is due at the
@@ -218,18 +241,16 @@ Ground Rules
      written in scientific style. This needn't be long, but [it should be
      clear enough that one of your fellow students could re-implement it 
      exactly](hw-writing-exercise.html).
-* You do not need any other data than what we provide. You
+* You should not need any other data than what we provide. You
    are free to use any code or software you like, __except
    for those expressly intended to do morphological
-   generation__.  You must write your own evaluation
-   function. If you want to use part-of-speech taggers,
+   generation__.  If you want to use other part-of-speech taggers,
    syntactic or semantic parsers, machine learning
    libraries, thesauri, or any other off-the-shelf
    resources, plese feel free to do so. If you aren't sure
-   whether something is permitted, ask us. If you want to do
-   system combination, join forces with your classmates.
+   whether something is permitted, ask us.
 
 *Credits: This assignment was designed for this course by
- [Matt Post](http://cs.jhu.edu/~post). The data used in the
+ [Matt Post](http://cs.jhu.edu/~post/). The data used in the
  assignment comes from the
  [Prague Dependency Treebank v2.0](https://ufal.mff.cuni.cz/pdt2.0/)*
