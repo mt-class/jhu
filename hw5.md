@@ -200,28 +200,11 @@ Line 3 here corresponds to the following dependency tree:
 ![Dependency tree](assets/img/hw5_dep.png)
 
 To avoid duplicated work, a class is provided to you that
-will read the dependency structure for you, providing
-direct access to each word's (a) head and (b) children (if
-any), along with the labels of these edges. Example usage:
-
-    from tree import DepTree
-
-    for line in izip(open('data/train.tree')):
-      tree = DepTree(line)
-
-      # linear traversal
-      for i,node in enumerate(tree, 1):
-        print '%d -%s-> %d' % (node.parent_index(), node.label(), i)
-
-      # depth-first traversal
-      kids = [tree.root()]
-      while len(kids) > 0:
-        node = kids.pop(0)
-        kids = node.children() + kids
-        print node
-
-The API can be found in `scripts/DepTree.py`. For a list of
-analytical functions (the edge labels),
+will read the dependency structure for you, providing direct
+access to each word's head and children (if any), along with
+the labels of these edges. Example usage can be found in
+`scripts/inflect-tree`. For a list of analytical functions
+(the edge labels),
 [see this document](https://ufal.mff.cuni.cz/pdt2.0/doc/manuals/en/a-layer/html/ch03.html#s1-list-anal-func).
 
 Ground Rules
