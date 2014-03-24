@@ -231,6 +231,11 @@ past:
         title: Clause Restructuring for Statistical Machine Translation
         url: http://aclweb.org/anthology-new/P/P05/P05-1066.pdf
       -
+        author: Twain
+        title: The Awful German Language
+        url: http://www.crossmyt.com/hc/linghebr/awfgrmlg.html
+        optional: true
+      -
         author: Wu
         title: Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora
         url: http://aclweb.org/anthology-new/J/J97/J97-3002.pdf
