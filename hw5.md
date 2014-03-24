@@ -113,8 +113,8 @@ following suffixes:
 - `*.tag` contains a two-character sequence denoting each
   word's part of speech
 
-- `*.tree` contains dependency trees, which
-  organize the words into a directed tree with predicates
+- `*.tree` contains [dependency trees](http://en.wikipedia.org/wiki/Dependency_grammar), which
+  organize the words into a tree with words 
   generating their arguments. The tree format is described
   below.
 
