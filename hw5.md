@@ -24,7 +24,7 @@ out on a number of generalizations; for example, in
 alignment, it could be useful to accumulate evidence across
 the various inflections of a verb such as *walk*, since
 *walk*, *walked*, *walks*, and *walking* all likely have
-related translations.
+related and overlapping translations.
 
 There are two types of morphology:
 [inflectional morphology](http://en.wikipedia.org/wiki/Inflection)
@@ -53,21 +53,24 @@ morphology
 However, this is not the case for many of the world's
 languages. Languages such as Russian, Turkish, and Finnish
 have complex case systems that can produce hundreds of
-surface variations of a single lemma. The vast number of
-potential word forms creates data sparsity, an issue that is
-exacerbated by the fact that morphologically complex
-languages are often the ones without much in the way of
-parallel data.
+surface variations of a single
+[lemma](http://en.wikipedia.org/wiki/Lemma_(psycholinguistics)). The
+vast number of potential word forms creates data sparsity,
+an issue that is exacerbated by the fact that
+morphologically complex languages are often the ones without
+much in the way of parallel data.
 
-In this assignment, you will attempt to solve this problem.
-The setting is simple: you are presented with a sequence of
-Czech lemmas, and your task is to choose the correct
-inflected form for each of them. You can imagine this as a
-translation task itself, except with no reordering and with
-a bijection between the source and target words. To support
-you in this task, you are provided with a parallel training
-corpus containing sentence pairs in both reduced and
-inflected forms.
+In this assignment, you will earn an appreciation for the
+difficulties posed by morphology.  The setting is simple:
+you are presented with a sequence of Czech lemmas, and your
+task is to choose the correct inflected form for each of
+them. You can imagine this as a translation task itself,
+except with no reordering and with a bijection between the
+source and target words. To support you in this task, you
+are provided with a parallel training corpus containing
+sentence pairs in both reduced and inflected forms, and a
+default solution chooses the most probable form for each
+lemma. 
 
 Getting Started
 ---------------
@@ -77,7 +80,7 @@ Getting Started
   in this assignment</a> is released through the <a
   href="http://ldc.upenn.edu">Linguistic Data Consortium
   (LDC)</a>, and the license agreement prohibits
-  redistribution of the data as we did for other
+  direct distribution of the data as we have done for other
   assignments. You will need a CLSP account to work on this
   assignment, and please do not remove the data from those
   servers (except to upload your output on the test
@@ -85,12 +88,7 @@ Getting Started
 
 Start by cloning the assignment repo:
 
-    git clone https://github.com/alopez/en600.468.git
-
-Alternately, you can pull in the latest commits containing
-this assignment by typing the following from the repo directory:
-
-    git pull origin master
+    git clone https://github.com/mjpost/inflect
 
 Change to the `inflect` directory, and type the following
 to create symlinks to the training and development data (and
@@ -125,15 +123,20 @@ following suffixes:
   but you should not look at it or build models over
   it. `test.form` is kept hidden.
 
-Scoring is on the development data (don't peek at the
-results).  The `scripts/` subdirectory contains a number of
+You should use the development data (`dtest`) to test your
+approaches (make sure you don't use the answers except in
+the grader). When you have something that works, you should
+run it on the test data (`etest`) and submit that
+output. The `scripts/` subdirectory contains a number of
 scripts, including a grader and a default implementation
-that simply chooses the most likely inflection for each word:
+that simply chooses the most likely inflection for each
+word:
 
-    # Check the baseline score
-    cat data/dtest.lemma | ./scripts/grade data/dtest.form
+    # Baseline: no inflection
+    cat data/dtest.lemma | ./scripts/grade
+
     # Choose the most likely inflection
-    cat data/dtest.lemma | ./scripts/inflect -t data/train | ./scripts/grade data/dtest.form
+    cat data/dtest.lemma | ./scripts/inflect | ./scripts/grade
 
 The evaluation method is accuracy: what percentage of the
 correct inflections did you choose?
@@ -170,7 +173,7 @@ Morphology for machine translation is an understudied
 problem, so it's possible you could come up with an idea
 that people have not tried before!
 
-### POS tags and dependency trees
+### A note on POS tags and dependency trees
 
 The `.pos` and `.tree` files contain parts of speech and
 dependency trees for each sentence. Information about the
