@@ -221,6 +221,7 @@ past:
   -
     date: 2014-03-25
     title: Syntax-based Translation Part 1&colon; Reordering for Phrase-Based Translation
+    slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-03-25-syntactic-reordering.pdf
     reading:
       -
         author: Chiang
