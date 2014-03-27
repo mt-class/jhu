@@ -260,7 +260,23 @@ past:
         optional: true
   -
     date: 2014-04-10
-    title: "Guest Lecture: Miles Osborne"
+    title: "Streaming Translation (Guest Lecturer Miles Osborne)
+    reading:
+      -
+        author: Talbot and Osborne
+        title: "Smoothed Bloom filter language models: Tera-Scale LMs on the Cheap"
+        url: http://homepages.inf.ed.ac.uk/miles/papers/emnlp07.pdf
+        optional: true
+      -
+        author: Levenberg, Callison-Burch, and Osborne
+        title: Stream-based Translation Models for Statistical Machine Translation 
+        url: http://homepages.inf.ed.ac.uk/miles/papers/naacl10b.pdf
+        optional: true
+      -
+        author: Levenberg and Osborne
+        title: Stream-based Randomised Language Models for SMT
+        url: http://homepages.inf.ed.ac.uk/miles/papers/emnlp09.pdf
+        optional: true
 future:
   -
     date: 2014-03-04
