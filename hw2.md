@@ -7,11 +7,6 @@ title: Homework 2 | Decoding
 active_tab: homework
 ---
 
-<div class="alert alert-info">
-  Implementation due March 5 at 6pm.
-  Writeup due March 6 in class.
-</div>
-
 Decoding <span class="text-muted">Challenge Problem 2</span>
 =============================================================
 

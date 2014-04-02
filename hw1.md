@@ -7,10 +7,6 @@ title: Homework 1 | Alignment
 active_tab: homework
 ---
 
-<div class="alert alert-danger">
-  This assignment was due on February 17.
-</div>
-
 Alignment <span class="text-muted">Challenge Problem 1</span>
 =============================================================
 

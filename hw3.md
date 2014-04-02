@@ -7,11 +7,6 @@ title: Homework 3 | Evaluation
 active_tab: homework
 ---
 
-<div class="alert alert-info">
-  Implementation due March 26 at 6pm.
-  Writeup due March 27 in class.
-</div>
-
 Evaluation <span class="text-muted">Challenge Problem 3</span>
 ==============================================================
 
