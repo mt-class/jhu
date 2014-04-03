@@ -259,6 +259,28 @@ past:
         url: http://aclweb.org/anthology-new/N/N04/N04-1035.pdf
         optional: true
   -
+    date: 2014-04-01
+    title: Syntax-Based Translation Part 3
+  -
+    date: 2014-04-03
+    title: Translation with Weighted Automata
+    slides: http://www.slideshare.net/alopezfoo/jhu-mt-class-translation-with-weighted-automata
+    reading: 
+      -
+        author: Knight and Al-Onaizan
+        url: http://www.isi.edu/natural-language/mt/mt-wfst.ps
+        title: Translation with Finite-State Devices
+      -
+        author: Iglesias et al.
+        title: Hierarchical Phrase-Based Translation with Weighted Finite State Transducers
+        url: http://aclweb.org/anthology-new/N/N09/N09-1049.pdf
+        optional: true
+      -
+        author: Iglesias et al.
+        title: Hierarchical Phrase-Based Translation Representations
+        url: http://aclweb.org/anthology-new/D/D11/D11-1127.pdf
+        optional: true
+  -
     date: 2014-04-10
     title: Streaming Translation (Guest Lecturer Miles Osborne)
     reading:
