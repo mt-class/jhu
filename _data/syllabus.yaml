@@ -236,14 +236,10 @@ past:
         title: The Awful German Language
         url: http://www.crossmyt.com/hc/linghebr/awfgrmlg.html
         optional: true
-      -
-        author: Wu
-        title: Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora
-        url: http://aclweb.org/anthology-new/J/J97/J97-3002.pdf
-        optional: true
   -
     date: 2014-03-27
     title: Syntax-Based Translation Part 2&colon; Synchronous Grammars
+    slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-03-27-synchronous-grammars.pdf
     reading:
       -
         author: Yamada and Knight
@@ -260,7 +256,19 @@ past:
         optional: true
   -
     date: 2014-04-01
-    title: Syntax-Based Translation Part 3
+    title: Syntax-Based Translation Part 3&colon; Decoding as Parsing
+    slides: http://cs.jhu.edu/~post/mt-class/2014/mt-class-2014-04-01-syntax-based-decoding.pdf
+    reading:
+      -
+        author: Chiang
+        url: http://aclweb.org/anthology-new/J/J07/J07-2003.pdf
+        title: Hierarchical Phrase-based Translation
+        optional: true
+      -
+        author: Wu
+        title: Stochastic Inversion Transduction Grammars and Bilingual Parsing of Parallel Corpora
+        url: http://aclweb.org/anthology-new/J/J97/J97-3002.pdf
+        optional: true
   -
     date: 2014-04-03
     title: Translation with Weighted Automata
@@ -324,15 +332,6 @@ future:
         url: http://mi.eng.cam.ac.uk/~wjb31/ppubs/ttmjnle.pdf
         title: A weighted finite state transducer translation template model for statistical machine translation
         optional: true
-  -
-  -
-    date: 2014-03-25
-    title: Syntax-Based Decoding
-    reading:
-      -
-        author: Chiang
-        url: http://aclweb.org/anthology-new/J/J07/J07-2003.pdf
-        title: Hierarchical Phrase-based Translation
   -
     date: 2014-03-27
     title: Syntax-Based Decoding with Weighted Automata
