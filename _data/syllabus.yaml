@@ -289,8 +289,11 @@ past:
         url: http://aclweb.org/anthology-new/D/D11/D11-1127.pdf
         optional: true
   -
+    date: 2014-04-08
+    title: Computer-Aided Translation (Guest Lecture by Philipp Koehn)
+  - 
     date: 2014-04-10
-    title: Streaming Translation (Guest Lecturer Miles Osborne)
+    title: Streaming Translation (Guest Lecture by Miles Osborne)
     reading:
       -
         author: Talbot and Osborne
