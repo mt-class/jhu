@@ -294,6 +294,8 @@ past:
   - 
     date: 2014-04-10
     title: Streaming Translation (Guest Lecture by Miles Osborne)
+    language: American Sign Language
+    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-04-10-ASE.pdf
     reading:
       -
         author: Talbot and Osborne
