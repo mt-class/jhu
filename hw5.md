@@ -194,7 +194,7 @@ POS, tree, and word files (plus an English gloss), respectively:
 
     třikrát`3 rychlý než-2 slovo
     Cv AA J, NN
-    1/Adv 0/ExD 1/AuxC 3/ExD
+    2/Adv 0/ExD 2/AuxC 3/ExD
     Třikrát rychlejší než slovo
     Three-times faster than-the-word
 
