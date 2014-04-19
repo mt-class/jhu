@@ -65,12 +65,47 @@ do the best you can for this early checkpoint.
 Interim Report
 --------------
 
-By the time of the interim report, you should have made substantial progress
-on your report. For a survey, you should have read many of the papers,
-identified main themes of the literature, and drafted a rough organizational
+For your interim report, you should have made substantial progress
+on your project. For a survey, you should have read many of the papers,
+identified main themes of the literature, and synthesized these into an 
 outline. For an empirical project, you should have collected data, developed
-baseline algorithms and metrics, and run preliminary experiments.
+baseline algorithms and metrics, and run preliminary experiments. Your 
+interim report is an extension of your proposal, clarifying existing
+material where requested, adding technical details of completed work, and 
+outlining planned work. A reader should be able to answer these questions:
 
+* What problem are you trying to solve or survey? Illustrate the problem with
+examples and a give a precise technical description. Clearly identify inputs
+and outputs. Be concise: if you don't hook your reader in the first paragraph
+or so, they won't keep reading.
+
+* Why is the problem important? If you could solve it, would you answer 
+a scientific or mathematical question about language? Would you be able to 
+build better, faster, or more usable systems than we can build now?
+
+* Why is the problem hard? How do the obvious solutions fail? For an 
+empirical project, answer this question by implementing and/ or running a 
+baseline algorithm and analyzing the failure cases. For a survey paper, you
+should find evidence in the literature.
+
+* For an empirical paper: what is your proposed solution? Give a technical
+description of your planned work, with enough detail that someone could
+implement it. Your description should include an evaluation plan. For a 
+survey paper: what are solutions that have been tried? Your description
+should be convincing enough that your reader believes they'll learn
+something interesting if they read all the way to the end of your 
+(as yet unwritten!) final report.
+
+The interim report should look much like a conference or workshop paper, with
+some of the technical details and experimental results missing. To get a feel
+for this style, read some papers from [the syllabus](syllabus.html). None of
+them are perfect, so read actively: what do you find good or bad
+about the writing in each paper? Emulate the styles that you find effective, 
+and avoid those that are unclear or pedantic. Here is some more advice:
+
+* [On writing well](http://www.amazon.com/Writing-Well-30th-Anniversary-Edition/dp/0060891548) by William Zinsser.
+* [How to write a paper](http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/writing-a-paper-slides.pdf) by Simon Peyton-Jones.
+* [Mathematical writing](http://jmlr.org/reviewing-papers/knuth_mathematical_writing.pdf) by Donald Knuth.
 
 Project Ideas
 -------------
