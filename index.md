@@ -22,9 +22,9 @@ language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
 <div class="alert alert-info" markdown="span">
-  [Homework 4](hw4.html) is posted.
-  The implementation is due on April 14 at 6pm.
-  The writeup is due April 15 in class.
+  [Homework 5](hw5.html) is posted.
+  The implementation is due on April 28 at 6pm.
+  The writeup is due April 29 in class.
 </div>
 
 Instructors

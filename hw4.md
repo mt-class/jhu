@@ -7,11 +7,6 @@ title: Homework 4 | Reranking
 active_tab: homework
 ---
 
-<div class="alert alert-info">
-  Implementation due April 14 at 6pm.
-  Writeup due April 15 in class.
-</div>
-
 Reranking <span class="text-muted">Challenge Problem 4</span>
 ==============================================================
 
