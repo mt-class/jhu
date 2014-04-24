@@ -12,6 +12,14 @@ active_tab: homework
   Writeup due the following day in class.
 </div>
 
+<div class="alert alert-danger">
+  <b>April 24, 9:54 AM</b>. Please see crucial update in format for
+  uploading data. You need to upload a concatenated file containing
+  inflections of both <code>data/dtest.lemma</code> <i>and</i>
+  <code>data/etest.lemma</code>. The file you upload should have 8,714 lines.
+</div>
+
+
 Inflection <span class="text-muted">Challenge Problem 5</span>
 ==============================================================
 
@@ -222,12 +230,14 @@ Ground Rules
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
 * You must turn in three things:
-  1. The output of your inflector on the test set
-     (`data/test.lemma`), uploaded to the
+  1. The output of your inflector on <b>both the dev and test sets</b>
+     (`data/dtest.lemma` and `data/etest.lemma`, concatenated together), uploaded to the
      [leaderboard submission site](http://jhumtclass.appspot.com)
      according to <a href="assignment0.html">the Assignment 0
      instructions</a>. You can upload new output as often as
-     you like, up until the assignment deadline. 
+     you like, up until the assignment deadline.
+     
+     Your output file should have 8,714 lines.
   1. Your code. Send us a URL from which we can get the code and git revision
      history (a link to a tarball will suffice, but you're free to send us a 
      github link if you don't mind making your code public). This is due at the
