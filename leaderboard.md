@@ -36,7 +36,7 @@ Submit your assignments [here](http://jhumtclass.appspot.com). Results will be u
         <a href="hw4.html">#4</a><br/><span class="small text-muted">BLEU</span>
       </th>
       <th class="text-center">
-        <a href="hw5.html">#5</a>
+        <a href="hw5.html">#5</a><br/><span class="small text-muted">Accuracy</span>
       </th>
     </tr>
   </thead>
