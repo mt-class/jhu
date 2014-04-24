@@ -315,6 +315,7 @@ past:
   -
     date: 2014-04-15
     title: Representing Huge Translation Models
+    slides: http://www.slideshare.net/alopezfoo/jhu-mt-lecture20140415
     reading:
       -
         author: Callison-Burch et al.
@@ -325,6 +326,11 @@ past:
         author: Lopez 
         title: Hierarchical Phrase-Based Translation with Sufﬁx Arrays
         url: http://aclweb.org/anthology-new/D/D07/D07-1104.pdf
+        optional: true
+      - 
+        author: He et al.
+        title: Massively Parallel Suffix Array Queries and On-Demand Phrase Extraction for Statistical Machine Translation Using GPUs
+        url: http://aclweb.org/anthology//N/N13/N13-1033.pdf
         optional: true
   -
     date: 2014-04-17
