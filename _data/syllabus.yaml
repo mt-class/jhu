@@ -312,6 +312,34 @@ past:
         title: Stream-based Randomised Language Models for SMT
         url: http://homepages.inf.ed.ac.uk/miles/papers/emnlp09.pdf
         optional: true
+  -
+    date: 2014-04-15
+    title: Representing Huge Translation Models
+    reading:
+      -
+        author: Callison-Burch et al.
+        title: Scaling Phrase-Based Statistical Machine Translation to Larger Corpora and Longer Phrases
+        url: http://aclweb.org/anthology-new/P/P05/P05-1032.pdf
+      -
+        author: Lopez 
+        title: Hierarchical Phrase-Based Translation with Sufﬁx Arrays
+        url: http://aclweb.org/anthology-new/D/D07/D07-1104.pdf
+  -
+    date: 2014-04-17
+    title: In-class writing exercise
+  -
+    date: 2014-04-22
+    title: Syntax-Based Language Modeling
+    reading:
+      -
+        author: Charniak et al.
+        url: http://www.isi.edu/natural-language/projects/rewrite/mtsummit03.pdf
+        title: Syntax-based language models for statistical machine translation
+      -
+        title: A New String-to-Dependency Machine Translatio Algorithm with a Target Dependency Language Model
+        author: Shen et al.
+        url: http://aclweb.org/anthology//P/P08/P08-1066.pdf
+
 future:
   -
     date: 2014-03-04
