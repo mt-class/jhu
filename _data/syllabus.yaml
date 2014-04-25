@@ -349,6 +349,21 @@ past:
         author: Shen et al.
         url: http://aclweb.org/anthology//P/P08/P08-1066.pdf
         optional: true
+  -
+    date: 2014-04-24
+    title: Morphology and Translation
+    slides: http://cs.jhu.edu/~post/mt-class/2014/jhu-mt-class-2014-04-24-morphology.pdf
+    reading:
+    -
+      author: Koehn and Hoang (2007)
+      url: http://www.aclweb.org/anthology/D/D07/D07-1091
+      title: Factored Translation Models
+      optional: true
+    -
+      author: Toutanova et al. (2008)
+      url: http://research.microsoft.com/apps/pubs/default.aspx?id=69506
+      title: Applying Morphology Generation Models to Machine Translation
+      optional: true
 
 future:
   -
