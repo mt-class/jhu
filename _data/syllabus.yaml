@@ -365,6 +365,21 @@ past:
       title: Applying Morphology Generation Models to Machine Translation
       optional: true
 
+  -
+    date: 2014-04-29
+    title: Neural Models in MT
+    slides: http://demo.clab.cs.cmu.edu/sp2014-11731/slides/neural-mt.pdf
+    reading:
+    -
+      author: Bengio et al.
+      url: http://machinelearning.wustl.edu/mlpapers/paper_files/BengioDVJ03.pdf
+      title: A Neural Probabilistic Language Model
+      optional: true
+    -
+      author: Kalchbrenner and Blunsom
+      url: http://aclweb.org/anthology//D/D13/D13-1176.pdf
+      title: Recurrent Continuous Translation Models
+      optional: true
 future:
   -
     date: 2014-03-04
