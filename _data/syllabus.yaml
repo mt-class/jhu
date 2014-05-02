@@ -355,12 +355,12 @@ past:
     slides: http://cs.jhu.edu/~post/mt-class/2014/jhu-mt-class-2014-04-24-morphology.pdf
     reading:
     -
-      author: Koehn and Hoang (2007)
+      author: Koehn and Hoang
       url: http://www.aclweb.org/anthology/D/D07/D07-1091
       title: Factored Translation Models
       optional: true
     -
-      author: Toutanova et al. (2008)
+      author: Toutanova et al.
       url: http://research.microsoft.com/apps/pubs/default.aspx?id=69506
       title: Applying Morphology Generation Models to Machine Translation
       optional: true
@@ -379,4 +379,19 @@ past:
       author: Kalchbrenner and Blunsom
       url: http://aclweb.org/anthology//D/D13/D13-1176.pdf
       title: Recurrent Continuous Translation Models
+      optional: true
+  -
+    date: 2014-05-01
+    title: Semantics-Preserving Machine Translation
+    slides: http://www.slideshare.net/alopezfoo/semanticspreserving-machine-translation
+    reading:
+    -
+      author: Jones et al.
+      url: http://aclweb.org/anthology//C/C12/C12-1083.pdf
+      title: Semantics-Based Machine Translation with Hyperedge Replacement Grammars
+      optional: true
+    -
+      author: Zettlemoyer and Collins
+      url: http://aclweb.org/anthology//D/D07/D07-1071.pdf
+      title: Online Learning of Relaxed CCG Grammars for Parsing to Logical Form
       optional: true
