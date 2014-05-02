@@ -6,8 +6,6 @@ title: Syllabus
 active_tab: syllabus
 ---
 
-Subject to change as the term progresses.
-
 <table class="table table-striped"> 
   <tbody>
     <tr>

@@ -7,11 +7,6 @@ title: Homework 5 | Inflection
 active_tab: homework
 ---
 
-<div class="alert alert-info">
-  Implementation due Monday, April 28, at 6pm.
-  Writeup due the following day in class.
-</div>
-
 <div class="alert alert-danger">
   <b>April 24, 9:54 AM</b>. Please see crucial update in format for
   uploading data. You need to upload a concatenated file containing
