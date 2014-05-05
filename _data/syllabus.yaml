@@ -334,6 +334,8 @@ past:
         optional: true
   -
     date: 2014-04-17
+    language: Turkish
+    language_slides: http://cs.jhu.edu/~post/mt-class/2014/lang-in-10/2014-04-17-Turkish.pdf
     title: In-class writing exercise
   -
     date: 2014-04-22
