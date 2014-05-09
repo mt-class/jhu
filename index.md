@@ -21,12 +21,6 @@ machine learning, algorithms, data structures, and formal
 language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
-<div class="alert alert-info" markdown="span">
-  [Final project](project.html) poster session: 2-5pm May 9.
-  Reports due before the poster session. We will not accept
-  late reports.
-</div>
-
 Instructors
 : [Adam Lopez](http://www.cs.jhu.edu/~alopez/) and 
   [Matt Post](http://www.cs.jhu.edu/~post/)
