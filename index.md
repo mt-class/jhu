@@ -8,9 +8,9 @@ active_tab: main_page
 
 EN 600.468 Machine Translation
 : Spring 2015
-: Computer Science Department
-: Johns Hopkins University
-: Tuesdays and Thursdays 1:30-2:45, Hodson 313
+: [Computer Science Department](http://www.cs.jhu.edu/)
+: [Johns Hopkins University](http://www.jhu.edu/)
+: Tuesdays and Thursdays 1:30-2:45, [Hodson 313](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf)
 
 [Google translate](http://translate.google.com/) instantly
 translates between any pair of over eighty human languages 
