@@ -6,7 +6,7 @@ title: Statistical Machine Translation
 active_tab: main_page 
 ---
 
-: EN 600.468 Machine Translation
+EN 600.468 Machine Translation
 : Spring 2015
 : Computer Science Department
 : Johns Hopkins University
