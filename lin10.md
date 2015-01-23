@@ -1,10 +1,9 @@
 ---
 layout: default
-img: fuck_the_ginger_water
-img_link: http://itre.cis.upenn.edu/~myl/languagelog/archives/005195.html
-caption: A flagrant mistranslation
-title: Language in Ten Minutes
-active_tab: lin10
+img: cover
+img_link: http://www.statmt.org/book/
+title: Statistical Machine Translation
+active_tab: main_page 
 ---
 
 How are you going to build a machine translation system unless you know at
