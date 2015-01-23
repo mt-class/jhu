@@ -32,7 +32,7 @@ Discussion Forum
 : [Piazza](https://piazza.com/jhu/spring2014/en600468/home)
 
 Time and place
-: TuTh 1:30-2:45, Hodson313
+: TuTh 1:30-2:45, Hodson 313
 
 Office hours
 : TBD
