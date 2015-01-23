@@ -6,6 +6,12 @@ title: Statistical Machine Translation
 active_tab: main_page 
 ---
 
+: EN 600.468 Machine Translation
+: Spring 2015
+: Computer Science Department
+: Johns Hopkins University
+: Tuesdays and Thursdays 1:30-2:45, Hodson 313
+
 [Google translate](http://translate.google.com/) instantly
 translates between any pair of over eighty human languages 
 like French and English. How does it do that? Why does it 
@@ -26,9 +32,6 @@ Instructors
 
 Course Assistant
 : NN
-
-Time and place
-: TuTh 1:30-2:45, Hodson 313
 
 Office hours
 : TBD
