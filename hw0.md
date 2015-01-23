@@ -1,9 +1,9 @@
 ---
 layout: default
-img: placeholder 
-caption: 
-title: Homework | Setup
-active_tab: homework
+img: cover
+img_link: http://www.statmt.org/book/
+title: Statistical Machine Translation
+active_tab: main_page 
 ---
 
 Homework & Leaderboard setup
