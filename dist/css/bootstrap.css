@@ -4706,11 +4706,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: rgb(25,38,120);
   border-color: #000;
+  font-weight: bold;
   color: #fff;
 }
 
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -4729,21 +4730,21 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  color: #fcc;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #000;
+  color: #fff;
   background-color: rgb(25,38,120);
 }
 
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
-  color: #333;
+  color: #fcc;
   background-color: rgb(25,38,120);
 }
 
@@ -4768,7 +4769,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #555555;
+  color: #caa;
   background-color: #e7e7e7;
 }
 
