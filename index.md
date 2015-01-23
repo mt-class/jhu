@@ -24,7 +24,7 @@ Instructors
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) with help from 
   [Matt Post](http://www.cs.jhu.edu/~post/)
 
-Course Assistant
+'''Course Assistant'''
 : NN
 
 Time and place
