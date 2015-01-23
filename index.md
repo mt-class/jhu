@@ -22,11 +22,11 @@ language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
 Instructors
-: [Adam Lopez](http://www.cs.jhu.edu/~alopez/) and 
+: [Philipp Koehn](http://www.cs.jhu.edu/~phi/) and 
   [Matt Post](http://www.cs.jhu.edu/~post/)
 
 Course Assistant
-: Yuan Cao
+: NN
 
 Discussion Forum
 : [Piazza](https://piazza.com/jhu/spring2014/en600468/home)
