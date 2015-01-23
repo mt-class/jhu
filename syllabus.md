@@ -1,9 +1,9 @@
 ---
 layout: default
-img: do_not_want
-img_link: http://winterson.com/2005/06/episode-iii-backstroke-of-west.html
-title: Syllabus
-active_tab: syllabus
+img: cover
+img_link: http://www.statmt.org/book/
+title: Statistical Machine Translation
+active_tab: main_page 
 ---
 
 <table class="table table-striped"> 
