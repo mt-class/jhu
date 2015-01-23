@@ -3562,30 +3562,30 @@ input[type="button"].btn-block {
   font-weight: normal;
   line-height: 1.428571429;
   background-color: rgb(25,38,120);
-  color: #ccf;
+  color: #fff;
   white-space: nowrap;
 }
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #ff0;
+  color: #ffc;
   text-decoration: none;
-  background-color: #00f;
+  background-color: rgb(25,38,120);
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #0ff
+  color: #ffc
   text-decoration: none;
-  background-color: #f00;
+  background-color: rgb(25,38,120);
   outline: 0;
 }
 
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: #0f0;
+  color: #ffc;
 }
 
 .dropdown-menu > .disabled > a:hover,
