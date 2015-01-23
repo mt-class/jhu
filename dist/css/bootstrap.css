@@ -298,7 +298,7 @@ table {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 80%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -626,8 +626,8 @@ dd {
 }
 
 dt {
-  margin-top: 15px;
-  font-size: 14pt;
+  margin-top: 13px;
+  font-size: 13pt;
   font-weight: bold;
 }
 
