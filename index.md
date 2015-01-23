@@ -21,7 +21,7 @@ language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
 Instructors
-: [Philipp Koehn](http://www.cs.jhu.edu/~phi/) and 
+: [Philipp Koehn](http://www.cs.jhu.edu/~phi/) with help from 
   [Matt Post](http://www.cs.jhu.edu/~post/)
 
 Course Assistant
@@ -37,7 +37,7 @@ Textbook
 : [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
 by <a href="http://homepages.inf.ed.ac.uk/pkoehn/">Philipp Koehn</a> 
 You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
-or purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>.
+purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>.
 
 Grading
 : To understand how machine translation works, you must build a translation system.
