@@ -626,7 +626,8 @@ dd {
 }
 
 dt {
-  font-size: 20pt;
+  margin-top: 5px;
+  font-size: 12pt;
   font-weight: bold;
 }
 
