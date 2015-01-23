@@ -1,7 +1,7 @@
 ---
 layout: default
-img: bookcover
-img_link: http://www.statmt.org/book/cover.jpg
+img: cover
+img_link: http://www.statmt.org/book/
 title: Statistical Machine Translation
 active_tab: main_page 
 ---
