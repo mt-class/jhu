@@ -23,6 +23,7 @@ past:
         title: Translation
         url: http://www.stanford.edu/~mjkay/CurrentState.pdf
         optional: true
+previously:
   -
     date: 2014-01-30
     title: Probability and Language Models 
