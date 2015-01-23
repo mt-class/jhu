@@ -1,10 +1,9 @@
 ---
 layout: default
-img: race
-img_link: http://www.flickr.com/photos/nationaalarchief/3198249977/
-title: Leaderboard
-active_tab: leaderboard
-jquery: true
+img: cover
+img_link: http://www.statmt.org/book/
+title: Statistical Machine Translation
+active_tab: main_page 
 ---
 
 Submit your assignments [here](http://jhumtclass.appspot.com). Results will be updated immediately.
