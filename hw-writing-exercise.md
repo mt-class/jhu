@@ -1,9 +1,9 @@
 ---
 layout: default
-img: vermeer-writing 
-img_link: http://en.wikipedia.org/wiki/A_Lady_Writing_a_Letter
-title: Writing Exercise
-active_tab: homework
+img: cover
+img_link: http://www.statmt.org/book/
+title: Statistical Machine Translation
+active_tab: main_page 
 ---
 
 Writing Exercise
