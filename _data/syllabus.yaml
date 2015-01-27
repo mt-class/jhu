@@ -34,7 +34,7 @@ past:
     date: 2014-02-05
     title: IBM Model 1 and the EM Algorithm
     reading:
-     -
+      -
         author: Koehn 
         title: chapter 4
       -
@@ -42,7 +42,6 @@ past:
         title:  Automating Knowledge Acquisition for Machine Translation
         url: http://www.isi.edu/natural-language/mt/aimag97.pdf
         optional: true
-        author: Koehn 
   -
     date: 2014-02-10
     title: (no class)
