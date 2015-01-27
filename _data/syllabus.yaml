@@ -22,12 +22,26 @@ past:
         url: http://www.stanford.edu/~mjkay/CurrentState.pdf
         optional: true
   -
-    date: 2014-02-03
+    date: 2014-01-29
+    title: Words, Sentences, Corpora
+    reading:
+      -
+        author: Koehn 
+        title: chapter 2
+  -
+    date: 2014-01-29
     title: Basics in Probability
     reading:
       -
         author: Koehn 
         title: chapter 3
+  -
+    date: 2014-02-05
+    title: Language Models
+    reading:
+      -
+        author: Koehn 
+        title: chapter 7
   -
     date: 2014-02-05
     title: Language Models
