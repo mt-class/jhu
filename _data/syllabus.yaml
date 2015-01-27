@@ -36,7 +36,7 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 4
+        title: chapter 4.1-4.2
       -
         author: Knight
         title:  Automating Knowledge Acquisition for Machine Translation
@@ -51,14 +51,14 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 4
+        title: chapter 4.4
   -
     date: 2014-02-17
     title: Phrase-Based Models
     reading:
       -
         author: Koehn 
-        title: chapter 5
+        title: chapter 5.1-5.3
   -
     date: 2014-02-19
     title: Decoding
@@ -79,28 +79,28 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 10
+        title: chapter 9.1-9.3
   - 
     date: 2014-03-03
     title: Sparse Features
     reading:
       -
         author: Koehn 
-        title: chapter 10
+        title: chapter 9.4
   -
     date: 2014-03-05
     title: Reordering
     reading:
       -
         author: Koehn 
-        title: chapter 9
+        title: chapter 5.4, 10.3
   -
     date: 2014-03-10
     title: Morphology
     reading:
       -
         author: Koehn 
-        title: chapter 9
+        title: chapter 10.2
   -
     date: 2014-03-12
     title: Hierarchical Phrase-Based Models
@@ -117,21 +117,21 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 11
+        title: chapter 11.1-11.2
   -
     date: 2014-03-31
     title: Syntax-Based Decoding I
     reading:
       -
         author: Koehn 
-        title: chapter 11
+        title: chapter 11.3
   -
     date: 2014-04-02
     title: Syntax-Based Decoding II
     reading:
       -
         author: Koehn 
-        title: chapter 11
+        title: chapter 11.3
   -
     date: 2014-04-07
     title: Semantics I
