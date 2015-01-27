@@ -7,11 +7,6 @@ past:
         author: Koehn 
         title: chapter 1
       -
-        author: Knight
-        title:  Automating Knowledge Acquisition for Machine Translation
-        url: http://www.isi.edu/natural-language/mt/aimag97.pdf
-        optional: true
-      -
         author: Weaver
         title: Translation
         url: http://www.mt-archive.info/Weaver-1949.pdf
@@ -52,6 +47,11 @@ past:
       -
         author: Koehn 
         title: chapter 4
+      -
+        author: Knight
+        title:  Automating Knowledge Acquisition for Machine Translation
+        url: http://www.isi.edu/natural-language/mt/aimag97.pdf
+        optional: true
   -
     date: 2014-02-17
     title: Advanced Alignment Models
