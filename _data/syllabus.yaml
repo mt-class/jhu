@@ -18,33 +18,23 @@ past:
         optional: true
   -
     date: 2014-01-29
-    title: Words, Sentences, Corpora
+    title: Basics in Probability and Language
     reading:
       -
         author: Koehn 
-        title: chapter 2
+        title: chapter 2 and 3
   -
     date: 2014-02-03
-    title: Basics in Probability
-    reading:
-      -
-        author: Koehn 
-        title: chapter 3
-  -
-    date: 2014-02-05
-    title: Language Models
-    reading:
+    title: 
+    reading: Language Models
       -
         author: Koehn 
         title: chapter 7
   -
-    date: 2014-02-10
-    title: (no class)
-  -
-    date: 2014-02-12
+    date: 2014-02-05
     title: IBM Model 1 and the EM Algorithm
     reading:
-      -
+     -
         author: Koehn 
         title: chapter 4
       -
@@ -52,37 +42,48 @@ past:
         title:  Automating Knowledge Acquisition for Machine Translation
         url: http://www.isi.edu/natural-language/mt/aimag97.pdf
         optional: true
+        author: Koehn 
   -
-    date: 2014-02-17
+    date: 2014-02-10
+    title: (no class)
+  -
+    date: 2014-02-12
     title: Advanced Alignment Models
     reading:
       -
         author: Koehn 
         title: chapter 4
   -
-    date: 2014-02-19
+    date: 2014-02-17
     title: Phrase-Based Models
     reading:
       -
         author: Koehn 
         title: chapter 5
   -
-    date: 2014-02-24
+    date: 2014-02-19
     title: Decoding
     reading:
       -
         author: Koehn 
         title: chapter 6
   -
-    date: 2014-02-26
+    date: 2014-02-24
     title: Evaluation
     reading:
       -
         author: Koehn 
         title: chapter 8
   -
-    date: 2014-03-03
+    date: 2014-02-26
     title: Tuning
+    reading:
+      -
+        author: Koehn 
+        title: chapter 10
+  - 
+    date: 2014-03-03
+    title: Sparse Features
     reading:
       -
         author: Koehn 
