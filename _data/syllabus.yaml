@@ -5,7 +5,7 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 1
+        title: chapter 1.2
       -
         author: Weaver
         title: Translation
@@ -18,11 +18,11 @@ past:
         optional: true
   -
     date: 2014-01-29
-    title: Basics in Probability and Language
+    title: Basics in Language and Probability 
     reading:
       -
         author: Koehn 
-        title: chapter 2 and 3
+        title: chapter 2.1 and 3
   -
     date: 2014-02-03
     title: Language Models
