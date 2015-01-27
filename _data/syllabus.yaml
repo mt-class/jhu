@@ -2,7 +2,6 @@ past:
   -
     date: 2014-01-27
     title: Introduction
-    lecturer: All
     reading:
       -
         author: Koehn 
@@ -22,6 +21,79 @@ past:
         title: Translation
         url: http://www.stanford.edu/~mjkay/CurrentState.pdf
         optional: true
+-
+    date: 2014-02-03
+    title: Basics in Probability
+  -
+    date: 2014-02-05
+    title: Language Models
+  -
+    date: 2014-02-10
+    title: (no class)
+  -
+    date: 2014-02-12
+    title: IBM Model 1 and the EM Algorithm
+  -
+    date: 2014-02-17
+    title: Advanced Alignment Models
+  -
+    date: 2014-02-19
+    title: Phrase-Based Models
+  -
+    date: 2014-02-24
+    title: Decoding
+  -
+    date: 2014-02-26
+    title: Evaluation
+  -
+    date: 2014-03-03
+    title: Tuning
+  -
+    date: 2014-03-05
+    title: Reordering
+  -
+    date: 2014-03-10
+    title: Morphology
+  -
+    date: 2014-03-12
+    title: Hierarchical Phrase-Based Models
+  -
+    date: 2014-03-24
+    title: (no class)
+  -
+    date: 2014-03-26
+    title: Syntax-Based Models
+  -
+    date: 2014-03-31
+    title: Syntax-Based Decoding I
+  -
+    date: 2014-04-02
+    title: Syntax-Based Decoding II
+  -
+    date: 2014-04-07
+    title: Semantics I
+  -
+    date: 2014-04-09
+    title: Semantics II
+  -
+    date: 2014-04-14
+    title: Neural Network Basics
+  -
+    date: 2014-04-16
+    title: Neural Language Models
+  -
+    date: 2014-04-21
+    title: Neural Translation Models
+  -
+    date: 2014-04-23
+    title: Neural Alignment Models
+  -
+    date: 2014-04-28
+    title: Computer Aided Translation
+  -
+    date: 2014-04-30
+    title: Open Problems
+
 previously:
   -
     date: 2014-01-30
