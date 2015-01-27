@@ -24,51 +24,107 @@ past:
   -
     date: 2014-02-03
     title: Basics in Probability
+    reading:
+      -
+        author: Koehn 
+        title: chapter 3
   -
     date: 2014-02-05
     title: Language Models
+    reading:
+      -
+        author: Koehn 
+        title: chapter 7
   -
     date: 2014-02-10
     title: (no class)
   -
     date: 2014-02-12
     title: IBM Model 1 and the EM Algorithm
+    reading:
+      -
+        author: Koehn 
+        title: chapter 4
   -
     date: 2014-02-17
     title: Advanced Alignment Models
+    reading:
+      -
+        author: Koehn 
+        title: chapter 4
   -
     date: 2014-02-19
     title: Phrase-Based Models
+    reading:
+      -
+        author: Koehn 
+        title: chapter 5
   -
     date: 2014-02-24
     title: Decoding
+    reading:
+      -
+        author: Koehn 
+        title: chapter 6
   -
     date: 2014-02-26
     title: Evaluation
+    reading:
+      -
+        author: Koehn 
+        title: chapter 8
   -
     date: 2014-03-03
     title: Tuning
+    reading:
+      -
+        author: Koehn 
+        title: chapter 10
   -
     date: 2014-03-05
     title: Reordering
+    reading:
+      -
+        author: Koehn 
+        title: chapter 9
   -
     date: 2014-03-10
     title: Morphology
+    reading:
+      -
+        author: Koehn 
+        title: chapter 9
   -
     date: 2014-03-12
     title: Hierarchical Phrase-Based Models
+    reading:
+      -
+        author: Koehn 
+        title: chapter 11
   -
     date: 2014-03-24
     title: (no class)
   -
     date: 2014-03-26
     title: Syntax-Based Models
+    reading:
+      -
+        author: Koehn 
+        title: chapter 11
   -
     date: 2014-03-31
     title: Syntax-Based Decoding I
+    reading:
+      -
+        author: Koehn 
+        title: chapter 11
   -
     date: 2014-04-02
     title: Syntax-Based Decoding II
+    reading:
+      -
+        author: Koehn 
+        title: chapter 11
   -
     date: 2014-04-07
     title: Semantics I
