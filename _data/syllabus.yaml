@@ -2,6 +2,9 @@ past:
   -
     date: 2014-01-27
     title: Introduction
+    links:
+      -
+        link: http://mt-class.org/jhu/slides/lecture-introduction.pdf
     reading:
       -
         author: Koehn 
