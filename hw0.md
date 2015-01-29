@@ -24,6 +24,7 @@ Analyse the Translations
 Write a report about the quality of the machine translation.
 
 Go over at least 20 sentences, manually correct each sentence, and report for each sentence:
+
 1. the source sentence
 2. the machine translation
 3. a correction of the machine translation
