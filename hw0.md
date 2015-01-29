@@ -37,7 +37,7 @@ For instance:
 1. _Erst drei Tage ist der neue Ministerpräsident Griechenlands im Amt._
 2. _Only three days is the new Prime Minister of Greece in office._
 3. _The new Prime Minister of Greece has been in office for only three days._
-4. (1) Verb tense is wrong: _is_ instead of _has been_. (2) Preposition _for_ was missing in front of the time phrase _only three days_. (3) The overall sentence structure on the clause level is scambled.
+4. (1) Verb tense is wrong: _is_ instead of _has been_. (2) Preposition _for_ was missing in front of the time phrase _only three days_. (3) While the noun phrases and preprositional phrases are correct, the overall sentence structure on the clause level is scambled.
 
 Conclude your report with a summary of your impression of the major quality problems in the machine translation system that you analysed.
 
