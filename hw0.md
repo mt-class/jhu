@@ -34,10 +34,10 @@ You may do step 4 in any way you want. For instance, you could classify errors a
 
 For instance:
 
-1. Erst drei Tage ist der neue Ministerpräsident Griechenlands im Amt.
-2. Only three days is the new Prime Minister of Greece in office.
-3. The new Prime Minister of Greece is only three days in office.
-4. The words and even noun phrases are all translated correctly, but the overall sentence structure on the clause level is scambled.
+1. _Erst drei Tage ist der neue Ministerpräsident Griechenlands im Amt._
+2. _Only three days is the new Prime Minister of Greece in office._
+3. _The new Prime Minister of Greece has been only three days in office._
+4. The words and even noun phrases are translated correctly, except for the verb tense (_is_ instead of _has been_). The overall sentence structure on the clause level is scambled.
 
 Conclude your report with a summary of your impression of the major quality problems in the machine translation system that you analysed.
 
