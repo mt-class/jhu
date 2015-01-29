@@ -16,7 +16,7 @@ Translate a Web Page with Google Translate
 
 1. Pick a foreign language (preferable one that you have some understanding of - or an easy one like French or Spanish)
 2. Find a news site that publishes news stories in that language. You can also look at Wikipedia articles, if you prefer that.
-3. Pick a web page to translate and enter it in [[Google Translate -> https://translate.google.com/]]
+3. Pick a web page to translate and enter it in [Google Translate](https://translate.google.com/)
 
 Analyse the Translations
 ========================
