@@ -6,30 +6,37 @@ title: Statistical Machine Translation
 active_tab: main_page 
 ---
 
-Homework & Leaderboard setup
-=============================================================
+Examining the Quality of Machine Translation
+============================================
 
-For this course, we use [an automated homework submission system](http://jhumtclass.appspot.com)
-built on [Google App Engine](https://appengine.google.com). One component of this system is the
-[leaderboard](leaderboard.html), which introduces a competitive element into the assignments with
-realtime display of student submissions according to their scores on assignment
-metrics. Participation in the leaderboard is optional, and submissions are anonymized with a handle
-of your choosing.
+The first homework assignment does not involve any programming. Instead, you will take a closer look at the quality of todays's machine translation systems.
 
-You should follow the steps in this document to make sure that everything is working for you.
+Translate a Web Page with Google Translate
+==========================================
 
-1. Visit the course submission page at [jhumtclass.appspot.com](http://jhumtclass.appspot.com). You
-will need a Google account, if you don't already have one; use it to sign in.
+1. Pick a foreign language (preferable one that you have some understanding of - or an easy one like French or Spanish)
+2. Find a news site that publishes news stories in that language. You can also look at Wikipedia articles, if you prefer that.
+3. Pick a web page to translate and enter it in [[Google Translate -> https://translate.google.com/]]
 
-2. This system is used to upload all homework assignments, but participation in the leaderboard is
-optional. To remove yourself from the leaderboard, uncheck the checkbox and click
-"Update". Otherwise, choose a handle, or keep the default (your Google nickname).
+Analyse the Translations
+========================
 
-3. Assignment 0 (this one) and [Assignment 1](hw1.html) have been activated. Use the file submission
-dialog to upload your submissions. 
+Write a report about the quality of the machine translation.
 
-## Assignment 0
+Go over at least 20 sentences, manually correct each sentence, and report for each sentence:
+1. the source sentence
+2. the machine translation
+3. a correction of the machine translation
+4. an assessment what the error in the machine translation
 
-Assignment 0 expects a file containing a single number. The leaderboard displays a simple
-nonmonotonic function of this number, and sorts the entries according to the highest value.
+You may do step 4 in any way you want. For instance, you could classify errors as "reordering errors", "word sense error for a noun", or any other type of error you can think of.
+
+Conclude your report with a summary of your impression of the major quality problems in the machine translation system that you analysed.
+
+What to Hand in
+===============
+
+Turn in a written report (on paper or by email to phi@jhu.edu) by the beginning of class on Thursday, February 5.
+
+
 
