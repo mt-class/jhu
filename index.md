@@ -32,9 +32,6 @@ Instructors
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) with help from 
   [Matt Post](http://www.cs.jhu.edu/~post/)
 
-Course Assistant
-: NN
-
 Office hours
 : TBD
 
@@ -48,7 +45,7 @@ Grading
 : To understand how machine translation works, you must build a translation system.
 We will mainly grade hands-on work.
 
-* Five programming assignments (12% each)
+* Six homework assignments (10% each)
 * Final project (30%)
 * In-class presentation: Language in ten minutes (10%)
 
