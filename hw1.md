@@ -10,7 +10,7 @@ active_tab: homework
 Leaderboard setup
 =============================================================
 
-For this course, we use [an automated homework submission system](http://jhumtclass.appspot.com)
+For this course, we use [an automated homework submission system](http://jhu-mt-2015.appspot.com)
 built on [Google App Engine](https://appengine.google.com). One component of this system is the
 [leaderboard](leaderboard.html), which introduces a competitive element into the assignments with
 realtime display of student submissions according to their scores on assignment
@@ -19,7 +19,7 @@ of your choosing.
 
 You should follow the steps in this document to make sure that everything is working for you.
 
-1. Visit the course submission page at [jhumtclass.appspot.com](http://jhumtclass.appspot.com). You
+1. Visit the course submission page at [jhu-mt-2015.appspot.com](http://jhu-mt-2015.appspot.com). You
 will need a Google account, if you don't already have one; use it to sign in.
 
 2. This system is used to upload all homework assignments, but participation in the leaderboard is
