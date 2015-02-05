@@ -39,13 +39,12 @@ Planned Presentations
 1. **Xhosa**: Brian Ho, Jacquelyn Haughey, Jade Huang
 2. **Hindi**: Satya Peateek, Biman Gijral
 3. **Arabic**: Rachel Rudinger, Gaurav Kumar
+2. **Japanese**: Jeremy Silver, Haitang Hu
 
 Still needs some sorting out
 ----------------------------
 
 1. **Spanish**: Juan Marron
-2. **Japanese**: Jeremy Silver
-3. **Japanese**: Haitang Hu
 4. **German**: Morris Kraicer
 5. **Chinese**: Huizhan Lu
 6. **Chinese**: Yating Jing
