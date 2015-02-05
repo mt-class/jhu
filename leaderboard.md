@@ -6,9 +6,9 @@ title: Statistical Machine Translation
 active_tab: main_page 
 ---
 
-Submit your assignments [here](http://jhumtclass.appspot.com). Results will be updated immediately.
+Submit your assignments [here](http://jhu-mt-2015.appspot.com). Results will be updated immediately.
 
-<script type="text/javascript" src="http://jhumtclass.appspot.com/leaderboard.js"></script>
+<script type="text/javascript" src="http://jhu-mt-2015.appspot.com/leaderboard.js"></script>
 
 <table class="table table-hover table-condensed">
   <thead>
