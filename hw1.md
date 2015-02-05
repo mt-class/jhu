@@ -180,14 +180,14 @@ Ground Rules
 
 * You can work in independently or in groups of up to three, under these 
   conditions: 
-  1. You must announce the group publicly on piazza.
+  1. You must announce the group by email to phi@jhu.edu.
   1. You agree that everyone in the group will receive the same grade on the assignment. 
   1. You can add people or merge groups at any time before the assignment is
      due. **You cannot drop people from your group once you've added them.**
-  We encourage collaboration, but we will not adjudicate Rashomon-style 
+  We encourage collaboration, but we will not adjudicate Rashomon-style
   stories about who did or did not contribute.
 * You must turn in three things:
-  1. An alignment of the entire dataset, uploaded to the [leaderboard submission site](http://jhumtclass.appspot.com) according to <a href="assignment0.html">the Assignment 0 instructions</a>. You can upload new output as often
+  1. An alignment of the entire dataset, uploaded to the [leaderboard submission site](http://jhu-mt-2015.appspot.com) according to <a href="assignment0.html">the Assignment 0 instructions</a>. You can upload new output as often
      as you like, up until the assignment deadline. The output will be evaluated 
      using a secret metric, but the `grade` program will give you a good
      idea of how well you're doing, and you can use the `check` program
@@ -208,7 +208,7 @@ Ground Rules
   1. A clear, mathematical description of your algorithm and its motivation
      written in scientific style. This needn't be long, but it should be
      clear enough that one of your fellow students could re-implement it 
-     exactly. [We will review examples in class before the due date](hw-writing-exercise.html).
+     exactly.
 * You may only use data or code resources other than the ones we
   provide _with advance permission_. We will ask you to make 
   your resources available to everyone. If you have a cool idea 
