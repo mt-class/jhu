@@ -26,6 +26,11 @@ will need a Google account, if you don't already have one; use it to sign in.
 optional. To remove yourself from the leaderboard, uncheck the checkbox and click
 "Update". Otherwise, choose a handle, or keep the default (your Google nickname).
 
+3. Assignment 0 and Assignment 1 have been activated. Use the file submission
+dialog to upload your submissions. 
+
+4. Assignment 0: Assignment 0 expects a file containing a single number. The leaderboard displays a simple
+nonmonotonic function of this number, and sorts the entries according to the highest value.
 
 Alignment <span class="text-muted">Challenge Problem 1</span>
 =============================================================
