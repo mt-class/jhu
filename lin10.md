@@ -33,13 +33,15 @@ For inspiration, check out:
 We will grade on clarity and detail. Did you learn 
 something really cool? Tell us!
 
-Planned Presentations:
+Planned Presentations
+---------------------
 
 1. ''Xhosa'': Brian Ho, Jacquelyn Haughey, Jade Huang
 2. ''Hindi'': Satya Peateek, Biman Gijral
 3. ''Arabic'': Rachel Rudinger, Gaurav Kumar
 
-Still needs some sorting out:
+Still needs some sorting out
+----------------------------
 
 1. ''Spanish'': Juan Marron
 2. ''Japanese'': Jeremy Silver
@@ -52,7 +54,8 @@ Still needs some sorting out:
 9. ''Chinese, Cantonese, or German'': Shuoyang Ding
 10. ''Marathi or Sanskrit'': Sumit Pawar
 
-Not yet decided:
+Not yet decided
+---------------
 
 1. Gabriel Howard Giraldo-Wingler
 2. Kai Liu
