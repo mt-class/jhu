@@ -36,6 +36,7 @@ past:
   -
     date: 2014-02-05
     title: IBM Model 1 and the EM Algorithm
+    slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
     reading:
       -
         author: Koehn 
