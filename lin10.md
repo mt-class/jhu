@@ -46,11 +46,10 @@ Still needs some sorting out
 
 1. **Spanish**: Juan Marron
 4. **German**: Morris Kraicer
+9. **German**: Yating Jing, Shuoyang Ding
 5. **Chinese**: Huizhan Lu
-6. **Chinese**: Yating Jing
 7. **Chinese**: Li-Yi Lin
 8. **undecided**: Mozhi Zhang, Tai-Ting Hsieh
-9. **Chinese, Cantonese, or German**: Shuoyang Ding
 10. **Marathi or Sanskrit**: Sumit Pawar
 
 Not yet decided
