@@ -56,10 +56,8 @@ Still needs some sorting out
 Not yet decided
 ---------------
 
-1. Gabriel Howard Giraldo-Wingler
-2. Kai Liu
-3. Rahul Sabbineni
-4. Avigyan Sinha
+1. Rahul Sabbineni
+2. Avigyan Sinha
 
 
 
