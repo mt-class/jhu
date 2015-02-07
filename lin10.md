@@ -56,7 +56,6 @@ Not yet decided
 ---------------
 
 1. Rahul Sabbineni
-2. Avigyan Sinha
 
 
 
