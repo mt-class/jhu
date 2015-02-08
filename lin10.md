@@ -52,10 +52,6 @@ Still needs some sorting out
 8. **undecided**: Mozhi Zhang, Tai-Ting Hsieh
 10. **Marathi or Sanskrit**: Sumit Pawar
 
-Not yet decided
----------------
-
-1. Rahul Sabbineni
 
 
 
