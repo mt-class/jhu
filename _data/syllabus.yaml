@@ -56,6 +56,21 @@ past:
       -
         author: Koehn 
         title: chapter 4.4
+      -
+        author: Dyer et al.
+        title: A Simple, Fast, and Effective Reparameterization of IBM Model 2
+        url: http://www.aclweb.org/anthology/N13-1073.pdf
+        optional: true
+      -
+        author: Vogel et al.
+        title: HMM-Based Word Alignment in Statistical Translation
+        url: http://www.aclweb.org/anthology/C96-2141
+        optional: true
+      -
+        author: Fossum et al.
+        title: Using Syntax to Improve Word Alignment Precision for Syntax-Based Machine Translation
+        url: http://www.aclweb.org/anthology/W/W08/W08-0306.pdf
+        optional: true
   -
     date: 2014-02-17
     title: Phrase-Based Models
