@@ -13,6 +13,7 @@ EN 600.468 Machine Translation
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
+**Homework 1 is due February 19**
 
 [Google translate](http://translate.google.com/) instantly
 translates between any pair of over eighty human languages 
@@ -28,7 +29,6 @@ machine learning, algorithms, data structures, and formal
 language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
-**Homework 1 is due February 19**
 
 Instructors
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) with help from 
