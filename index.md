@@ -28,6 +28,8 @@ machine learning, algorithms, data structures, and formal
 language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
+@@Homework 1 is due February 19@@
+
 Instructors
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) with help from 
   [Matt Post](http://www.cs.jhu.edu/~post/)
