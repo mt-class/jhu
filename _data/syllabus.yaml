@@ -52,6 +52,7 @@ past:
   -
     date: 2014-02-12
     title: Advanced Alignment Models
+    slides: http://mt-class.org/jhu/slides/lecture-advanced-alignment-models.pdf
     reading:
       -
         author: Koehn 
@@ -65,11 +66,6 @@ past:
         author: Vogel et al.
         title: HMM-Based Word Alignment in Statistical Translation
         url: http://www.aclweb.org/anthology/C96-2141
-        optional: true
-      -
-        author: Fossum et al.
-        title: Using Syntax to Improve Word Alignment Precision for Syntax-Based Machine Translation
-        url: http://www.aclweb.org/anthology/W/W08/W08-0306.pdf
         optional: true
   -
     date: 2014-02-17
