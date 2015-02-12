@@ -7,7 +7,8 @@ title: Homework 1 | Alignment
 active_tab: homework
 ---
 
-! You should try to get an AER score below 35 for Homework 1
+You should try to get an AER score below 35 for Homework 1
+==============
 
 Leaderboard setup
 =============================================================
