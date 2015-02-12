@@ -152,7 +152,7 @@ count up the expected number of times $$f$$ aligns to
 $$e$$ and normalize over values of $$e$$. That will give you a new
 estimate of the translation probabilities $$P (f |e)$$, which leads 
 to new expectations, and so on. For more detail, read 
-[this note](http://www.cs.jhu.edu/~alopez/papers/model1-note.pdf). We
+[this note](https://drive.google.com/file/d/0B7cpo43vOGF1WXpmNVowcVU1UXc/view). We
 recommend developing on a small data set (1000 sentences) with a few 
 iterations of EM. When you see improvements on this small set, try it out on
 the complete data.
