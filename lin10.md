@@ -44,9 +44,8 @@ Planned Presentations
 Still needs some sorting out
 ----------------------------
 
-1. **Spanish**: Juan Marron
-4. **German**: Morris Kraicer
-9. **German**: Yating Jing, Shuoyang Ding
+1. **German**: Morris Kraicer, Juan Marron
+2. **German**: Yating Jing, Shuoyang Ding
 5. **Chinese**: Huizhan Lu
 7. **Chinese**: Li-Yi Lin
 8. **undecided**: Mozhi Zhang, Tai-Ting Hsieh
