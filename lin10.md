@@ -33,8 +33,8 @@ For inspiration, check out:
 We will grade on clarity and detail. Did you learn 
 something really cool? Tell us!
 
-Planned Presentations
----------------------
+Presentations
+-------------
 
 | **Day**      | **Language**&nbsp;&nbsp; | **Presenter(s)** |
 | February 26&nbsp;&nbsp;  | Russian  | Morris Kraicer, Juan Marron |
