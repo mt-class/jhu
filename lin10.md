@@ -40,6 +40,7 @@ Planned Presentations
 2. **Hindi**: Satya Peateek, Biman Gijral
 3. **Arabic**: Rachel Rudinger, Gaurav Kumar
 2. **Japanese**: Jeremy Silver, Haitang Hu
+8. **Swahili**: Mozhi Zhang, Tai-Ting Hsieh
 
 Still needs some sorting out
 ----------------------------
@@ -48,7 +49,6 @@ Still needs some sorting out
 2. **German**: Yating Jing, Shuoyang Ding
 5. **Chinese**: Huizhan Lu
 7. **Chinese**: Li-Yi Lin
-8. **undecided**: Mozhi Zhang, Tai-Ting Hsieh
 10. **Marathi or Sanskrit**: Sumit Pawar
 
 
