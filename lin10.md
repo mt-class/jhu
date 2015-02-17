@@ -36,15 +36,16 @@ something really cool? Tell us!
 Planned Presentations
 ---------------------
 
-8. Feb. 26 **Russian**: Morris Kraicer, Juan Marron 
-9. March 3 **Xhosa**: Brian Ho, Jacquelyn Haughey, Jade Huang
-9. March 5 **German**: Yating Jing, Shuoyang Ding
-1. March 10 **Hindi**: Satya Peateek, Biman Gijral
-3. March 12 **Arabic**: Rachel Rudinger, Gaurav Kumar
-4. March 26 **Japanese**: Jeremy Silver, Haitang Hu
-5. March 31 **Swahili**: Mozhi Zhang, Tai-Ting Hsieh
-6. April 2 **Chinese**: Huizhan Lu, Li-Yi Lin
-7. April 7 **Marathi**: Sumit Pawar
+
+| February 26  | **Russian**  | Morris Kraicer, Juan Marron |
+| March 3      | **Xhosa**    | Brian Ho, Jacquelyn Haughey, Jade Huang |
+| March 5      | **German**   | Yating Jing, Shuoyang Ding |
+| March 10     | **Hindi**    | Satya Peateek, Biman Gijral |
+| March 12     | **Arabic**   | Rachel Rudinger, Gaurav Kumar |
+| March 26     | **Japanese** | Jeremy Silver, Haitang Hu |
+| March 31     | **Swahili**  |  Mozhi Zhang, Tai-Ting Hsieh |
+| April 2      | **Chinese**  | Huizhan Lu, Li-Yi Lin |
+| April 7      | **Marathi**  | Sumit Pawar |
 
 
 
