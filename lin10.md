@@ -39,16 +39,13 @@ Planned Presentations
 1. **Xhosa**: Brian Ho, Jacquelyn Haughey, Jade Huang
 2. **Hindi**: Satya Peateek, Biman Gijral
 3. **Arabic**: Rachel Rudinger, Gaurav Kumar
-2. **Japanese**: Jeremy Silver, Haitang Hu
-8. **Swahili**: Mozhi Zhang, Tai-Ting Hsieh
-9. **Chinese**: Huizhan Lu, Li-Yi Lin
+4. **Japanese**: Jeremy Silver, Haitang Hu
+5. **Swahili**: Mozhi Zhang, Tai-Ting Hsieh
+6. **Chinese**: Huizhan Lu, Li-Yi Lin
+7. **Marathi**: Sumit Pawar
+8. **Russian**: Morris Kraicer, Juan Marron
+9. **German**: Yating Jing, Shuoyang Ding
 
-Still needs some sorting out
-----------------------------
-
-1. **German**: Morris Kraicer, Juan Marron
-2. **German**: Yating Jing, Shuoyang Ding
-10. **Marathi or Sanskrit**: Sumit Pawar
 
 
 
