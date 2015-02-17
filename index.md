@@ -36,7 +36,9 @@ Instructors
   [Matt Post](http://www.cs.jhu.edu/~post/)
 
 Office hours
-: TBD
+: Wednesday 3-4
+
+[Piazza](https://piazza.com/jhu/spring2015/en600468/home)
 
 Textbook
 : [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
