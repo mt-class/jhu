@@ -192,8 +192,7 @@ Ground Rules
 * You must turn in three things:
   1. An alignment of the entire dataset, uploaded to the [leaderboard submission site](http://jhu-mt-2015.appspot.com) according to <a href="assignment0.html">the Assignment 0 instructions</a>. You can upload new output as often
      as you like, up until the assignment deadline. The output will be evaluated 
-     using a secret metric, but the `grade` program will give you a good
-     idea of how well you're doing, and you can use the `check` program
+     using a secret subset of sentence and you can use the `check` program
      to see whether your output is formatted correctly. Whoever has
      the highest score at the deadline will receive the most bonus points.
 
