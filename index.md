@@ -36,7 +36,7 @@ Instructors
   [Matt Post](http://www.cs.jhu.edu/~post/)
 
 Office hours
-: Wednesday 3-4
+: Wednesday 3-4, Hackermann 227
 
 Discussion Forum
 : [Piazza](https://piazza.com/jhu/spring2015/en600468/home)
