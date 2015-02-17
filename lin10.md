@@ -8,8 +8,8 @@ active_tab: main_page
 
 How are you going to build a machine translation system unless you know at
 least a little bit about language? You will be required to give 
-a short presentation (~10 minutes) on a particular language <i>that you do 
-not speak natively</i>, e.g., Arabic, Chinese, Czech, Hindi, Italian, or Maltese.
+a short presentation (~10 minutes) on a particular language, 
+e.g., Arabic, Chinese, Czech, Hindi, Italian, or Maltese.
 
 You should prepare three to six slides for your presentation, covering
 language facts (demographics, location, etc.) important linguistic 
