@@ -41,14 +41,13 @@ Planned Presentations
 3. **Arabic**: Rachel Rudinger, Gaurav Kumar
 2. **Japanese**: Jeremy Silver, Haitang Hu
 8. **Swahili**: Mozhi Zhang, Tai-Ting Hsieh
+9. **Chinese**: Huizhan Lu, Li-Yi Lin
 
 Still needs some sorting out
 ----------------------------
 
 1. **German**: Morris Kraicer, Juan Marron
 2. **German**: Yating Jing, Shuoyang Ding
-5. **Chinese**: Huizhan Lu
-7. **Chinese**: Li-Yi Lin
 10. **Marathi or Sanskrit**: Sumit Pawar
 
 
