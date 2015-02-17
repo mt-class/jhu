@@ -36,8 +36,8 @@ something really cool? Tell us!
 Planned Presentations
 ---------------------
 
-| **Day**      | **Language** | **Presenter(s)** |
-| February 26  | Russian  | Morris Kraicer, Juan Marron |
+| **Day**      | **Language**&nbsp;&nbsp; | **Presenter(s)** |
+| February 26&nbsp;&nbsp;  | Russian  | Morris Kraicer, Juan Marron |
 | March 3      | Xhosa    | Brian Ho, Jacquelyn Haughey, Jade Huang |
 | March 5      | German   | Yating Jing, Shuoyang Ding |
 | March 10     | Hindi    | Satya Peateek, Biman Gijral |
