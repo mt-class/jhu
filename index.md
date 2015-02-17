@@ -38,7 +38,8 @@ Instructors
 Office hours
 : Wednesday 3-4
 
-[Piazza](https://piazza.com/jhu/spring2015/en600468/home)
+Discussion Forum
+: [Piazza](https://piazza.com/jhu/spring2015/en600468/home)
 
 Textbook
 : [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
