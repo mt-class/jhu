@@ -70,10 +70,16 @@ past:
   -
     date: 2014-02-17
     title: Phrase-Based Models
+    slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
     reading:
       -
         author: Koehn 
-        title: chapter 5.1-5.3
+        title: chapter 5
+      -
+        author: Durrani et al.
+        title: Can Markov Models Over Minimal Translation Units Help Phrase-Based SMT?
+        url: http://homepages.inf.ed.ac.uk/dnadir/osmoses.pdf
+        optional: true
   -
     date: 2014-02-19
     title: Decoding
