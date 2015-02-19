@@ -84,6 +84,10 @@ past:
     date: 2014-02-19
     title: Decoding
     slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
+    links:
+      -
+        text: (Demo)
+        url: stack-decoder/
     reading:
       -
         author: Koehn 
