@@ -83,10 +83,16 @@ past:
   -
     date: 2014-02-19
     title: Decoding
+    slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
     reading:
       -
         author: Koehn 
         title: chapter 6
+      -
+        author: Heafield et al.
+        title: Faster Phrase-Based Decoding by Refining Feature State
+        url: https://kheafield.com/professional/stanford/mtplz_paper.pdf
+        optional: true
   -
     date: 2014-02-24
     title: Evaluation
