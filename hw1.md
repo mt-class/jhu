@@ -226,7 +226,11 @@ Ground Rules
 
 If you have any questions or you're confused about anything, just ask.
 
-*Credits: This assignment is adapted from one originally developed by 
+*Credits: This assignment was adapted by 
+[Adam Lopez](http://alopez.github.io/), 
+[Matt Post](http://cs.jhu.edu/~post/),
+and [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/) 
+from one originally developed by 
 [Philipp Koehn](http://homepages.inf.ed.ac.uk/pkoehn/)
 and later modified by [John DeNero](http://www.denero.org/). It
 incorporates some ideas from [Chris Dyer](http://www.cs.cmu.edu/~cdyer).*
