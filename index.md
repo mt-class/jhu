@@ -13,7 +13,7 @@ EN 600.468 Machine Translation
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
-Homework 1 is due February 19 before class
+Homework 2 is due March 5 before class
 ==========================================
 
 [Google translate](http://translate.google.com/) instantly
