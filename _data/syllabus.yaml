@@ -141,7 +141,7 @@ past:
         title: chapter 10.2
   -
     date: 2014-03-12
-    title: Hierarchical Phrase-Based Models
+    title: Introduction to Moses
     reading:
       -
         author: Koehn 
