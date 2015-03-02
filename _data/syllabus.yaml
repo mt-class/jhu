@@ -125,6 +125,26 @@ past:
       -
         author: Koehn 
         title: chapter 9.4
+      -
+        author: Chiang
+        title: Hope and Fear for Discriminative Training of Statistical Translation Models
+        url: http://jmlr.csail.mit.edu/papers/volume13/chiang12a/chiang12a.pdf
+        optional: true
+      -
+        author: Hopkins and May
+        title: Tuning as Ranking
+        url: http://www.aclweb.org/anthology/D/D11/D11-1125.pdf
+        optional: true
+      -
+        author: Cherry and Foster
+        title: Batch Tuning Strategies for Statistical Machine Translation
+        url: http://www.aclweb.org/anthology/N12-1047
+        optional: true
+      -
+        author: Yu et al.
+        title: Max-Violation Perceptron and Forced Decoding for Scalable MT Training
+        url: http://aclweb.org/anthology/D/D13/D13-1112.pdf
+        optional: true
   -
     date: 2014-03-05
     title: Reordering
