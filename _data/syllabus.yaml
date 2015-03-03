@@ -8,12 +8,12 @@ past:
         author: Koehn 
         title: chapter 1.2
       -
-        author: Weaver
+        author: Weaver (1949)
         title: Translation
         url: http://www.mt-archive.info/Weaver-1949.pdf
         optional: true
       -
-        author: Kay
+        author: Kay 
         title: Translation
         url: http://www.stanford.edu/~mjkay/CurrentState.pdf
         optional: true
@@ -42,7 +42,7 @@ past:
         author: Koehn 
         title: chapter 4.1-4.2
       -
-        author: Knight
+        author: Knight (1997)
         title:  Automating Knowledge Acquisition for Machine Translation
         url: http://www.isi.edu/natural-language/mt/aimag97.pdf
         optional: true
@@ -58,12 +58,12 @@ past:
         author: Koehn 
         title: chapter 4.4
       -
-        author: Dyer et al.
+        author: Dyer et al. (2013)
         title: A Simple, Fast, and Effective Reparameterization of IBM Model 2
         url: http://www.aclweb.org/anthology/N13-1073.pdf
         optional: true
       -
-        author: Vogel et al.
+        author: Vogel et al. (1996)
         title: HMM-Based Word Alignment in Statistical Translation
         url: http://www.aclweb.org/anthology/C96-2141
         optional: true
@@ -76,7 +76,7 @@ past:
         author: Koehn 
         title: chapter 5
       -
-        author: Durrani et al.
+        author: Durrani et al. (2013)
         title: Can Markov Models Over Minimal Translation Units Help Phrase-Based SMT?
         url: http://homepages.inf.ed.ac.uk/dnadir/osmoses.pdf
         optional: true
@@ -93,7 +93,7 @@ past:
         author: Koehn 
         title: chapter 6
       -
-        author: Heafield et al.
+        author: Heafield et al. (2014)
         title: Faster Phrase-Based Decoding by Refining Feature State
         url: https://kheafield.com/professional/stanford/mtplz_paper.pdf
         optional: true
@@ -106,7 +106,7 @@ past:
         author: Koehn 
         title: chapter 8
       -
-        author: Graham et al.
+        author: Graham et al. (2014)
         title: Is Machine Translation Getting Better over Time?
         url: http://www.aclweb.org/anthology/E/E14/E14-1047.pdf
         optional: true
@@ -127,19 +127,24 @@ past:
         author: Koehn 
         title: chapter 9.4
       -
-        author: Chiang
+        author: Chiang (2012)
         title: Hope and Fear for Discriminative Training of Statistical Translation Models
         url: http://jmlr.csail.mit.edu/papers/volume13/chiang12a/chiang12a.pdf
         optional: true
       -
-        author: Cherry and Foster
+        author: Cherry and Foster (2012)
         title: Batch Tuning Strategies for Statistical Machine Translation
-        url: http://www.aclweb.org/anthology/N12-1047
+        url: http://www.aclweb.org/anthology/N12-1047.pdf
         optional: true
-        -
-        author: Hopkins and May
+      -
+        author: Hopkins and May (2011)
         title: Tuning as Ranking
         url: http://www.aclweb.org/anthology/D/D11/D11-1125.pdf
+        optional: true
+      -
+        author: Wuebker et al. (2012)
+        title: Leave-One-Out Phrase Model Training for Large-Scale Deployment
+        url: http://anthology.aclweb.org/W/W12/W12-3158.pdf
         optional: true
   -
     date: 2014-03-05
