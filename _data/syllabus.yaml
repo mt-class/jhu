@@ -6,7 +6,7 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 1.2
+        title: Chapter 1.2
       -
         author: Weaver (1949)
         title: Translation
@@ -32,7 +32,7 @@ past:
     reading: 
       -
         author: Koehn 
-        title: chapter 7
+        title: Chapter 7
   -
     date: 2014-02-05
     title: IBM Model 1 and the EM Algorithm
@@ -56,7 +56,7 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 4.4
+        title: Chapter 4.4
       -
         author: Dyer et al. (2013)
         title: A Simple, Fast, and Effective Reparameterization of IBM Model 2
@@ -74,7 +74,7 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 5
+        title: Chapter 5
       -
         author: Durrani et al. (2013)
         title: Can Markov Models Over Minimal Translation Units Help Phrase-Based SMT?
@@ -91,7 +91,7 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 6
+        title: Chapter 6
       -
         author: Heafield et al. (2014)
         title: Faster Phrase-Based Decoding by Refining Feature State
@@ -104,7 +104,7 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 8
+        title: Chapter 8
       -
         author: Graham et al. (2014)
         title: Is Machine Translation Getting Better over Time?
@@ -117,7 +117,7 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 9.1-9.3
+        title: Chapter 9.1-9.3
   - 
     date: 2014-03-03
     title: Sparse Features
@@ -152,21 +152,21 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 5.4, 10.3
+        title: Chapter 5.4, 10.3
   -
     date: 2014-03-10
     title: Morphology
     reading:
       -
         author: Koehn 
-        title: chapter 10.2
+        title: Chapter 10.2
   -
     date: 2014-03-12
     title: Introduction to Moses
     reading:
       -
         author: Koehn 
-        title: chapter 11
+        title: Chapter 11
   -
     date: 2014-03-24
     title: (no class)
@@ -176,21 +176,21 @@ past:
     reading:
       -
         author: Koehn 
-        title: chapter 11.1-11.2
+        title: Chapter 11.1-11.2
   -
     date: 2014-03-31
     title: Syntax-Based Decoding I
     reading:
       -
         author: Koehn 
-        title: chapter 11.3
+        title: Chapter 11.3
   -
     date: 2014-04-02
     title: Syntax-Based Decoding II
     reading:
       -
         author: Koehn 
-        title: chapter 11.3
+        title: Chapter 11.3
   -
     date: 2014-04-07
     title: Semantics I
