@@ -146,6 +146,11 @@ past:
         title: Leave-One-Out Phrase Model Training for Large-Scale Deployment
         url: http://anthology.aclweb.org/W/W12/W12-3158.pdf
         optional: true
+      -
+        author: Yu et al. (2013)
+        title: Max-Violation Perceptron and Forced Decoding for Scalable MT Training
+        url: http://aclweb.org/anthology/D/D13/D13-1112.pdf
+        optional: true
   -
     date: 2014-03-05
     title: Reordering
