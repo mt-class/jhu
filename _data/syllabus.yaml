@@ -157,10 +157,21 @@ past:
   -
     date: 2014-03-10
     title: Reordering
+    slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
     reading:
       -
         author: Koehn 
-        title: Chapter 5.4, 10.3
+        title: Chapter 10.3
+      -
+        author: Genzel (2010)
+        title: Automatically Learning Source-side Reordering Rules for Large Scale Machine Translation
+        url: http://www.aclweb.org/anthology/C10-1043.pdf
+        optional: true
+      -
+        author: Bisazza and Federico (2010)
+        title: Chunk-based Verb Reordering in VSO Sentences for Arabic-English Statistical Machine Translation
+        url: http://www.aclweb.org/anthology/W10-1735.pdf
+        optional: true
   -
     date: 2014-03-12
     title: Introduction to Moses
