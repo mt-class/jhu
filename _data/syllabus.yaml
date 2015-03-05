@@ -153,18 +153,14 @@ past:
         optional: true
   -
     date: 2014-03-05
+    title: Snow Day
+  -
+    date: 2014-03-10
     title: Reordering
     reading:
       -
         author: Koehn 
         title: Chapter 5.4, 10.3
-  -
-    date: 2014-03-10
-    title: Morphology
-    reading:
-      -
-        author: Koehn 
-        title: Chapter 10.2
   -
     date: 2014-03-12
     title: Introduction to Moses
@@ -173,31 +169,35 @@ past:
     title: (no class)
   -
     date: 2014-03-26
+    title: Morphology
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 10.2
+  -
+    date: 2014-03-31
     title: Syntax-Based Models
     reading:
       -
         author: Koehn 
         title: Chapter 11.1-11.2
   -
-    date: 2014-03-31
+    date: 2014-04-02
     title: Syntax-Based Decoding I
     reading:
       -
         author: Koehn 
         title: Chapter 11.3
   -
-    date: 2014-04-02
+    date: 2014-04-07
     title: Syntax-Based Decoding II
     reading:
       -
         author: Koehn 
         title: Chapter 11.3
   -
-    date: 2014-04-07
-    title: Semantics I
-  -
     date: 2014-04-09
-    title: Semantics II
+    title: Semantics
   -
     date: 2014-04-14
     title: Neural Network Basics
