@@ -135,26 +135,19 @@ Many topics related to machine translation are welcome. Some suggestions:
 
 * Extensions to Moses [as suggested here](http://www.statmt.org/moses/?n=Moses.GetInvolved)
 * A new feature function for Moses
-* Experiment with different data conditions
-** Translation of social media text.
-** Translation of speech.
-** Translation of data different from available training data, such as medical texts.
+* Advanced decoding algorithms.
+* Machine learning techniques for translation: neural networks, Bayesian models, etc.
+* Principled methods for incorporating non-parallel data 
+  (e.g., dictionaries, grammars, or thesauri) into translation models.
+* Learning of pre-reordering models
+* Translation models that incorporate morphology, syntax, or semantics.
+* [Interactive machine translation](http://www.casmacat.eu/) that assists human translators.
+* Experiment with different data conditions (social media text, speech, out-of-domain)
+* Post-processing MT output (e.g., applying correct capitalization, removing unnecessary spaces,
+  combining compounds)
 * Pushing further on one of the homeworks, say by incorporating more advanced techniques and more
   data.
 * [Writing your own MT class assignment](http://mt-class.org/penn/project.html)
-* Principled methods for incorporating non-parallel data 
-  (e.g., dictionaries, grammars, or thesauri) into translation models.
-* Rule-based translation (e.g., from manually-developed rules)
-* GPU algorithms for translation. 
-* Learning translation dictionaries without parallel data.
-* [Interactive machine translation](http://www.casmacat.eu/) that assists human translators.
-* Crowdsourcing methods for machine translation.
-* Machine learning techniques for translation: neural networks, Bayesian models, etc.
-* Advanced decoding algorithms.
-* Models for translation evaluation.
-* Post-processing MT output (e.g., applying correct capitalization, removing unnecessary spaces,
-  combining compounds)
-* Translation models that incorporate morphology, syntax, or semantics.
 
 Group Work
 ----------
