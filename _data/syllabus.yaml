@@ -180,8 +180,9 @@ past:
     date: 2014-03-24
     title: Crawling Monolingual and Parallel Corpora
     reading:
-      author: Guest lecture
-      title: Christian Buck (University of Edinburgh)
+    -
+        author: Guest lecture
+        title: Christian Buck (University of Edinburgh)
   -
     date: 2014-03-26
     title: Morphology
