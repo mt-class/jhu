@@ -134,7 +134,7 @@ Project Ideas
 Many topics related to machine translation are welcome. Some suggestions:
 
 * Extensions to Moses [as suggested here](http://www.statmt.org/moses/?n=Moses.GetInvolved)
-* A new feature function for Moses
+* A new feature function for Moses ([some ideas](http://www.aclweb.org/anthology/W14-3360.pdf))
 * Advanced decoding algorithms.
 * Machine learning techniques for translation: neural networks, Bayesian models, etc.
 * Principled methods for incorporating non-parallel data 
