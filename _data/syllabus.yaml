@@ -186,10 +186,26 @@ past:
   -
     date: 2014-03-26
     title: Morphology
+    slides: http://mt-class.org/jhu/slides/lecture-moses.pdf
     reading:
       -
         author: Koehn 
         title: Chapter 10.2
+      -
+        author: Stymne et al. (2013)
+        title: Generation of Compound Words in Statistical Machine Translation into Compounding Languages
+        url: http://aclweb.org/anthology/J/J13/J13-4009.pdf
+        optional: true
+      -
+        author: Fraser et al. (2012)
+        title: Modeling Inflection and Word-Formation in SMT
+        url: http://www.aclweb.org/anthology/E12-1068.pdf
+        optional: true
+      -
+        author: Chahuneau et al. (2013)
+        title: Translating into Morphologically Rich Languages with Synthetic Phrases
+        url: http://www.aclweb.org/anthology/D13-1174.pdf
+        optional: true
   -
     date: 2014-03-31
     title: Syntax-Based Models
