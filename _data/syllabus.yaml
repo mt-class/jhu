@@ -186,7 +186,7 @@ past:
   -
     date: 2014-03-26
     title: Morphology
-    slides: http://mt-class.org/jhu/slides/lecture-moses.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
     reading:
       -
         author: Koehn 
@@ -209,6 +209,7 @@ past:
   -
     date: 2014-03-31
     title: Syntax-Based Models
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
     reading:
       -
         author: Koehn 
