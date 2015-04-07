@@ -178,7 +178,8 @@ past:
     slides: http://mt-class.org/jhu/slides/lecture-moses.pdf
   -
     date: 2014-03-24
-    title: Acquiring Monolingual and Parallel Corpora
+    title: Corpus Acquisition from the Internet
+    slides: http://mt-class.org/jhu/slides/lecture-crawling.pdf
     reading:
     -
         author: Guest lecture
