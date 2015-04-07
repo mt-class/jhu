@@ -217,6 +217,7 @@ past:
   -
     date: 2014-04-02
     title: Syntax-Based Decoding I
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
     reading:
       -
         author: Koehn 
@@ -224,10 +225,21 @@ past:
   -
     date: 2014-04-07
     title: Syntax-Based Decoding II
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
     reading:
       -
         author: Koehn 
         title: Chapter 11.3
+      -
+        author: Hopkins and Langmead (2010)
+        title: SCFG Decoding Without Binarization
+        url: http://www.aclweb.org/anthology/D/D10/D10-1063.pdf
+        optional: true
+      -
+        author: Sennrich (2014)
+        title: A CYK+ Variant for SCFG Decoding Without a Dot Chart
+        url: http://aclweb.org/anthology/W/W14/W14-4011.pdf
+        optional: true
   -
     date: 2014-04-09
     title: Semantics
