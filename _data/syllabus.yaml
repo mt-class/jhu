@@ -243,7 +243,13 @@ past:
         optional: true
   -
     date: 2014-04-09
-    title: Semanticsxxx
+    title: Semantics
+    reading:
+      -
+        author: Cook et al. (2011)
+        title: The World Color Survey Database: History and Use
+        url: http://www1.icsi.berkeley.edu/~kay/claire7.pdf
+        optional: true
   -
     date: 2014-04-14
     title: Neural Network Basics
