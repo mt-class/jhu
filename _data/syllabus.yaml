@@ -83,7 +83,7 @@ past:
   -
     date: 2014-02-19
     title: Decoding
-    slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-decoding.pdfS
     links:
       -
         text: (Demo)
@@ -243,7 +243,7 @@ past:
         optional: true
   -
     date: 2014-04-09
-    title: Semantics
+    title: Semanticsxxx
   -
     date: 2014-04-14
     title: Neural Network Basics
