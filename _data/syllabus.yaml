@@ -247,7 +247,9 @@ past:
     reading:
       -
         author: Cook et al. (2011)
-        title: The World Color Survey Database: History and Use
+        title: The World Color Survey Database - History and Use
+        url: http://www1.icsi.berkeley.edu/~kay/claire7.pdf
+        optional: true
       -
         author: Banarescu et al. (2013)
         title: Abstract Meaning Representation for Sembanking
