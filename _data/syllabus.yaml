@@ -259,6 +259,11 @@ past:
   -
     date: 2014-04-14
     title: Neural Network Basics
+    reading:
+      -
+        author: Koehn (2014)
+        title: Neural Network Handout
+        url: http://www.statmt.org/jhu/pub/img/neural-network-handout.pdf
   -
     date: 2014-04-16
     title: Neural Language Models
