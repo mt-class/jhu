@@ -258,7 +258,7 @@ past:
         optional: true
   -
     date: 2015-04-14
-    title: Introduction to Neural Network
+    title: Introduction to Neural Networks
     slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
       -
