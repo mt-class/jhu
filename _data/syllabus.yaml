@@ -265,6 +265,10 @@ past:
         author: Koehn (2014)
         title: Neural Network Handout
         url: http://www.statmt.org/jhu/pub/img/neural-network-handout.pdf
+      -
+        author: Makin (2006)
+        title: Backpropagation
+        url: https://inst.eecs.berkeley.edu/~cs182/sp06/notes/backprop.pdf
   -
     date: 2015-04-16
     title: Neural Language Models
