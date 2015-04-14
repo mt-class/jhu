@@ -259,11 +259,11 @@ past:
   -
     date: 2015-04-14
     title: Neural Network Basics
+    slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
       -
         author: Koehn (2014)
         title: Neural Network Handout
-        slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
         url: http://www.statmt.org/jhu/pub/img/neural-network-handout.pdf
   -
     date: 2015-04-16
