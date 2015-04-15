@@ -272,6 +272,11 @@ past:
   -
     date: 2015-04-16
     title: Neural Language Models
+    reading:
+      -
+        author: Bengio et al. (2002)
+        title: A Neural Probabilistic Language Model
+        url: http://jmlr.csail.mit.edu/papers/volume3/bengio03a/bengio03a.pdf
   -
     date: 2015-04-21
     title: Neural Translation Models
