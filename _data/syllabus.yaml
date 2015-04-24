@@ -305,6 +305,15 @@ past:
     date: 2015-04-23
     title: Neural Components and Neural Translation
     slides: http://mt-class.org/jhu/slides/lecture-nn4.pdf
+    reading:
+      -
+        author: Sennrich (2015)
+        title: Modelling and Optimizing on Syntactic N-Grams for Statistical Machine Translation
+        url: http://aclweb.org/anthology/Q15-1013
+      -
+        author: Kalchbrenner and Blunsom (2013)
+        title: Recurrent Continuous Translation Models
+        url: http://anthology.aclweb.org/D/D13/D13-1176.pdf
   -
     date: 2015-04-28
     title: Computer Aided Translation
