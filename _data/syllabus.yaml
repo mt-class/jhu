@@ -272,6 +272,7 @@ past:
   -
     date: 2015-04-16
     title: Neural Language Models
+    slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
       -
         author: Bengio et al. (2002)
@@ -284,9 +285,14 @@ past:
   -
     date: 2015-04-21
     title: Neural Translation Models
+    reading:
+      -
+          author: Guest lecture
+          title: Gaurav Kumar (Johns Hopkins University)
   -
     date: 2015-04-23
-    title: Neural Alignment Models
+    title: Neural Components and Neural Translation
+    slides: http://mt-class.org/jhu/slides/lecture-nn4.pdf
   -
     date: 2015-04-28
     title: Computer Aided Translation
