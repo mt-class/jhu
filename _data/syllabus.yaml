@@ -323,7 +323,11 @@ past:
         optional: true
   -
     date: 2015-04-28
-    title: Computer Aided Translation
+    title: Confidence Estimation
+    reading:
+      -
+        author: Guest lecture
+        title: Christian Buck (University of Edinburgh)
   -
     date: 2015-04-30
-    title: Open Problems
+    title: Computer Aided Translation
