@@ -278,10 +278,12 @@ past:
         author: Bengio et al. (2002)
         title: A Neural Probabilistic Language Model
         url: http://jmlr.csail.mit.edu/papers/volume3/bengio03a/bengio03a.pdf
+        optional: true
       -
         author: Tomas Mikolov
         title: Statistical Language Models Based on Neural Networks, Chapter 3
         url: http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf
+        optional: true
   -
     date: 2015-04-21
     title: Neural Translation Models
@@ -293,14 +295,17 @@ past:
         author: Zhang et al. (2014)
         title: Bilingually-constrained Phrase Embeddings for Machine Translation
         url: http://www.aclweb.org/anthology/P/P14/P14-1011.pdf
+        optional: true
       -
         author: Devlin et al. (2014)
         title: Fast and Robust Neural Network Joint Models for Statistical Machine Translation
         url: http://acl2014.org/acl2014/P14-1/pdf/P14-1129.pdf
+        optional: true
       -
         author: Bahdanau et al. (2015)
         title: Neural Machine Translation by Jointly Learning to Align and Translate
         url: http://arxiv.org/pdf/1409.0473v5.pdf
+        optional: true
   -
     date: 2015-04-23
     title: Neural Components and Neural Translation
@@ -310,10 +315,12 @@ past:
         author: Sennrich (2015)
         title: Modelling and Optimizing on Syntactic N-Grams for Statistical Machine Translation
         url: http://aclweb.org/anthology/Q15-1013
+        optional: true
       -
         author: Kalchbrenner and Blunsom (2013)
         title: Recurrent Continuous Translation Models
         url: http://anthology.aclweb.org/D/D13/D13-1176.pdf
+        optional: true
   -
     date: 2015-04-28
     title: Computer Aided Translation
