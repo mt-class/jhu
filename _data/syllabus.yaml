@@ -287,8 +287,20 @@ past:
     title: Neural Translation Models
     reading:
       -
-          author: Guest lecture
-          title: Gaurav Kumar (Johns Hopkins University)
+        author: Guest lecture
+        title: Gaurav Kumar (Johns Hopkins University)
+      -
+        author: Zhang et al. (2014)
+        title: Bilingually-constrained Phrase Embeddings for Machine Translation
+        url: http://www.aclweb.org/anthology/P/P14/P14-1011.pdf
+      -
+        author: Devlin et al. (2014)
+        title: Fast and Robust Neural Network Joint Models for Statistical Machine Translation
+        url: http://acl2014.org/acl2014/P14-1/pdf/P14-1129.pdf
+      -
+        author: Bahdanau et al. (2015)
+        title: Neural Machine Translation by Jointly Learning to Align and Translate
+        url: http://arxiv.org/pdf/1409.0473v5.pdf
   -
     date: 2015-04-23
     title: Neural Components and Neural Translation
