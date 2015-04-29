@@ -16,6 +16,9 @@ EN 600.468 Machine Translation
 Homework 5 is due April 30 before class
 ==========================================
 
+Final project report is due May 7 midnight
+==========================================
+
 [Google translate](http://translate.google.com/) instantly
 translates between any pair of over eighty human languages 
 like French and English. How does it do that? Why does it 
