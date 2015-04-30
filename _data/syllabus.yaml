@@ -333,7 +333,7 @@ past:
         author: Barrachina et al. (2009)
         title: Statistical Approaches to Computer-Assisted Translation
         url: http://www.aclweb.org/anthology/J09-1002.pdf
-        optonal: true
+        optional: true
       -
         author: Germann (2014)
         title: Dynamic Phrase Tables for Machine Translation in an Interactive Post-editing Scenario
