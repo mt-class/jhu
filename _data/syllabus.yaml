@@ -328,3 +328,14 @@ past:
     date: 2015-04-30
     title: Computer Aided Translation
     slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
+    reading:
+      -
+        author: Barrachina et al. (2009)
+        title: Statistical Approaches to Computer-Assisted Translation
+        url: http://www.aclweb.org/anthology/J09-1002.pdf
+        optonal: true
+      -
+        author: Germann (2014)
+        title: Dynamic Phrase Tables for Machine Translation in an Interactive Post-editing Scenario
+        url: http://www.accept.unige.ch/Products/Germann2014.pdf
+        optional: true
