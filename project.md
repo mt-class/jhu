@@ -21,10 +21,9 @@ keep you on track, there are three:
 * BEFORE March 31: Meet with your instructors, by appointment.
 * March 31: Project proposals (10 points)
 * April 21: Interim report (5 points)
-* May 7: Final project report (10 points)
-* May 8: Final project presentation (5 points)
+* May 7: Final project report (15 points)
 
-All projects will include a final written report.
+All projects will be graded on a final written report.
 
 Project Proposal
 ----------------
