@@ -7,17 +7,11 @@ active_tab: main_page
 ---
 
 EN 600.468 Machine Translation
-: Spring 2015
+: Spring 2016
 : Tuesdays and Thursdays 1:30-2:45
 : [Hodson 313](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf)
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
-
-Homework 5 is due April 30 before class
-==========================================
-
-Final project report is due May 7 midnight
-==========================================
 
 [Google translate](http://translate.google.com/) instantly
 translates between any pair of over eighty human languages 
@@ -34,9 +28,11 @@ language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
 
-Instructors
-: [Philipp Koehn](http://www.cs.jhu.edu/~phi/) with help from 
-  [Matt Post](http://www.cs.jhu.edu/~post/)
+Instructor
+: [Philipp Koehn](http://www.cs.jhu.edu/~phi/)
+
+TA
+: Adi Renduchintala <adithya.renduchintala@jhu.edu>
 
 Office hours
 : Wednesday 12-1, Hackermann 227
@@ -57,5 +53,4 @@ We will mainly grade hands-on work.
 * Six homework assignments (10% each)
 * Final project (30%)
 * In-class presentation: Language in ten minutes (10%)
-
 
