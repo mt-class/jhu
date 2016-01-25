@@ -36,16 +36,10 @@ something really cool? Tell us!
 Presentations
 -------------
 
+TBD
+
 | **Day**      | **Language**&nbsp;&nbsp; | **Presenter(s)** |
-| February 26&nbsp;&nbsp;  | Russian  | Morris Kraicer, Juan Marron |
-| March 3      | Xhosa    | Brian Ho, Jacquelyn Haughey, Jade Huang |
-| March 10     | German   | Yating Jing, Shuoyang Ding |
-| March 12     | Hindi    | Satya Peateek, Biman Gijral |
-| March 26     | Arabic   | Rachel Rudinger, Gaurav Kumar |
-| March 31     | Japanese | Jeremy Silver, Haitang Hu |
-| April 2      | Swahili  |  Mozhi Zhang, Tai-Ting Hsieh |
-| April 7      | Chinese  | Huizhan Lu, Li-Yi Lin |
-| April 9      | Marathi  | Sumit Pawar |
+
 
 
 
