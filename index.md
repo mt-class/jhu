@@ -28,9 +28,11 @@ language theory, showing how they apply to a difficult
 real-word artificial intelligence problem.
 
 
-Instructors
+Instructor
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/)
-: TA: Adi Renduchintala <adithya.renduchintala@jhu.edu>
+
+TA
+: Adi Renduchintala <adithya.renduchintala@jhu.edu>
 
 Office hours
 : Wednesday 12-1, Hackermann 227
