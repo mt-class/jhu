@@ -31,7 +31,7 @@ past:
   -
     date: 2016-02-04
     title: Language Models
-    old-slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
     reading: 
       -
         author: Koehn 
