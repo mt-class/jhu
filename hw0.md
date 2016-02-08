@@ -44,7 +44,7 @@ Conclude your report with a summary of your impression of the major quality prob
 What to Hand in
 ===============
 
-Turn in a written report (on paper or by email to phi@jhu.edu) by the beginning of class on Thursday, February 5.
+Turn in a written report (on paper or by email to adithya.renduchintala@jhu.edu) by the beginning of class on Tuesday, February 16.
 
 
 
