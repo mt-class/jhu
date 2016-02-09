@@ -8,9 +8,10 @@ at Johns Hopkins University in spring 2012 and 2014.
 All of this material is made available under a 
 [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/)
 You are free to reuse it any way you like if you acknowledge that you got it from us: 
-* [Adam Lopez](http://www.cs.jhu.edu/~alopez)
-* [Matt Post](http://www.cs.jhu.edu/~post)
-* [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb)
+* [Adam Lopez](http://alopez.github.io/)
+* [Matt Post](http://www.cs.jhu.edu/~post/)
+* [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/)
+* [Philipp Koehn](http://www.cs.jhu.edu/~phi/)
 
 Homework Assignments
 --------------------
