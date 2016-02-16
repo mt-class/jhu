@@ -7,7 +7,7 @@ title: Homework 2 | Alignment
 active_tab: homework
 ---
 
-<span class="text-muted">Homework 2:</span> Alignment
+<span class="text-muted">Homework 2:</span> Word Alignment
 =============================================================
 
 Due: February 25, 2016
