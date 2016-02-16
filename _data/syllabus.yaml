@@ -70,7 +70,7 @@ past:
   -
     date: 2016-02-16
     title: Phrase-Based Models
-    old-slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
     reading:
       -
         author: Koehn 
