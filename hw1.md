@@ -127,7 +127,7 @@ count up the expected number of times $$f$$ aligns to
 $$e$$ and normalize over values of $$e$$. That will give you a new
 estimate of the translation probabilities $$P (f |e)$$, which leads 
 to new expectations, and so on. For more detail, read 
-[this note](http://www.cs.jhu.edu/~alopez/papers/model1-note.pdf). We
+[this note](http://mt-class.org/jhu/assets/papers/alopez-model1-tutorial.pdf). We
 recommend developing on a small data set (1000 sentences) with a few 
 iterations of EM. When you see improvements on this small set, try it out on
 the complete data.
@@ -162,7 +162,7 @@ Ground Rules
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
 * You must turn in three things:
-  1. An alignment of the entire dataset, uploaded to the [leaderboard submission site](http://jhumtclass.appspot.com) according to <a href="assignment0.html">the Assignment 0 instructions</a>. You can upload new output as often
+  1. An alignment of the entire dataset, uploaded to the [leaderboard submission site](http://jhumt2016leaderboard.appspot.com/leaderboard.html). You can upload new output as often
      as you like, up until the assignment deadline. The output will be evaluated 
      using a secret metric, but the `grade` program will give you a good
      idea of how well you're doing, and you can use the `check` program
