@@ -100,7 +100,7 @@ past:
   -
     date: 2016-02-23
     title: Evaluation
-    old-slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
     reading:
       -
         author: Koehn 
@@ -113,7 +113,7 @@ past:
   -
     date: 2016-02-25
     title: Tuning
-    old-slides: http://mt-class.org/jhu/slides/lecture-tuning.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-tuning.pdf
     reading:
       -
         author: Koehn 
