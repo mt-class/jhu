@@ -7,7 +7,7 @@ title: Homework 2 | Decoding
 active_tab: homework
 ---
 
-Decoding <span class="text-muted">Challenge Problem 2</span>
+Decoding <span class="text-muted">Challenge Problem 3</span>
 =============================================================
 
 Decoding is process of taking input in French:
@@ -24,7 +24,7 @@ honourable senators , what happened here last Tuesday ?
 
 To decode, we need a model of English sentences conditioned on the
 French sentence. You did most of the work of creating
-such a model in [Homework 1](hw1.html). In this assignment,
+such a model in [word alignment](hw1.html). In this assignment,
 we will give you some French sentences and a probabilistic model consisting of
 a phrase-based translation model $$p_{\textrm{TM}}(\textbf{f},\textbf{a} \mid \textbf{e})$$
 and an n-gram language model $$p_{\textrm{LM}}(\textbf{e})$$. __Your 
@@ -39,7 +39,7 @@ Getting Started
 ---------------
 
 If you have a clone of the repository from 
-[homework 1](hw1.html), you can update it 
+[word alignment](hw1.html), you can update it 
 from your working directory:
 
     git pull origin master
