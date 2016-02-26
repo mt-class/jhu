@@ -208,7 +208,7 @@ Ground Rules
    of python code. If you aren't sure whether something is permitted, 
    ask us. If you want to do system combination, join forces with 
    your classmates.
-
+*  The deadline for the leaderboard is 03-10-2016 at 11:59pm. Don't wait till the last minute, this assignment is longer than the previous.
 
 *Credits: This assignment was developed by [Adam Lopez](http://alopez.github.io/), 
 [Matt Post](http://cs.jhu.edu/~post/),
