@@ -129,4 +129,6 @@ Ground Rules
    something is permitted, ask us. If you want to do system combination, 
    join forces with your classmates.
 
-_Credits: [Chris Dyer](http://www.cs.cmu.edu/~cdyer) made many improvements to this assignment._
+*Credits: This assignment was developed by [Adam Lopez](http://alopez.github.io/), 
+[Matt Post](http://cs.jhu.edu/~post/),
+and [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/). [Chris Dyer](http://www.cs.cmu.edu/~cdyer) made many improvements to this assignment.*
