@@ -180,7 +180,7 @@ Ground Rules
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
 * You must turn in three things:
-  1. Your translations of the entire dataset, uploaded to the [leaderboard submission site](http://jhumtclass.appspot.com) according to <a href="assignment0.html">the Assignment 0 instructions</a>. You can upload new output as often
+  1. Your translations of the entire dataset, uploaded to the [leaderboard submission site](http://jhumt2016leaderboard.appspot.com/leaderboard.html). You can upload new output as often
      as you like, up until the assignment deadline. 
   1. Your code. Send us a URL from which we can get the code and git revision
      history (a link to a tarball will suffice, but you're free to send us a 
@@ -192,7 +192,7 @@ Ground Rules
   1. A clear, mathematical description of your algorithm and its motivation
      written in scientific style. This needn't be long, but it should be
      clear enough that one of your fellow students could re-implement it 
-     exactly. [We will review examples in class before the due date](hw-writing-exercise.html).
+     exactly. If you modified your algorithm or have more than 1 algorithm, explain each modification/algorithm clearly. Give the dev scores for each modification/algorithm, and the test score for your final choice.
 *  You do not need any other data than what we provide. You can
    free to use any code or software you like, __except for those
    expressly intended to decode machine translation models__. 
