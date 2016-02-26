@@ -210,4 +210,6 @@ Ground Rules
    your classmates.
 
 
-*Credits: [Chris Dyer](http://www.cs.cmu.edu/~cdyer) made many improvements to this assignment.*
+*Credits: This assignment was developed by [Adam Lopez](http://alopez.github.io/), 
+[Matt Post](http://cs.jhu.edu/~post/),
+and [Chris Callison-Burch](http://www.cis.upenn.edu/~ccb/). [Chris Dyer](http://www.cs.cmu.edu/~cdyer) made many improvements to this assignment.*
