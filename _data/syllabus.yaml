@@ -153,6 +153,17 @@ past:
         optional: true
   -
     date: 2016-03-03
+    title: Introduction to Moses
+    slides: http://mt-class.org/jhu/slides/lecture-moses.pdf
+  -
+    date: 2016-03-08
+    title: Corpus Acquisition from the Internet
+    old-slides: http://mt-class.org/jhu/slides/lecture-crawling.pdf
+  -
+    date: 2016-03-10
+    title: (no class)
+  -
+    date: 2016-03-22
     title: Reordering
     old-slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
     reading:
@@ -170,15 +181,7 @@ past:
         url: http://www.aclweb.org/anthology/W10-1735.pdf
         optional: true
   -
-    date: 2016-03-08
-    title: Introduction to Moses
-    old-slides: http://mt-class.org/jhu/slides/lecture-moses.pdf
-  -
-    date: 2016-03-10
-    title: Corpus Acquisition from the Internet
-    old-slides: http://mt-class.org/jhu/slides/lecture-crawling.pdf
-  -
-    date: 2016-03-22
+    date: 2016-03-24
     title: Morphology
     old-slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
     reading:
@@ -201,7 +204,7 @@ past:
         url: http://www.aclweb.org/anthology/D13-1174.pdf
         optional: true
   -
-    date: 2016-03-24
+    date: 2016-03-29
     title: Syntax-Based Models
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
     reading:
@@ -209,7 +212,7 @@ past:
         author: Koehn 
         title: Chapter 11.1-11.2
   -
-    date: 2016-03-29
+    date: 2016-03-31
     title: Syntax-Based Decoding I
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
     reading:
@@ -217,7 +220,7 @@ past:
         author: Koehn 
         title: Chapter 11.3
   -
-    date: 2016-03-31
+    date: 2016-04-05
     title: Syntax-Based Decoding II
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
     reading:
@@ -235,7 +238,7 @@ past:
         url: http://aclweb.org/anthology/W/W14/W14-4011.pdf
         optional: true
   -
-    date: 2016-04-05
+    date: 2016-04-07
     title: Semantics
     old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
@@ -250,7 +253,7 @@ past:
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
   -
-    date: 2016-04-07
+    date: 2016-04-12
     title: Introduction to Neural Networks
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
@@ -263,7 +266,7 @@ past:
         title: Backpropagation
         url: https://inst.eecs.berkeley.edu/~cs182/sp06/notes/backprop.pdf
   -
-    date: 2016-04-12
+    date: 2016-04-14
     title: Neural Language Models
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
@@ -278,7 +281,7 @@ past:
         url: http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf
         optional: true
   -
-    date: 2016-04-14
+    date: 2016-04-19
     title: Neural Translation Models
     reading:
       -
@@ -297,7 +300,7 @@ past:
         url: http://arxiv.org/pdf/1409.0473v5.pdf
         optional: true
   -
-    date: 2016-04-19
+    date: 2016-04-21
     title: Neural Components and Neural Translation
     old-slides: http://mt-class.org/jhu/slides/lecture-nn4.pdf
     reading:
@@ -312,7 +315,7 @@ past:
         url: http://anthology.aclweb.org/D/D13/D13-1176.pdf
         optional: true
   -
-    date: 2016-04-21
+    date: 2016-04-25
     title: Computer Aided Translation
     old-slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
@@ -326,9 +329,6 @@ past:
         title: Dynamic Phrase Tables for Machine Translation in an Interactive Post-editing Scenario
         url: http://www.accept.unige.ch/Products/Germann2014.pdf
         optional: true
-  -
-    date: 2016-04-25
-    title: TBA
   -
     date: 2016-04-27
     title: TBA
