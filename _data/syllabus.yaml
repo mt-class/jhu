@@ -159,6 +159,22 @@ past:
     date: 2016-03-08
     title: Corpus Acquisition from the Internet
     slides: http://mt-class.org/jhu/slides/lecture-data.pdf
+    reading:
+      -
+        author: Uszkoreit et al. (2010)
+        title: Large Scale Parallel Document Mining for Machine Translation
+        url: http://aclweb.org/anthology/C/C10/C10-1124.pdf
+        optional: true
+      -
+        author: Resnik and Smith (2003)
+        title: The Web as a Parallel Corpus
+        url: http://www.aclweb.org/anthology/J03-3002.pdf
+        optional: true
+      -
+        author: Buck and Heafield (2014)
+        title: N-gram Counts and Language Models from the Common Crawl
+        url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
+        optional: true
   -
     date: 2016-03-10
     title: (no class)
