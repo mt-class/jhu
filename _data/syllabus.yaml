@@ -332,7 +332,7 @@ past:
         url: http://anthology.aclweb.org/D/D13/D13-1176.pdf
         optional: true
   -
-    date: 2016-04-25
+    date: 2016-04-26
     title: Computer Aided Translation
     old-slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
@@ -346,6 +346,4 @@ past:
         title: Dynamic Phrase Tables for Machine Translation in an Interactive Post-editing Scenario
         url: http://www.accept.unige.ch/Products/Germann2014.pdf
         optional: true
-  -
-    date: 2016-04-27
-    title: TBA
+
