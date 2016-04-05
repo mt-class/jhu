@@ -231,7 +231,7 @@ past:
   -
     date: 2016-03-31
     title: Syntax-Based Decoding I
-    old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
     reading:
       -
         author: Koehn 
@@ -239,7 +239,7 @@ past:
   -
     date: 2016-04-05
     title: Syntax-Based Decoding II
-    old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
     reading:
       -
         author: Koehn 
