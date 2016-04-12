@@ -257,7 +257,7 @@ past:
   -
     date: 2016-04-07
     title: Semantics
-    old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
       -
         author: Cook et al. (2011)
@@ -272,7 +272,7 @@ past:
   -
     date: 2016-04-12
     title: Introduction to Neural Networks
-    old-slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
       -
         author: Koehn (2014)
