@@ -275,9 +275,9 @@ past:
     slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
       -
-        author: Koehn (2014)
-        title: Neural Network Handout
-        url: http://www.statmt.org/jhu/pub/img/neural-network-handout.pdf
+        author: Koehn (2016)
+        title: Neural Network Chapter
+        url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
       -
         author: Makin (2006)
         title: Backpropagation
@@ -285,7 +285,7 @@ past:
   -
     date: 2016-04-14
     title: Neural Language Models
-    old-slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
       -
         author: Bengio et al. (2002)
