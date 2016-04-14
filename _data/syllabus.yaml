@@ -282,6 +282,10 @@ past:
         author: Makin (2006)
         title: Backpropagation
         url: https://inst.eecs.berkeley.edu/~cs182/sp06/notes/backprop.pdf
+      -
+        author: Tensorflow
+        title: Neural network online demo
+        url: http://playground.tensorflow.org/
   -
     date: 2016-04-14
     title: Neural Language Models
