@@ -304,6 +304,7 @@ past:
   -
     date: 2016-04-19
     title: Neural Translation Models
+    slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
     reading:
       -
         author: Zhang et al. (2014)
