@@ -324,7 +324,7 @@ past:
   -
     date: 2016-04-21
     title: Neural Components and Neural Translation
-    old-slides: http://mt-class.org/jhu/slides/lecture-nn4.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
       -
         author: Sennrich (2015)
