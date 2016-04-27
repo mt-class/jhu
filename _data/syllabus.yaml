@@ -325,6 +325,17 @@ past:
     date: 2016-04-21
     title: Training Neural Networks
     slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
+    reading:
+      -
+        author: LeCun et al. (1998)
+        title: Efficient BackProp
+        url: http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+        optional: true
+      -
+        author: Srivastava et al. (2014)
+        title: Dropout: A Simple Way to Prevent Neural Networks from Overfitting
+        url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
+        optional: true
   -
     date: 2016-04-26
     title: Computer Aided Translation
