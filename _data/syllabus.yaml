@@ -323,7 +323,7 @@ past:
         optional: true
   -
     date: 2016-04-21
-    title: Training Neural Networks XXX
+    title: Training Neural Networks
     slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
       -
