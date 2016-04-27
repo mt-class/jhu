@@ -327,7 +327,7 @@ past:
     slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
       -
-        author: LeCun et al. (1998)
+        author: LeCun et al. (1998) 
         title: Efficient BackProp
         url: http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
         optional: true
