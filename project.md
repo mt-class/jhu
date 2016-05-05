@@ -21,7 +21,7 @@ keep you on track, there are three:
 * BEFORE March 25: Meet with your instructors, by appointment.
 * March 25: Project proposals (10 points)
 * April 15: Interim report (5 points)
-* May 6: Final project report (15 points)
+* May 10: Final project report (15 points)
 
 All projects will be graded on a final written report.
 
@@ -105,27 +105,12 @@ and avoid those that are unclear or pedantic. Here is some more advice:
 * [How to write a paper](http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/writing-a-paper-slides.pdf) by Simon Peyton-Jones.
 * [Mathematical writing](http://jmlr.org/reviewing-papers/knuth_mathematical_writing.pdf) by Donald Knuth.
 
-Final Project Report and Poster Presentation
+Final Project Report
 --------------------------------------------
 
 Your final project report should extend your interim report, filling in 
 missing technical details, experiments, and analysis. We will make our
 expectations explicit in our comments on your interim report.
-
-You will also present your research in a final poster session. Your poster
-is a visual aid for a brief research talk, not a standalone description
-of your work. That means that someone will learn about your work by talking
-to you, not by reading the poster. The poster itself should include examples, 
-concise descriptions of algorithms, and experimental results in tables 
-or (preferably) charts. During the poster session, you'll explain your 
-results multiple times in interactive conversations with your classmates
-and instructors. Think of this as an [elevator pitch](http://www.elevatorpitchessentials.com/).
-In a few minutes, can you explain what the problem is, why it's interesting,
-how you tried to solve it, and what you learned? Try to interest
-as many people in your problem (and solution) as you can. This
-opening pitch can turn into a much longer conversation with someone who's
-really interested. The goal is to learn from each other, brainstorm, and 
-form new scientific collaborations.
 
 Project Ideas
 -------------
