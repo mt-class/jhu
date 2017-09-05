@@ -121,6 +121,10 @@ past:
     slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
       -
+        author: Koehn (2017)
+        title: Neural Network Chapter 13.4
+        url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
+      -
         author: Bengio et al. (2002)
         title: A Neural Probabilistic Language Model
         url: http://jmlr.csail.mit.edu/papers/volume3/bengio03a/bengio03a.pdf
@@ -135,17 +139,11 @@ past:
     title: Neural Translation Models I
     slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
     reading:
-      -
-        author: Zhang et al. (2014)
-        title: Bilingually-constrained Phrase Embeddings for Machine Translation
-        url: http://www.aclweb.org/anthology/P/P14/P14-1011.pdf
-        optional: true
-      -
-        author: Devlin et al. (2014)
-        title: Fast and Robust Neural Network Joint Models for Statistical Machine Translation
-        url: http://acl2014.org/acl2014/P14-1/pdf/P14-1129.pdf
-        optional: true
-      -
+       -
+        author: Koehn (2017)
+        title: Neural Network Chapter 13.5
+        url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
+     -
         author: Bahdanau et al. (2015)
         title: Neural Machine Translation by Jointly Learning to Align and Translate
         url: http://arxiv.org/pdf/1409.0473v5.pdf
@@ -155,6 +153,10 @@ past:
     title: Neural Translation Models II
     slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
+      -
+        author: Koehn (2017)
+        title: Neural Network Chapter 13.6
+        url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
       -
         author: LeCun et al. (1998) 
         title: Efficient BackProp
@@ -167,6 +169,15 @@ past:
         optional: true
   -
     date: 2017-10-18
+    title: Neural Translation Models III
+    slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
+    reading:
+      -
+        author: Koehn (2017)
+        title: Neural Network Chapter 13.6
+        url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
+  -
+    date: 2017-10-20
     title: Corpus Acquisition from the Internet
     slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     reading:
@@ -186,10 +197,10 @@ past:
         url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
         optional: true
   -
-    date: 2017-10-20
+    date: 2017-10-25
     title: Domain Adaptation
   -
-    date: 2017-10-25
+    date: 2017-10-27
     title: Word Order
     slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
     reading:
@@ -207,7 +218,7 @@ past:
         url: http://www.aclweb.org/anthology/W10-1735.pdf
         optional: true
   -
-    date: 2016-10-27
+    date: 2016-11-01
     title: Morphology
     slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
     reading:
@@ -230,7 +241,7 @@ past:
         url: http://www.aclweb.org/anthology/D13-1174.pdf
         optional: true
   -
-    date: 2017-11-01
+    date: 2017-11-03
     title: Syntax-Based Models
     slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
     reading:
@@ -238,7 +249,7 @@ past:
         author: Koehn 
         title: Chapter 11.1-11.2
   -
-    date: 2017-11-03
+    date: 2017-11-08
     title: Syntax-Based Decoding I
     slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
     reading:
@@ -246,7 +257,7 @@ past:
         author: Koehn 
         title: Chapter 11.3
   -
-    date: 2017-11-08
+    date: 2017-11-10
     title: Syntax-Based Decoding II
     slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
     reading:
@@ -264,7 +275,7 @@ past:
         url: http://aclweb.org/anthology/W/W14/W14-4011.pdf
         optional: true
   -
-    date: 2017-11-10
+    date: 2017-11-14
     title: Semantics
     slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
@@ -279,7 +290,7 @@ past:
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
   -
-    date: 2017-11-14
+    date: 2017-11-17
     title: Computer Aided Translation
     slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
@@ -293,9 +304,6 @@ past:
         title: Dynamic Phrase Tables for Machine Translation in an Interactive Post-editing Scenario
         url: http://www.accept.unige.ch/Products/Germann2014.pdf
         optional: true
-  -
-    date: 2017-11-17
-    title: TBD
   -
     date: 2017-11-28
     title: TBD
