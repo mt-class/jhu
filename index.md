@@ -28,7 +28,7 @@ real-word artificial intelligence problem.
 
 
 Instructor
-: [Philipp Koehn](http://www.cs.jhu.edu/~phi/)
+: [Philipp Koehn](http://www.cs.jhu.edu/~phi/) <phi@jhu.edu>
 
 TA
 : Shuoyang Ding <dings@jhu.edu>
