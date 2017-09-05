@@ -6,10 +6,10 @@ title: Statistical Machine Translation
 active_tab: main_page 
 ---
 
-EN 600.468 Machine Translation
+EN 600.468/668 Machine Translation
 : Fall 2017
 : Tuesdays and Thursdays 1:30-2:45 (graduate section), TBA (undergraduate section)
-: [TBA](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf)
+: [Mergenthaler	111](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf)
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
@@ -46,7 +46,7 @@ You can read it online through the <a href="https://catalyst.library.jhu.edu/cat
 purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>.
 
 Grading
-: To understand how machine translation works, you must build a translation system.
+: To understand how machine translation works, you will build a translation system.
 We will mainly grade hands-on work.
 
 * Six homework assignments (10% each)
