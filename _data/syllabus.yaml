@@ -1,9 +1,6 @@
 past:
   -
-    date: 2016-01-26
-    title: (snow day)
-  - 
-    date: 2016-01-28
+    date: 2017-09-05
     title: Introduction
     slides: http://mt-class.org/jhu/slides/lecture-introduction.pdf
     reading:
@@ -21,7 +18,7 @@ past:
         url: http://www.stanford.edu/~mjkay/CurrentState.pdf
         optional: true
   -
-    date: 2016-02-02
+    date: 2017-09-07
     title: Basics in Language and Probability 
     slides: http://mt-class.org/jhu/slides/lecture-foundations.pdf
     reading:
@@ -29,7 +26,7 @@ past:
         author: Koehn 
         title: Chapter 2.1 and 3
   -
-    date: 2016-02-04
+    date: 2016-09-12
     title: Language Models
     slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
     reading: 
@@ -37,7 +34,7 @@ past:
         author: Koehn 
         title: Chapter 7
   -
-    date: 2016-02-09
+    date: 2016-09-14
     title: IBM Model 1 and the EM Algorithm
     slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
     reading:
@@ -50,25 +47,7 @@ past:
         url: http://www.isi.edu/natural-language/mt/aimag97.pdf
         optional: true
   -
-    date: 2016-02-11
-    title: Advanced Alignment Models
-    slides: http://mt-class.org/jhu/slides/lecture-advanced-alignment-models.pdf
-    reading:
-      -
-        author: Koehn 
-        title: Chapter 4.4
-      -
-        author: Dyer et al. (2013)
-        title: A Simple, Fast, and Effective Reparameterization of IBM Model 2
-        url: http://www.aclweb.org/anthology/N13-1073.pdf
-        optional: true
-      -
-        author: Vogel et al. (1996)
-        title: HMM-Based Word Alignment in Statistical Translation
-        url: http://www.aclweb.org/anthology/C96-2141
-        optional: true
-  -
-    date: 2016-02-16
+    date: 2016-09-19
     title: Phrase-Based Models
     slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
     reading:
@@ -81,7 +60,7 @@ past:
         url: http://homepages.inf.ed.ac.uk/dnadir/osmoses.pdf
         optional: true
   -
-    date: 2016-02-18
+    date: 2016-09-21
     title: Decoding
     slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
     links:
@@ -98,7 +77,7 @@ past:
         url: https://kheafield.com/professional/stanford/mtplz_paper.pdf
         optional: true
   -
-    date: 2016-02-23
+    date: 2016-09-26
     title: Evaluation
     slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
     reading:
@@ -109,6 +88,73 @@ past:
         author: Graham et al. (2014)
         title: Is Machine Translation Getting Better over Time?
         url: http://www.aclweb.org/anthology/E/E14/E14-1047.pdf
+        optional: true
+ -
+    date: 2016-04-12
+    title: Introduction to Neural Networks
+    slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
+    reading:
+      -
+        author: Koehn (2016)
+        title: Neural Network Chapter
+        url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
+      -
+        author: Makin (2006)
+        title: Backpropagation
+        url: https://inst.eecs.berkeley.edu/~cs182/sp06/notes/backprop.pdf
+      -
+        author: Tensorflow
+        title: Neural network online demo
+        url: http://playground.tensorflow.org/
+  -
+    date: 2016-04-14
+    title: Neural Language Models
+    slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
+    reading:
+      -
+        author: Bengio et al. (2002)
+        title: A Neural Probabilistic Language Model
+        url: http://jmlr.csail.mit.edu/papers/volume3/bengio03a/bengio03a.pdf
+        optional: true
+      -
+        author: Tomas Mikolov
+        title: Statistical Language Models Based on Neural Networks, Chapter 3
+        url: http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf
+        optional: true
+  -
+    date: 2016-04-19
+    title: Neural Translation Models
+    slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
+    reading:
+      -
+        author: Zhang et al. (2014)
+        title: Bilingually-constrained Phrase Embeddings for Machine Translation
+        url: http://www.aclweb.org/anthology/P/P14/P14-1011.pdf
+        optional: true
+      -
+        author: Devlin et al. (2014)
+        title: Fast and Robust Neural Network Joint Models for Statistical Machine Translation
+        url: http://acl2014.org/acl2014/P14-1/pdf/P14-1129.pdf
+        optional: true
+      -
+        author: Bahdanau et al. (2015)
+        title: Neural Machine Translation by Jointly Learning to Align and Translate
+        url: http://arxiv.org/pdf/1409.0473v5.pdf
+        optional: true
+  -
+    date: 2016-04-21
+    title: Training Neural Networks
+    slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
+    reading:
+      -
+        author: LeCun et al. (1998) 
+        title: Efficient BackProp
+        url: http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+        optional: true
+      -
+        author: Srivastava et al. (2014)
+        title: Dropout - A Simple Way to Prevent Neural Networks from Overfitting
+        url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
         optional: true
   -
     date: 2016-02-25
@@ -269,74 +315,7 @@ past:
         title: Abstract Meaning Representation for Sembanking
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
-  -
-    date: 2016-04-12
-    title: Introduction to Neural Networks
-    slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
-    reading:
-      -
-        author: Koehn (2016)
-        title: Neural Network Chapter
-        url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
-      -
-        author: Makin (2006)
-        title: Backpropagation
-        url: https://inst.eecs.berkeley.edu/~cs182/sp06/notes/backprop.pdf
-      -
-        author: Tensorflow
-        title: Neural network online demo
-        url: http://playground.tensorflow.org/
-  -
-    date: 2016-04-14
-    title: Neural Language Models
-    slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
-    reading:
-      -
-        author: Bengio et al. (2002)
-        title: A Neural Probabilistic Language Model
-        url: http://jmlr.csail.mit.edu/papers/volume3/bengio03a/bengio03a.pdf
-        optional: true
-      -
-        author: Tomas Mikolov
-        title: Statistical Language Models Based on Neural Networks, Chapter 3
-        url: http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf
-        optional: true
-  -
-    date: 2016-04-19
-    title: Neural Translation Models
-    slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
-    reading:
-      -
-        author: Zhang et al. (2014)
-        title: Bilingually-constrained Phrase Embeddings for Machine Translation
-        url: http://www.aclweb.org/anthology/P/P14/P14-1011.pdf
-        optional: true
-      -
-        author: Devlin et al. (2014)
-        title: Fast and Robust Neural Network Joint Models for Statistical Machine Translation
-        url: http://acl2014.org/acl2014/P14-1/pdf/P14-1129.pdf
-        optional: true
-      -
-        author: Bahdanau et al. (2015)
-        title: Neural Machine Translation by Jointly Learning to Align and Translate
-        url: http://arxiv.org/pdf/1409.0473v5.pdf
-        optional: true
-  -
-    date: 2016-04-21
-    title: Training Neural Networks
-    slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
-    reading:
-      -
-        author: LeCun et al. (1998) 
-        title: Efficient BackProp
-        url: http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
-        optional: true
-      -
-        author: Srivastava et al. (2014)
-        title: Dropout - A Simple Way to Prevent Neural Networks from Overfitting
-        url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
-        optional: true
-  -
+   -
     date: 2016-04-26
     title: Computer Aided Translation
     slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
