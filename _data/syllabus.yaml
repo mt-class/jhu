@@ -77,7 +77,7 @@ past:
         url: https://kheafield.com/professional/stanford/mtplz_paper.pdf
         optional: true
   -
-    date: 2016-09-25
+    date: 2017-09-25
     title: Evaluation
     slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
     reading:
@@ -90,14 +90,14 @@ past:
         url: http://www.aclweb.org/anthology/E/E14/E14-1047.pdf
         optional: true
   -
-    date: 2016-04-12
+    date: 2017-09-27
     title: Introduction to Neural Networks
     slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
       -
         author: Koehn (2016)
-        title: Neural Network Chapter
-        url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
+        title: Neural Network Chapter 13.2-13.3
+        url: http://mt-class.org/jhu/assets/papers/neural-network-models2.pdf
       -
         author: Makin (2006)
         title: Backpropagation
@@ -107,7 +107,7 @@ past:
         title: Neural network online demo
         url: http://playground.tensorflow.org/
   -
-    date: 2016-04-14
+    date: 2017-09-29
     title: Neural Language Models
     slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
@@ -122,7 +122,7 @@ past:
         url: http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf
         optional: true
   -
-    date: 2016-04-19
+    date: 2016-10-03
     title: Neural Translation Models
     slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
     reading:
