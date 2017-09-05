@@ -47,25 +47,7 @@ past:
         url: http://www.isi.edu/natural-language/mt/aimag97.pdf
         optional: true
   -
-    date: 2016-09-11
-    title: Advanced Alignment Models
-    slides: http://mt-class.org/jhu/slides/lecture-advanced-alignment-models.pdf
-    reading:
-      -
-        author: Koehn 
-        title: Chapter 4.4
-      -
-        author: Dyer et al. (2013)
-        title: A Simple, Fast, and Effective Reparameterization of IBM Model 2
-        url: http://www.aclweb.org/anthology/N13-1073.pdf
-        optional: true
-      -
-        author: Vogel et al. (1996)
-        title: HMM-Based Word Alignment in Statistical Translation
-        url: http://www.aclweb.org/anthology/C96-2141
-        optional: true
-  -
-    date: 2016-02-16
+    date: 2017-09-19
     title: Phrase-Based Models
     slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
     reading:
@@ -78,7 +60,7 @@ past:
         url: http://homepages.inf.ed.ac.uk/dnadir/osmoses.pdf
         optional: true
   -
-    date: 2016-02-18
+    date: 2017-09-21
     title: Decoding
     slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
     links:
@@ -95,7 +77,7 @@ past:
         url: https://kheafield.com/professional/stanford/mtplz_paper.pdf
         optional: true
   -
-    date: 2016-02-23
+    date: 2016-09-25
     title: Evaluation
     slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
     reading:
