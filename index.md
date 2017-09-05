@@ -41,7 +41,7 @@ Discussion Forum
 
 Textbook
 : [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
-by [Philipp Koehn](http://www.cs.jhu.edu/~phi/) 
+by [Philipp Koehn](http://www.cs.jhu.edu/~phi/).
 You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
 purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>.
 
