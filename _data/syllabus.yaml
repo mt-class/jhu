@@ -1,6 +1,6 @@
 past:
   - 
-    date: 2016-09-05
+    date: 2017-09-05
     title: Introduction
     slides: http://mt-class.org/jhu/slides/lecture-introduction.pdf
     reading:
@@ -18,7 +18,7 @@ past:
         url: http://www.stanford.edu/~mjkay/CurrentState.pdf
         optional: true
   -
-    date: 2016-02-02
+    date: 2017-09-07
     title: Basics in Language and Probability 
     slides: http://mt-class.org/jhu/slides/lecture-foundations.pdf
     reading:
@@ -26,7 +26,7 @@ past:
         author: Koehn 
         title: Chapter 2.1 and 3
   -
-    date: 2016-02-04
+    date: 2017-09-12
     title: Language Models
     slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
     reading: 
@@ -34,7 +34,7 @@ past:
         author: Koehn 
         title: Chapter 7
   -
-    date: 2016-02-09
+    date: 2017-09-14
     title: IBM Model 1 and the EM Algorithm
     slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
     reading:
@@ -47,7 +47,7 @@ past:
         url: http://www.isi.edu/natural-language/mt/aimag97.pdf
         optional: true
   -
-    date: 2016-02-11
+    date: 2016-09-11
     title: Advanced Alignment Models
     slides: http://mt-class.org/jhu/slides/lecture-advanced-alignment-models.pdf
     reading:
