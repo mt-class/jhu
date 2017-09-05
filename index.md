@@ -28,10 +28,10 @@ real-word artificial intelligence problem.
 
 
 Instructor
-: [Philipp Koehn](http://www.cs.jhu.edu/~phi/) <phi@jhu.edu>
+: [Philipp Koehn](http://www.cs.jhu.edu/~phi/) (<phi@jhu.edu>)
 
 TA
-: Shuoyang Ding <dings@jhu.edu>
+: Shuoyang Ding (<dings@jhu.edu>)
 
 Office hours
 : Wednesday 12-1, Hackermann 227
