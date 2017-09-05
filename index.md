@@ -7,9 +7,9 @@ active_tab: main_page
 ---
 
 EN 600.468 Machine Translation
-: Spring 2016
-: Tuesdays and Thursdays 1:30-2:45
-: [Hodson 313](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf)
+: Fall 2017
+: Tuesdays and Thursdays 1:30-2:45 (graduate section), TBA (undergraduate section)
+: [TBA](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf)
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
@@ -17,14 +17,13 @@ EN 600.468 Machine Translation
 translates between any pair of over eighty human languages 
 like French and English. How does it do that? Why does it 
 make the errors that it does? And how can you build something 
-better? Modern translation systems like Google Translate, 
-[Bing Translator](http://www.microsofttranslator.com/),
-and [SDL FreeTranslation](http://www.freetranslation.com/)
+better? Modern translation systems like Google Translate and 
+[Bing Translator](http://www.microsofttranslator.com/)
 *learn* to translate by reading millions of words of already 
 translated text. This course will show you how they work. 
 We cover fundamental building blocks from linguistics, 
-machine learning, algorithms, data structures, and formal 
-language theory, showing how they apply to a difficult
+machine learning (especially deep learning), algorithms, and data structures, 
+showing how they apply to a difficult
 real-word artificial intelligence problem.
 
 
@@ -32,13 +31,13 @@ Instructor
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/)
 
 TA
-: Adi Renduchintala <adithya.renduchintala@jhu.edu>
+: Shuoyang Ding <dings@jhu.edu>
 
 Office hours
 : Wednesday 12-1, Hackermann 227
 
 Discussion Forum
-: [Piazza](https://piazza.com/jhu/spring2016/en600468/home)
+: [Piazza](https://piazza.com/jhu/fall2017/en600468/home)
 
 Textbook
 : [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
