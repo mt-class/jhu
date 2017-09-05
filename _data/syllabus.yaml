@@ -157,15 +157,7 @@ past:
         url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
         optional: true
   -
-    date: 2016-02-25
-    title: Tuning
-    slides: http://mt-class.org/jhu/slides/lecture-tuning.pdf
-    reading:
-      -
-        author: Koehn 
-        title: Chapter 9.1-9.3
-  -
-    date: 2016-03-08
+    date: 2016-10-11
     title: Corpus Acquisition from the Internet
     slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     reading:
@@ -185,11 +177,11 @@ past:
         url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
         optional: true
   -
-    date: 2016-03-10
+    date: 2016-10-13
     title: Domain Adaptation
   -
-    date: 2016-03-22
-    title: Reordering
+    date: 2016-10-18
+    title: Word Order
     slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
     reading:
       -
@@ -206,7 +198,7 @@ past:
         url: http://www.aclweb.org/anthology/W10-1735.pdf
         optional: true
   -
-    date: 2016-03-24
+    date: 2016-10-20
     title: Morphology
     slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
     reading:
@@ -229,7 +221,7 @@ past:
         url: http://www.aclweb.org/anthology/D13-1174.pdf
         optional: true
   -
-    date: 2016-03-29
+    date: 2017-10-25
     title: Syntax-Based Models
     slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
     reading:
@@ -237,7 +229,7 @@ past:
         author: Koehn 
         title: Chapter 11.1-11.2
   -
-    date: 2016-03-31
+    date: 2017-10-27
     title: Syntax-Based Decoding I
     slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
     reading:
@@ -245,7 +237,7 @@ past:
         author: Koehn 
         title: Chapter 11.3
   -
-    date: 2016-04-05
+    date: 2017-11-01
     title: Syntax-Based Decoding II
     slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
     reading:
@@ -263,7 +255,7 @@ past:
         url: http://aclweb.org/anthology/W/W14/W14-4011.pdf
         optional: true
   -
-    date: 2016-04-07
+    date: 2017-11-03
     title: Semantics
     slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
@@ -278,7 +270,7 @@ past:
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
   -
-    date: 2016-04-26
+    date: 2017-11-08
     title: Computer Aided Translation
     slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
