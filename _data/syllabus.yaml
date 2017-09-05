@@ -139,11 +139,11 @@ past:
     title: Neural Translation Models I
     slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
     reading:
-       -
+      -
         author: Koehn (2017)
         title: Neural Network Chapter 13.5
         url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
-     -
+      -
         author: Bahdanau et al. (2015)
         title: Neural Machine Translation by Jointly Learning to Align and Translate
         url: http://arxiv.org/pdf/1409.0473v5.pdf
