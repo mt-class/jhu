@@ -122,8 +122,8 @@ past:
         url: http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf
         optional: true
   -
-    date: 2016-10-03
-    title: Neural Translation Models
+    date: 2017-10-04
+    title: Neural Translation Models I
     slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
     reading:
       -
@@ -142,8 +142,8 @@ past:
         url: http://arxiv.org/pdf/1409.0473v5.pdf
         optional: true
   -
-    date: 2016-04-21
-    title: Training Neural Networks
+    date: 2017-10-06
+    title: Neural Translation Models II
     slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
       -
@@ -164,43 +164,6 @@ past:
       -
         author: Koehn 
         title: Chapter 9.1-9.3
-  - 
-    date: 2016-03-01
-    title: Sparse Features
-    slides: http://mt-class.org/jhu/slides/lecture-sparse-features.pdf
-    reading:
-      -
-        author: Koehn 
-        title: Chapter 9.4
-      -
-        author: Chiang (2012)
-        title: Hope and Fear for Discriminative Training of Statistical Translation Models
-        url: http://jmlr.csail.mit.edu/papers/volume13/chiang12a/chiang12a.pdf
-        optional: true
-      -
-        author: Cherry and Foster (2012)
-        title: Batch Tuning Strategies for Statistical Machine Translation
-        url: http://www.aclweb.org/anthology/N12-1047.pdf
-        optional: true
-      -
-        author: Hopkins and May (2011)
-        title: Tuning as Ranking
-        url: http://www.aclweb.org/anthology/D/D11/D11-1125.pdf
-        optional: true
-      -
-        author: Wuebker et al. (2012)
-        title: Leave-One-Out Phrase Model Training for Large-Scale Deployment
-        url: http://anthology.aclweb.org/W/W12/W12-3158.pdf
-        optional: true
-      -
-        author: Yu et al. (2013)
-        title: Max-Violation Perceptron and Forced Decoding for Scalable MT Training
-        url: http://aclweb.org/anthology/D/D13/D13-1112.pdf
-        optional: true
-  -
-    date: 2016-03-03
-    title: Introduction to Moses
-    slides: http://mt-class.org/jhu/slides/lecture-moses.pdf
   -
     date: 2016-03-08
     title: Corpus Acquisition from the Internet
@@ -223,8 +186,7 @@ past:
         optional: true
   -
     date: 2016-03-10
-    title: (no class)
-    note: ?????????? in future a class on domain adaptation ??????????????
+    title: Domain Adaptation
   -
     date: 2016-03-22
     title: Reordering
