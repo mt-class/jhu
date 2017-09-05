@@ -28,7 +28,7 @@ past:
   -
     date: 2017-09-12
     title: Language Models
-    slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
     reading: 
       -
         author: Koehn 
@@ -36,7 +36,7 @@ past:
   -
     date: 2017-09-14
     title: IBM Model 1 and the EM Algorithm
-    slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
     reading:
       -
         author: Koehn 
@@ -49,7 +49,7 @@ past:
   -
     date: 2017-09-19
     title: Phrase-Based Models
-    slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
     reading:
       -
         author: Koehn 
@@ -62,7 +62,7 @@ past:
   -
     date: 2017-09-21
     title: Decoding
-    slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
     links:
       -
         text: (Demo)
@@ -79,7 +79,7 @@ past:
   -
     date: 2017-09-26
     title: Evaluation
-    slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
     reading:
       -
         author: Koehn 
@@ -92,7 +92,7 @@ past:
   -
     date: 2017-09-28
     title: Introduction to Neural Networks
-    slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
       -
         author: Koehn (2017)
@@ -118,7 +118,7 @@ past:
   -
     date: 2017-10-06
     title: Neural Language Models
-    slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
       -
         author: Koehn (2017)
@@ -137,7 +137,7 @@ past:
   -
     date: 2017-10-11
     title: Neural Translation Models I
-    slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
     reading:
       -
         author: Koehn (2017)
@@ -151,7 +151,7 @@ past:
   -
     date: 2017-10-13
     title: Neural Translation Models II
-    slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
       -
         author: Koehn (2017)
@@ -170,7 +170,7 @@ past:
   -
     date: 2017-10-18
     title: Neural Translation Models III
-    slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
       -
         author: Koehn (2017)
@@ -179,7 +179,7 @@ past:
   -
     date: 2017-10-20
     title: Corpus Acquisition from the Internet
-    slides: http://mt-class.org/jhu/slides/lecture-data.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     reading:
       -
         author: Uszkoreit et al. (2010)
@@ -202,7 +202,7 @@ past:
   -
     date: 2017-10-27
     title: Word Order
-    slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
     reading:
       -
         author: Koehn 
@@ -220,7 +220,7 @@ past:
   -
     date: 2016-11-01
     title: Morphology
-    slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
     reading:
       -
         author: Koehn 
@@ -243,7 +243,7 @@ past:
   -
     date: 2017-11-03
     title: Syntax-Based Models
-    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
     reading:
       -
         author: Koehn 
@@ -251,7 +251,7 @@ past:
   -
     date: 2017-11-08
     title: Syntax-Based Decoding I
-    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
     reading:
       -
         author: Koehn 
@@ -259,7 +259,7 @@ past:
   -
     date: 2017-11-10
     title: Syntax-Based Decoding II
-    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
     reading:
       -
         author: Koehn 
@@ -277,7 +277,7 @@ past:
   -
     date: 2017-11-14
     title: Semantics
-    slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
       -
         author: Cook et al. (2011)
@@ -292,7 +292,7 @@ past:
   -
     date: 2017-11-17
     title: Computer Aided Translation
-    slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
       -
         author: Barrachina et al. (2009)
