@@ -156,7 +156,7 @@ past:
         title: Dropout - A Simple Way to Prevent Neural Networks from Overfitting
         url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
         optional: true
--
+  -
     date: 2016-02-25
     title: Tuning
     slides: http://mt-class.org/jhu/slides/lecture-tuning.pdf
