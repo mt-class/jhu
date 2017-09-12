@@ -8,7 +8,7 @@ active_tab: main_page
 
 EN 600.468/668 Machine Translation
 : Fall 2017
-: Tuesdays and Thursdays 1:30-2:45 (graduate section), TBA (undergraduate section)
+: Tuesdays and Thursdays 1:30-2:45
 : [Mergenthaler	111](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf)
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
