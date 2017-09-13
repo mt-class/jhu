@@ -29,13 +29,13 @@ Submit your assignments [here](http://jhumt2017leaderboard.appspot.com/). Result
         <a href="hw2.html">#2</a><br/><span class="small text-muted">Model score</span>
       </th>
       <th class="text-center">
-        <a href="hw3.html">#3</a><br/><span class="small text-muted">Accuracy</span>
+        <a>#3</a><br/><span class="small text-muted">Accuracy</span>
       </th>
       <th class="text-center">
-        <a href="hw4.html">#4</a><br/><span class="small text-muted">BLEU</span>
+        <a>#4</a><br/><span class="small text-muted">BLEU</span>
       </th>
       <th class="text-center">
-        <a href="hw5.html">#5</a><br/><span class="small text-muted">Accuracy</span>
+        <a>#5</a><br/><span class="small text-muted">Accuracy</span>
       </th>
     </tr>
   </thead>
