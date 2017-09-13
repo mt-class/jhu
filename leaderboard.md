@@ -6,7 +6,7 @@ title: Statistical Machine Translation
 active_tab: main_page 
 ---
 
-Submit your assignments [here](http://jhumt2016leaderboard.appspot.com/). Results will be updated immediately.
+Submit your assignments [here](http://jhumt2017leaderboard.appspot.com/). Results will be updated immediately.
 
 <script type="text/javascript" src="http://jhumt2017leaderboard.appspot.com/leaderboard.js"></script>
 

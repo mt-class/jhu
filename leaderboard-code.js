@@ -1,5 +1,5 @@
 // The current assignment number (0-indexed)
-var assignment_number = 4;
+var assignment_number = 1;
 
 // The maximum assignment number (0-indexed)
 var max_assignment_number = 5;
