@@ -53,3 +53,4 @@ We will mainly grade hands-on work.
 * Final project (30%)
 * In-class presentation: Language in ten minutes (10%)
 
+Late penalty for homework assignments: 10% per day.
