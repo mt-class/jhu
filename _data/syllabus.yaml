@@ -79,7 +79,7 @@ past:
   -
     date: 2017-09-26
     title: Evaluation
-    old-slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
     reading:
       -
         author: Koehn 
@@ -97,8 +97,8 @@ past:
       -
         author: Koehn 
         title: Chapter 9.1-9.3
-    date: 2017-09-28
   -
+    date: 2017-09-28
     title: Introduction to Neural Networks
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
