@@ -91,6 +91,14 @@ past:
         optional: true
   -
     date: 2017-09-28
+    title: Tuning
+    slides: http://mt-class.org/jhu-2015/slides/lecture-tuning.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 9.1-9.3
+    date: 2017-09-28
+  -
     title: Introduction to Neural Networks
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
