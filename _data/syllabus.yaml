@@ -98,7 +98,7 @@ past:
         author: Koehn 
         title: Chapter 9.1-9.3
   -
-    date: 2017-09-28
+    date: 2017-10-04
     title: Introduction to Neural Networks
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
@@ -107,7 +107,7 @@ past:
         title: Neural Network Chapter 13.2
         url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
   -
-    date: 2017-10-04
+    date: 2017-10-06
     title: Computation Graphs
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
@@ -124,7 +124,7 @@ past:
         title: Neural network online demo
         url: http://playground.tensorflow.org/
   -
-    date: 2017-10-06
+    date: 2017-10-11
     title: Neural Language Models
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
@@ -143,7 +143,7 @@ past:
         url: http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf
         optional: true
   -
-    date: 2017-10-11
+    date: 2017-10-13
     title: Neural Translation Models I
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
     reading:
@@ -157,7 +157,7 @@ past:
         url: http://arxiv.org/pdf/1409.0473v5.pdf
         optional: true
   -
-    date: 2017-10-13
+    date: 2017-10-18
     title: Neural Translation Models II
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
@@ -176,7 +176,7 @@ past:
         url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
         optional: true
   -
-    date: 2017-10-18
+    date: 2017-10-20
     title: Neural Translation Models III
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
@@ -185,7 +185,7 @@ past:
         title: Neural Network Chapter 13.6
         url: http://mt-class.org/jhu/assets/papers/neural-network-models.pdf
   -
-    date: 2017-10-20
+    date: 2017-10-25
     title: Corpus Acquisition from the Internet
     old-slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     reading:
@@ -205,10 +205,10 @@ past:
         url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
         optional: true
   -
-    date: 2017-10-25
-    title: Domain Adaptation
-  -
     date: 2017-10-27
+    title: Adaptation
+  -
+    date: 2017-11-01
     title: Word Order
     old-slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
     reading:
@@ -226,7 +226,7 @@ past:
         url: http://www.aclweb.org/anthology/W10-1735.pdf
         optional: true
   -
-    date: 2016-11-01
+    date: 2016-11-03
     title: Morphology
     old-slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
     reading:
@@ -249,7 +249,7 @@ past:
         url: http://www.aclweb.org/anthology/D13-1174.pdf
         optional: true
   -
-    date: 2017-11-03
+    date: 2017-11-08
     title: Syntax-Based Models
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
     reading:
@@ -257,7 +257,7 @@ past:
         author: Koehn 
         title: Chapter 11.1-11.2
   -
-    date: 2017-11-08
+    date: 2017-11-10
     title: Syntax-Based Decoding I
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
     reading:
@@ -265,7 +265,7 @@ past:
         author: Koehn 
         title: Chapter 11.3
   -
-    date: 2017-11-10
+    date: 2017-11-14
     title: Syntax-Based Decoding II
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
     reading:
@@ -283,7 +283,7 @@ past:
         url: http://aclweb.org/anthology/W/W14/W14-4011.pdf
         optional: true
   -
-    date: 2017-11-14
+    date: 2017-11-17
     title: Semantics
     old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
@@ -298,7 +298,7 @@ past:
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
   -
-    date: 2017-11-17
+    date: 2017-11-28
     title: Computer Aided Translation
     old-slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
@@ -312,9 +312,6 @@ past:
         title: Dynamic Phrase Tables for Machine Translation in an Interactive Post-editing Scenario
         url: http://www.accept.unige.ch/Products/Germann2014.pdf
         optional: true
-  -
-    date: 2017-11-28
-    title: TBD
   -
     date: 2017-11-30
     title: TBD
