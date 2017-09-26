@@ -139,7 +139,7 @@ get full credit you **must** experiment with at least one additional
 model of your choice and document your work. Here are some ideas:
 
 * Implement [a model that prefers to align words close to the diagonal](http://aclweb.org/anthology/N/N13/N13-1073.pdf).
-* Implement an [HMM alignment model](http://aclweb.org/anthology-new/C/C96/C96-2141.pdf).
+* Implement an [HMM alignment model](http://www.aclweb.org/anthology/C96-2141.pdf).
 * Implement [a morphologically-aware alignment model](http://aclweb.org/anthology/N/N13/N13-1140.pdf).
 * [Use *maximum a posteriori* inference under a Bayesian prior](http://aclweb.org/anthology/P/P11/P11-2032.pdf).
 * Train a French-English model and an English-French model and [combine their predictions](http://aclweb.org/anthology-new/N/N06/N06-1014.pdf).
