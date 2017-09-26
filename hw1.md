@@ -142,9 +142,9 @@ model of your choice and document your work. Here are some ideas:
 * Implement an [HMM alignment model](http://www.aclweb.org/anthology/C96-2141.pdf).
 * Implement [a morphologically-aware alignment model](http://aclweb.org/anthology/N/N13/N13-1140.pdf).
 * [Use *maximum a posteriori* inference under a Bayesian prior](http://aclweb.org/anthology/P/P11/P11-2032.pdf).
-* Train a French-English model and an English-French model and [combine their predictions](http://aclweb.org/anthology-new/N/N06/N06-1014.pdf).
-* Train a [supervised discriminative alignment model](http://aclweb.org/anthology-new/P/P06/P06-1009.pdf) on the annotated development set.
-* Train an [unsupervised discriminative alignment model](http://aclweb.org/anthology-new/P/P11/P11-1042.pdf).
+* Train a French-English model and an English-French model and [combine their predictions](http://aclweb.org/anthology/N/N06/N06-1014.pdf).
+* Train a [supervised discriminative alignment model](http://aclweb.org/anthology/P/P06/P06-1009.pdf) on the annotated development set.
+* Train an [unsupervised discriminative alignment model](http://aclweb.org/anthology/P/P11/P11-1042.pdf).
 * Seek out additional [inspiration](http://scholar.google.com/scholar?q=word+alignment).
 
 But the sky's the limit! You are welcome to design your own model, as long 
