@@ -34,7 +34,11 @@ TA
 : Shuoyang Ding (<dings@jhu.edu>)
 
 Office hours
-: Wednesday 12-1, Hackermann 227
+: Professor
+* By Appointment
+: TA
+* Tuesday 14:45-15:30, Mergenthaler 111
+* Friday (After Oct. 5th) 13:30-14:30, Malone 338
 
 Discussion Forum
 : [Piazza](https://piazza.com/jhu/fall2017/en600468/home)
