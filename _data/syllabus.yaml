@@ -168,7 +168,7 @@ past:
         optional: true
   -
     date: 2017-10-18
-    title: Neural Translation Models II: Refinements
+    title: Neural Translation Models II - Refinements
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
       -
@@ -177,7 +177,7 @@ past:
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
   -
     date: 2017-10-20
-    title: Neural Translation Models III: Alternatives and Challenges
+    title: Neural Translation Models III - Alternatives and Challenges
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
       -
