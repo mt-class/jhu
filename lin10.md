@@ -48,7 +48,7 @@ TBD
 | October 24 | Japanese | Zikun Chen, Yu Zhao, Fan Yang |
 | October 26 | French | Channing Kimble-Brown, Rebecca Marvin, Najoung Kim, Steven Shearing |
 | October 31 | Korean | Xiaofeng Qiu, Ziyan Wang, Kwang Bin Lee, Baekchun Kim |
-| November 2 | Brazilian Portuguese | Tanay Agarwal, Ryan Newell, Jonathan Liu, Gary Qian, Dylan Lewis |
+| November 2 | Brazilian Portuguese&nbsp;&nbsp; | Tanay Agarwal, Ryan Newell, Jonathan Liu, Gary Qian, Dylan Lewis |
 | November 7 | ASL | Xuan Zhang, Digvijay Singh, Yirui Wang |
 | November 9 | Mandarin | Dongji Gao, Kun QIan, Szu-Jui Chen |
 | November&nbsp;14&nbsp;&nbsp; | Telugu | Sankalp Kolhe, Aswin, Nikhil Kulkarni, Rohit Ravoori, Amitoj Kaur |
