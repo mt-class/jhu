@@ -3,12 +3,14 @@ layout: default
 img: voynich
 img_link: http://en.wikipedia.org/wiki/Voynich_manuscript 
 caption: The Voynich manuscript
-title: Homework 2 | Decoding
+title: Homework 3 | Decoding
 active_tab: homework
 ---
 
 Decoding <span class="text-muted">Challenge Problem 3</span>
 =============================================================
+
+Due October 19th, 2017
 
 Decoding is process of taking input in French:
 
@@ -208,7 +210,7 @@ Ground Rules
    of python code. If you aren't sure whether something is permitted, 
    ask us. If you want to do system combination, join forces with 
    your classmates.
-*  The deadline for the leaderboard is 03-10-2016 at 11:59pm. Don't wait till the last minute, this assignment is longer than the previous.
+*  The deadline for the leaderboard is 10-19-2017 at 11:59pm. Don't wait till the last minute, this assignment is longer than the previous.
 
 *Credits: This assignment was developed by [Adam Lopez](http://alopez.github.io/), 
 [Matt Post](http://cs.jhu.edu/~post/),
