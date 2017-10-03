@@ -39,13 +39,19 @@ Presentations
 TBD
 
 | **Day**      | **Language**&nbsp;&nbsp; | **Presenter(s)** |
-
-
-
-
-
-
-
+| October 3 | Italian | Nawaf Al-Dhelaan, Jingyi Wu, Huanyu Yang |
+| October 5 | Singlish | Shuo Sun, Ke Li, Xutai Ma, Shijia Liu |
+| October 10 | Hindi | Adhiraj Yadav, Dhananjay Singh, Manya Wadhwa, Vishal Rao |
+| October 12 | Spanish | Achintya Gopal, Philip Piantone, Eric Calder, Tomas Ferrer Deheza | 
+| October 17 | Hebrew | Shijie Wu, Chenyang Zhao, Pamela Shapiro, Lawrence Wolf-Sonkin |
+| October 19 | Esperanto | Harrison Huh, Shreya Aggarwal, Alex Gain |
+| October 24 | Japanese | Zikun Chen, Yu Zhao, Fan Yang |
+| October 26 | French | Channing Kimble-Brown, Rebecca Marvin, Najoung Kim, Steven Shearing |
+| October 31 | Korean | Xiaofeng Qiu, Ziyan Wang, Kwang Bin Lee, Baekchun Kim |
+| November 2 | Brazilian Portuguese | Tanay Agarwal, Ryan Newell, Jonathan Liu, Gary Qian, Dylan Lewis |
+| November 7 | ASL | Xuan Zhang, Digvijay Singh, Yirui Wang |
+| November 9 | Mandarin | Dongji Gao, Kun QIan, Szu-Jui Chen |
+| November 14 | Telugu Sankalp Kolhe, Aswin, Nikhil Kulkarni, Rohit Ravoori, Amitoj Kaur |
 
 
 
