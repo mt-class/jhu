@@ -51,7 +51,7 @@ TBD
 | November 2 | Brazilian Portuguese | Tanay Agarwal, Ryan Newell, Jonathan Liu, Gary Qian, Dylan Lewis |
 | November 7 | ASL | Xuan Zhang, Digvijay Singh, Yirui Wang |
 | November 9 | Mandarin | Dongji Gao, Kun QIan, Szu-Jui Chen |
-| November 14 | Telugu Sankalp Kolhe, Aswin, Nikhil Kulkarni, Rohit Ravoori, Amitoj Kaur |
+| November 14 | Telugu | Sankalp Kolhe, Aswin, Nikhil Kulkarni, Rohit Ravoori, Amitoj Kaur |
 
 
 
