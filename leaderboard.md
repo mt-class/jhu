@@ -23,10 +23,10 @@ Submit your assignments [here](http://jhumt2017leaderboard.appspot.com/). Result
         <a href="hw0.html">#0</a><br/><span class="small text-muted">Scalar (% N)</span>
       </th>
       <th class="text-center">
-        <a>#1</a><br/><span class="small text-muted">Alignment (AER)</span>
+        <a href="hw1.html">#1</a><br/><span class="small text-muted">Alignment (AER)</span>
       </th>
       <th class="text-center">
-        <a>#2</a><br/><span class="small text-muted">Model score</span>
+        <a href="hw2.html">#2</a><br/><span class="small text-muted">Model score</span>
       </th>
       <th class="text-center">
         <a>#3</a><br/><span class="small text-muted">Accuracy</span>
