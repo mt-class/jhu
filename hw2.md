@@ -189,6 +189,8 @@ Ground Rules
 
           python decode | head -n10 > output.txt
 
+     but please still log the score of your whole dataset in the writeup.
+
   1. Your code. Send us a URL from which we can get the code and git revision
      history (a link to a tarball will suffice, but you're free to send us a 
      github link if you don't mind making your code public). This is due at the
