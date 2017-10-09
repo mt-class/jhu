@@ -182,8 +182,13 @@ Ground Rules
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
 * You must turn in three things:
-  1. Your translations of the entire dataset, uploaded to the [leaderboard submission site](http://jhumt2016leaderboard.appspot.com/leaderboard.html). You can upload new output as often
+  1. Your translations of the entire dataset, uploaded to the [leaderboard submission site](http://jhumt2017leaderboard.appspot.com/leaderboard.html). You can upload new output as often
      as you like, up until the assignment deadline. 
+
+     *Note*. The upload site will reject files if it takes too long to score, so please reduce your file to only the first 10 lines before uploading, e.g.,
+
+          python decode | head -n10 > output.txt
+
   1. Your code. Send us a URL from which we can get the code and git revision
      history (a link to a tarball will suffice, but you're free to send us a 
      github link if you don't mind making your code public). This is due at the
