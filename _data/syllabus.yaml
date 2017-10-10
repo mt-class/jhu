@@ -136,7 +136,7 @@ past:
   -
     date: 2017-10-10
     title: Neural Language Models
-    old-slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
       -
         author: Koehn (2017)
@@ -148,9 +148,14 @@ past:
         url: http://jmlr.csail.mit.edu/papers/volume3/bengio03a/bengio03a.pdf
         optional: true
       -
-        author: Tomas Mikolov
+        author: Tomas Mikolov (2012)
         title: Statistical Language Models Based on Neural Networks, Chapter 3
         url: http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf
+        optional: true
+      -
+        author: Karpathy et al. (2015)
+        title: Visualizing and Understanding Recurrent Networks
+        url: https://arxiv.org/pdf/1506.02078
         optional: true
   -
     date: 2017-10-12
