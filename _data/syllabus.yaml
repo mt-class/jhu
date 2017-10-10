@@ -98,7 +98,7 @@ past:
         author: Koehn 
         title: Chapter 9.1-9.3
   -
-    date: 2017-10-04
+    date: 2017-10-03
     title: Introduction to Neural Networks
     slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
@@ -121,7 +121,7 @@ past:
         url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
         optional: true
   -
-    date: 2017-10-06
+    date: 2017-10-05
     title: Computation Graphs
     slides: http://mt-class.org/jhu/slides/lecture-nn-computation-graphs.pdf
     reading:
@@ -134,7 +134,7 @@ past:
         title: Neural network online demo
         url: http://playground.tensorflow.org/
   -
-    date: 2017-10-11
+    date: 2017-10-10
     title: Neural Language Models
     slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
@@ -158,7 +158,7 @@ past:
         url: https://arxiv.org/pdf/1506.02078
         optional: true
   -
-    date: 2017-10-13
+    date: 2017-10-12
     title: Neural Translation Models I
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
     reading:
@@ -172,7 +172,7 @@ past:
         url: http://arxiv.org/pdf/1409.0473v5.pdf
         optional: true
   -
-    date: 2017-10-18
+    date: 2017-10-17
     title: Neural Translation Models II - Refinements
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
@@ -181,7 +181,7 @@ past:
         title: Neural Machine Translation, Chapter 6
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
   -
-    date: 2017-10-20
+    date: 2017-10-19
     title: Neural Translation Models III - Alternatives and Challenges
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
     reading:
@@ -190,7 +190,7 @@ past:
         title: Neural Machine Translation, Chapter 7 and 8
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
   -
-    date: 2017-10-25
+    date: 2017-10-24
     title: Corpus Acquisition from the Internet
     old-slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     reading:
@@ -210,10 +210,10 @@ past:
         url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
         optional: true
   -
-    date: 2017-10-27
+    date: 2017-10-26
     title: Adaptation
   -
-    date: 2017-11-01
+    date: 2017-10-31
     title: Word Order
     old-slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
     reading:
@@ -231,7 +231,7 @@ past:
         url: http://www.aclweb.org/anthology/W10-1735.pdf
         optional: true
   -
-    date: 2016-11-03
+    date: 2016-11-02
     title: Morphology
     old-slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
     reading:
@@ -254,7 +254,7 @@ past:
         url: http://www.aclweb.org/anthology/D13-1174.pdf
         optional: true
   -
-    date: 2017-11-08
+    date: 2017-11-07
     title: Syntax-Based Models
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
     reading:
@@ -262,7 +262,7 @@ past:
         author: Koehn 
         title: Chapter 11.1-11.2
   -
-    date: 2017-11-10
+    date: 2017-11-09
     title: Syntax-Based Decoding I
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
     reading:
@@ -288,7 +288,7 @@ past:
         url: http://aclweb.org/anthology/W/W14/W14-4011.pdf
         optional: true
   -
-    date: 2017-11-17
+    date: 2017-11-16
     title: Semantics
     old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
