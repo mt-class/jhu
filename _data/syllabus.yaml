@@ -160,7 +160,7 @@ past:
   -
     date: 2017-10-12
     title: Neural Translation Models I
-    old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav1.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
     reading:
       -
         author: Koehn (2017)
@@ -174,7 +174,7 @@ past:
   -
     date: 2017-10-17
     title: Neural Translation Models II - Refinements
-    old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-nmt2.pdf
     reading:
       -
         author: Koehn (2017)
@@ -182,8 +182,8 @@ past:
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
   -
     date: 2017-10-19
-    title: Neural Translation Models III - Alternatives and Challenges
-    old-slides: http://mt-class.org/jhu/slides/lecture-nn-gaurav2.pdf
+    title: Neural Translation Models III - Challenges and Alternatives 
+    old-slides: http://mt-class.org/jhu/slides/lecture-nmt3.pdf
     reading:
       -
         author: Koehn (2017)
