@@ -154,7 +154,7 @@ consider implementing other approaches to solving this combinatorial
 optimization problem:
 
 * [Implement a greedy decoder](http://www.iro.umontreal.ca/~felipe/bib2webV0.81/cv/papers/paper-tmi-2007.pdf).
-* [Use chart parsing to search over many permutations in polynomial time](http://acl.ldc.upenn.edu/C/C04/C04-1030.pdf).
+* [Use chart parsing to search over many permutations in polynomial time](http://aclweb.org/anthology/C/C04/C04-1030.pdf).
 * [Use a traveling salesman problem (TSP) solver](http://aclweb.org/anthology/P/P09/P09-1038.pdf).
 * [Use finite-state algorithms](http://mi.eng.cam.ac.uk/~wjb31/ppubs/ttmjnle.pdf).
 * [Use Lagrangian relaxation](http://aclweb.org/anthology/D/D13/D13-1022.pdf).
