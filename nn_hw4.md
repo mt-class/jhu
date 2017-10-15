@@ -45,14 +45,6 @@ We'll be using Google Cloud as GPU support for this year. Before you proceed to 
 
 Please keep in mind that you should use your GPU hours wisely since the $50 credit will only give you ~60 hours of GPU usage.
 
-Deep Learning Framework Choice Policy (2017)
----------------
-
-We understand people may have different preferences for deep learning frameworks, but as new frameworks come out everyday, it is not possible for us as instructors and TAs to cover knowledge of all the frameworks. As of 2017, we will use [PyTorch](http://pytorch.org) for all the starter code and is only able to help if you are using PyTorch. PyTorch is quickly gaining popularity among NLP/MT/ML research community and is, from our perspective, relatively easy to pick up as a beginner.
-
-If you prefer using another framework, we welcome contribution of your starter code (and you'll get credit as contributors in a homework that'll likely to be used in the coming years), but again, we are not able to help if you run into problems with the framework.
-
-Your choice of framework will not affect the grade of your homework.
 
 Part O: Setup 
 ---------------
@@ -63,16 +55,14 @@ Now, check out the [starter code](https://github.com/shuoyangd/en600.468) (note 
 
     pip install -r requirements.txt
 
-Then, download the preproceed data file [here](http://todo.org). Untar the data file first:
-
-    tar -zxvf hw4-data.tgz
+Then, download the preproceed data file [here](https://drive.google.com/open?id=0Bwx3D6Nc6za4R0pSc1V3QWQwQUk).
 
 > Note: Before we start to explain the starter code, if you don't know what is a tensor, take 30 seconds to acquaint yourself with the notion of tensors in PyTorch by reading the first few paragraphs of this [PyTorch document](http://pytorch.org/docs/0.2.0/tensors.html) as we'll be using this term pretty pervasively.
 
 The preprocessing script will collect the tokens in the training data and form a vocabulary, it will then convert sentences in training set, dev set and test set into list of torch tensors, with each tensor holding the word indexes for once sentence. The vocabulary is an instance of vocabulary implementation in [torchtext](https://github.com/pytorch/text/blob/master/torchtext/vocab.py).
 Finally, it will dump a binarized version of the data as well as the vocabulary onto disk, to the path you specify with `--data_file` option. Run the preprocessing script on your data now, e.g.:
 
-    python preprocess.py --train_file data/train.txt --dev_file data/dev.txt --data_file data/hw4_data.bin
+    python preprocess.py --train_file data/train.txt --dev_file data/dev.txt --test_file data/test.txt --data_file data/hw4_data.bin
 
 Now `data/hw4_data.bin` contains a tuple `(train_data, dev_data, test_data, vocab)`. You can unpack this binary dump with the following python code:
     
@@ -97,10 +87,10 @@ You will run starter code `train.py` to train your model.
 The uni-directional RNN language model is described in [(Mikolov et al. 2010)](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf). There are three parts in the model:
 
 + The word embedding layer, which is simply a lookup table that stores the vector representation for each word type in the training data, including the special token "<unk>" reserved for unknown words. The vector representations should be queried by word indexes.
-+ The simple recurrent layer, scans one token in the left-to-right order at each timestep and computes the hidden state of each timestep by $h_t = \sigma(W_x x_t + W_h h_{t - 1})$ (bias terms omitted).
++ The simple recurrent layer, scans one token in the left-to-right order at each timestep and computes the hidden state of each timestep by $$h_t = \sigma(W_x x_t + W_h h_{t - 1})$$ (bias terms omitted).
 + The output layer, which first performs an linear transformation on the hidden states of the recurrent layer into a vector that has the same size as the full vocabulary, and then applies [softmax function](https://en.wikipedia.org/wiki/Softmax_function) over this vector, and then a element-wise log. The resulting vector is the output of this network.
 
-The output of the network is essentially the probability distribution $p(w_i\mid w_1, w_2, \ldots, w_{i-1})$ in the log space. To train this network, we would like to maximize the log probability of the training corpus, which is the objective function of the training: $$\mathcal{R} = \prod_{i\in\mathcal{I}} log p(w_i\mid w_1, w_2, \ldots, w_{i-1})$$ where $\forall i \in \mathcal{I}$, $w_i$ is a token in the sentence. This loss function as well as the parameter updates are both already implemented for you in the starter code.
+The output of the network is essentially the probability distribution $$p(w_i\mid w_1, w_2, \ldots, w_{i-1})$$ in the log space. To train this network, we would like to maximize the log probability of the training corpus, which is the objective function (a.k.a. negative loss function, which is why we always minimize loss function instead of maximize them) of the training: $$\mathcal{R} = \prod_{i\in\mathcal{I}} log p(w_i\mid w_1, w_2, \ldots, w_{i-1})$$ where $$\forall i \in \mathcal{I}$$, $$w_i$$ is a token in the sentence. This loss function as well as the parameter updates are both already implemented for you in the starter code.
 
 For further detail of the model, either consult the [original paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf), the [slides from class](http://todo.org), or section 4.4 of the [brand new NMT textbook](http://mt-class.org/jhu/assets/nmt-book.pdf). 
 
@@ -205,19 +195,21 @@ You don't have to worry about how to make batched data -- the starter code has a
 
 ### Deliverables
 
-+ 1.1 (Code) Implement a uni-directional RNN language model (`RNNLM`) in `models.py` that scans the sentence from left to right. Your implementation should be able to take word index input of size `(sequence_length, batch_size)` and output `(sequence_length, batch_size, vocab_size)` representing probability distribution for each word input. Note that your implementation should be able to deal with arbitrary batch size. **You are not allowed to use anything in `torch.nn` packge other than `torch.nn.Modules`**.
-+ 1.2 (Writeup) After you finished your implementation, run the training script to check your implementation. The program prints negative log probability on dev set after each epoch. As a sanity check, your negative log probability on dev set should reach below 4.2 upon convergence (~10 minutes on my laptop CPU) with the following command:
++ **1.1 (Code)** Implement a uni-directional RNN language model (`RNNLM`) in `models.py` that scans the sentence from left to right. Your implementation should be able to take word index input of size `(sequence_length, batch_size)` and output `(sequence_length, batch_size, vocab_size)` representing probability distribution for each word input. Note that your implementation should be able to deal with arbitrary batch size. **You are not allowed to use anything in `torch.nn` packge other than `torch.nn.Modules`**.
++ **1.2 (Writeup)** After you finished your implementation, run the training script to check your implementation. The program prints negative log probability on dev set after each epoch. As a sanity check, your negative log probability on dev set should reach around 6.0 after first epoch (~5 minutes on my laptop CPU) with the following command:
 
-    python train.py --data_file hw4_data --optimizer Adam -lr 1e-2 --batch_size 128
+```
+python train.py --data_file hw4_data --optimizer Adam -lr 1e-2 --batch_size 128
+```
 
-with word embedding size 32 and hidden dimension 16. Report your converged dev negative log probability at this setting. If you are curious, try a few other hyperparameter combinations and report result as well.
+with word embedding size 32 and hidden dimension 16. Report your **converged** dev negative log probability at this setting. If you are curious, try a few other hyperparameter combinations and report result as well.
 
 Part II: Bi-directional RNN Language Model
 ---------------
 
 ### The Model
 
-Recall a uni-directional RNN Language model outputs the $p(w_i\mid w_1, w_2, \ldots, w_{i-1})$ in the log space. However, for some tasks we would like to take advantage of both the preceding context and the following context to be able to predict a word (as in machine translation). Hence, people designed bi-directional RNN language model to solve the problem, where it outputs $p(w_i\mid w_1, w_2, \ldots, w_{i-1}, w_{i+1}, \ldots, w_n})$ instead.
+Recall a uni-directional RNN Language model outputs the $$p(w_i\mid w_1, w_2, \ldots, w_{i-1})$$ in the log space. However, for some tasks we would like to take advantage of both the preceding context and the following context to be able to predict a word (as in machine translation). Hence, people designed bi-directional RNN language model to solve the problem, where it outputs $$p(w_i\mid w_1, w_2, \ldots, w_{i-1}, w_{i+1}, \ldots, w_n})$$ instead.
 
 The way to model this probability distribution is to have two RNNs in the same network. One scanning sentence from left to right, the other from right to left. After scanning is completed for both RNNs, the respective hidden states for each token step are concatenated and passed onto the final output layer. So now, the concatenated hidden state for each token has both the forward (preceding) context and the backward (following) context. In summary, here is the new model architecture.
 
@@ -228,8 +220,8 @@ The way to model this probability distribution is to have two RNNs in the same n
 
 ### Deliverables
 
-+ 2.1 (Code) Implement a bi-directional RNN language model (`BiRNNLM`) in `models.py` that scans the sentence in both ways. Your implementation should be able to take word index input of size `(sequence_length, batch_size)` and output `(sequence_length, batch_size, vocab_size)` representing probability distribution for each word input. Note that your implementation should be able to deal with arbitrary batch size. **You are not allowed to use anything in `torch.nn` packge other than `torch.nn.Modules`**.
-+ 2.2 (Writeup) Check your implementation as in deliverable 1.2. You should be able to reach ... TODO!
++ **2.1 (Code)** Implement a bi-directional RNN language model (`BiRNNLM`) in `models.py` that scans the sentence in both ways. Your implementation should be able to take word index input of size `(sequence_length, batch_size)` and output `(sequence_length, batch_size, vocab_size)` representing probability distribution for each word input. Note that your implementation should be able to deal with arbitrary batch size. **You are not allowed to use anything in `torch.nn` packge other than `torch.nn.Modules`**.
++ **2.2 (Writeup)** Check your implementation using the same setup as in deliverable 1.2 (the only caveat is that to maintain the same number of parameters for fair comparison, your hidden dimension for each RNN direction should be 8). You should be able to reach negative log probability of around 1.5 on dev set after first epoch. Again report your **converged** dev negative log probability at this setting. If you are curious, try a few other hyperparameter combinations and report result as well.
 
 PART III: Multi-word Cloze
 ---------------
@@ -243,15 +235,15 @@ To earn full credit for the homework, you need to implement at least one more im
 + Implement dropout. Read [the original paper](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) or [this blogpost](http://iamtrask.github.io/2015/07/28/dropout/) to find out what it is.
 + Implement LSTM or GRU. [This blog post](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) would be a great starting point for you to understand them.
 + Implement [CNN language model that does even better than LSTM](http://proceedings.mlr.press/v70/dauphin17a/dauphin17a.pdf).
-+ Representing `<blank>` with a special token is not a great solution. Can you come up with a better one? 
++ Representing `<blank>` with a random embedding is not a great solution. Can you come up with a better one? 
 + Solving this task with language model may not be the best strategy at the first place. You can come up with novel network structure of your own!
 
-To the best of our knowledge, mutli-word cloze is not a task with rich NLP/ML literature, so any improvement you achieve on the task may advance the state-of-the-art!
+Cloze has very clear pedagogical motivation in language learning, but to the best of our knowledge, it is not a task with rich NLP/ML literature, so any improvement you achieve on the task may advance the state-of-the-art!
 
 ### Deliverables
 
-+ 3.1 (Code) Fill in `eval.py` to load your bi-directional RNN language model and do the multi-word cloze task. Your input data has already been converted into binary format for you by `preprocess.py` (the test set). Your output should have filled words for each sentence in the corresponding line, with the words in the same sentence segmented by a single space (as the example in the beginning). Submit the output to the [leaderboard submission site](http://jhumt2017leaderboard.appspot.com). You should be able to beat the baseline in terms of model performance.
-+ 3.2 (Code & Writeup) Implement an improvement model and describe it in your writeup. Note that for this part you *can* use things in `torch.nn` package **except** for all recurrent and dropout layers. Submit your improved output to the [leaderboard submission site](http://jhumt2017leaderboard.appspot.com).
++ **3.1 (Code)** Write a script to load your bi-directional RNN language model and do the multi-word cloze task. Because batching is not a must for decoding step (due to small data scale) and no optimization is happening during decoding, you should be able to proceed without a starter code. Your input data has already been converted into binary format for you by `preprocess.py` (the test set). Your output should have filled words for each sentence in the corresponding line, with the words in the same sentence segmented by a single space (as the example in the beginning). Submit the output to the [leaderboard submission site](http://jhumt2017leaderboard.appspot.com). You should be able to beat the baseline in terms of model performance.
++ **3.2 (Code & Writeup)** Implement an improvement model and describe it in your writeup. Note that for this part you *can* use things in `torch.nn` package **except** for all recurrent and dropout layers. Submit your improved output to the [leaderboard submission site](http://jhumt2017leaderboard.appspot.com).
 
 Part IV: GPU
 ---------------
@@ -262,8 +254,16 @@ You can test your code on GPU with Google Cloud. Check out the [cloud guide](htt
 
 ### Deliverables
 
-+ 4.1 (Writeup) Describe how much speedup you got on GPU compared to CPU. You can also try several different batch size to see how batch size influence the speed. You may only measure the time for one epoch through the data to minimize GPU usage.
++ **4.1 (Writeup)** Describe how much speedup you got on GPU compared to CPU. You can also try several different batch size to see how batch size influence the speed. You may only measure the time for one epoch through the data to minimize GPU usage.
 
+Deep Learning Framework Choice Policy (2017)
+---------------
+
+We understand people may have different preferences for deep learning frameworks, but as new frameworks come out everyday, it is not possible for us as instructors and TAs to cover knowledge of all the frameworks. As of 2017, we will use [PyTorch](http://pytorch.org) for all the starter code and is only able to help if you are using PyTorch. PyTorch is quickly gaining popularity among NLP/MT/ML research community and is, from our perspective, relatively easy to pick up as a beginner.
+
+If you prefer using another framework, we welcome contribution of your starter code (and you'll get credit as contributors in a homework that'll likely to be used in the coming years), but again, we are not able to help if you run into problems with the framework.
+
+Your choice of framework will not affect the grade of your homework.
 
 Ground Rules
 ------------
@@ -290,9 +290,8 @@ Ground Rules
      This needn't be long, but it should be clear enough that one of your fellow students could re-implement it 
      exactly. If you modified your algorithm or have more than 1 algorithm, explain each modification/algorithm clearly. Give the dev scores for each modification/algorithm, and the test score for your final choice.
 *  You do not need any other data than what we provide. You can
-   free to use any code or software you like, __except for those
-   expressly intended to decode machine translation models__. 
-   You must write your own RNN modules. If you want to use finite-state
+   free to use any code or software you like, but you must write
+   your own RNN modules. If you want to use finite-state
    libraries, solvers for traveling salesman problems, or
    integer linear programming toolkits, that is fine. 
    But any module or program that already implement recurrent
@@ -302,3 +301,4 @@ Ground Rules
    your classmates.
 *  The deadline for the leaderboard is 10-31-2017 at 11:59pm.
 
+*Credits: This assignment was mostly developed by [Shuoyang Ding](http://sding.org/). [Adi Renduchintala](https://arendu.github.io) contributed the idea of multi-word cloze and helped extensively with testing this homework.*
