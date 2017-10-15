@@ -209,7 +209,7 @@ Part II: Bi-directional RNN Language Model
 
 ### The Model
 
-Recall a uni-directional RNN Language model outputs the $$p(w_i\mid w_1, w_2, \ldots, w_{i-1})$$ in the log space. However, for some tasks we would like to take advantage of both the preceding context and the following context to be able to predict a word (as in machine translation). Hence, people designed bi-directional RNN language model to solve the problem, where it outputs $$p(w_i\mid w_1, w_2, \ldots, w_{i-1}, w_{i+1}, \ldots, w_n})$$ instead.
+Recall a uni-directional RNN Language model outputs the $$p(w_i\mid w_1, w_2, \ldots, w_{i-1})$$ in the log space. However, for some tasks we would like to take advantage of both the preceding context and the following context to be able to predict a word (as in machine translation). Hence, people designed bi-directional RNN language model to solve the problem, where it outputs $$p(w_i\mid w_1, w_2, \ldots, w_{i-1}, w_{i+1}, \ldots, w_n)$$ instead.
 
 The way to model this probability distribution is to have two RNNs in the same network. One scanning sentence from left to right, the other from right to left. After scanning is completed for both RNNs, the respective hidden states for each token step are concatenated and passed onto the final output layer. So now, the concatenated hidden state for each token has both the forward (preceding) context and the backward (following) context. In summary, here is the new model architecture.
 
