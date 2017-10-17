@@ -44,13 +44,13 @@ TBD
 | October 10 | Hindi | Adhiraj Yadav, Dhananjay Singh, Manya Wadhwa, Vishal Rao |
 | October 12 | Spanish | Achintya Gopal, Philip Piantone, Eric Calder, Tomas Ferrer Deheza | 
 | October 17 | Hebrew | Shijie Wu, Chenyang Zhao, Pamela Shapiro, Lawrence Wolf-Sonkin |
-| October 19 | Esperanto | Harrison Huh, Shreya Aggarwal, Alex Gain |
-| October 24 | Japanese | Zikun Chen, Yu Zhao, Fan Yang |
-| October 26 | French | Channing Kimble-Brown, Rebecca Marvin, Najoung Kim, Steven Shearing |
-| October 31 | Korean | Xiaofeng Qiu, Ziyan Wang, Kwang Bin Lee, Baekchun Kim |
-| November 2 | Brazilian Portuguese&nbsp;&nbsp; | Tanay Agarwal, Ryan Newell, Jonathan Liu, Gary Qian, Dylan Lewis |
-| November 7 | ASL | Xuan Zhang, Digvijay Singh, Yirui Wang |
-| November 9 | Mandarin | Dongji Gao, Kun QIan, Szu-Jui Chen |
+| October 24 | Esperanto | Harrison Huh, Shreya Aggarwal, Alex Gain |
+| October 26 | Japanese | Zikun Chen, Yu Zhao, Fan Yang |
+| October 31 | French | Channing Kimble-Brown, Rebecca Marvin, Najoung Kim, Steven Shearing |
+| November 2 | Korean | Xiaofeng Qiu, Ziyan Wang, Kwang Bin Lee, Baekchun Kim |
+| November 7 | Brazilian Portuguese&nbsp;&nbsp; | Tanay Agarwal, Ryan Newell, Jonathan Liu, Gary Qian, Dylan Lewis |
+| November 9 | ASL | Xuan Zhang, Digvijay Singh, Yirui Wang |
+| November 14 | Mandarin | Dongji Gao, Kun QIan, Szu-Jui Chen |
 | November&nbsp;14&nbsp;&nbsp; | Telugu | Sankalp Kolhe, Aswin, Nikhil Kulkarni, Rohit Ravoori, Amitoj Kaur |
 
 
