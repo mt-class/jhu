@@ -1,8 +1,7 @@
 ---
 layout: default
-img: rosetta
-img_url: http://www.flickr.com/photos/calotype46/6683293633/
-caption: Rosetta stone (credit&#59; calotype46)
+img: cover
+img_link: http://www.statmt.org/book/
 title: Homework 4 | Multi-word Cloze
 active_tab: homework
 ---
@@ -10,7 +9,7 @@ active_tab: homework
 <span class="text-muted">Homework 4:</span> Multi-word Cloze 
 =============================================================
 
-Due: October 31st, 2017
+Due: November 2nd, 2017
 
 <!-- A language model predicts the probability of the next word $w_i$ given its context:
 
@@ -41,10 +40,18 @@ This homework serves as a tutorial for you to get up to speed on deep learning i
 Cloud Guide (2017)
 --------------
 
-We'll be using Google Cloud as GPU support for this year. Before you proceed to part IV, please read through [this note](http://todo.org) so you know how to use the Google Cloud GPU host.
+We'll be using Google Cloud as GPU support for this year. Before you proceed to part IV, please read through [this note](http://mt-class.org/jhu/cloud.html) so you know how to use the Google Cloud GPU host.
 
 Please keep in mind that you should use your GPU hours wisely since the $50 credit will only give you ~60 hours of GPU usage.
 
+Deep Learning Framework Choice Policy (2017)
+---------------
+
+We understand people may have different preferences for deep learning frameworks, but as new frameworks come out everyday, it is not possible for us as instructors and TAs to cover knowledge of all the frameworks. As of 2017, we will use [PyTorch](http://pytorch.org) for all the starter code and is only able to help if you are using PyTorch. PyTorch is quickly gaining popularity among NLP/MT/ML research community and is, from our perspective, relatively easy to pick up as a beginner.
+
+If you prefer using another framework, we welcome contribution of your starter code (and you'll get credit as contributors in a homework that'll likely to be used in the coming years), but again, we are not able to help if you run into problems with the framework.
+
+Your choice of framework will not affect the grade of your homework.
 
 Part O: Setup 
 ---------------
@@ -62,7 +69,7 @@ Then, download the preproceed data file [here](https://drive.google.com/open?id=
 The preprocessing script will collect the tokens in the training data and form a vocabulary, it will then convert sentences in training set, dev set and test set into list of torch tensors, with each tensor holding the word indexes for once sentence. The vocabulary is an instance of vocabulary implementation in [torchtext](https://github.com/pytorch/text/blob/master/torchtext/vocab.py).
 Finally, it will dump a binarized version of the data as well as the vocabulary onto disk, to the path you specify with `--data_file` option. Run the preprocessing script on your data now, e.g.:
 
-    python preprocess.py --train_file data/train.txt --dev_file data/dev.txt --test_file data/test.txt --data_file data/hw4_data.bin
+    python preprocess.py --train_file data/train.en.txt --dev_file data/dev.en.txt --test_file data/test.en.txt.cloze --data_file data/hw4_data.bin
 
 Now `data/hw4_data.bin` contains a tuple `(train_data, dev_data, test_data, vocab)`. You can unpack this binary dump with the following python code:
     
@@ -92,7 +99,7 @@ The uni-directional RNN language model is described in [(Mikolov et al. 2010)](h
 
 The output of the network is essentially the probability distribution $$p(w_i\mid w_1, w_2, \ldots, w_{i-1})$$ in the log space. To train this network, we would like to maximize the log probability of the training corpus, which is the objective function (a.k.a. negative loss function, which is why we always minimize loss function instead of maximize them) of the training: $$\mathcal{R} = \prod_{i\in\mathcal{I}} log p(w_i\mid w_1, w_2, \ldots, w_{i-1})$$ where $$\forall i \in \mathcal{I}$$, $$w_i$$ is a token in the sentence. This loss function as well as the parameter updates are both already implemented for you in the starter code.
 
-For further detail of the model, either consult the [original paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf), the [slides from class](http://todo.org), or section 4.4 of the [brand new NMT textbook](http://mt-class.org/jhu/assets/nmt-book.pdf). 
+For further detail of the model, either consult the [original paper](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf), the [slides from class](http://mt-class.org/jhu/slides/lecture-nn-lm.pdf), or section 4.4 of the [brand new NMT textbook](http://mt-class.org/jhu/assets/nmt-book.pdf). 
 
 ### Think in Tensors
 
@@ -134,7 +141,7 @@ As an example, instead of implementing word embedding layer as a python dictiona
 
 As you see, a word embedding query (represented by `word_idx`) with size `(sequence_length, )` would return a result with size `(sequence_length, word_embedding)`, where each row in the result is the word embedding for the word we wish to query. Now we have formalized the word embedding layer all in terms of tensor processing.
 
-As a practice, try to figure out yourself what would be the tensor operations of simple recurrent layer and output layer (much more intuitive than embedding layer). Especially, it's helpful to know what is the input and output tensor shapes of these layers. You can always check with documents of the corresponding modules ([torch.nn.RNN](http://pytorch.org/docs/master/nn.html#torch.nn.RNN) and [torch.nn.Linear](http://pytorch.org/docs/master/nn.html#torch.nn.Linear)) to see if you get it right. 
+As a practice, try to figure out yourself what would be the tensor operations of simple recurrent layer and output layer (much more intuitive than embedding layer). Especially, it's helpful to know what is the input and output tensor shapes of these layers. For this part, you can always check with documents of the corresponding modules ([torch.nn.RNN](http://pytorch.org/docs/master/nn.html#torch.nn.RNN) and [torch.nn.Linear](http://pytorch.org/docs/master/nn.html#torch.nn.Linear)) to see if you get it right (don't do it for Part II though, as you will see later). 
 
 By the way, we used [advanced indexing](https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.indexing.html#advanced-indexing) in the code above. If you are not familiar with it, it might worth to spend some time to follow the link and figure out.
 
@@ -196,13 +203,13 @@ You don't have to worry about how to make batched data -- the starter code has a
 ### Deliverables
 
 + **1.1 (Code)** Implement a uni-directional RNN language model (`RNNLM`) in `models.py` that scans the sentence from left to right. Your implementation should be able to take word index input of size `(sequence_length, batch_size)` and output `(sequence_length, batch_size, vocab_size)` representing probability distribution for each word input. Note that your implementation should be able to deal with arbitrary batch size. **You are not allowed to use anything in `torch.nn` packge other than `torch.nn.Modules`**.
-+ **1.2 (Writeup)** After you finished your implementation, run the training script to check your implementation. The program prints negative log probability on dev set after each epoch. As a sanity check, your negative log probability on dev set should reach around 6.0 after first epoch (~5 minutes on my laptop CPU) with the following command:
++ **1.2 (Writeup)** After you finished your implementation, run the training script to check your implementation. The program prints negative log probability on dev set after each epoch. As a sanity check, your negative log probability on dev set should reach around 5.60 after first epoch (~5 minutes on my laptop CPU) with the following command:
 
 ```
-python train.py --data_file hw4_data --optimizer Adam -lr 1e-2 --batch_size 128
+python train.py --data_file hw4_data --optimizer Adam -lr 1e-2 --batch_size 48
 ```
 
-with word embedding size 32 and hidden dimension 16. Report your **converged** dev negative log probability at this setting. If you are curious, try a few other hyperparameter combinations and report result as well.
+with word embedding size 32 and hidden dimension 16 and a trainable start state. Report your **converged** dev negative log probability at this setting. If you are curious, try a few other hyperparameter combinations and report result as well.
 
 Part II: Bi-directional RNN Language Model
 ---------------
@@ -218,10 +225,14 @@ The way to model this probability distribution is to have two RNNs in the same n
 + The concatenation layer, which concatenates the hidden state corresponding to the same input tokens.
 + The output layer, which first performs an linear transformation on the concatenated hidden states into a vector that has the same size as the full vocabulary, and then applies [softmax function](https://en.wikipedia.org/wiki/Softmax_function) over this vector, and then a element-wise log. The resulting vector is the output of this network.
 
+**Hint on RNN Layers**: be careful how you align the output hidden states for the two directions -- note that as the probability model above indicates, your hidden state for a timestep should not see the corresponding word you are trying to predict. As sanity checks: (1) if you are getting negative log likelihood below 1.0, you are doing it wrong. (2) if you implement it in the same way as [torch.nn.RNN](http://pytorch.org/docs/master/nn.html#torch.nn.RNN), you are doing it wrong. 
+
+However, the case is different in neural machine translation implementation, where the implementation schema in `torch.nn.RNN` is correct. Try to understand why it is different (not required in the writeup).
+
 ### Deliverables
 
 + **2.1 (Code)** Implement a bi-directional RNN language model (`BiRNNLM`) in `models.py` that scans the sentence in both ways. Your implementation should be able to take word index input of size `(sequence_length, batch_size)` and output `(sequence_length, batch_size, vocab_size)` representing probability distribution for each word input. Note that your implementation should be able to deal with arbitrary batch size. **You are not allowed to use anything in `torch.nn` packge other than `torch.nn.Modules`**.
-+ **2.2 (Writeup)** Check your implementation using the same setup as in deliverable 1.2 (the only caveat is that to maintain the same number of parameters for fair comparison, your hidden dimension for each RNN direction should be 8). You should be able to reach negative log probability of around 1.5 on dev set after first epoch. Again report your **converged** dev negative log probability at this setting. If you are curious, try a few other hyperparameter combinations and report result as well.
++ **2.2 (Writeup)** Check your implementation using the same setup as in deliverable 1.2 (the only caveat is that to maintain the same number of parameters for fair comparison, your hidden dimension for each RNN direction should be 8). You should be able to reach negative log probability of around 4.85 on dev set after first epoch. Again report your **converged** dev negative log probability at this setting. If you are curious, try a few other hyperparameter combinations and report result as well.
 
 PART III: Multi-word Cloze
 ---------------
@@ -232,8 +243,8 @@ The special thing about multi-word cloze as opposite to single word cloze is tha
 
 To earn full credit for the homework, you need to implement at least one more improvements over the baseline model. Here are a few ideas:
 
-+ Implement dropout. Read [the original paper](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) or [this blogpost](http://iamtrask.github.io/2015/07/28/dropout/) to find out what it is.
 + Implement LSTM or GRU. [This blog post](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) would be a great starting point for you to understand them.
++ Implement dropout. Read [the original paper](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) or [this blogpost](http://iamtrask.github.io/2015/07/28/dropout/) to find out what it is. Note you have to do it differently for training and evaluation.
 + Implement [CNN language model that does even better than LSTM](http://proceedings.mlr.press/v70/dauphin17a/dauphin17a.pdf).
 + Representing `<blank>` with a random embedding is not a great solution. Can you come up with a better one? 
 + Solving this task with language model may not be the best strategy at the first place. You can come up with novel network structure of your own!
@@ -250,20 +261,11 @@ Part IV: GPU
 
 We designed the whole homework with the intention that you should be able to train everything on CPU, but your knowledge of deep learning frameworks won't be complete if you cannot run your code on GPU. We have included starter code for you to run your experiments on GPU. It should cover most of the implementations, but you may still need to manually convert the type of the tensor to their cuda counterpart if you created them outside your module constructor. As it's generally not very hard to port PyTorch code from CPU to GPU, we'll leave up to you to figure out the details. [Here](http://pytorch.org/docs/master/notes/cuda.html) and [here](http://pytorch.org/tutorials/beginner/former_torchies/tensor_tutorial.html#cuda-tensors) are some relevant resources in the PyTorch documents.
 
-You can test your code on GPU with Google Cloud. Check out the [cloud guide](http://todo.org/). Again, keep in mind that you have only 60 hours of GPU time and you need most of it for the next homework, so please use it wisely. **Remember to delete your instance -- you'll still be billed if you only stop it.**
+You can test your code on GPU with Google Cloud. Check out the [cloud guide](http://mt-class.org/jhu/cloud.html). Again, keep in mind that you have only 60 hours of GPU time and you need most of it for the next homework, so please use it wisely. **Remember to delete your instance -- you'll still be billed if you only stop it.**
 
 ### Deliverables
 
 + **4.1 (Writeup)** Describe how much speedup you got on GPU compared to CPU. You can also try several different batch size to see how batch size influence the speed. You may only measure the time for one epoch through the data to minimize GPU usage.
-
-Deep Learning Framework Choice Policy (2017)
----------------
-
-We understand people may have different preferences for deep learning frameworks, but as new frameworks come out everyday, it is not possible for us as instructors and TAs to cover knowledge of all the frameworks. As of 2017, we will use [PyTorch](http://pytorch.org) for all the starter code and is only able to help if you are using PyTorch. PyTorch is quickly gaining popularity among NLP/MT/ML research community and is, from our perspective, relatively easy to pick up as a beginner.
-
-If you prefer using another framework, we welcome contribution of your starter code (and you'll get credit as contributors in a homework that'll likely to be used in the coming years), but again, we are not able to help if you run into problems with the framework.
-
-Your choice of framework will not affect the grade of your homework.
 
 Ground Rules
 ------------
@@ -299,6 +301,6 @@ Ground Rules
    If you aren't sure whether something is permitted, 
    ask us. If you want to do system combination, join forces with 
    your classmates.
-*  The deadline for the leaderboard is 10-31-2017 at 11:59pm.
+*  The deadline for the leaderboard is 11-02-2017 at 11:59pm.
 
 *Credits: This assignment was mostly developed by [Shuoyang Ding](http://sding.org/). [Adi Renduchintala](https://arendu.github.io) contributed the idea of multi-word cloze and helped extensively with testing this homework.*

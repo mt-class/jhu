@@ -96,6 +96,6 @@ It might be a bit of a hassle to transmit data back and forth between the Google
 
 ### Instance Deletion
 
-You can see all your instances from Main menu -> Compute Engine -> VM Instances. When you are done with your instance, make sure you **delete** INSTEAD OF stop your instance. You'll still end up being billed for that and since the instances we use are pretty expensive, the bill could add up pretty quickly.
+You can see all your instances from Main menu -> Compute Engine -> VM Instances. When you are done with your instance, make sure you **delete** INSTEAD OF stop your instance -- you'll still end up being billed for a stopped instance and since the instances we use are pretty expensive, the bill could add up pretty quickly.
 
 ## Delete Your Instance When You Are Done!
