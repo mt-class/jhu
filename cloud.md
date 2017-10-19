@@ -1,8 +1,7 @@
 ---
 layout: default
-img: rosetta
-img_url: http://www.flickr.com/photos/calotype46/6683293633/
-caption: Rosetta stone (credit&#59; calotype46)
+img: cover
+img_link: http://www.statmt.org/book/
 title: Google Cloud Guide 
 active_tab: homework
 ---
@@ -97,6 +96,6 @@ It might be a bit of a hassle to transmit data back and forth between the Google
 
 ### Instance Deletion
 
-You can see all your instances from Main menu -> Compute Engine -> VM Instances. When you are done with your instance, make sure you **Delete** INSTEAD OF stop your instance. You'll still end up being billed for that and since the instances we use are pretty expensive, the bill could add up pretty quickly.
+You can see all your instances from Main menu -> Compute Engine -> VM Instances. When you are done with your instance, make sure you **delete** INSTEAD OF stop your instance. You'll still end up being billed for that and since the instances we use are pretty expensive, the bill could add up pretty quickly.
 
 ## Delete Your Instance When You Are Done!
