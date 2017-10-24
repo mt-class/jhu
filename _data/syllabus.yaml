@@ -186,12 +186,22 @@ past:
   -
     date: 2017-10-24
     title: Neural Translation Models III - Challenges and Alternatives 
-    old-slides: http://mt-class.org/jhu/slides/lecture-nmt3.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-nmt3.pdf
     reading:
       -
         author: Koehn (2017)
         title: Neural Machine Translation, Chapter 7 and 8
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
+      -
+        author: Vaswani et al. (2017)
+        title: Attention Is All You Need
+        url: https://arxiv.org/abs/1706.03762
+        optional: true
+      -
+        author: Gehring et al. (2017)
+        title: Convolutional Sequence to Sequence Learning
+        url: https://arxiv.org/abs/1705.03122
+        optional: true
   -
     date: 2017-10-26
     title: Corpus Acquisition from the Internet
