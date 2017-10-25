@@ -205,7 +205,7 @@ past:
   -
     date: 2017-10-26
     title: Corpus Acquisition from the Internet
-    old-slides: http://mt-class.org/jhu/slides/lecture-data.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     reading:
       -
         author: Uszkoreit et al. (2010)
