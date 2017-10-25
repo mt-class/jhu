@@ -122,9 +122,9 @@ Many topics related to machine translation are welcome. Some suggestions:
 * Principled methods for incorporating non-parallel data 
   (e.g., dictionaries, grammars, or thesauri) into translation models.
 * Aspects of corpus crawling
-..* Document alignment
-..* Sentence alignment
-..* Corpus cleaning
+  * Document alignment
+  * Sentence alignment
+  * Corpus cleaning
 * [Interactive machine translation](http://www.casmacat.eu/) that assists human translators.
 * Experiment with different data conditions (social media text, speech, out-of-domain)
 * Post-processing MT output (e.g., applying correct capitalization, removing unnecessary spaces,
