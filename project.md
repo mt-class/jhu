@@ -118,6 +118,7 @@ Project Ideas
 Many topics related to machine translation are welcome. Some suggestions:
 
 * Extensions to existing neural machine translation systems
+* Analysis and visualization of machine translation systems
 * Advanced decoding algorithms.
 * Principled methods for incorporating non-parallel data 
   (e.g., dictionaries, grammars, or thesauri) into translation models.
