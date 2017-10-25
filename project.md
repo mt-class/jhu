@@ -117,14 +117,14 @@ Project Ideas
 
 Many topics related to machine translation are welcome. Some suggestions:
 
-* Extensions to Moses [as suggested here](http://www.statmt.org/moses/?n=Moses.GetInvolved)
-* A new feature function for Moses ([some ideas](http://www.aclweb.org/anthology/W14-3360.pdf))
+* Extensions to existing neural machine translation systems
 * Advanced decoding algorithms.
-* Machine learning techniques for translation: neural networks, Bayesian models, etc.
 * Principled methods for incorporating non-parallel data 
   (e.g., dictionaries, grammars, or thesauri) into translation models.
-* Learning of pre-reordering models
-* Translation models that incorporate morphology, syntax, or semantics.
+* Aspects of corpus crawling
+** Document alignment
+** Sentence alignment
+** Corpus cleaning
 * [Interactive machine translation](http://www.casmacat.eu/) that assists human translators.
 * Experiment with different data conditions (social media text, speech, out-of-domain)
 * Post-processing MT output (e.g., applying correct capitalization, removing unnecessary spaces,
