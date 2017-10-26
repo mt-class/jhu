@@ -202,7 +202,7 @@ You don't have to worry about how to make batched data -- the starter code has a
 
 ### Deliverables
 
-+ **1.1 (Code)** Implement a uni-directional RNN language model (`RNNLM`) in `models.py` that scans the sentence from left to right. Your implementation should be able to take word index input of size `(sequence_length, batch_size)` and output `(sequence_length, batch_size, vocab_size)` representing probability distribution for each word input. Note that your implementation should be able to deal with arbitrary batch size. **You are not allowed to use anything in `torch.nn` packge other than `torch.nn.Modules`**.
++ **1.1 (Code)** Implement a uni-directional RNN language model (`RNNLM`) in `models.py` that scans the sentence from left to right. Your implementation should be able to take word index input of size `(sequence_length, batch_size)` and output `(sequence_length, batch_size, vocab_size)` representing probability distribution for each word input. Note that your implementation should be able to deal with arbitrary batch size. **You are not allowed to use anything in `torch.nn` packge other than `torch.nn.Modules` and `torch.nn.Parameter`**.
 + **1.2 (Writeup)** After you finished your implementation, run the training script to check your implementation. The program prints negative log probability on dev set after each epoch. As a sanity check, your negative log probability on dev set should reach around 5.60 after first epoch (~5 minutes on my laptop CPU) with the following command:
 
 ```
@@ -231,7 +231,7 @@ However, the case is different in neural machine translation implementation, whe
 
 ### Deliverables
 
-+ **2.1 (Code)** Implement a bi-directional RNN language model (`BiRNNLM`) in `models.py` that scans the sentence in both ways. Your implementation should be able to take word index input of size `(sequence_length, batch_size)` and output `(sequence_length, batch_size, vocab_size)` representing probability distribution for each word input. Note that your implementation should be able to deal with arbitrary batch size. **You are not allowed to use anything in `torch.nn` packge other than `torch.nn.Modules`**.
++ **2.1 (Code)** Implement a bi-directional RNN language model (`BiRNNLM`) in `models.py` that scans the sentence in both ways. Your implementation should be able to take word index input of size `(sequence_length, batch_size)` and output `(sequence_length, batch_size, vocab_size)` representing probability distribution for each word input. Note that your implementation should be able to deal with arbitrary batch size. **You are not allowed to use anything in `torch.nn` packge other than `torch.nn.Modules`** and **`torch.nn.Parameter`**.
 + **2.2 (Writeup)** Check your implementation using the same setup as in deliverable 1.2 (the only caveat is that to maintain the same number of parameters for fair comparison, your hidden dimension for each RNN direction should be 8). You should be able to reach negative log probability of around 4.85 on dev set after first epoch. Again report your **converged** dev negative log probability at this setting. If you are curious, try a few other hyperparameter combinations and report result as well.
 
 PART III: Multi-word Cloze
