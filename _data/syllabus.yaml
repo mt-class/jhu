@@ -224,9 +224,6 @@ past:
         optional: true
   -
     date: 2017-10-31
-    title: Adaptation
-  -
-    date: 2017-11-02
     title: Word Order
     old-slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
     reading:
@@ -244,7 +241,7 @@ past:
         url: http://www.aclweb.org/anthology/W10-1735.pdf
         optional: true
   -
-    date: 2016-11-04
+    date: 2016-11-02
     title: Morphology
     old-slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
     reading:
@@ -267,7 +264,7 @@ past:
         url: http://www.aclweb.org/anthology/D13-1174.pdf
         optional: true
   -
-    date: 2017-11-09
+    date: 2017-11-04
     title: Syntax-Based Models
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
     reading:
@@ -275,7 +272,7 @@ past:
         author: Koehn 
         title: Chapter 11.1-11.2
   -
-    date: 2017-11-14
+    date: 2017-11-09
     title: Syntax-Based Decoding I
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
     reading:
@@ -283,7 +280,7 @@ past:
         author: Koehn 
         title: Chapter 11.3
   -
-    date: 2017-11-16
+    date: 2017-11-14
     title: Syntax-Based Decoding II
     old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
     reading:
@@ -301,7 +298,7 @@ past:
         url: http://aclweb.org/anthology/W/W14/W14-4011.pdf
         optional: true
   -
-    date: 2017-11-28
+    date: 2017-11-16
     title: Semantics
     old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
@@ -316,7 +313,7 @@ past:
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
   -
-    date: 2017-11-30
+    date: 2017-11-28
     title: Computer Aided Translation
     old-slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
@@ -330,6 +327,9 @@ past:
         title: Dynamic Phrase Tables for Machine Translation in an Interactive Post-editing Scenario
         url: http://www.accept.unige.ch/Products/Germann2014.pdf
         optional: true
-  -
+    -
+    date: 2017-11-30
+    title: Adaptation
+-
     date: 2017-12-05
     title: Review
