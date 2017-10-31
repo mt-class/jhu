@@ -225,7 +225,7 @@ past:
   -
     date: 2017-10-31
     title: Word Order
-    old-slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
     reading:
       -
         author: Koehn 
@@ -327,7 +327,7 @@ past:
         title: Dynamic Phrase Tables for Machine Translation in an Interactive Post-editing Scenario
         url: http://www.accept.unige.ch/Products/Germann2014.pdf
         optional: true
-    -
+-
     date: 2017-11-30
     title: Adaptation
 -
