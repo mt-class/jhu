@@ -55,7 +55,7 @@ By default our GPU quota is 0. You need to go through the process of manually in
 + Create image. This may take ~15 minutes.
 + Select the newly created image to create instance.
 + Pick a zone that has GPU, `us-east1-c` and `us-east1-d` all seem good choice, and seems like they don't have to match what you selected when you initialize `gcloud`.
-+ Request 1 vCPU, 12GB memory (you need to toggle on "Extend memory")
++ Request 1 vCPU, 12GB memory (you need to toggle on "Extend memory") and 1 Tesla K80 GPU
 + Allow HTTP and HTTPS traffic, if you want to use Github
 + Scroll down, hit create
 + Wait
