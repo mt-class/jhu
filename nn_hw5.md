@@ -23,6 +23,8 @@ However, to be able to run continued training, you need to restore the NMT codeb
 + Play with one of the character-based models, like [this one](https://arxiv.org/pdf/1610.03017.pdf) or [this one](https://arxiv.org/pdf/1511.04586.pdf).
 + Implement beam search. You may also experiment with multiple [beam search strategies](http://www.aclweb.org/anthology/W/W17/W17-3207.pdf).
 
+All the parts of this homework, including baseline and improvements, DO NOT subject to limits on usage of deep learning frameworks (of course, you cannot use a module that implements the seq2seq model for you).
+
 Neural machine translation is a very active resesarch field in recent years and there are new ideas popping up every day, so be creative and don't be constrained by the list above! If your idea does not fit into the two-week homework span, you can consider making this your [final project](http://mt-class.org/jhu/project.html). Note that some of these ideas may require you to train part or all the model from scratch, so it may take longer than the original continued training. 
 
 Setup
