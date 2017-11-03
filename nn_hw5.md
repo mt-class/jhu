@@ -44,8 +44,6 @@ A starter code (`train.py`) has been provided for you, which is also pretty simi
 Parameter File Format
 --------------
 
-dict_keys(['encoder.embeddings.emb_luts.0.weight', 'encoder.rnn.weight_ih_l0', 'encoder.rnn.weight_hh_l0', 'encoder.rnn.bias_ih_l0', 'encoder.rnn.bias_hh_l0', 'encoder.rnn.weight_ih_l0_reverse', 'encoder.rnn.weight_hh_l0_reverse', 'encoder.rnn.bias_ih_l0_reverse', 'encoder.rnn.bias_hh_l0_reverse', 'decoder.embeddings.emb_luts.0.weight', 'decoder.rnn.layers.0.weight_ih', 'decoder.rnn.layers.0.weight_hh', 'decoder.rnn.layers.0.bias_ih', 'decoder.rnn.layers.0.bias_hh', 'decoder.attn.linear_in.weight', 'decoder.attn.linear_out.weight', '0.weight', '0.bias'])
-
 The file `model.param` is a Python dictionary that contains the model dump that's been trained for 7 epochs on the data provided to you. Although the keys should be self-explanatory, here is a brief description of what they are:
 
 #### word embeddings
