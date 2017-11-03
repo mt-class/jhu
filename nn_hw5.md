@@ -37,7 +37,7 @@ python preprocess.py --train_file trn.de --dev_file dev.de --test_file devtest.d
 python preprocess.py --train_file trn.en --dev_file dev.en --test_file devtest.en --vocab_file model.trg.vocab --data_file hw5.en
 ```
 
-The format of the data is the same as the last homework. The data dump on each side of the parallel corpus contains a tuple `(train_data, dev_data, test_data, vocab)`, each data being a list of torch tensors of size (sent_len,), while the vocabulary is an instance of `torchtext.vocab.Vocab`. 
+The format of the data is the same as the last homework. The data dump on each side of the parallel corpus contains a tuple `(train_data, dev_data, test_data, vocab)`, each data being a list of torch tensors of size `(sent_len,)`, while the vocabulary is an instance of `torchtext.vocab.Vocab`. 
 
 A starter code (`train.py`) has been provided for you, which is also pretty similar from what you have seen in the last homework.
 
