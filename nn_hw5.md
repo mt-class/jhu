@@ -70,11 +70,33 @@ The file `model.param` is a Python dictionary that contains the model dump that'
 + `decoder.rnn.layers.0.bias_ih` torch.Size([4 * decoder_hidden_size] = [4096])
 + `decoder.rnn.layers.0.bias_hh` torch.Size([4 * decoder_hidden_size] = [4096])
 
-#### attention
-The global general attention described in [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) was used in the model. Consult [here](https://github.com/shuoyangd/OpenNMT-py/blob/en600.468/onmt/modules/GlobalAttention.py) for how the attention should exactly implemented.
+#### generator
+The generator is the mapping from decoder hidden state to vocabulary distrbution. For the baseline model and training, it's just a affine transformation (use `nn.Linear`). But if you want to do beam search, expect it to be more complicated.
 
-+ `decoder.attn.linear_in.weight` torch.Size([1024, 1024])
-+ `decoder.attn.linear_out.weight` torch.Size([1024, 2048])
++ `0.weight` torch.Size([trg_vocab_size, decoder_hidden_size] = [23262, 1024])
++ `0.bias` torch.Size([decoder_hidden_size] = [1024])
+
+#### attention
+The global general attention described in [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) was used in the model. Here is the basic idea of it.
+
+You should have known from the lecture that the attention mechanism constructs a summary of the source side information by carrying out a weighted sum over the source side encodings (not word embeddings!). The weight is defined by the *content* of the target side word embedding of the output word at time step $$t-1$$ and the source side encoding of word $s$.
+
+$$c_t = \sum_{s=0}^{\mid S\mid} a(h_s, h_{t-1} * h_s)$$
+
+$$a(h_s) = softmax(score(h_s, h_{t-1}))$$
+
+This summary of source information at time step $$t$$ is then combined with target side word embedding of output word at time step $$t-1$$ to construct the decoder hidden state at time step $$t$$.
+
+$$\tilde{h_t} = tanh(W_o [c_t; h_{t-1}])$$
+
+Where the semicolon denotes concatenation. The question now is: how do we compute $$score(h_s, h_{t-1})$$? The global attention calculates it in the following way:
+
+$$score(h_s, h_{t-1}) = h_s^T W_i h_{t-1}$$
+
+Hence, you need the following two weights to implement global attention.
+
++ `decoder.attn.linear_in.weight` torch.Size([1024, 1024]): $$W_i$$
++ `decoder.attn.linear_out.weight` torch.Size([1024, 2048]): $$W_o$$
 
 Cloud Guide (2017)
 --------------
