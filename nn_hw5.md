@@ -83,7 +83,7 @@ You should have known from the lecture that the attention mechanism constructs a
 
 $$c_t = \sum_{s=0}^{\mid S\mid} a(h_s, h_{t-1}) * h_s$$
 
-$$a(h_s) = softmax(score(h_s, h_{t-1}))$$
+$$a(h_s, h_{t-1}) = softmax(score(h_s, h_{t-1}))$$
 
 This summary of source information at time step $$t$$ is then combined with target side word embedding of output word at time step $$t-1$$ to construct the decoder hidden state at time step $$t$$.
 
