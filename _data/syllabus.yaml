@@ -266,7 +266,7 @@ past:
   -
     date: 2017-11-04
     title: Syntax-Based Models
-    old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
     reading:
       -
         author: Koehn 
