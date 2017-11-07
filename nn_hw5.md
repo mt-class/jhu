@@ -65,7 +65,9 @@ The file `model.param` is a Python dictionary that contains the model dump that'
 + `encoder.rnn.bias_hh_l0_reverse` torch.Size([2048])
 
 #### decoder
-+ `decoder.rnn.layers.0.weight_ih` torch.Size([4 * decoder_hidden_size, trg_word_emb_size + 2 * encoder_hidden_size] = [4096, 1324])
+The decoder is yet another LSTM, as the encoders. However, a slight difference is that the input to the decoder LSTM is the concatenation of context vector and the target side word embedding of the previous output word. The context vector is the output of the attention layer, which you'll learn about in the subsequent sections.
+
++ `decoder.rnn.layers.0.weight_ih` torch.Size([4 * decoder_hidden_size, trg_word_emb_size + context_vector_size] = [4096, 1324])
 + `decoder.rnn.layers.0.weight_hh` torch.Size([4 * decoder_hidden_size, decoder_hidden_size] = [4096, 1024])
 + `decoder.rnn.layers.0.bias_ih` torch.Size([4 * decoder_hidden_size] = [4096])
 + `decoder.rnn.layers.0.bias_hh` torch.Size([4 * decoder_hidden_size] = [4096])
@@ -77,19 +79,23 @@ The generator is the mapping from decoder hidden state to vocabulary distrbution
 + `0.bias` torch.Size([decoder_hidden_size] = [1024])
 
 #### attention
-The global general attention described in [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) was used in the model. Here is the basic idea of it.
+The global general attention described in [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) was used in the model, which is slightly complicated than the attention described in [(Bahdanau et al. 2015)](https://arxiv.org/pdf/1409.0473.pdf). Here is the basic idea of it.
 
-You should have known from the lecture that the attention mechanism constructs a summary of the source side information by carrying out a weighted sum over the source side encodings (not word embeddings!). The weight is defined by the *content* of the target side word embedding $$h_{t-1}$$ of the output word at time step $$t-1$$ and the source side encoding $$h_s$$ of word $$s$$.
+You should have known from the lecture that the Bahdanau attention constructs a summary of the source side information by carrying out a weighted sum over the source side encodings (not word embeddings!), with the weight defined by the *content* of the decoder hidden state $$h_{t-1}$$ at time step $$t-1$$ and the source side encoding $$h_s$$ of word $$s$$. The Luong attention, while still maintaining this weighted sum mechanism, carry out an extra transformation following that. Below we will call the weighted sum of the source side the encoding $$\tilda{s_t}$$ and the final summary of the source side information $$c_t$$, or context vector. Both of these $$t$$ are refering to time step $$t$$.
 
-$$c_t = \sum_{s=0}^{\mid S\mid} a(h_s, h_{t-1}) * h_s$$
+Easily enough, here is how $$s_t$$ computed.
 
-$$a(h_s, h_{t-1}) = softmax(score(h_s, h_{t-1}))$$
+$$\tilda{s_t} = \sum_{s=0}^{\mid S\mid} a(h_s, h_{t-1}) * h_s$$
 
-This summary of source information at time step $$t$$ is then combined with target side word embedding of output word at time step $$t-1$$ to construct the decoder hidden state at time step $$t$$.
+$$a(h_s) = softmax(score(h_s, h_{t-1}))$$
 
-$$\tilde{h_t} = tanh(W_o [c_t; h_{t-1}])$$
+Note that each $$h_s$$ is the concatenation of forward and backward encoding, so its dimension is `2 * encoder_hidden_size = 1024`.
 
-where the semicolon denotes concatenation. The question now is: how do we compute $$score(h_s, h_{t-1})$$? The global attention calculates it in the following way:
+This weighted sum $$s_t$$ is then combined with previous decoder hidden state $$h_{t-1}$$ again to construct the context vector $$c_t$$ at timestep $$t$$.
+
+$$c_t = tanh(W_o [\tilda{s_t}; h_{t-1}])$$
+
+where the semicolon denotes concatenation. We are using decoder hidden state size 1024 and context vector 1024, so the input of this linear transformation is of dimension `2 * encoder_hidden_size + decoder_hidden_size = 2048` while the output is `context_vector_size = 1024`. The question now is: how do we compute $$score(h_s, h_{t-1})$$? The global attention calculates it in the following way:
 
 $$score(h_s, h_{t-1}) = h_s^T W_i h_{t-1}$$
 
