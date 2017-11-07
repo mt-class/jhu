@@ -81,11 +81,11 @@ The generator is the mapping from decoder hidden state to vocabulary distrbution
 #### attention
 The global general attention described in [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) was used in the model, which is slightly complicated than the attention described in [(Bahdanau et al. 2015)](https://arxiv.org/pdf/1409.0473.pdf). Here is the basic idea of it.
 
-You should have known from the lecture that the Bahdanau attention constructs a summary of the source side information by carrying out a weighted sum over the source side encodings (not word embeddings!), with the weight defined by the *content* of the decoder hidden state $$h_{t-1}$$ at time step $$t-1$$ and the source side encoding $$h_s$$ of word $$s$$. The Luong attention, while still maintaining this weighted sum mechanism, carry out an extra transformation following that. Below we will call the weighted sum of the source side the encoding $$\tilda{s_t}$$ and the final summary of the source side information $$c_t$$, or context vector. Both of these $$t$$ are refering to time step $$t$$.
+You should have known from the lecture that the Bahdanau attention constructs a summary of the source side information by carrying out a weighted sum over the source side encodings (not word embeddings!), with the weight defined by the *content* of the decoder hidden state $$h_{t-1}$$ at time step $$t-1$$ and the source side encoding $$h_s$$ of word $$s$$. The Luong attention, while still maintaining this weighted sum mechanism, carry out an extra transformation following that. Below we will call the weighted sum of the source side the encoding $$\tilde{s_t}$$ and the final summary of the source side information $$c_t$$, or context vector. Both of these $$t$$ are refering to time step $$t$$.
 
 Easily enough, here is how $$s_t$$ computed.
 
-$$\tilda{s_t} = \sum_{s=0}^{\mid S\mid} a(h_s, h_{t-1}) * h_s$$
+$$\tilde{s_t} = \sum_{s=0}^{\mid S\mid} a(h_s, h_{t-1}) * h_s$$
 
 $$a(h_s) = softmax(score(h_s, h_{t-1}))$$
 
@@ -93,7 +93,7 @@ Note that each $$h_s$$ is the concatenation of forward and backward encoding, so
 
 This weighted sum $$s_t$$ is then combined with previous decoder hidden state $$h_{t-1}$$ again to construct the context vector $$c_t$$ at timestep $$t$$.
 
-$$c_t = tanh(W_o [\tilda{s_t}; h_{t-1}])$$
+$$c_t = tanh(W_o [\tilde{s_t}; h_{t-1}])$$
 
 where the semicolon denotes concatenation. We are using decoder hidden state size 1024 and context vector 1024, so the input of this linear transformation is of dimension `2 * encoder_hidden_size + decoder_hidden_size = 2048` while the output is `context_vector_size = 1024`. The question now is: how do we compute $$score(h_s, h_{t-1})$$? The global attention calculates it in the following way:
 
