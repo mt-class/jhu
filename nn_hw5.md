@@ -79,7 +79,7 @@ The generator is the mapping from decoder hidden state to vocabulary distrbution
 + `0.bias` torch.Size([decoder_hidden_size] = [1024])
 
 #### attention
-The global general attention described in [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) was used in the model, which is slightly complicated than the attention described in [(Bahdanau et al. 2015)](https://arxiv.org/pdf/1409.0473.pdf). Here is the basic idea of it.
+The global general attention described in [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) was used in the model, which has some extra complication than the attention described in [(Bahdanau et al. 2015)](https://arxiv.org/pdf/1409.0473.pdf). Here is the basic idea of it.
 
 You should have known from the lecture that the Bahdanau attention constructs a summary of the source side information by carrying out a weighted sum over the source side encodings (not word embeddings!), with the weight defined by the *content* of the decoder hidden state $$h_{t-1}$$ at time step $$t-1$$ and the source side encoding $$h_s$$ of word $$s$$. The Luong attention, while still maintaining this weighted sum mechanism, carry out an extra transformation following that. Below we will call the weighted sum of the source side the encoding $$\tilde{s_t}$$ and the final summary of the source side information $$c_t$$, or context vector. Both of these $$t$$ are refering to time step $$t$$.
 
