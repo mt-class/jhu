@@ -36,7 +36,7 @@ As you have seen in homework 4, you need to preprocess the training data into a 
 
 ```
 python preprocess.py --train_file trn.de --dev_file dev.de --test_file devtest.de --vocab_file model.src.vocab --data_file hw5.de
-python preprocess.py --train_file trn.en --dev_file dev.en --test_file devtest.en --vocab_file model.trg.vocab --data_file hw5.en
+python preprocess.py --train_file trn.en --dev_file dev.en --test_file devtest.fake.en --vocab_file model.trg.vocab --data_file hw5.en
 ```
 
 The format of the data is the same as the last homework. The data dump on each side of the parallel corpus contains a tuple `(train_data, dev_data, test_data, vocab)`, each data being a list of torch tensors of size `(sent_len,)`, while the vocabulary is an instance of `torchtext.vocab.Vocab`. 
