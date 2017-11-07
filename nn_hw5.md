@@ -79,9 +79,9 @@ The generator is the mapping from decoder hidden state to vocabulary distrbution
 #### attention
 The global general attention described in [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) was used in the model. Here is the basic idea of it.
 
-You should have known from the lecture that the attention mechanism constructs a summary of the source side information by carrying out a weighted sum over the source side encodings (not word embeddings!). The weight is defined by the *content* of the target side word embedding of the output word at time step $$t-1$$ and the source side encoding of word $s$.
+You should have known from the lecture that the attention mechanism constructs a summary of the source side information by carrying out a weighted sum over the source side encodings (not word embeddings!). The weight is defined by the *content* of the target side word embedding $$h_{t-1}$$ of the output word at time step $$t-1$$ and the source side encoding $$h_s$$ of word $$s$$.
 
-$$c_t = \sum_{s=0}^{\mid S\mid} a(h_s, h_{t-1} * h_s)$$
+$$c_t = \sum_{s=0}^{\mid S\mid} a(h_s, h_{t-1}) * h_s$$
 
 $$a(h_s) = softmax(score(h_s, h_{t-1}))$$
 
@@ -89,7 +89,7 @@ This summary of source information at time step $$t$$ is then combined with targ
 
 $$\tilde{h_t} = tanh(W_o [c_t; h_{t-1}])$$
 
-Where the semicolon denotes concatenation. The question now is: how do we compute $$score(h_s, h_{t-1})$$? The global attention calculates it in the following way:
+where the semicolon denotes concatenation. The question now is: how do we compute $$score(h_s, h_{t-1})$$? The global attention calculates it in the following way:
 
 $$score(h_s, h_{t-1}) = h_s^T W_i h_{t-1}$$
 
