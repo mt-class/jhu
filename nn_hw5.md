@@ -2,7 +2,7 @@
 layout: default
 img: cover
 img_link: http://www.statmt.org/book/
-title: Homework 4 | Multi-word Cloze
+title: Homework 5 | Neural Machine Translation
 active_tab: homework
 ---
 
