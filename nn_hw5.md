@@ -15,7 +15,7 @@ Imagine it's 2022 and you are training a German-English neural machine translati
 
 **Your challenge is to build a neural machine translation system with the best possible translation quality with these resources.** To save your computation resource usage, you can start training by loading the preserved model dump. Because this model is not trained until convergence, you can definitely improve over this model by running a few more training iterations (which is normally called "continued training") and beat the baseline. (To give you an idea of how large the data is, it'll take about 10 hours to run the full training on one Tesla K80 GPU of Google Cloud Platform. The model dump you have has been trained for about 6 hours.)
 
-However, to be able to run continued training, you need to restore the NMT codebase by implementing your own neural machine translation model. The model we are looking for you to implement is a attention-based neural machine translation model, which is described by [(Bahdanau et al. 2015)](https://arxiv.org/pdf/1409.0473.pdf) and [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) as well as [(Koehn 2017)](http://mt-class.org/jhu/assets/nmt-book.pdf). You will then run contineud training starting with your model dump and test your final model by translating the test set and submit the translation to the [leaderboard submission site](http://jhumt2017leaderboard.appspot.com). To make your life easier, you don't have to implement beam search to beat the baseline model. After that, you may earn full credit by implementing at least one more improvement over the baseline attention-based neural machine translation model. Here are several ideas:
+However, to be able to run continued training, you need to restore the NMT codebase by implementing your own neural machine translation model. The model we are looking for you to implement is a attention-based neural machine translation model, which is described by [(Bahdanau et al. 2015)](https://arxiv.org/pdf/1409.0473.pdf) and [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) as well as [(Koehn 2017)](http://mt-class.org/jhu/assets/nmt-book.pdf). You will then run contineud training starting with your model dump and test your final model by translating the test set and submit the translation to the [leaderboard submission site](http://jhumt2017leaderboard.appspot.com) (Don't forget to run post-processing before you submitt -- see Setup section). To make your life easier, you don't have to implement beam search to beat the baseline model. After that, you may earn full credit by implementing at least one more improvement over the baseline attention-based neural machine translation model. Here are several ideas:
 
 + Implement one of the [deep architectures](https://arxiv.org/pdf/1707.07631.pdf). We don't expect you to do much, as it'll take enormous time and resource to train a lot of deep models. For example, if you can train a two-level stacked encoder, that'll count as your improvement.
 + Implement ensemble of multiple models, as introduced in page 41 of this [slide](http://www.statmt.org/eacl2017/practical-nmt.pdf).
@@ -36,12 +36,18 @@ As you have seen in homework 4, you need to preprocess the training data into a 
 
 ```
 python preprocess.py --train_file trn.de --dev_file dev.de --test_file devtest.de --vocab_file model.src.vocab --data_file hw5.de
-python preprocess.py --train_file trn.en --dev_file dev.en --test_file devtest.fake.en --vocab_file model.trg.vocab --data_file hw5.en
+python preprocess.py --train_file trn.en --dev_file dev.en --test_file devtest.fake.en --vocab_file model.trg.vocab --data_file hw5.en --charniak
 ```
 
 The format of the data is the same as the last homework. The data dump on each side of the parallel corpus contains a tuple `(train_data, dev_data, test_data, vocab)`, each data being a list of torch tensors of size `(sent_len,)`, while the vocabulary is an instance of `torchtext.vocab.Vocab`. 
 
 A starter code (`train.py`) has been provided for you, which is also pretty similar from what you have seen in the last homework.
+
+Because Google App Engine does not run bash scripts, you'll also have to run post-processing script yourself before you submit to the leaderboard. Here is out you do it:
+
+```
+postprocess.sh < [system output] > [post-processed output]
+```
 
 Parameter File Format
 --------------
