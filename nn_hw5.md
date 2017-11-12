@@ -82,7 +82,7 @@ The decoder is yet another LSTM, as the encoders. However, a slight difference i
 The generator is the mapping from decoder hidden state to vocabulary distrbution. For the baseline model and training, it's just a affine transformation (use `nn.Linear`). But if you want to do beam search, expect it to be more complicated.
 
 + `0.weight` torch.Size([trg_vocab_size, decoder_hidden_size] = [23262, 1024])
-+ `0.bias` torch.Size([decoder_hidden_size] = [1024])
++ `0.bias` torch.Size([trg_vocab_size] = [23262])
 
 #### attention
 The global general attention described in [(Luong et al. 2015)](https://arxiv.org/pdf/1508.04025.pdf) was used in the model, which has some extra complication than the attention described in [(Bahdanau et al. 2015)](https://arxiv.org/pdf/1409.0473.pdf). Here is the basic idea of it.
