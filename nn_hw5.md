@@ -93,7 +93,7 @@ Easily enough, here is how $$s_t$$ computed.
 
 $$\tilde{s_t} = \sum_{s=0}^{\mid S\mid} a(h_s, h_{t-1}) * h_s$$
 
-$$a(h_s, h_{t-1}) = \dfrac{score(h_s, h_{t-1})}{\sum_{s=0}^{\mid S\mid} score(h_s, h_{t-1})}$$
+$$a(h_s, h_{t-1}) = \dfrac{\exp(score(h_s, h_{t-1}))}{\sum_{s=0}^{\mid S\mid} \exp(score(h_s, h_{t-1}))}$$
 
 Note that each $$h_s$$ is the concatenation of forward and backward encoding, so its dimension is `2 * encoder_hidden_size = 1024`.
 
