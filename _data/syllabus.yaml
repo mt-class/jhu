@@ -282,7 +282,7 @@ past:
   -
     date: 2017-11-14
     title: Syntax-Based Decoding II
-    old-slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
     reading:
       -
         author: Koehn 
