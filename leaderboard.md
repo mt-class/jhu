@@ -32,7 +32,7 @@ Submit your assignments [here](http://jhumt2017leaderboard.appspot.com/). Result
         <a>#3</a><br/><span class="small text-muted">Accuracy</span>
       </th>
       <th class="text-center">
-        <a>#4</a><br/><span class="small text-muted">F-score</span>
+        <a>#4</a><br/><span class="small text-muted">WER</span>
       </th>
     </tr>
   </thead>
