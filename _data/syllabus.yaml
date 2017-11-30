@@ -331,6 +331,12 @@ past:
     date: 2017-11-30
     title: Adaptation
     slides: http://mt-class.org/jhu/slides/lecture-domain-adaptation.pdf
+    reading:
+      -
+        author: Axelrod et al. (2011)
+        title: Domain adaptation via pseudo in-domain data selection
+        url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
+        optional: true
   -
     date: 2017-12-05
     title: (no class - work on final project)
