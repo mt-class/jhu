@@ -42,7 +42,7 @@ Office hours
 Discussion Forum
 : [Piazza](https://piazza.com/jhu/fall2017/en600468/home)
 
-'''Textbook'''
+Textbooks
 : The class follows closely two textbooks.
 * [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
 by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2010.
