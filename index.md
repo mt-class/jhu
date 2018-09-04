@@ -39,17 +39,17 @@ Office hours
 : **Professor**
 * By Appointment
 : **TA**
-* TBD
+* Monday 10-12, Barton 225
 
 Discussion Forum
 : [Piazza](https://piazza.com/jhu/fall2017/en600468/home)
 
 Textbook
-: [Statistical Machine Translation](http://www.statmt.org/book/), 2010 (<a href="http://statmt.org/book/errata.html">errata</a>) 
-by [Philipp Koehn](http://www.cs.jhu.edu/~phi/).
+: [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
+by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2010.
 You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
 purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>.
-: Neural Machine Translation, 2019. A draft copy of the book will be distributed by email. Contact the professor to receive a copy.
+: Neural Machine Translation, by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2019. A draft copy of the book will be distributed by email. Contact the professor to receive a copy.
 
 Grading
 : To understand how machine translation works, you will build a translation system.
