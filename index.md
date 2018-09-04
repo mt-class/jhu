@@ -42,7 +42,8 @@ Office hours
 Discussion Forum
 : [Piazza](https://piazza.com/jhu/fall2017/en600468/home)
 
-Textbook
+'''Textbook'''
+: The class follows closely two textbooks.
 * [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
 by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2010.
 You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
@@ -58,6 +59,7 @@ We will mainly grade hands-on work.
 * In-class presentation: Language in ten minutes (10%)
 
 Homework Schedule
+: There will be five homework assignments, tentative schedule:
 * HW0: Analysis, due September 13
 * HW1: Word alignment, due September 27
 * HW2: Decoding, due October 11
