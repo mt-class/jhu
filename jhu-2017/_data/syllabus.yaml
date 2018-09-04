@@ -1,0 +1,342 @@
+past:
+  - 
+    date: 2017-09-05
+    title: Introduction
+    slides: http://mt-class.org/jhu/slides/lecture-introduction.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 1.2
+      -
+        author: Weaver (1949)
+        title: Translation
+        url: http://www.mt-archive.info/Weaver-1949.pdf
+        optional: true
+      -
+        author: Kay 
+        title: Translation
+        url: http://www.stanford.edu/~mjkay/CurrentState.pdf
+        optional: true
+  -
+    date: 2017-09-07
+    title: Basics in Language and Probability 
+    slides: http://mt-class.org/jhu/slides/lecture-foundations.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 2.1 and 3
+  -
+    date: 2017-09-12
+    title: Language Models
+    slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
+    reading: 
+      -
+        author: Koehn 
+        title: Chapter 7
+  -
+    date: 2017-09-14
+    title: IBM Model 1 and the EM Algorithm
+    slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 4.1-4.2
+      -
+        author: Knight (1997)
+        title:  Automating Knowledge Acquisition for Machine Translation
+        url: http://www.isi.edu/natural-language/mt/aimag97.pdf
+        optional: true
+  -
+    date: 2017-09-19
+    title: Phrase-Based Models
+    slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 5
+      -
+        author: Durrani et al. (2013)
+        title: Can Markov Models Over Minimal Translation Units Help Phrase-Based SMT?
+        url: http://homepages.inf.ed.ac.uk/dnadir/osmoses.pdf
+        optional: true
+  -
+    date: 2017-09-21
+    title: Decoding
+    slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
+    links:
+      -
+        text: (Demo)
+        url: stack-decoder/
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 6
+      -
+        author: Heafield et al. (2014)
+        title: Faster Phrase-Based Decoding by Refining Feature State
+        url: https://kheafield.com/professional/stanford/mtplz_paper.pdf
+        optional: true
+  -
+    date: 2017-09-26
+    title: Evaluation
+    slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 8
+      -
+        author: Graham et al. (2014)
+        title: Is Machine Translation Getting Better over Time?
+        url: http://www.aclweb.org/anthology/E/E14/E14-1047.pdf
+        optional: true
+  -
+    date: 2017-09-28
+    title: Tuning
+    slides: http://mt-class.org/jhu-2015/slides/lecture-tuning.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 9.1-9.3
+  -
+    date: 2017-10-03
+    title: Introduction to Neural Networks
+    slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
+    reading:
+      -
+        author: Koehn (2017)
+        title: Neural Machine Translation, Chapter 2
+        url: http://mt-class.org/jhu/assets/nmt-book.pdf
+      -
+        author: Makin (2006)
+        title: Backpropagation
+        url: https://inst.eecs.berkeley.edu/~cs182/sp06/notes/backprop.pdf
+      -
+        author: LeCun et al. (1998) 
+        title: Efficient BackProp
+        url: http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+        optional: true
+      -
+        author: Srivastava et al. (2014)
+        title: Dropout - A Simple Way to Prevent Neural Networks from Overfitting
+        url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
+        optional: true
+  -
+    date: 2017-10-05
+    title: Computation Graphs
+    slides: http://mt-class.org/jhu/slides/lecture-nn-computation-graphs.pdf
+    reading:
+      -
+        author: Koehn (2017)
+        title: Neural Machine Translation, Chapter 3
+        url: http://mt-class.org/jhu/assets/nmt-book.pdf
+      -
+        author: Tensorflow
+        title: Neural network online demo
+        url: http://playground.tensorflow.org/
+  -
+    date: 2017-10-10
+    title: Neural Language Models
+    slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
+    reading:
+      -
+        author: Koehn (2017)
+        title: Neural Machine Translation, Chapter 4
+        url: http://mt-class.org/jhu/assets/nmt-book.pdf
+      -
+        author: Bengio et al. (2002)
+        title: A Neural Probabilistic Language Model
+        url: http://jmlr.csail.mit.edu/papers/volume3/bengio03a/bengio03a.pdf
+        optional: true
+      -
+        author: Tomas Mikolov (2012)
+        title: Statistical Language Models Based on Neural Networks, Chapter 3
+        url: http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf
+        optional: true
+      -
+        author: Karpathy et al. (2015)
+        title: Visualizing and Understanding Recurrent Networks
+        url: https://arxiv.org/pdf/1506.02078
+        optional: true
+  -
+    date: 2017-10-12
+    title: Neural Translation Models I
+    slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
+    reading:
+      -
+        author: Koehn (2017)
+        title: Neural Machine Translation, Chapter 5
+        url: http://mt-class.org/jhu/assets/nmt-book.pdf
+      -
+        author: Bahdanau et al. (2015)
+        title: Neural Machine Translation by Jointly Learning to Align and Translate
+        url: http://arxiv.org/pdf/1409.0473v5.pdf
+        optional: true
+  -
+    date: 2017-10-17
+    title: Neural Translation Models II - Refinements
+    slides: http://mt-class.org/jhu/slides/lecture-nmt2.pdf
+    reading:
+      -
+        author: Koehn (2017)
+        title: Neural Machine Translation, Chapter 6
+        url: http://mt-class.org/jhu/assets/nmt-book.pdf
+  -
+    date: 2017-10-19
+    title: (no class)
+  -
+    date: 2017-10-24
+    title: Neural Translation Models III - Challenges and Alternatives 
+    slides: http://mt-class.org/jhu/slides/lecture-nmt3.pdf
+    reading:
+      -
+        author: Koehn (2017)
+        title: Neural Machine Translation, Chapter 7 and 8
+        url: http://mt-class.org/jhu/assets/nmt-book.pdf
+      -
+        author: Vaswani et al. (2017)
+        title: Attention Is All You Need
+        url: https://arxiv.org/abs/1706.03762
+        optional: true
+      -
+        author: Gehring et al. (2017)
+        title: Convolutional Sequence to Sequence Learning
+        url: https://arxiv.org/abs/1705.03122
+        optional: true
+  -
+    date: 2017-10-26
+    title: Corpus Acquisition from the Internet
+    slides: http://mt-class.org/jhu/slides/lecture-data.pdf
+    reading:
+      -
+        author: Uszkoreit et al. (2010)
+        title: Large Scale Parallel Document Mining for Machine Translation
+        url: http://aclweb.org/anthology/C/C10/C10-1124.pdf
+        optional: true
+      -
+        author: Resnik and Smith (2003)
+        title: The Web as a Parallel Corpus
+        url: http://www.aclweb.org/anthology/J03-3002.pdf
+        optional: true
+      -
+        author: Buck and Heafield (2014)
+        title: N-gram Counts and Language Models from the Common Crawl
+        url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
+        optional: true
+  -
+    date: 2017-10-31
+    title: Word Order
+    slides: http://mt-class.org/jhu/slides/lecture-reordering.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 10.3
+      -
+        author: Genzel (2010)
+        title: Automatically  Learning Source-side Reordering Rules for Large Scale Machine Translation
+        url: http://www.aclweb.org/anthology/C10-1043.pdf
+        optional: true
+      -
+        author: Bisazza and Federico (2010)
+        title: Chunk-based Verb Reordering in VSO Sentences for Arabic-English Statistical Machine Translation
+        url: http://www.aclweb.org/anthology/W10-1735.pdf
+        optional: true
+  -
+    date: 2016-11-02
+    title: Morphology
+    slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 10.2
+      -
+        author: Stymne et al. (2013)
+        title: Generation of Compound Words in Statistical Machine Translation into Compounding Languages
+        url: http://aclweb.org/anthology/J/J13/J13-4009.pdf
+        optional: true
+      -
+        author: Fraser et al. (2012)
+        title: Modeling Inflection and Word-Formation in SMT
+        url: http://www.aclweb.org/anthology/E12-1068.pdf
+        optional: true
+      -
+        author: Chahuneau et al. (2013)
+        title: Translating into Morphologically Rich Languages with Synthetic Phrases
+        url: http://www.aclweb.org/anthology/D13-1174.pdf
+        optional: true
+  -
+    date: 2017-11-04
+    title: Syntax-Based Models
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-models.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 11.1-11.2
+  -
+    date: 2017-11-09
+    title: Syntax-Based Decoding I
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 11.3
+  -
+    date: 2017-11-14
+    title: Syntax-Based Decoding II
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-based-decoding2.pdf
+    reading:
+      -
+        author: Koehn 
+        title: Chapter 11.3
+      -
+        author: Hopkins and Langmead (2010)
+        title: SCFG Decoding Without Binarization
+        url: http://www.aclweb.org/anthology/D/D10/D10-1063.pdf
+        optional: true
+      -
+        author: Sennrich (2014)
+        title: A CYK+ Variant for SCFG Decoding Without a Dot Chart
+        url: http://aclweb.org/anthology/W/W14/W14-4011.pdf
+        optional: true
+  -
+    date: 2017-11-16
+    title: Semantics
+    slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
+    reading:
+      -
+        author: Cook et al. (2011)
+        title: The World Color Survey Database - History and Use
+        url: http://www1.icsi.berkeley.edu/~kay/claire7.pdf
+        optional: true
+      -
+        author: Banarescu et al. (2013)
+        title: Abstract Meaning Representation for Sembanking
+        url: http://www.isi.edu/natural-language/amr/a.pdf
+        optional: true
+  -
+    date: 2017-11-28
+    title: Computer Aided Translation
+    slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
+    reading:
+      -
+        author: Barrachina et al. (2009)
+        title: Statistical Approaches to Computer-Assisted Translation
+        url: http://www.aclweb.org/anthology/J09-1002.pdf
+        optional: true
+      -
+        author: Germann (2014)
+        title: Dynamic Phrase Tables for Machine Translation in an Interactive Post-editing Scenario
+        url: http://www.accept.unige.ch/Products/Germann2014.pdf
+        optional: true
+  -
+    date: 2017-11-30
+    title: Adaptation
+    slides: http://mt-class.org/jhu/slides/lecture-domain-adaptation.pdf
+    reading:
+      -
+        author: Axelrod et al. (2011)
+        title: Domain adaptation via pseudo in-domain data selection
+        url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
+        optional: true
+  -
+    date: 2017-12-05
+    title: (no class - work on final project)

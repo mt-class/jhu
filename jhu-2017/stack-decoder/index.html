@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Stack Decoder</title>
+
+    <!-- Homepage CSS -->
+    <link rel="stylesheet" href="stack-decoder.css" type="text/css" media="screen, projection" />
+
+    <!-- <script src="raphael-min.js" type="text/javascript"></script> -->
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
+	<script type="text/javascript" src="sprintf.js"></script>
+	<!-- <script type="text/javascript" src="jquery-dom-line/jquery.domline.js"></script> -->
+	<!-- <script type="text/javascript" src="jquery-dom-line/lib/jquery.transform.min.js"></script> -->
+
+    <!-- location of t-table data -->
+    <script src="ttable.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div class="site">
+      <h1>"Stack" decoder</h1>
+
+      <div class="leftsidebar">
+        <span id="arrow">▼</span>
+        <span id="paramtext"> Parameters</span>
+        <div id="parameters">
+          <table class="parameters">
+            <tr>
+              <td>Stacks</td>
+              <td>
+                <select id="numstacks" class="options">
+                  <option value="one">one</option>
+                  <option value="words" selected># words</option>
+                  <!-- <option value="coverage">coverage</option> -->
+                </select>
+              </td>
+            </tr>
+            <tr> 
+              <td>Candidates</td> 
+              <td> 
+                <select id="numcandidates" class="options"> 
+                  <option>1</option> 
+                  <option>2</option> 
+                  <option>3</option> 
+                  <option>4</option> 
+                  <option selected>5</option> 
+                  <option>6+</option> 
+                </select> 
+              </td> 
+            </tr> 
+            <tr>
+              <td>Dynamic programming</td>
+              <td>
+                <input id="dp" type="checkbox" checked="true" class="options"></input>
+              </td>
+            </tr>
+            <tr>
+              <td>Reordering Constraints</td>
+              <td>
+                <select id="constraints" class="options">
+                  <option value="0" selected>none</option>
+                  <option value="+1">monotonic</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+            </tr>
+            <tr>
+              <td>Stack size</td>
+              <td>
+                <input id="stacksize" class="options" type="text" size="2" value="3"></input>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input id="automate" class="options" type="button" value="Automate"></input>
+              </td>
+              <td>
+                <select id="delay" class="options">
+                  <option value="5000">very slow</option>
+                  <option value="2000">slow</option>
+                  <option value="1000" selected>medium</option>
+                  <option value="500">fast</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <script type="text/javascript">
+          $("#paramtext").click(function(e) {
+            var div = $("#paramtext").next('div');
+            if (div.is(":hidden")) {
+              div.slideDown();
+              $("#arrow").text("▼");
+            } else {
+              div.slideUp();
+              $("#arrow").text("▶");
+            }});
+          // ▼▶
+        </script>
+
+        <br/>
+
+        <h3>Stats</h3>
+          <div>
+            Chart size: <span id="chartsize">0</span>
+          </div>
+          <div>
+            Hypotheses: <span id="hypotheses">0</span>
+          </div>
+
+        <br/>
+
+        <h3>Message</h3>
+        <div id="message">
+          Translation system ready.
+        </div>  
+
+        <br />
+
+        <h3>Credits</h3>
+        <div id="author">
+          <p>
+            This visualization was written
+            by <a href="http://cs.jhu.edu/~post/">Matt Post</a> as part
+            of a <a href="http://mt-class.org">Machine Translation
+              course</a> co-taught
+            with <a href="http://cs.jhu.edu/~ccb/">Chris
+              Callison-Burch</a>
+            and <a href="http://cs.jhu.edu/~alopez/">Adam Lopez</a>
+            at <a href="http://clsp.jhu.edu">The Center for Language and
+              Speech Processing</a> at <a href="http://www.jhu.edu">Johns
+              Hopkins University</a> .
+          </p>
+          <p>
+            The code <a href="http://github.com/mjpost/word-decoder/">
+              is available on Github</a>.
+          </p>
+        </div>
+
+      </div>
+
+      <div id="content">
+        <div id="instructions">
+          <h3>Instructions</h3>
+          <p>
+            To begin, click a source language word to create the empty
+            hypothesis.  Clicking on a source-language word also reveals
+            a list of translation candidates for that word.
+          </p>
+
+          <p>
+            You then build new hypotheses by selecting an existing one
+            and choosing a word to extend it with.  Each chart
+            hypothesis contains the sequence of translated words
+            (implicitly, if dynamic programming is on), the model
+            score, and the coverage vector (denoting which
+            source-language words have been translated).
+          </p>
+
+          <p>
+            If a word is highlighted in red, that means it is not
+            available to extend the selected hypothesis (or that no
+            hypothesis is selected).  This can be due to the
+            distortion constraints or because you are trying to extend
+            a hypothesis with a translation of a word that has already
+            been covered by that hypothesis.  When you highlight a
+            hypothesis, the sequence of hypotheses that were used to
+            produce it are highlighted.
+          </p>
+
+          <p>
+            The algorithm can be automated by clicking the automate
+            button right when the page is loaded.  Playing around with
+            the distortion limits and stack size will demonstrate the
+            tradeoff between speed (measured by the number of
+            hypotheses popped) and accuracy (measured by the model
+            score of the best translation at the end).
+          </p>
+        </div>
+
+        <div id="notes">
+          <h3>More information</h3>
+          <p>
+            Machine translation is the scientific endeavor that
+            investigates automated methods for translating sentences
+            from one human language to another.  This page implements
+            a simple word-based decoder for purposes of visualization.
+          </p>
+
+          <p>
+            <i>Decoder</i> is the jargon term for an algorithm that
+            performs the translation task.  Decoding algorithms
+            typically assemble translation hypotheses by translating
+            the words and phrases of the source sentence.  The term
+            "stack decoding" refers to the fact that hypotheses for
+            the translation are maintained in stacks (which are
+            actually priority queues).  Each of these stacks groups
+            together hypotheses that represent translations of the
+            same number of words of the source language sentence.  The
+            hypotheses are sorted in decreasing order according to a
+            score assigned by a model (which in this case is a
+            language model and word-based translation model).
+          </p>
+
+          <p>
+            A good (non-free) introduction to machine translation is
+            Philipp Koehn's
+            book <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Statistical
+            Machine Translation</a>.  A good (free) introduction is
+            <a href="http://cs.jhu.edu/~alopez/">Adam Lopez</a>'s
+            ACM <a href="http://alopez.github.com/papers/survey.pdf">article
+            of the same title</a>.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="rightsidebar" id="debug">
+        <h3>Tape</h3>
+        <hr />
+        <div></div>
+          <!-- <div id="matt"> -->
+            <!-- <script type="text/javascript"> -->
+            <!--   var div = $("#matt"); -->
+            <!--   var paper = Raphael(matt.offset().left, matt.offset().top, 320, 200); -->
+            <!--   var circle = paper.circle(50,40,10); -->
+            <!--   circle.attr("fill", "#f00"); -->
+            <!--   document.write(matt.offset().left); -->
+            <!-- </script> -->
+          <!-- </div> -->
+      </div>
+    </div>
+
+    <script type="text/javascript" src="stack-decoder.js"></script>
+
+  </body>
+</html>

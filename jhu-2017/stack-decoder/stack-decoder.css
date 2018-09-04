@@ -1,0 +1,310 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+
+/*
+ * PARAMETERS SECTION
+ */
+
+#arrow {
+    font-size: 7pt;
+}
+
+#paramtext {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#parameters {
+    border-radius: 5px;
+    background-color: #dddddd;
+    padding: 5px;
+}
+
+table.parameters {
+    border: none;
+}
+
+table.parameters td {
+    text-align: left;
+}
+
+/*
+ * TRANSLATIONS ETC
+ */
+
+ul.translation {
+    margin: 0px;
+    spacing: 5px;
+    list-style: none;
+    /* width: 80px; */
+    position: relative;
+    border-collapse: collapse;
+    border-radius: 3px;
+    border: 1px solid white;
+    top: -24px;
+}
+/* border: 1px solid rgba(0, 0, 0, 0); 
+   border: 1px solid transparent !important;
+*/
+li.translation {
+    border-radius: 0px;
+    padding: 3px;
+    font-size: 14pt;
+    margin-top: 0px;
+    border: 3px solid transparent;
+    background-color: #C6DEFF;
+}
+
+span.score {
+    font-size: 8pt;
+}
+
+li.hilite {
+    background-color: yellow !important;
+}
+
+li.illegal {
+    background-color: red !important;
+}
+
+/* .target { */
+/*     font-size: 14pt; */
+/*     padding: 0px; */
+/*     background-color: blue; */
+/*     color: white; */
+/*     border-radius: 0px; */
+/* } */
+
+td,th {
+  padding: 1px;
+  spacing: 0px;
+  border: 0px;
+  text-align: center;
+}
+
+h1 {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+a:link.parameters {
+    text-decoration: none;
+    color: black;
+}
+a:active.parameters {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 1em 0;
+}
+
+button {
+    border-radius: 3px;
+    padding: 3px;
+}
+
+button.selected {
+    background-color: yellow;
+}
+
+/* .itemhilite { */
+/* 	color: #FFFFFF; */
+/* 	border: 2px solid #CC6633; */
+/* 	width: 150px; */
+/* 	background-color: #CC6633; */
+/* 	padding: 10px; */
+/* 	line-height: 1.4em; */
+/* } */
+
+/* .itemhilite { */
+/*     background-color: yellow; */
+/*     border: 1px solid #DDDDDD; */
+/*     font-size: 10pt; */
+/*     border-radius: 15px; */
+/*     float: left; */
+/*     margin: 3px; */
+/*     padding: 5px; */
+/* } */
+
+#stacks {
+    margin-top: 10px;
+    float: left;
+}
+
+.stack-header {
+    clear: both;
+
+    /* this is really important -- without it, children don't seem to
+inherit properties properly */
+    overflow: auto;
+    
+    background-color: #eeeeee;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+.stack-complete {
+    background-color: #FFD199 !important;
+}
+
+.stack {
+    margin: 3px;
+    padding: 5px;
+    font-size: 10pt;
+    border-radius: 15px;
+    float: left;
+    text-align: center;
+    border: 3px solid transparent;
+    background-color: #cccccc;
+}
+
+.stackhilite {
+    background-color: yellow !important;
+    border: 3px solid transparent !important;
+}
+
+.dp-hilite {
+    /* background-color: DarkKhaki; */
+    border: 3px dotted red !important;
+}
+
+.X {
+    border: 5px solid red;
+    background-color: red;
+    color: white;
+    font-size: 24pt;
+}
+
+.item-complete {
+    background-color: Darkorange;
+    border: 3px solid transparent;
+}
+
+.item-new {
+    background-color: #FFD199 !important;
+}
+
+#sourcebox {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #dddddd;
+    padding: 5px;
+    float: left;
+}
+
+.source {
+    font-size: 20pt;
+    padding: 5px;
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+    float: left;
+    text-align: center;
+}
+
+.source p {
+    padding: 5px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+th.small {
+  font-size: 8pt;
+}
+
+body {
+  background-color: white;
+  font: palatino;
+  text-align: center; 
+}
+
+h1, h2 {
+  font-weight: lighter;
+  margin-bottom: 4pt;
+  margin-top: 8pt;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+div {
+    /* border: 1px solid black; */
+    /* padding: 20px; */
+}
+
+#instructions {
+    clear: both;
+}
+
+#message {
+    border-radius: 5px;
+    background-color: #dddddd;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.site {
+  font-size: 90%;
+  text-align: left;
+  margin: 10px;
+}
+
+.site .leftsidebar {
+    float: left;
+    width: 20%;
+    text-align: left;
+}
+
+.site #content {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    spacing: 10px;
+
+    /* width: 550px; */
+}
+
+.site .rightsidebar {
+    float: left;
+    width: 15%;
+    margin-left: 20px;
+    /* margin-left: 800px; */
+}
+
+.site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+}
+
+
