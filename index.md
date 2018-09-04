@@ -45,11 +45,11 @@ Discussion Forum
 : [Piazza](https://piazza.com/jhu/fall2017/en600468/home)
 
 Textbook
-: [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
+* [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
 by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2010.
 You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
 purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>.
-: Neural Machine Translation, by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2019. A draft copy of the book will be distributed by email. Contact the professor to receive a copy.
+* Neural Machine Translation, by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2019. A draft copy of the book will be distributed by email. Contact the professor to receive a copy.
 
 Grading
 : To understand how machine translation works, you will build a translation system.
@@ -60,10 +60,10 @@ We will mainly grade hands-on work.
 * In-class presentation: Language in ten minutes (10%)
 
 Homework Schedule
-: HW0: Analysis, due September 13
-: HW1: Word alignment, due September 27
-: HW2: Decoding, due October 11
-: HW3: Neural language model, due October 25
-: HW4: Neural translation model, due November 8
+* HW0: Analysis, due September 13
+* HW1: Word alignment, due September 27
+* HW2: Decoding, due October 11
+* HW3: Neural language model, due October 25
+* HW4: Neural translation model, due November 8
 
 Late penalty for homework assignments: 10% per day.
