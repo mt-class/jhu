@@ -6,10 +6,10 @@ title: Statistical Machine Translation
 active_tab: main_page 
 ---
 
-EN 600.468/668 Machine Translation
-: Fall 2017
+EN 601.468/668 Machine Translation
+: Fall 2018
 : Tuesdays and Thursdays 1:30-2:45
-: [Mergenthaler	111](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf)
+: [Ames 234](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf)
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
@@ -31,23 +31,25 @@ Instructor
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) (<phi@jhu.edu>)
 
 TA
-: Shuoyang Ding (<dings@jhu.edu>)
+: Huda Khayrallah (<huda@jhu.edu>)
+: Brian Thompson (brian.thompson@jhu.edu)
+: Tanay Agarwal (tagarwa2@jhu.edu)
 
 Office hours
 : **Professor**
 * By Appointment
 : **TA**
-* Tuesday at 14:45--15:30, Mergenthaler 111
-* Friday at (After Oct. 5th) 13:30--14:30, Malone 338
+* TBD
 
 Discussion Forum
 : [Piazza](https://piazza.com/jhu/fall2017/en600468/home)
 
 Textbook
-: [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
+: [Statistical Machine Translation](http://www.statmt.org/book/), 2010 (<a href="http://statmt.org/book/errata.html">errata</a>) 
 by [Philipp Koehn](http://www.cs.jhu.edu/~phi/).
 You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
 purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>.
+: Neural Machine Translation, 2019. A draft copy of the book will be distributed by email. Contact the professor to receive a copy.
 
 Grading
 : To understand how machine translation works, you will build a translation system.
