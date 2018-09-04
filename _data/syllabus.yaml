@@ -5,8 +5,8 @@ past:
     slides: http://mt-class.org/jhu/slides/lecture-introduction.pdf
     reading:
       -
-        author: Koehn 
-        title: Chapter 1.2
+        author: Koehn (2010) 
+        title: Statistical Machine Translation, Chapter 1.2
       -
         author: Weaver (1949)
         title: Translation
@@ -23,24 +23,24 @@ past:
     old-slides: http://mt-class.org/jhu/slides/lecture-foundations.pdf
     reading:
       -
-        author: Koehn 
-        title: Chapter 2.1 and 3
+        author: Koehn (2010) 
+        title: Statistical Machine Translation, Chapter 2.1 and 3
   -
     date: 2017-09-11
     title: Language Models
     old-slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
     reading: 
       -
-        author: Koehn 
-        title: Chapter 7
+        author: Koehn (2010) 
+        title: Statistical Machine Translation, Chapter 7
   -
     date: 2017-09-13
     title: IBM Model 1 and the EM Algorithm
     old-slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
     reading:
       -
-        author: Koehn 
-        title: Chapter 4.1-4.2
+        author: Koehn (2010) 
+        title: Statistical Machine Translation, Chapter 4.1-4.2
       -
         author: Knight (1997)
         title:  Automating Knowledge Acquisition for Machine Translation
@@ -52,8 +52,8 @@ past:
     old-slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
     reading:
       -
-        author: Koehn 
-        title: Chapter 5
+        author: Koehn (2010)
+        title: Statistical Machine Translation, Chapter 5
       -
         author: Durrani et al. (2013)
         title: Can Markov Models Over Minimal Translation Units Help Phrase-Based SMT?
@@ -69,8 +69,8 @@ past:
         url: stack-decoder/
     reading:
       -
-        author: Koehn 
-        title: Chapter 6
+        author: Koehn (2010)
+        title: Statistical Machine Translation, Chapter 6
       -
         author: Heafield et al. (2014)
         title: Faster Phrase-Based Decoding by Refining Feature State
@@ -83,7 +83,7 @@ past:
     reading:
       -
         author: Koehn 
-        title: Chapter 8
+        title: Statistical Machine Translation, Chapter 8
       -
         author: Graham et al. (2014)
         title: Is Machine Translation Getting Better over Time?
@@ -95,7 +95,7 @@ past:
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
       -
-        author: Koehn (2017)
+        author: Koehn (2019)
         title: Neural Machine Translation, Chapter 2
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
       -
@@ -118,7 +118,7 @@ past:
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-computation-graphs.pdf
     reading:
       -
-        author: Koehn (2017)
+        author: Koehn (2019)
         title: Neural Machine Translation, Chapter 3
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
       -
@@ -131,7 +131,7 @@ past:
     old-slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
       -
-        author: Koehn (2017)
+        author: Koehn (2019)
         title: Neural Machine Translation, Chapter 4
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
       -
@@ -155,7 +155,7 @@ past:
     old-slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
     reading:
       -
-        author: Koehn (2017)
+        author: Koehn (2019)
         title: Neural Machine Translation, Chapter 5
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
       -
@@ -168,7 +168,7 @@ past:
     title: Decoding in Neural Translation Models
     reading:
       -
-        author: Koehn (2017)
+        author: Koehn (2019)
         title: Neural Machine Translation, Chapter 6
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
   -
@@ -179,7 +179,7 @@ past:
     title: Alternative Architectures 
     reading:
       -
-        author: Koehn (2017)
+        author: Koehn (2019)
         title: Neural Machine Translation, Chapter 8
       -
         author: Vaswani et al. (2017)
@@ -197,8 +197,11 @@ past:
     old-slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
     reading:
       -
-        author: Koehn 
-        title: Chapter 10.2
+        author: Koehn (2010)
+        title: Statistical Machine Translation, Chapter 10.2
+      -
+        author: Koehn (2019)
+        title: Neural Machine Translation, Chapter 9
       -
         author: Stymne et al. (2013)
         title: Generation of Compound Words in Statistical Machine Translation into Compounding Languages
@@ -232,14 +235,25 @@ past:
   -
     date: 2017-10-30
     title: Current Challenges
+    reading:
+      -
+        author: Koehn (2019)
+        title: Neural Machine Translation, Chapter 13
   -
     date: 2017-11-01
     title: Analysis and Visualization
+    reading:
+      -
+        author: Koehn (2019)
+        title: Neural Machine Translation, Chapter 14
   -
     date: 2017-11-06
     title: Adaptation
     old-slides: http://mt-class.org/jhu/slides/lecture-domain-adaptation.pdf
     reading:
+      -
+        author: Koehn (2019)
+        title: Neural Machine Translation, Chapter 10
       -
         author: Axelrod et al. (2011)
         title: Domain adaptation via pseudo in-domain data selection
@@ -281,5 +295,17 @@ past:
         url: http://www.accept.unige.ch/Products/Germann2014.pdf
         optional: true
   -
-    date: 2017-12-05
-    title: (no class - work on final project)
+    date: 2017-11-15
+    title: TBD
+  -
+    date: 2017-11-27
+    title: Project Presentations
+  -
+    date: 2017-11-29
+    title: Project Presentations
+  -
+    date: 2017-12-04
+    title: Project Presentations
+  -
+    date: 2017-12-06
+    title: Project Presentations
