@@ -63,7 +63,7 @@ Homework Schedule
 : HW0: Analysis, due September 13
 : HW1: Word alignment, due September 27
 : HW2: Decoding, due October 11
-: HW3: Neural language models, due October 25
-: HW4: Neural translation models, due November 8
+: HW3: Neural language model, due October 25
+: HW4: Neural translation model, due November 8
 
 Late penalty for homework assignments: 10% per day.
