@@ -172,10 +172,10 @@ past:
         title: Neural Machine Translation, Chapter 6
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
   -
-    date: 2017-10-19
+    date: 2017-10-16
     title: Machine Learning Tricks
   -
-    date: 2017-10-24
+    date: 2017-10-18
     title: Alternative Architectures 
     reading:
       -
@@ -192,29 +192,9 @@ past:
         url: https://arxiv.org/abs/1705.03122
         optional: true
   -
-    date: 2017-10-26
-    title: Corpus Acquisition from the Internet
-    slides: http://mt-class.org/jhu/slides/lecture-data.pdf
-    reading:
-      -
-        author: Uszkoreit et al. (2010)
-        title: Large Scale Parallel Document Mining for Machine Translation
-        url: http://aclweb.org/anthology/C/C10/C10-1124.pdf
-        optional: true
-      -
-        author: Resnik and Smith (2003)
-        title: The Web as a Parallel Corpus
-        url: http://www.aclweb.org/anthology/J03-3002.pdf
-        optional: true
-      -
-        author: Buck and Heafield (2014)
-        title: N-gram Counts and Language Models from the Common Crawl
-        url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
-        optional: true
-  -
-    date: 2016-11-02
+    date: 2016-10-23
     title: Words and Morphology
-    slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-morphology.pdf
     reading:
       -
         author: Koehn 
@@ -235,9 +215,9 @@ past:
         url: http://www.aclweb.org/anthology/D13-1174.pdf
         optional: true
   -
-    date: 2017-11-16
+    date: 2017-10-25
     title: Syntax and Semantics
-    slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
       -
         author: Cook et al. (2011)
@@ -250,9 +230,15 @@ past:
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
   -
-    date: 2017-11-30
+    date: 2017-10-30
+    title: Current Challenges
+  -
+    date: 2017-11-01
+    title: Analysis and Visualization
+  -
+    date: 2017-11-06
     title: Adaptation
-    slides: http://mt-class.org/jhu/slides/lecture-domain-adaptation.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-domain-adaptation.pdf
     reading:
       -
         author: Axelrod et al. (2011)
@@ -260,9 +246,29 @@ past:
         url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
         optional: true
   -
-    date: 2017-11-28
+    date: 2017-11-08
+    title: Corpus Acquisition from the Internet
+    old-slides: http://mt-class.org/jhu/slides/lecture-data.pdf
+    reading:
+      -
+        author: Uszkoreit et al. (2010)
+        title: Large Scale Parallel Document Mining for Machine Translation
+        url: http://aclweb.org/anthology/C/C10/C10-1124.pdf
+        optional: true
+      -
+        author: Resnik and Smith (2003)
+        title: The Web as a Parallel Corpus
+        url: http://www.aclweb.org/anthology/J03-3002.pdf
+        optional: true
+      -
+        author: Buck and Heafield (2014)
+        title: N-gram Counts and Language Models from the Common Crawl
+        url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
+        optional: true
+  -
+    date: 2017-11-13
     title: Computer Aided Translation
-    slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
+    old-slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
       -
         author: Barrachina et al. (2009)
