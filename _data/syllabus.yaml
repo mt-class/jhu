@@ -97,7 +97,6 @@ past:
       -
         author: Koehn (2019)
         title: Neural Machine Translation, Chapter 2
-        url: http://mt-class.org/jhu/assets/nmt-book.pdf
       -
         author: Makin (2006)
         title: Backpropagation
@@ -120,7 +119,6 @@ past:
       -
         author: Koehn (2019)
         title: Neural Machine Translation, Chapter 3
-        url: http://mt-class.org/jhu/assets/nmt-book.pdf
       -
         author: Tensorflow
         title: Neural network online demo
@@ -133,7 +131,6 @@ past:
       -
         author: Koehn (2019)
         title: Neural Machine Translation, Chapter 4
-        url: http://mt-class.org/jhu/assets/nmt-book.pdf
       -
         author: Bengio et al. (2002)
         title: A Neural Probabilistic Language Model
@@ -152,7 +149,6 @@ past:
   -
     date: 2017-10-09
     title: Neural Translation Models
-    old-slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
     reading:
       -
         author: Koehn (2019)
@@ -170,7 +166,6 @@ past:
       -
         author: Koehn (2019)
         title: Neural Machine Translation, Chapter 6
-        url: http://mt-class.org/jhu/assets/nmt-book.pdf
   -
     date: 2017-10-16
     title: Machine Learning Tricks
