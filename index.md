@@ -36,10 +36,8 @@ TA
 : Tanay Agarwal (tagarwa2@jhu.edu)
 
 Office hours
-: **Professor**
-* By Appointment
-: **TA**
-* Monday 10-12, Barton 225
+: **Professor** by Appointment
+: **TAs** Monday 10-12, Barton 225
 
 Discussion Forum
 : [Piazza](https://piazza.com/jhu/fall2017/en600468/home)
