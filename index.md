@@ -40,7 +40,7 @@ Office hours
 : **TAs** Monday 10-12, Barton 225
 
 Discussion Forum
-: [Piazza](https://piazza.com/jhu/fall2017/en600468/home)
+: [Piazza](http://piazza.com/jhu/fall2018/en601468/home)
 
 Textbooks
 : The class follows closely two textbooks.
@@ -60,7 +60,7 @@ We will mainly grade hands-on work.
 
 Homework Schedule
 : There will be five homework assignments, tentative schedule:
-* HW0: Analysis, due September 13
+* [HW0: Analysis](hw0.html), due September 13
 * HW1: Word alignment, due September 27
 * HW2: Decoding, due October 11
 * HW3: Neural language model, due October 25
