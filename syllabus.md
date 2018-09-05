@@ -3,6 +3,7 @@ layout: default
 img: cover
 img_link: http://www.statmt.org/book/
 title: Statistical Machine Translation
+img2: nmt-book.png
 active_tab: main_page 
 ---
 
