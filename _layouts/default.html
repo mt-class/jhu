@@ -75,6 +75,7 @@
           <img src="assets/img/{{ page.img }}.jpg" class="img-responsive img-rounded" alt="{{ page.picture }}"/>
           {% if page.img_link %}</a>{% endif %} 
           <span class="text-muted"><i>{{ page.caption }}</i></span>
+          {% if page.img2 %}<br><img src="assets/img/{{ page.img2 }}" class="img-responsive img-rounded" alt="{{ page.picture }}"/>{% endif %}
         </div>
         <div class="col-sm-10">
           {{ content }}
