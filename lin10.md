@@ -37,22 +37,11 @@ something really cool? Tell us!
 Presentations
 -------------
 
-TBD
+Please [sign up](https://docs.google.com/document/d/1MfNj9tEhQfg-SPvh6xA-D82ojrJaXfnLy1SwY4J7tiw/edit?usp=sharing) with your language preference by September 13.
 
 | **Day**      | **Language**&nbsp;&nbsp; | **Presenter(s)** |
-| October 3 | Italian | Nawaf Al-Dhelaan, Jingyi Wu, Huanyu Yang |
-| October 5 | Singlish | Shuo Sun, Ke Li, Xutai Ma, Shijia Liu |
-| October 10 | Hindi | Adhiraj Yadav, Dhananjay Singh, Manya Wadhwa, Vishal Rao |
-| October 12 | Spanish | Achintya Gopal, Philip Piantone, Eric Calder, Tomas Ferrer Deheza | 
-| October 17 | Hebrew | Shijie Wu, Chenyang Zhao, Pamela Shapiro, Lawrence Wolf-Sonkin |
-| October 24 | Esperanto | Harrison Huh, Shreya Aggarwal, Alex Gain |
-| October 26 | Japanese | Zikun Chen, Yu Zhao, Fan Yang |
-| October 31 | French | Channing Kimble-Brown, Rebecca Marvin, Najoung Kim, Steven Shearing |
-| November 2 | Korean | Xiaofeng Qiu, Ziyan Wang, Kwang Bin Lee, Baekchun Kim |
-| November 7 | Brazilian Portuguese&nbsp;&nbsp; | Tanay Agarwal, Ryan Newell, Jonathan Liu, Gary Qian, Dylan Lewis |
-| November 9 | ASL | Xuan Zhang, Digvijay Singh, Yirui Wang |
-| November 14 | Mandarin | Dongji Gao, Kun QIan, Szu-Jui Chen |
-| November&nbsp;14&nbsp;&nbsp; | Telugu | Sankalp Kolhe, Aswin, Nikhil Kulkarni, Rohit Ravoori, Amitoj Kaur |
+| TBD | TBD | TBD |
+
 
 
 
