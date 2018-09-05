@@ -61,10 +61,10 @@ We will mainly grade hands-on work.
 
 Homework Schedule
 : There will be five homework assignments, tentative schedule:
-* [HW0: Analysis](hw0.html), due September 13
-* HW1: Word alignment, due September 27
-* HW2: Decoding, due October 11
-* HW3: Neural language model, due October 25
-* HW4: Neural translation model, due November 8
+* [HW1: Analysis](hw0.html), due September 13
+* HW2: Word alignment, due September 27
+* HW3: Decoding, due October 11
+* HW4: Neural language model, due October 25
+* HW5: Neural translation model, due November 8
 
 Late penalty for homework assignments: 10% per day.
