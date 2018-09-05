@@ -37,7 +37,7 @@ TA
 
 Office hours
 : **Professor** by Appointment
-: **TAs** Monday 10-12, Barton 225
+: **TAs** Monday 10-12, Barton 225; Wednesday 10:30-11:30, Malone Undergraduate Lab
 
 Discussion Forum
 : [Piazza](http://piazza.com/jhu/fall2018/en601468/home)
