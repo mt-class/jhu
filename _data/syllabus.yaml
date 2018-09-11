@@ -28,7 +28,7 @@ past:
   -
     date: 2017-09-11
     title: Language Models
-    old-slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
     reading: 
       -
         author: Koehn (2010) 
@@ -82,7 +82,7 @@ past:
     old-slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
     reading:
       -
-        author: Koehn 
+        author: Koehn (2010)
         title: Statistical Machine Translation, Chapter 8
       -
         author: Graham et al. (2014)
