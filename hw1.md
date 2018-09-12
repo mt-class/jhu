@@ -166,7 +166,8 @@ Ground Rules
      as you like, up until the assignment deadline. The output will be evaluated 
      on a subset of the data, but the `score-alignments` program will give you a good
      idea of how well you're doing, and you can use the `check` program
-     to see whether your output is formatted correctly. The leaderboard on Gradescope will display the metrics on a Dev set until the deadline. It will be then updated to display the metric on the Test set. 
+     to see whether your output is formatted correctly. The leaderboard on Gradescope will display the metrics on a Dev set until the deadline. It will be then updated to also display the metric on the Test set. 
+     *Your alignment file must be named alignment.*
 
   1. Your code.  
      You are free to extend the code we provide or roll your own in whatever
@@ -189,7 +190,7 @@ Ground Rules
   own code. If you want to do system combination, join
   forces with your classmates.
 
-If you have any questions or you're confused about anything, just ask.
+If you have any questions or you're confused about anything, just ask on Piazza or in office hours.
 
 *Credits: This assignment is adapted from one originally developed by 
 [Philipp Koehn](http://homepages.inf.ed.ac.uk/pkoehn/)
