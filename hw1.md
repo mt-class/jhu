@@ -10,7 +10,7 @@ active_tab: homework
 <span class="text-muted">Homework 2:</span> Word Alignment
 =============================================================
 
-Due: October 3, 2017
+Due: Sep 27 2018 at noon
 
 Aligning words is a key task in machine translation. We start with
 a large _parallel corpus_ of aligned sentences. For example, we might
@@ -161,25 +161,17 @@ Ground Rules
      due. **You cannot drop people from your group once you've added them.**
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
-* You must turn in three things:
-  1. An alignment of the entire dataset, uploaded to the [leaderboard submission site](http://jhumt2017leaderboard.appspot.com/leaderboard.html). You can upload new output as often
+* You must turn in three things to [Gradescope](https://www.gradescope.com/):
+  1. An alignment of the entire dataset. You can upload new output as often
      as you like, up until the assignment deadline. The output will be evaluated 
-     using a secret metric, but the `grade` program will give you a good
+     on a subset of the data, but the `score-alignments` program will give you a good
      idea of how well you're doing, and you can use the `check` program
-     to see whether your output is formatted correctly. Whoever has
-     the highest score at the deadline will receive the most bonus points.
+     to see whether your output is formatted correctly. The leaderboard on Gradescope will display the metrics on a Dev set until the deadline. It will be then updated to display the metric on the Test set. 
 
-     *Note*. The upload site will reject files larger than 1 MB, so please reduce your file to only the first 1,000 lines before uploading, e.g.,
-
-          python align | head -n1000 > output.txt
-
-  1. Your code. Send us a URL from which we can get the code and git revision
-     history (a link to a tarball will suffice, but you're free to send us a 
-     github link if you don't mind making your code public). This is due at the
-     deadline: when you upload your final answer, send us the code.
+  1. Your code.  
      You are free to extend the code we provide or roll your own in whatever
      langugage you like, but the code should be self-contained, 
-     self-documenting, and easy to use. 
+     self-documenting, and easy to use. Please also include a README on how to run it. 
   1. A clear, mathematical description of your algorithm and its motivation
      written in scientific style. This needn't be long, but it should be
      clear enough that one of your fellow students could re-implement it 
