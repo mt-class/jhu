@@ -161,7 +161,8 @@ Ground Rules
      due. **You cannot drop people from your group once you've added them.**
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
-* You must turn in three things to [Gradescope](https://www.gradescope.com/):
+  1. You must submit the assignment once per group on Gradescope, and indicate your collaborators once you upload the files.  
+ must turn in three things to [Gradescope](https://www.gradescope.com/):
 
   1. An alignment of the entire dataset.  
   You can upload new output as often as you like, up until the assignment deadline. The output will be evaluated 
