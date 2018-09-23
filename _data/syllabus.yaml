@@ -49,7 +49,7 @@ past:
   -
     date: 2017-09-18
     title: Phrase-Based Models
-    old-slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
     reading:
       -
         author: Koehn (2010)
@@ -62,7 +62,7 @@ past:
   -
     date: 2017-09-20
     title: Decoding
-    old-slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
     links:
       -
         text: (Demo)
