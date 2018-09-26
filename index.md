@@ -63,7 +63,7 @@ Homework Schedule
 : There will be five homework assignments, tentative schedule:
 * [HW1: Analysis](hw0.html), due September 13
 * [HW2: Word alignment](hw1.html), due September 27
-* HW3: Decoding, due October 11
+* [HW3: Decoding](hw2.html), due October 11
 * HW4: Neural translation model part 1, due October 25
 * HW5: Neural translation model part 2, due November 8
 
