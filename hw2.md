@@ -7,12 +7,12 @@ title: Homework 3 | Decoding
 active_tab: homework
 ---
 
-Decoding <span class="text-muted">Challenge Problem 3</span>
+<span class="text-muted">Homework 3:</span> Decoding
 =============================================================
 
-Due October 19th, 2017
+Due  October 11th, 2018 at noon
 
-Decoding is process of taking input in French:
+Decoding is process of taking input in one language (e.g. French):
 
 _<center>
 honorables sénateurs , que se est - il passé ici , mardi dernier ?
@@ -181,25 +181,14 @@ Ground Rules
      due. **You cannot drop people from your group once you've added them.**
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
-* You must turn in three things:
-  1. Your translations of the entire dataset, uploaded to the [leaderboard submission site](http://jhumt2017leaderboard.appspot.com/leaderboard.html). You can upload new output as often
-     as you like, up until the assignment deadline. 
-
-     *Note*. The upload site will reject files if it takes too long to score, so please reduce your file to only the first 10 lines before uploading, e.g.,
-
-          python decode | head -n10 > output.txt
-
-     but please still log the score of your whole dataset in the writeup. *Please do not refresh or go back whilst it's scoring.*
-
-  1. Your code. Send us a URL from which we can get the code and git revision
-     history (a link to a tarball will suffice, but you're free to send us a 
-     github link if you don't mind making your code public). This is due at the
-     deadline: when you upload your final answer, send us the code.
-     You are free to extend the code we provide or roll your own in whatever
-     langugage you like, but the code should be self-contained, 
-     self-documenting, and easy to use. 
+ 1. You must submit the assignment once per group on Gradescope, and indicate your collaborators once you upload the files.  
+ must turn in three things to [Gradescope](https://www.gradescope.com/):
+  1. Your translations of the entire dataset. You can upload new output as often as you like, up until the assignment deadline.  The output will be evaluated 
+     on a subset of the data, but the `ompute-model-score` program will give you a good idea of how well you are doing. The leaderboard on Gradescope will display the metrics on a Dev set until the deadline. It will be then updated to also display the metric on the Test set.  
+     **Your translated file must be named `translations`.**
+  1. Your code, uploaded to [Gradescope](https://www.gradescope.com/).  You are free to extend the code we provide or roll your own in whatever langugage you like, but the code should be self-contained, and easy to use. Please include a readme for your code. 
   1. A clear, mathematical description of your algorithm and its motivation
-     written in scientific style. This needn't be long, but it should be
+     written in scientific style, uploaded to [Gradescope](https://www.gradescope.com/). This needn't be long, but it should be
      clear enough that one of your fellow students could re-implement it 
      exactly. If you modified your algorithm or have more than 1 algorithm, explain each modification/algorithm clearly. Give the dev scores for each modification/algorithm, and the test score for your final choice.
 *  You do not need any other data than what we provide. You can
@@ -217,7 +206,7 @@ Ground Rules
    of python code. If you aren't sure whether something is permitted, 
    ask us. If you want to do system combination, join forces with 
    your classmates.
-*  The deadline for the leaderboard is 10-19-2017 at 11:59pm. Don't wait till the last minute, this assignment is longer than the previous.
+* Don't wait till the last minute, this assignment is longer than the previous.
 
 *Credits: This assignment was developed by [Adam Lopez](http://alopez.github.io/), 
 [Matt Post](http://cs.jhu.edu/~post/),
