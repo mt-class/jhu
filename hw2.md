@@ -184,7 +184,7 @@ Ground Rules
  1. You must submit the assignment once per group on Gradescope, and indicate your collaborators once you upload the files.  
  * You must turn in three things to [Gradescope](https://www.gradescope.com/):
   1. Your translations of the entire dataset. You can upload new output as often as you like, up until the assignment deadline.  The output will be evaluated 
-     on a subset of the data, but the `ompute-model-score` program will give you a good idea of how well you are doing. The leaderboard on Gradescope will display the metrics on a Dev set until the deadline. It will be then updated to also display the metric on the Test set.  
+     on a subset of the data, but the `compute-model-score` program will give you a good idea of how well you are doing. The leaderboard on Gradescope will display the metrics on a Dev set until the deadline. It will be then updated to also display the metric on the Test set.  
      **Your translated file must be named `translations`.**
   1. Your code, uploaded to [Gradescope](https://www.gradescope.com/).  You are free to extend the code we provide or roll your own in whatever langugage you like, but the code should be self-contained, and easy to use. Please include a readme for your code. 
   1. A clear, mathematical description of your algorithm and its motivation
