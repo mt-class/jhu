@@ -182,7 +182,7 @@ Ground Rules
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
  1. You must submit the assignment once per group on Gradescope, and indicate your collaborators once you upload the files.  
- must turn in three things to [Gradescope](https://www.gradescope.com/):
+ * You must turn in three things to [Gradescope](https://www.gradescope.com/):
   1. Your translations of the entire dataset. You can upload new output as often as you like, up until the assignment deadline.  The output will be evaluated 
      on a subset of the data, but the `ompute-model-score` program will give you a good idea of how well you are doing. The leaderboard on Gradescope will display the metrics on a Dev set until the deadline. It will be then updated to also display the metric on the Test set.  
      **Your translated file must be named `translations`.**
