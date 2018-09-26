@@ -96,7 +96,7 @@ past:
     reading:
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 2
+        title: Neural Machine Translation, Chapter 4
       -
         author: Makin (2006)
         title: Backpropagation
@@ -118,7 +118,7 @@ past:
     reading:
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 3
+        title: Neural Machine Translation, Chapter 5
       -
         author: Tensorflow
         title: Neural network online demo
@@ -130,7 +130,7 @@ past:
     reading:
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 4
+        title: Neural Machine Translation, Chapter 6
       -
         author: Bengio et al. (2002)
         title: A Neural Probabilistic Language Model
@@ -152,7 +152,7 @@ past:
     reading:
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 5
+        title: Neural Machine Translation, Chapter 7
         url: http://mt-class.org/jhu/assets/nmt-book.pdf
       -
         author: Bahdanau et al. (2015)
@@ -165,21 +165,21 @@ past:
     reading:
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 6
+        title: Neural Machine Translation, Chapter 8
   -
     date: 2017-10-16
     title: Machine Learning Tricks
     reading:
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 7
+        title: Neural Machine Translation, Chapter 9
   -
     date: 2017-10-18
     title: Alternative Architectures 
     reading:
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 8
+        title: Neural Machine Translation, Chapter 10
       -
         author: Vaswani et al. (2017)
         title: Attention Is All You Need
@@ -200,7 +200,7 @@ past:
         title: Statistical Machine Translation, Chapter 10.2
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 9
+        title: Neural Machine Translation, Chapter 11
       -
         author: Stymne et al. (2013)
         title: Generation of Compound Words in Statistical Machine Translation into Compounding Languages
@@ -237,14 +237,14 @@ past:
     reading:
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 13
+        title: Neural Machine Translation, Chapter 15
   -
     date: 2017-11-01
     title: Analysis and Visualization
     reading:
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 14
+        title: Neural Machine Translation, Chapter 16
   -
     date: 2017-11-06
     title: Adaptation
@@ -252,7 +252,7 @@ past:
     reading:
       -
         author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 10
+        title: Neural Machine Translation, Chapter 12
       -
         author: Axelrod et al. (2011)
         title: Domain adaptation via pseudo in-domain data selection
