@@ -126,7 +126,7 @@ past:
   -
     date: 2017-10-04
     title: Neural Language Models
-    old-slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
       -
         author: Koehn (2019)
