@@ -20,7 +20,7 @@ Getting Started
 ---------------
 You can get the starter code for this assignment here: 
 
-    git clone TODO****
+    git clone https://github.com/thompsonb/601.468_HW4.git
 
 In this assignment, you will be building a basic NMT model with attention. In the next assignment you will be creating extensions and adding speedups. Your next assignment will build upon this one. 
 
@@ -37,7 +37,7 @@ As in the paper, you should also write the visualization for the attention mecha
 The starter code for this assignment is written in PyTorch, a framework for neural networks. 
 
 
-The README includes the instructions to install PyTorch inside a conda environment. We have provided instructions that are tested on the [cs ugradx machine](https://support.cs.jhu.edu/wiki/Obtaining_CS_Computer_Accounts) (which currently runs Fedora release 27). We have also tested this assignment on Ubuntu 14.04.
+INSTALL_NOTES.txt includes the instructions to install PyTorch inside a conda environment. We have provided instructions that are tested on the [cs ugradx machine](https://support.cs.jhu.edu/wiki/Obtaining_CS_Computer_Accounts) (which currently runs Fedora release 27). We have also tested this assignment on Ubuntu 14.04.
 
 
 
