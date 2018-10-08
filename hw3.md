@@ -28,8 +28,8 @@ This code is based on the [tutorial by Sean Robertson](https://github.com/spro/p
 Students __MAY NOT__ view that tutorial or use it as a reference in any way. 
 
 
-The Challenge
--------------
+The Task
+--------
 
 Your task is to implement [this paper](https://arxiv.org/pdf/1409.0473.pdf), which describes neural machine translation with attention. 
 As in the paper, you should also write the visualization for the attention mechanism and discuss selected plots in your writeup. 
