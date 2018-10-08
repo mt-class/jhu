@@ -24,7 +24,7 @@ You can get the starter code for this assignment here:
 
 In this assignment, you will be building a basic NMT model with attention. In the next assignment you will be creating extensions and adding speedups. Your next assignment will build upon this one. 
 
-This code is based on the [tutorial by Sean Robertson](https://github.com/spro/practical-pytorch) found [here](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
+This code is based on the [tutorial by Sean Robertson](https://github.com/spro/practical-pytorch) found [here](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html). 
 Students __MAY NOT__ view that tutorial or use it as a reference in any way. 
 
 
@@ -56,7 +56,7 @@ The portions of the code you will need to fill in are denoted by "*** YOUR CODE 
 Ground Rules
 ------------
 
-* This code is based on the [tutorial by Sean Robertson](https://github.com/spro/practical-pytorch) found [here](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
+* This code is based on the [tutorial by Sean Robertson](https://github.com/spro/practical-pytorch) found [here](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html). 
 Students __MAY NOT__ view that tutorial or use it as a reference in any way.  
 * Don't wait till the last minute, this assignment is longer than the previous.
 * You can work in independently or in groups of up to three, under these 
