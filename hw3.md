@@ -24,10 +24,8 @@ You can get the starter code for this assignment here:
 
 In this assignment, you will be building a basic NMT model with attention. In the next assignment you will be creating extensions and adding speedups. Your next assignment will build upon this one. 
 
-The starter code for this assignment is written in PyTorch, a framework for neural networks. 
-This code is based on the tutorial by Sean Robertson <https://github.com/spro/practical-pytorch> found [here]
-(https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
-Students __MAY NOT__ view the above tutorial or use it as a reference in any way. 
+This code is based on the [tutorial by Sean Robertson](https://github.com/spro/practical-pytorch) found [here](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
+Students __MAY NOT__ view that tutorial or use it as a reference in any way. 
 
 
 The Challenge
@@ -37,9 +35,6 @@ Your task is to implement [this paper](https://arxiv.org/pdf/1409.0473.pdf), whi
 As in the paper, you should also write the visualization for the attention mechanism and discuss selected plots in your writeup. 
 
 The starter code for this assignment is written in PyTorch, a framework for neural networks. 
-This code is based on the tutorial by Sean Robertson <https://github.com/spro/practical-pytorch> found [here]
-(https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
-Students __MAY NOT__ view the above tutorial or use it as a reference in any way. 
 
 
 The README includes the instructions to install PyTorch inside a conda environment. We have provided instructions that are tested on the [cs ugradx machine](https://support.cs.jhu.edu/wiki/Obtaining_CS_Computer_Accounts) (which currently runs Fedora release 27). We have also tested this assignment on Ubuntu 14.04.
@@ -61,9 +56,8 @@ The portions of the code you will need to fill in are denoted by "*** YOUR CODE 
 Ground Rules
 ------------
 
-* This code is based on the tutorial by Sean Robertson <https://github.com/spro/practical-pytorch> found [here]
-(https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
-Students __MAY NOT__ view the above tutorial or use it as a reference in any way. 
+* This code is based on the [tutorial by Sean Robertson](https://github.com/spro/practical-pytorch) found [here](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
+Students __MAY NOT__ view that tutorial or use it as a reference in any way.  
 * Don't wait till the last minute, this assignment is longer than the previous.
 * You can work in independently or in groups of up to three, under these 
   conditions: 
