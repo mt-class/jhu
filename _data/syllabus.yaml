@@ -154,7 +154,6 @@ past:
       -
         author: Koehn (2019)
         title: Neural Machine Translation, Chapter 7
-        url: http://mt-class.org/jhu/assets/nmt-book.pdf
       -
         author: Bahdanau et al. (2015)
         title: Neural Machine Translation by Jointly Learning to Align and Translate
