@@ -1,112 +1,64 @@
 ---
 layout: default
-img: exam
-img_link: http://www.flickr.com/photos/gianellbendijo/4034021658/
-caption: Image by gianellbendijo (used with permission)
-title: Homework 3 | Evaluation
+img: voynich
+img_link: http://en.wikipedia.org/wiki/Voynich_manuscript 
+caption: The Voynich manuscript
+title: Homework 4 | NMT
 active_tab: homework
 ---
 
-Evaluation <span class="text-muted">Challenge Problem 3</span>
-==============================================================
+<span class="text-muted">Homework 4:</span> NMT
+=============================================================
 
-Automatic evaluation is a key problem in machine translation. 
-Suppose that we have two machine translation systems. On one 
-sentence, system A outputs:
+Due  October 25th, 2018 at noon
 
-_This type of zápisníku was very ceněn writers and cestovateli._
 
-And system B outputs:
+In this assignment, you will be building a sequence to sequence neural machine translation model. 
 
-_This type of notebook was very prized by writers and travellers._
 
-We suspect that system B is better, though we don't necessarily
-know that its translations of the words _zápisníku_, _ceněn_,
-and _cestovateli_ are correct. But suppose that we also have
-access to the following reference translation.
-
-_This type of notebook is said to be highly prized by writers and travellers._
-
-We can easily judge that system B is better. __Your challenge is to 
-write a program that makes this judgement automatically__.
-
-Getting started
+Getting Started
 ---------------
+You can get the starter code for this assignment here: 
 
-If you have a clone of the repository from 
-previous homeworks, you can update it 
-from your working directory:
+    git clone https://github.com/thompsonb/601.468_HW4.git
 
-    git pull origin master
+In this assignment, you will be building a basic NMT model with attention. In the next assignment you will be creating extensions and adding speedups. Your next assignment will build upon this one. 
 
-Alternatively, get a fresh copy:
+This code is based on the [tutorial by Sean Robertson](https://github.com/spro/practical-pytorch) found [here](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html). 
+Students __MAY NOT__ view that tutorial or use it as a reference in any way. 
 
-    git clone https://github.com/alopez/en600.468.git
 
-Under the `evaluate` directory, you now have simple program
-that decides which of two machine translation outputs is better.
-Test it out!
+The Task
+--------
 
-    python evaluate > eval.out
+Your task is to implement [this paper](https://arxiv.org/pdf/1409.0473.pdf), which describes neural machine translation with attention. 
+As in the paper, you should also write the visualization for the attention mechanism and discuss selected plots in your writeup. 
 
-This assignment uses a very simple evaluation method. Given
-machine translations $$h_1$$ and $$h_2$$ and reference translation
-$$e$$, it computes $$f(h_1, h_2, e)$$ as follows, where $$\ell(h,e)$$ 
-is the count of words in $$h$$ that are also in $$e$$.
+The starter code for this assignment is written in PyTorch, a framework for neural networks. 
 
-<center>
-$$f(h_1,h_2,e) = \left\{\begin{array}{lcc}1 & \textrm{if} & \ell(h_1,e) > \ell(h_2,e)\\ 0  & \textrm{if} & \ell(h_1,e) = \ell(h_2,e)\\-1  & \textrm{if} & \ell(h_1,e) < \ell(h_2,e) \end{array}\right.$$
-</center>
 
-We can compare the results of this function with those of human 
-annotator who rated the same translations.
+INSTALL_NOTES.txt includes the instructions to install PyTorch inside a conda environment. We have provided instructions that are tested on the [cs ugradx machine](https://support.cs.jhu.edu/wiki/Obtaining_CS_Computer_Accounts) (which currently runs Fedora release 27). We have also tested this assignment on Ubuntu 14.04.
 
-    python compare-with-human-evaluation < eval.out
-    
-The Challenge
--------------
 
-Your challenge is to __improve the accuracy of automatic evaluation as 
-much as possible__. Improving the metric to use the simple METEOR metric
-in place of $$\ell(h, e)$$ is sufficient to pass. Simple METEOR computes
-the harmonic mean of precision and recall. That is:
 
-<center>
-$$\ell(h,e) = \frac{P(h,e)\cdot R(h,e)}{(1-\alpha)R(h,e)+\alpha P(h,e)}$$
-</center>
+The primary file for this assignment is seq2seq.py
+Once you have installed PyTorch, you can view the arguments by running.
 
-where $$P$$ and $$R$$ are precision and recall, defined as:
+    python seq2seq.py -h
 
-<center>
-$$\begin{array}{c}
-R(h,e) = \frac{|h\cap e|}{|e|}\\
-P(h,e) = \frac{|h\cap e|}{|h|}
-\end{array}$$
-</center>
+The arguments have reasonable default values for training the initial system (e.g. the file paths to the data should not need to changed). You can inspect the defaults in the code. 
 
-Be sure to tune the parameter $$\alpha$$ that balances precision and
-recall. This is a very simple 
-baseline to implement. However, evaluation is not solved,
-and the goal of this assignment is for you to experiment with methods
-that yield improved predictions of relative translation accuracy. Some
-things that you might try:
+One argument you should note is the load_checkpoint argument. This allows you to load in a model that was generated in a previous training run (which may be useful if you kill your training script part way through).
 
-* Learn [a classifier](http://aclweb.org/anthology//W/W11/W11-2113.pdf) from the training data.
-* Use [WordNet](http://wordnet.princeton.edu/) to match synonyms.
-* Compute string similarity using [string subsequence kernels](http://jmlr.org/papers/volume2/lodhi02a/lodhi02a.pdf).
-* Use an n-gram language model to better assess fluency.
-* Develop a single-sentence variant of [BLEU](http://aclweb.org/anthology//P/P02/P02-1040.pdf).
-* Use a dependency parser to [assess syntactic well-formedness](http://ssli.ee.washington.edu/people/jgk/dist/metaweb/mtjournal.pdf).
-* Develop a method to automatically assess semantic similarity.
-* See what evaluation measures [other people have implemented](http://www.statmt.org/wmt10/pdf/wmt10-overview.pdf).
+The portions of the code you will need to fill in are denoted by "*** YOUR CODE HERE ***". Further instructions and references are also in the provided code.
 
-But the sky's the limit! Automatic evaluation is far from solved, and there
-are many different solutions you might invent. You can try anything you want 
-as long as you follow the ground rules:
 
 Ground Rules
 ------------
 
+* This code is based on the [tutorial by Sean Robertson](https://github.com/spro/practical-pytorch) found [here](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html). 
+Students __MAY NOT__ view that tutorial or use it as a reference in any way.  
+* Don't wait till the last minute, this assignment is longer than the previous.
 * You can work in independently or in groups of up to three, under these 
   conditions: 
   1. You must announce the group publicly on piazza.
@@ -115,35 +67,20 @@ Ground Rules
      due. **You cannot drop people from your group once you've added them.**
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
-* You must turn in three things:
-  1. Your automatic judgements of the entire dataset, uploaded to the [leaderboard submission site](http://jhumtclass.appspot.com) according to <a href="assignment0.html">the Assignment 0 instructions</a>. You can upload new output as often
-     as you like, up until the assignment deadline. 
-  1. Your code. Send us a URL from which we can get the code and git revision
-     history (a link to a tarball will suffice, but you're free to send us a 
-     github link if you don't mind making your code public). This is due at the
-     deadline: when you upload your final answer, send us the code.
-     You are free to extend the code we provide or roll your own in whatever
-     langugage you like, but the code should be self-contained, 
-     self-documenting, and easy to use. 
+ 1. You must submit one assignment per group on Gradescope, and indicate your collaborators once you upload the files.  
+ * You must turn in three things to [Gradescope](https://www.gradescope.com/):
+  1. Your translations of the entire testset. You can upload new output as often as you like, up until the assignment deadline. **Your translated file must be named `translations`.**
+  1. Your code, uploaded to [Gradescope](https://www.gradescope.com/). 
   1. A clear, mathematical description of your algorithm and its motivation
-     written in scientific style. This needn't be long, but [it should be
+     written in scientific style, uploaded to [Gradescope](https://www.gradescope.com/). This needn't be long, but it should be
      clear enough that one of your fellow students could re-implement it 
-     exactly](hw-writing-exercise.html).
-*  You do not need any other data than what we provide. You are
-   free to use any code or software you like, __except for those
-   expressly intended to evaluate machine translation output__. 
-   You must write your own evaluation function. If you want to use 
-   part-of-speech taggers, syntactic or semantic parsers, machine
-   learning libraries, thesauri, or any other off-the-shelf resources,
-   go nuts. But evaluation software like BLEU, TER, METEOR, or their
-   many variants are off-limits. You may of course inspect these systems 
-   if it helps you understand how they work. If you aren't sure whether 
-   something is permitted, ask us. If you want to do system combination, 
-   join forces with your classmates.
+     exactly. Give the dev scores for each modification/algorithm, and the test score for your final choice.
+     This should also include some analysis of your attention visualization. 
+*  You may not use (and should not need) any other data than what we provide. Neural machine translation software including (but not limited to)
+   OpenNMT, AWS Sockeye, or Marian,  is off-limits. You may of course inspect 
+   these systems if it helps you understand how they work. But be warned: they are
+   generally quite complicated because they provide a great deal of other
+   functionality that is not the focus of this assignment.
+   If you aren't sure whether something is permitted, 
+   ask us. 
 
-*Credits: This assignment was designed by [Chris Dyer](http://www.cs.cmu.edu/~cdyer)
- based on one we gave in [2012](http://mt-class.org/past/jhu/2012/hw3.html), which also inspired a 
- [whole](http://aclweb.org/anthology//W/W12/W12-3101.pdf)
- [series](http://aclweb.org/anthology//W/W12/W12-3102.pdf) 
- [of](http://hltc.cs.ust.hk/iwslt/proceedings/paper_34.pdf) 
- [papers](http://aclweb.org/anthology//P/P13/P13-1139.pdf).*

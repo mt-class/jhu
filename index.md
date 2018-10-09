@@ -38,7 +38,7 @@ TA
 
 Office hours
 : **Professor** by Appointment
-: **TAs** Monday 10-12, Barton 225; Wednesday 10:30-11:30, Malone Undergraduate Lab
+: **TAs** Monday 10-12, Barton 225; Tuesday 10:30-11:30, Malone Undergraduate Lab
 
 Discussion Forum
 : [Piazza](http://piazza.com/jhu/fall2018/en601468/home)
@@ -63,7 +63,7 @@ Homework Schedule
 : There will be five homework assignments, tentative schedule:
 * [HW1: Analysis](hw0.html), due September 13
 * [HW2: Word alignment](hw1.html), due September 27
-* HW3: Decoding, due October 11
+* [HW3: Decoding](hw2.html), due October 11
 * HW4: Neural translation model part 1, due October 25
 * HW5: Neural translation model part 2, due November 8
 
