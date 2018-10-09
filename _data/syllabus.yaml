@@ -222,6 +222,9 @@ past:
     old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
       -
+        author: Koehn (2019)
+        title: Neural Machine Translation, Chapter 14
+      -
         author: Cook et al. (2011)
         title: The World Color Survey Database - History and Use
         url: http://www1.icsi.berkeley.edu/~kay/claire7.pdf
@@ -233,20 +236,27 @@ past:
         optional: true
   -
     date: 2017-10-30
+    title: Beyond Parallel Data
+    reading:
+      -
+        author: Koehn (2019)
+        title: Neural Machine Translation, Chapter 14
+  -
+    date: 2017-11-01
     title: Current Challenges
     reading:
       -
         author: Koehn (2019)
         title: Neural Machine Translation, Chapter 15
   -
-    date: 2017-11-01
+    date: 2017-11-06
     title: Analysis and Visualization
     reading:
       -
         author: Koehn (2019)
         title: Neural Machine Translation, Chapter 16
   -
-    date: 2017-11-06
+    date: 2017-11-08
     title: Adaptation
     old-slides: http://mt-class.org/jhu/slides/lecture-domain-adaptation.pdf
     reading:
@@ -259,7 +269,7 @@ past:
         url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
         optional: true
   -
-    date: 2017-11-08
+    date: 2017-11-13
     title: Corpus Acquisition from the Internet
     old-slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     reading:
@@ -279,7 +289,7 @@ past:
         url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
         optional: true
   -
-    date: 2017-11-13
+    date: 2017-11-15
     title: Computer Aided Translation
     old-slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
@@ -293,9 +303,6 @@ past:
         title: Dynamic Phrase Tables for Machine Translation in an Interactive Post-editing Scenario
         url: http://www.accept.unige.ch/Products/Germann2014.pdf
         optional: true
-  -
-    date: 2017-11-15
-    title: TBD
   -
     date: 2017-11-27
     title: Project Presentations
