@@ -149,7 +149,7 @@ past:
   -
     date: 2017-10-09
     title: Neural Translation Models
-    slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-nmt-decoding.pdf
     reading:
       -
         author: Koehn (2019)
@@ -162,6 +162,7 @@ past:
   -
     date: 2017-10-11
     title: Decoding in Neural Translation Models
+    slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
     reading:
       -
         author: Koehn (2019)
