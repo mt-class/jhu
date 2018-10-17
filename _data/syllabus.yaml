@@ -220,26 +220,6 @@ past:
         optional: true
   -
     date: 2017-10-25
-    title: Adaptation
-    old-slides: http://mt-class.org/jhu/slides/lecture-domain-adaptation.pdf
-    reading:
-      -
-        author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 12
-      -
-        author: Axelrod et al. (2011)
-        title: Domain adaptation via pseudo in-domain data selection
-        url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
-        optional: true
-  -
-    date: 2017-10-30
-    title: Beyond Parallel Data
-    reading:
-      -
-        author: Koehn (2019)
-        title: Neural Machine Translation, Chapter 13
-  -
-    date: 2017-11-01
     title: Syntax and Semantics
     old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
     reading:
@@ -256,6 +236,26 @@ past:
         title: Abstract Meaning Representation for Sembanking
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
+  -
+    date: 2017-10-30
+    title: Adaptation
+    old-slides: http://mt-class.org/jhu/slides/lecture-domain-adaptation.pdf
+    reading:
+      -
+        author: Koehn (2019)
+        title: Neural Machine Translation, Chapter 12
+      -
+        author: Axelrod et al. (2011)
+        title: Domain adaptation via pseudo in-domain data selection
+        url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
+        optional: true
+  -
+    date: 2017-11-01
+    title: Beyond Parallel Data
+    reading:
+      -
+        author: Koehn (2019)
+        title: Neural Machine Translation, Chapter 13
   -
     date: 2017-11-06
     title: Current Challenges
