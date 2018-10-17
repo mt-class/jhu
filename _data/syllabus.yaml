@@ -170,6 +170,7 @@ past:
   -
     date: 2017-10-16
     title: Machine Learning Tricks
+    slides: http://mt-class.org/jhu/slides/lecture-ml-tricks.pdf
     reading:
       -
         author: Koehn (2019)
