@@ -47,6 +47,7 @@ Some things you can try include:
  
 
 Please be sure sure to describe your extensions in your write up. Please describe what extensions you tried and what experiments you ran. We are interested in your analysis in addition to your implementation. 
+This is a very small data set designed to train quickly on cpu, so some extensions may not improve performance on this data set. That's ok, please still analyze your results. You are welcome to try training your system on different data if you would like. If you are interested in trying your system on a different language pair that has some property: complex morphology, reordering, etc,  post on piazza and we help you try to find one. 
 
 
 
@@ -78,5 +79,5 @@ Students __MAY NOT__ view that tutorial or use it as a reference in any way.
    functionality that is not the focus of this assignment.
    If you aren't sure whether something is permitted, 
    ask us. 
-* You are welcome to try training your system on more data if you would, though the provided dataset was chosen to have a small vocabulary and short sentences so that the MT systems would train quickly. If you are interested in trying your system on a different language pair that has some property: complex morphology, reordering, etc,  post on piazza and we help you try to find one. 
+* You are welcome to try training your system on more data if you would like, though the provided dataset was chosen to have a small vocabulary and short sentences so that the MT systems would train quickly. If you are interested in trying your system on a different language pair that has some property: complex morphology, reordering, etc,  post on piazza and we help you try to find one. 
 
