@@ -33,7 +33,7 @@ You may now use the built-in PyTorch LSTM rather than your own.
 
 For this assignment, you will be improving your Machine Translation system. 
 Some things you can try include:
-*Implementing batching (http://www.aclweb.org/anthology/W17-3208)
+* Implementing batching (http://www.aclweb.org/anthology/W17-3208)
 * Implementing beam search (described here: https://arxiv.org/pdf/1211.3711.pdf, http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) 
 
 * Character Aware encoder (there are several ways of doing this, here is one: http://anthology.aclweb.org/P16-2058 but feel free to try something else creative!)
@@ -41,9 +41,9 @@ Some things you can try include:
 * Implementing Different types of Attention (http://aclweb.org/anthology/D15-1166)
 
 * Other improvements:
- ** A good way to think about potential improvements is to look at your output and see what problems there are. 
- **You can also take a look at recent papers for inspiration about what problems to tackle (https://aclanthology.info/). 
- ** If you are not sure if something is a valid extension, please post on piazza. 
+ * * A good way to think about potential improvements is to look at your output and see what problems there are. 
+ * *You can also take a look at recent papers for inspiration about what problems to tackle (https://aclanthology.info/). 
+ * * If you are not sure if something is a valid extension, please post on piazza. 
  
 
 Please be sure sure to describe your extensions in your write up. Please describe what extensions you tried and what experiments you ran. We are interested in your analysis in addition to your implementation. 
