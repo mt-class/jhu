@@ -207,7 +207,7 @@ past:
   -
     date: 2017-10-25
     title: Syntax and Semantics
-    old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-semantics.pdf
     reading:
       -
         author: Koehn (2019)
