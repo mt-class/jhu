@@ -41,9 +41,9 @@ Some things you can try include:
 * Implementing Different types of Attention (http://aclweb.org/anthology/D15-1166)
 
 * Other improvements:
- * * A good way to think about potential improvements is to look at your output and see what problems there are. 
- * *You can also take a look at recent papers for inspiration about what problems to tackle (https://aclanthology.info/). 
- * * If you are not sure if something is a valid extension, please post on piazza. 
+  * A good way to think about potential improvements is to look at your output and see what problems there are. 
+  * You can also take a look at recent papers for inspiration about what problems to tackle (https://aclanthology.info/). 
+  * If you are not sure if something is a valid extension, please post on piazza. 
  
 
 Please be sure sure to describe your extensions in your write up. Please describe what extensions you tried and what experiments you ran. We are interested in your analysis in addition to your implementation. 
@@ -70,7 +70,7 @@ Students __MAY NOT__ view that tutorial or use it as a reference in any way.
   1. A clear, mathematical description of your algorithm and its motivation
      written in scientific style, uploaded to [Gradescope](https://www.gradescope.com/). This needn't be long, but it should be
      clear enough that one of your fellow students could re-implement it 
-     exactly. Give the dev scores for each modification/algorithm, and the test score for your final choice.
+     exactly. Please disucuss how your modification(s) impact performance and analyze the results.
 *  Neural machine translation software including (but not limited to)
    OpenNMT, AWS Sockeye, or Marian,  is off-limits. You may of course inspect 
    these systems if it helps you understand how they work. But be warned: they are
