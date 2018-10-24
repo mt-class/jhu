@@ -74,7 +74,7 @@ Students __MAY NOT__ view that tutorial or use it as a reference in any way.
   1. A clear, mathematical description of your algorithm and its motivation
      written in scientific style, uploaded to [Gradescope](https://www.gradescope.com/). This needn't be long, but it should be
      clear enough that one of your fellow students could re-implement it 
-     exactly. Give the dev scores for each modification/algorithm, and the test score for your final choice.
+     exactly.
      This should also include some analysis of your attention visualization. 
 *  You may not use (and should not need) any other data than what we provide. Neural machine translation software including (but not limited to)
    OpenNMT, AWS Sockeye, or Marian,  is off-limits. You may of course inspect 
