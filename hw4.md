@@ -26,14 +26,19 @@ This code is based on the [tutorial by Sean Robertson](https://github.com/spro/p
 Students __MAY NOT__ view that tutorial or use it as a reference in any way. 
 
 
-The Task
+Part 1
 --------
-You may now use the built-in PyTorch LSTM rather than your own. 
-
-
-For this assignment, you will be improving your Machine Translation system. 
-Some things you can try include:
 * Implementing batching (http://www.aclweb.org/anthology/W17-3208)
+* Replace your implementation of the LSTM with PyTorch implementation
+
+For each change, note the impact on training speed (you do not need to do a run training run - just run long enough to get a speed in sentences per second). For batching, experiment with a range of batch sizes.
+
+
+Part 2
+--------
+Next, try at least one method for improving your machine translation system. If you are working in a team, we expect the overall effort to scale up with team size.
+
+Some ideas you could try include (but are not limited to):
 * Implementing beam search (described here: https://arxiv.org/pdf/1211.3711.pdf, http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) 
 
 * Character Aware encoder (there are several ways of doing this, here is one: http://anthology.aclweb.org/P16-2058 but feel free to try something else creative!)
@@ -47,7 +52,8 @@ Some things you can try include:
  
 
 Please be sure sure to describe your extensions in your write up. Please describe what extensions you tried and what experiments you ran. We are interested in your analysis in addition to your implementation. 
-This is a very small data set designed to train quickly on cpu, so some extensions may not improve performance on this data set. That's ok, please still analyze your results. You are welcome to try training your system on different data if you would like. If you are interested in trying your system on a different language pair that has some property: complex morphology, reordering, etc,  post on piazza and we help you try to find one. 
+
+___NOTE___: This is a very small data set designed to train quickly on cpu, so some extensions may not improve performance on this data set. That's ok, please still analyze your results. You are welcome to try training your system on different data if you would like. If you are interested in trying your system on a different language pair that has some property: complex morphology, reordering, etc,  post on piazza and we help you try to find one. For larger datasets, you will likely need a GPU, which is not provided. 
 
 
 
@@ -66,7 +72,7 @@ Students __MAY NOT__ view that tutorial or use it as a reference in any way.
   stories about who did or did not contribute.
  1. You must submit one assignment per group on Gradescope, and indicate your collaborators once you upload the files.  
  * You must turn in three things to [Gradescope](https://www.gradescope.com/):
-  1. Your translations of the entire testset. You can upload new output as often as you like, up until the assignment deadline. **Your translated file must be named `translations`.**
+  1. Your translations of the entire testset. You can turn in your best system output (or most interesting, in the case that your implementation didn't help performance). You can upload new output as often as you like, up until the assignment deadline. **Your translated file must be named `translations`.**
   1. Your code, uploaded to [Gradescope](https://www.gradescope.com/). 
   1. A clear, mathematical description of your algorithm and its motivation
      written in scientific style, uploaded to [Gradescope](https://www.gradescope.com/). This needn't be long, but it should be
