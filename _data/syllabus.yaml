@@ -204,25 +204,10 @@ past:
       -
         author: Koehn (2019)
         title: Neural Machine Translation, Chapter 11
-      -
-        author: Stymne et al. (2013)
-        title: Generation of Compound Words in Statistical Machine Translation into Compounding Languages
-        url: http://aclweb.org/anthology/J/J13/J13-4009.pdf
-        optional: true
-      -
-        author: Fraser et al. (2012)
-        title: Modeling Inflection and Word-Formation in SMT
-        url: http://www.aclweb.org/anthology/E12-1068.pdf
-        optional: true
-      -
-        author: Chahuneau et al. (2013)
-        title: Translating into Morphologically Rich Languages with Synthetic Phrases
-        url: http://www.aclweb.org/anthology/D13-1174.pdf
-        optional: true
   -
     date: 2017-10-25
     title: Syntax and Semantics
-    old-slides: http://mt-class.org/jhu/slides/lecture-semantics.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-semantics.pdf
     reading:
       -
         author: Koehn (2019)
