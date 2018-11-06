@@ -246,10 +246,21 @@ past:
   -
     date: 2017-11-06
     title: Current Challenges
+    slides: http://mt-class.org/jhu/slides/lecture-challenges.pdf
     reading:
       -
         author: Koehn (2019)
         title: Neural Machine Translation, Chapter 15
+      -
+        author: Koehn and Knowles (2017)
+        title: Six Challenges for Neural Machine Translation
+        url: http://www.aclweb.org/anthology/W/W17/W17-3204.pdf
+        optional: true
+      -
+        author: Khayrallah and Koehn (2018)
+        title: On the Impact of Various Types of Noise on Neural Machine Translation
+        url: http://aclweb.org/anthology/W18-2709.pdf
+        optional: true
   -
     date: 2017-11-08
     title: Analysis and Visualization
