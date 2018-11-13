@@ -272,7 +272,7 @@ past:
   -
     date: 2017-11-13
     title: Corpus Acquisition from the Internet
-    old-slides: http://mt-class.org/jhu/slides/lecture-data.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     reading:
       -
         author: Uszkoreit et al. (2010)
@@ -288,6 +288,11 @@ past:
         author: Buck and Heafield (2014)
         title: N-gram Counts and Language Models from the Common Crawl
         url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
+        optional: true
+      -
+        author: Koehn et al. (2018)
+        title: Findings of the WMT 2018 Shared Task on Parallel Corpus Filtering
+        url: http://aclweb.org/anthology/W18-6453
         optional: true
   -
     date: 2017-11-15
