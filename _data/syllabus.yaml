@@ -297,7 +297,7 @@ past:
   -
     date: 2017-11-15
     title: Computer Aided Translation
-    old-slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
+    slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
       -
         author: Barrachina et al. (2009)
