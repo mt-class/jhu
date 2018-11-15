@@ -30,26 +30,26 @@ Project Presentations
 ---------------------
 
 | **Day**      | **Presenter(s)** |
-| Nov 27 | Zhuoran Han  |
+| November 27&nbsp;&nbsp;&nbsp; | Zhuoran Han  |
 | | Georgie Botev  |
 | | Felicia Koerner  |
 | | Edward Hu  |
 | | Siyue Zhou  |
 | | Maria Coleman  |
 | | Juhi Sanjay Malani  |
-| Nov 29 | Riley C Scott, Joshan Bajaj, William Bernardoni |
+| November 29 | Riley C Scott, Joshan Bajaj, William Bernardoni |
 | | Kai Wang, Shanshan Yang, Chen Wang | 
 | | Brian Michael Cueto, Jeesoo Kim, Tae Jin Kim |
 | | Yi Zhang, Yingda Xia |
 | | Kai Wang, Shanshan Yang, Chen Wang | 
 | | Brian Michael Cueto, Jeesoo Kim, Tae Jin Kim |
-| Dec 04 | William Watson, Vivian Tsai, Bailey Parker | 
+| December 04 | William Watson, Vivian Tsai, Bailey Parker | 
 | | Angelo J Olcese, Vibhu Jawa, Abhinav Singh  |
 | | Xinyao Liu, Yan Wei, Yibing Zhang  |
 | | Mrudul Harwani, Lohita Sivaprakasam, Avais Pagarkar  |
 | | Zhiqi Wang, Xiaochen Sun |
 | | Yash Kumar Lal, Aaron Mueller  |
-| Dec 06 | Yi Zhang, Yingda Xia |
+| December 06 | Yi Zhang, Yingda Xia |
 | | Lionel Zachary Eisenberg, Sanat Deshpande  |
 | | Xiang Li, Haley Coleman Canon, Prakhar Kaushik, Fei Wu  |
 | | Emily Brahma, Nirmal S Krishnan, Sharmila Tamby  |
