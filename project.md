@@ -34,7 +34,6 @@ Project Presentations
 | | Georgie Botev  |
 | | Felicia Koerner  |
 | | Edward Hu  |
-| | Siyue Zhou  |
 | | Maria Coleman  |
 | | Juhi Sanjay Malani  |
 | November 29 | Riley C Scott, Joshan Bajaj, William Bernardoni |
@@ -49,6 +48,7 @@ Project Presentations
 | | Mrudul Harwani, Lohita Sivaprakasam, Avais Pagarkar  |
 | | Zhiqi Wang, Xiaochen Sun |
 | | Yash Kumar Lal, Aaron Mueller  |
+| | Siyue Zhou  |
 | December 06 | Yi Zhang, Yingda Xia |
 | | Lionel Zachary Eisenberg, Sanat Deshpande  |
 | | Xiang Li, Haley Coleman Canon, Prakhar Kaushik, Fei Wu  |
