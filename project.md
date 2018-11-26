@@ -33,7 +33,6 @@ Project Presentations
 | November 27&nbsp;&nbsp;&nbsp; | Zhuoran Han  |
 | | Georgie Botev  |
 | | Felicia Koerner  |
-| | Edward Hu  |
 | | Maria Coleman  |
 | | Juhi Sanjay Malani  |
 | November 29 | Riley C Scott, Joshan Bajaj, William Bernardoni |
@@ -55,6 +54,7 @@ Project Presentations
 | | Emily Brahma, Nirmal S Krishnan, Sharmila Tamby  |
 | | Cheng-I Lai, Kelly Marchisio, Jialiang Guo  |
 | | Feixuan Wang, Ryan Culkin  |
+| | Edward Hu  |
 
 Project Proposal
 ----------------
