@@ -34,13 +34,13 @@ Project Presentations
 | | Georgie Botev  |
 | | Felicia Koerner  |
 | | Maria Coleman  |
-| | Juhi Sanjay Malani  |
 | November 29 | Riley C Scott, Joshan Bajaj, William Bernardoni |
 | | Kai Wang, Shanshan Yang, Chen Wang | 
 | | Brian Michael Cueto, Jeesoo Kim, Tae Jin Kim |
 | | Yi Zhang, Yingda Xia |
 | | Kai Wang, Shanshan Yang, Chen Wang | 
 | | Brian Michael Cueto, Jeesoo Kim, Tae Jin Kim |
+| | Juhi Sanjay Malani  |
 | December 04 | William Watson, Vivian Tsai, Bailey Parker | 
 | | Angelo J Olcese, Vibhu Jawa, Abhinav Singh  |
 | | Xinyao Liu, Yan Wei, Yibing Zhang  |
