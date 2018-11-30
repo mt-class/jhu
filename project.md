@@ -37,9 +37,6 @@ Project Presentations
 | November 29 | Riley C Scott, Joshan Bajaj, William Bernardoni |
 | | Kai Wang, Shanshan Yang, Chen Wang | 
 | | Brian Michael Cueto, Jeesoo Kim, Tae Jin Kim |
-| | Yi Zhang, Yingda Xia |
-| | Kai Wang, Shanshan Yang, Chen Wang | 
-| | Brian Michael Cueto, Jeesoo Kim, Tae Jin Kim |
 | | Juhi Sanjay Malani  |
 | December 04 | William Watson, Vivian Tsai, Bailey Parker | 
 | | Angelo J Olcese, Vibhu Jawa, Abhinav Singh  |
