@@ -9,9 +9,9 @@ active_tab: main_page
 ---
 
 EN 601.468/668 Machine Translation
-: Fall 2018
+: Fall 2020
 : Tuesdays and Thursdays 1:30-2:45
-: [Ames 234](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf)
+: Online, MS Teams
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
@@ -33,13 +33,14 @@ Instructor
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) (<phi@jhu.edu>)
 
 TA
-: Huda Khayrallah (<huda@jhu.edu>)
-: Brian Thompson (brian.thompson@jhu.edu)
-: Tanay Agarwal (tagarwa2@jhu.edu)
+: Xutai Ma (<huda@jhu.edu>)
 
 Office hours
 : **Professor** by Appointment
-: **TAs** Monday 10-12, Barton 225; Tuesday 10:30-11:30, Malone Undergraduate Lab
+: **TA** TBA
+
+Format
+: This class will be delivered online this year. Lectures will be pre-recorded and made accessible through links on this web site. The class will meet only Tuesdays for discussion and student presentations.
 
 Discussion Forum
 : [Piazza](http://piazza.com/jhu/fall2018/en601468/home)
@@ -50,7 +51,7 @@ Textbooks
 by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2010.
 You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
 purchase from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>.
-* Neural Machine Translation, by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2019. A draft copy of the book will be distributed by email. Contact the professor to receive a copy.
+* [Neural Machine Translation](http://www.statmt.org/nmt-book/), by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2020.
 
 Grading
 : To understand how machine translation works, you will build a translation system.
@@ -62,10 +63,10 @@ We will mainly grade hands-on work.
 
 Homework Schedule
 : There will be five homework assignments, tentative schedule:
-* [HW1: Analysis](hw0.html), due September 13
-* [HW2: Word alignment](hw1.html), due September 27
-* [HW3: Decoding](hw2.html), due October 11
-* [HW4: Neural translation model part 1](hw3.html), due October 25
-* [HW5: Neural translation model part 2](hw4.html), due November 8
+* [HW1: Analysis](hw0.html), due September 10
+* HW2: Word alignment, due September 21
+* HW3: Decoding, due October 1
+* HW4: Neural translation model part 1, due October 13
+* HW5: Neural translation model part 2, due October 27
 
 Late penalty for homework assignments: 10% per day.
