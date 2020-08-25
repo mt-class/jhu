@@ -1,0 +1,4 @@
+2015-01-23:15:13:00 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/assets/img   525  cd assets/img/
+2015-01-23:15:13:01 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/assets/img   526  ls
+2015-01-23:15:13:14 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/assets/img   527  wget http://www.statmt.org/book/cover.jpg
+2015-01-23:15:13:19 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/assets/img   528  git add cover.jpg 

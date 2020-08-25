@@ -1,0 +1,55 @@
+2015-03-24:21:51:55 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   544  cd ../git/slides/
+2015-03-24:21:57:56 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   550  cd -
+2016-01-28:13:18:23 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   561  cd slides/
+2016-01-28:13:18:23 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   562  ls
+2016-01-28:13:18:37 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   563  cp ../../slides/lecture-introduction.pdf .
+2016-01-28:13:18:40 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   564  git add lecture-introduction.pdf 
+2016-01-28:13:18:53 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   565  git commit -m lecture-introduction.pdf 
+2016-02-04:11:45:30 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   506  cd ../git/slides/
+2016-02-04:11:45:36 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   507  git add lecture-lm.pdf 
+2016-02-09:11:00:52 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   583  cd slides/
+2016-02-09:11:00:53 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   584  ls -l
+2016-02-09:11:04:25 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   585  pwd
+2016-02-09:13:23:16 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   507  cd ../git/slides/
+2016-02-09:13:23:20 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   508  git pull
+2016-02-09:13:23:29 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   509  git add lecture-ibm-model1.pdf 
+2016-02-09:13:23:36 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   510  git commit -m lecture-ibm-model1.pdf 
+2016-02-09:13:23:40 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   511  git push
+2016-02-09:13:35:15 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   512  open lecture-ibm-model1.pdf 
+2016-02-09:16:36:03 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   513  pwd
+2016-02-23:12:23:58 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   512  cd slides/
+2016-02-23:12:23:59 Philipps-MacBook-Pro.local /Users/pkoehn/LaTex/mt-class/git/slides   513  git add lecture-tuning.pdf lecture-evaluation.pdf 
+2016-03-03:13:20:22 philipps-mbp.mtw.jhu.edu /Users/pkoehn/LaTex/mt-class/git/slides   559  cd ../git/slides/
+2016-03-03:13:20:24 philipps-mbp.mtw.jhu.edu /Users/pkoehn/LaTex/mt-class/git/slides   560  tail .bash_history.local 
+2016-03-08:13:10:55 philipps-mbp.mtw.jhu.edu /Users/pkoehn/LaTex/mt-class/git/slides   505  cd git/slides/
+2016-03-08:13:11:03 philipps-mbp.mtw.jhu.edu /Users/pkoehn/LaTex/mt-class/git/slides   506  cp ../../slides/lecture-data.pdf .
+2017-09-12:12:58:32 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   527  cd ../git/slides/
+2017-09-12:12:58:40 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   528  cp ../../slides/lecture-lm.pdf .
+2017-09-12:12:58:42 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   529  ls -lt | head
+2017-09-12:12:58:48 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   530  git add lecture-lm.pdf
+2017-09-12:13:31:11 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   535  cd -
+2017-09-12:13:31:16 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   536  grep java .bash_history.local 
+2017-09-12:13:31:19 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   537  ls
+2017-09-12:13:31:22 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   538  pwd
+2017-09-14:22:34:44 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   543  cd ../git/slides/
+2018-09-04:13:25:20 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   559  cd slides/
+2018-09-04:13:25:35 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   562  cd slides/
+2018-09-04:13:25:36 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   563  ls
+2018-09-04:13:25:46 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   564  cp ../../slides/lecture-introduction.pdf .
+2018-09-04:13:25:52 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   565  git add lecture-introduction.pdf
+2018-09-04:13:26:00 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   566  git commit -am ecture-introduction.pdf
+2018-09-04:13:26:13 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   567  git push
+2018-09-06:13:17:42 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   609  cd ../git/slides/
+2018-09-06:13:17:46 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   610  git add lecture-foundations.pdf 
+2018-09-06:13:17:50 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   611  git pull
+2018-09-06:13:17:59 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   612  git commit -am lecture-foundations.pdf 
+2018-09-06:13:18:10 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   613  git push
+2018-09-06:18:22:49 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/slides   614  clsp
+2018-09-18:12:57:52 MacBook-Pro-6.local /Users/pkoehn/LaTex/mt-class/git/slides   623  cd slides/
+2018-09-18:12:57:55 MacBook-Pro-6.local /Users/pkoehn/LaTex/mt-class/git/slides   624  open lecture-ibm-model1.pdf 
+2018-09-18:12:58:18 MacBook-Pro-6.local /Users/pkoehn/LaTex/mt-class/git/slides   625  git add lecture-phrase-based-models.pdf 
+2018-09-18:12:58:25 MacBook-Pro-6.local /Users/pkoehn/LaTex/mt-class/git/slides   626  git commit -am lecture-phrase-based-models.pdf 
+2018-09-18:12:58:31 MacBook-Pro-6.local /Users/pkoehn/LaTex/mt-class/git/slides   627  git push
+2018-09-18:12:58:34 MacBook-Pro-6.local /Users/pkoehn/LaTex/mt-class/git/slides   628  open lecture-phrase-based-models.pdf 
+2018-09-20:13:20:03 MacBook-Pro-6.local /Users/pkoehn/LaTex/mt-class/git/slides   643  cd ../git/slides/
+2018-09-20:13:20:05 MacBook-Pro-6.local /Users/pkoehn/LaTex/mt-class/git/slides   644  pwd

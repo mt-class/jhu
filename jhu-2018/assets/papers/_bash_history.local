@@ -1,0 +1,4 @@
+2017-09-06:18:28:43 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/assets/papers   510  cd papers/
+2017-09-06:18:28:43 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/assets/papers   511  ls
+2017-09-06:18:29:01 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/assets/papers   512  cp ~/LaTex/smt-book/2nd-edition/neural-network-models.pdf .
+2017-09-06:18:29:02 MacBook-Pro-5.local /Users/pkoehn/LaTex/mt-class/git/assets/papers   513  ls -l
