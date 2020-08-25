@@ -2,6 +2,8 @@
 layout: default
 img: cover
 img_link: http://www.statmt.org/book/
+img2: nmt-book.jpg
+img2_link: http://www.statmt.org/nmt-book/
 title: Homework 4 | Multi-word Cloze
 active_tab: homework
 ---
