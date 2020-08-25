@@ -26,7 +26,7 @@ past:
         author: Koehn (2010) 
         title: Statistical Machine Translation, Chapter 2.1 and 3
   -
-    date: 2020-09-11
+    date: 2020-09-08
     title: Language Models
     slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
     reading: 
@@ -34,7 +34,7 @@ past:
         author: Koehn (2010) 
         title: Statistical Machine Translation, Chapter 7
   -
-    date: 2020-09-13
+    date: 2020-09-10
     title: IBM Model 1 and the EM Algorithm
     slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
     reading:
@@ -47,7 +47,7 @@ past:
         url: http://www.isi.edu/natural-language/mt/aimag97.pdf
         optional: true
   -
-    date: 2020-09-18
+    date: 2020-09-15
     title: Phrase-Based Models
     slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
     reading:
@@ -60,7 +60,7 @@ past:
         url: http://homepages.inf.ed.ac.uk/dnadir/osmoses.pdf
         optional: true
   -
-    date: 2020-09-20
+    date: 2020-09-17
     title: Decoding
     slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
     links:
@@ -77,7 +77,7 @@ past:
         url: https://kheafield.com/professional/stanford/mtplz_paper.pdf
         optional: true
   -
-    date: 2020-09-25
+    date: 2020-09-22
     title: Evaluation
     slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
     reading:
@@ -93,7 +93,7 @@ past:
         url: http://www.aclweb.org/anthology/E/E14/E14-1047.pdf
         optional: true
   -
-    date: 2020-09-27
+    date: 2020-09-24
     title: Introduction to Neural Networks
     slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
@@ -115,7 +115,7 @@ past:
         url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
         optional: true
   -
-    date: 2020-10-02
+    date: 2020-09-29
     title: Computation Graphs
     slides: http://mt-class.org/jhu/slides/lecture-nn-computation-graphs.pdf
     reading:
@@ -127,7 +127,7 @@ past:
         title: Neural network online demo
         url: http://playground.tensorflow.org/
   -
-    date: 2020-10-04
+    date: 2020-10-01
     title: Neural Language Models
     slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
@@ -150,7 +150,7 @@ past:
         url: https://arxiv.org/pdf/1506.02078
         optional: true
   -
-    date: 2020-10-09
+    date: 2020-10-06
     title: Neural Translation Models
     slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
     reading:
@@ -163,7 +163,7 @@ past:
         url: http://arxiv.org/pdf/1409.0473v5.pdf
         optional: true
   -
-    date: 2020-10-11
+    date: 2020-10-08
     title: Decoding in Neural Translation Models
     slides: http://mt-class.org/jhu/slides/lecture-nmt-decoding.pdf
     reading:
@@ -171,7 +171,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 9
   -
-    date: 2020-10-16
+    date: 2020-10-13
     title: Machine Learning Tricks
     slides: http://mt-class.org/jhu/slides/lecture-ml-tricks.pdf
     reading:
@@ -179,7 +179,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 10
   -
-    date: 2020-10-18
+    date: 2020-10-15
     title: Alternative Architectures 
     slides: http://mt-class.org/jhu/slides/lecture-alt-architectures.pdf
     reading:
@@ -197,7 +197,7 @@ past:
         url: https://arxiv.org/abs/1705.03122
         optional: true
   -
-    date: 2016-10-23
+    date: 2016-10-20
     title: Words and Morphology
     slides: http://mt-class.org/jhu/slides/lecture-words.pdf
     reading:
@@ -208,7 +208,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 12
   -
-    date: 2020-10-30
+    date: 2020-10-27
     title: Adaptation
     slides: http://mt-class.org/jhu/slides/lecture-adaptation.pdf
     reading:
@@ -221,7 +221,7 @@ past:
         url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
         optional: true
   -
-    date: 2020-11-01
+    date: 2020-10-29
     title: Beyond Parallel Data
     slides: http://mt-class.org/jhu/slides/lecture-beyond-parallel.pdf
     reading:
@@ -229,7 +229,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 14
   -
-    date: 2020-10-25
+    date: 2020-11-03
     title: Syntax and Semantics
     slides: http://mt-class.org/jhu/slides/lecture-syntax-semantics.pdf
     reading:
@@ -246,8 +246,8 @@ past:
         title: Abstract Meaning Representation for Sembanking
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
-    date: 2020-11-06
   -
+    date: 2020-11-05
     title: Current Challenges
     slides: http://mt-class.org/jhu/slides/lecture-challenges.pdf
     reading:
@@ -265,7 +265,7 @@ past:
         url: http://aclweb.org/anthology/W18-2709.pdf
         optional: true
   -
-    date: 2020-11-08
+    date: 2020-11-10
     title: Analysis and Visualization
     slides: http://mt-class.org/jhu/slides/lecture-viz.pdf
     reading:
@@ -273,7 +273,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 17
   -
-    date: 2020-11-13
+    date: 2020-11-12
     title: Corpus Acquisition from the Internet
     slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     reading:
@@ -298,7 +298,7 @@ past:
         url: http://aclweb.org/anthology/W18-6453
         optional: true
   -
-    date: 2020-11-15
+    date: 2020-11-17
     title: Computer Aided Translation
     slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     reading:
@@ -313,14 +313,14 @@ past:
         url: https://www.cs.jhu.edu/~phi/publications/neural-interactive-translation.pdf
         optional: true
   -
-    date: 2020-11-27
+    date: 2020-11-19
     title: Project Presentations
   -
-    date: 2020-11-29
+    date: 2020-12-01
     title: Project Presentations
   -
-    date: 2020-12-04
+    date: 2020-12-03
     title: Project Presentations
   -
-    date: 2020-12-06
+    date: 2020-12-08
     title: Project Presentations
