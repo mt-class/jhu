@@ -85,6 +85,9 @@ past:
         author: Koehn (2010)
         title: Statistical Machine Translation, Chapter 8
       -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 4
+      -
         author: Graham et al. (2014)
         title: Is Machine Translation Getting Better over Time?
         url: http://www.aclweb.org/anthology/E/E14/E14-1047.pdf
@@ -95,7 +98,7 @@ past:
     slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     reading:
       -
-        author: Koehn (2019)
+        author: Koehn (2020)
         title: Neural Machine Translation, Chapter 5
       -
         author: Makin (2006)
@@ -117,7 +120,7 @@ past:
     slides: http://mt-class.org/jhu/slides/lecture-nn-computation-graphs.pdf
     reading:
       -
-        author: Koehn (2019)
+        author: Koehn (2020)
         title: Neural Machine Translation, Chapter 6
       -
         author: Tensorflow
@@ -129,7 +132,7 @@ past:
     slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     reading:
       -
-        author: Koehn (2019)
+        author: Koehn (2020)
         title: Neural Machine Translation, Chapter 7
       -
         author: Bengio et al. (2002)
