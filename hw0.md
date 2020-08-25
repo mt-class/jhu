@@ -2,7 +2,7 @@
 layout: default
 img: cover
 img_link: http://www.statmt.org/book/
-title: Statistical Machine Translation
+title: Homework 1 | Analysis
 img2: nmt-book.jpg
 img2_link: http://www.statmt.org/nmt-book/
 active_tab: main_page 

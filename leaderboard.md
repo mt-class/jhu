@@ -4,7 +4,7 @@ img: cover
 img_link: http://www.statmt.org/book/
 img2: nmt-book.jpg
 img2_link: http://www.statmt.org/nmt-book/
-title: Statistical Machine Translation
+title: Leaderboard
 active_tab: main_page 
 ---
 
