@@ -43,7 +43,7 @@ Format
 : This class will be delivered online this year. Lectures will be pre-recorded and made accessible through links on this web site. The class will meet only Tuesdays for discussion and student presentations.
 
 Discussion Forum
-: [Piazza](piazza.com/jhu/fall2020/en601468)
+: [Piazza](http://piazza.com/jhu/fall2020/en601468)
 
 Textbooks
 : The class follows closely two textbooks.
