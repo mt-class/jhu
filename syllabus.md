@@ -11,7 +11,7 @@ active_tab: main_page
 <table class="table table-striped"> 
   <tbody>
     <tr>
-      <th>Date</th>
+      <th nowrap>Date</th>
       <th>Topic</th>
       <th>Readings (starred=graduate level)</th>
     </tr>
