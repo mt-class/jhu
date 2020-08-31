@@ -3,8 +3,13 @@ past:
     date: 2020-09-01
     title: Introduction
     slides: http://mt-class.org/jhu/slides/lecture-introduction.pdf
-    video: intro
-    youtube: https://www.youtube.com/watch?v=DuYkqCQEbpo
+    links:
+      -
+        text: Video
+        link: http://www.cs.jhu.edu/~phi/mt-class/intro.mov
+      - 
+        text: Youtube
+        link: https://www.youtube.com/watch?v=DuYkqCQEbpo
     reading:
       -
         author: Koehn (2010) 
