@@ -23,7 +23,7 @@ active_tab: main_page
         {% else %}{{ lecture.title }}{% endif %}
       {% if lecture.links %}
         {% for link in lecture.links %}
-          <p><a href="{{ link.url }}">{{ link.text }}</a></p>
+          <br/><a href="{{ link.url }}">{{ link.text }}</a>
         {% endfor %}
       {% endif %}
   {% if lecture.language %}
