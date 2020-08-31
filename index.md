@@ -33,7 +33,7 @@ Instructor
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) (<phi@jhu.edu>)
 
 TA
-: Xutai Ma (<huda@jhu.edu>)
+: Xutai Ma (<xutai_ma@jhu.edu>)
 
 Office hours
 : **Professor** by Appointment
