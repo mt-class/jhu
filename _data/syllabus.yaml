@@ -3,6 +3,8 @@ past:
     date: 2020-09-01
     title: Introduction
     slides: http://mt-class.org/jhu/slides/lecture-introduction.pdf
+    video: intro
+    youtube: https://www.youtube.com/watch?v=DuYkqCQEbpo
     reading:
       -
         author: Koehn (2010) 
@@ -21,6 +23,7 @@ past:
     date: 2020-09-03
     title: Basics in Language and Probability 
     slides: http://mt-class.org/jhu/slides/lecture-foundations.pdf
+    video: foundations
     reading:
       -
         author: Koehn (2010) 
