@@ -48,12 +48,9 @@ Discussion Forum
 Textbooks
 : The class follows closely two textbooks.
 * [Statistical Machine Translation](http://www.statmt.org/book/) (<a href="http://statmt.org/book/errata.html">errata</a>) 
-by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2010.
-You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or 
-purchase it from <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>.
-* [Neural Machine Translation](http://www.statmt.org/nmt-book/) (<a href="http://statmt.org/nmt-book/errata.html">errata</a>), by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2020.
-You can read it online through the <a href="https://catalyst.library.jhu.edu/catalog/bib_8609876">JHU library</a> or 
-purchase it from <a href="https://www.amazon.com/gp/product/1108497322">Amazon</a>.
+by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2010
+(<a href="https://catalyst.library.jhu.edu/catalog/bib_3522360">JHU library</a> or <a href="http://www.amazon.com/Statistical-Machine-Translation-Philipp-Koehn/dp/0521874157">Amazon</a>).
+* [Neural Machine Translation](http://www.statmt.org/nmt-book/) (<a href="http://statmt.org/nmt-book/errata.html">errata</a>), by [Philipp Koehn](http://www.cs.jhu.edu/~phi/), 2020 (<a href="https://catalyst.library.jhu.edu/catalog/bib_8609876">JHU library</a> or <a href="https://www.amazon.com/gp/product/1108497322">Amazon</a>).
 
 Grading
 : To understand how machine translation works, you will build a translation system.
