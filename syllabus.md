@@ -22,11 +22,10 @@ active_tab: main_page
         {% if lecture.slides %}<a href="{{ lecture.slides }}">{{ lecture.title }}</a>
         {% else %}{{ lecture.title }}{% endif %}
       {% if lecture.links %}
-	<br/><font size=-1>
+	<br/>
         {% for link in lecture.links %}
 	  [<a href="{{ link.url }}">{{ link.text }}</a>]
         {% endfor %}
-	</font>
       {% endif %}
   {% if lecture.language %}
 	<br/><a href="lin10.html">Language in 10</a>: <a href="{{ lecture.language_slides }}">{{ lecture.language }}</a>
