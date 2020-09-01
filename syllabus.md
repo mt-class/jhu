@@ -17,7 +17,7 @@ active_tab: main_page
     </tr>
     {% for lecture in site.data.syllabus.past %}
     <tr>
-      <td>{{ lecture.date | date: "%b %d" }}</td>
+      <td nowrap>{{ lecture.date | date: "%b %d" }}</td>
       <td>
         {% if lecture.slides %}<a href="{{ lecture.slides }}">{{ lecture.title }}</a>
         {% else %}{{ lecture.title }}{% endif %}
