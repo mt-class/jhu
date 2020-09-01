@@ -6,10 +6,10 @@ past:
     links:
       -
         text: Video
-        link: http://www.cs.jhu.edu/~phi/mt-class/intro.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/intro.mov
       - 
         text: Youtube
-        link: https://www.youtube.com/watch?v=DuYkqCQEbpo
+        url: https://www.youtube.com/watch?v=DuYkqCQEbpo
     reading:
       -
         author: Koehn (2010) 
