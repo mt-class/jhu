@@ -37,7 +37,7 @@ TA
 
 Office hours
 : **Professor** by Appointment
-: **TA** TBA
+: **TA** Friday 11:00-12:00, or by Appointment
 
 Format
 : This class will be delivered online this year. Lectures will be pre-recorded and made accessible through links on this web site. The class will meet only Tuesdays for discussion and student presentations.
