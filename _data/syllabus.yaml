@@ -28,7 +28,13 @@ past:
     date: 2020-09-03
     title: Basics in Language and Probability 
     slides: http://mt-class.org/jhu/slides/lecture-foundations.pdf
-    video: foundations
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/foundations.mov
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=dsBioR-U5P4
     reading:
       -
         author: Koehn (2010) 
