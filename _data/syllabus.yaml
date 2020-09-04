@@ -43,6 +43,13 @@ past:
     date: 2020-09-08
     title: Language Models
     slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/lm.mov
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=Vj4wZsSnO1Q
     reading: 
       -
         author: Koehn (2010) 
