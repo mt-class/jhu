@@ -58,6 +58,13 @@ past:
     date: 2020-09-10
     title: IBM Model 1 and the EM Algorithm
     slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/ibm-model1.mov
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=5etGx8OZE7I
     reading:
       -
         author: Koehn (2010) 
