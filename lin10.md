@@ -38,7 +38,7 @@ something really cool? Tell us!
 Presentations
 -------------
 
-Please [sign up](https://docs.google.com/document/d/16nZiuk4555oQNVJ5H7AH_WpmanYC7H74H95ZczqRA-Y/edit?usp=sharing) with your language preference by September 13.
+Please [sign up](https://docs.google.com/document/d/16nZiuk4555oQNVJ5H7AH_WpmanYC7H74H95ZczqRA-Y/edit?usp=sharing) with your language preference by September 14.
 
 | **Day**      | **Language**&nbsp;&nbsp; | **Presenter(s)** |
 | TBD | TBD | TBD |
