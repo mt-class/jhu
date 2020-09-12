@@ -78,6 +78,13 @@ past:
     date: 2020-09-15
     title: Phrase-Based Models
     slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/phrase-based-models.mov
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=AwZSgHikWwk
     reading:
       -
         author: Koehn (2010)
@@ -92,6 +99,12 @@ past:
     title: Decoding
     slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
     links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/decoding.mov
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=dBEOdWs15oY
       -
         text: (Demo)
         url: stack-decoder/
