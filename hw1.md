@@ -57,7 +57,7 @@ does not capture every nuance, but it is still very useful.
 Getting Started
 ---------------
 
-You must have git and python (2.7) on your system to run the assignments.
+You must have git and python on your system to run the assignments.
 Once you've confirmed this, run this command:
 
     git clone https://github.com/xutaima/jhu-mt-hw
