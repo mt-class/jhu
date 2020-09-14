@@ -60,9 +60,9 @@ Getting Started
 You must have git and python (2.7) on your system to run the assignments.
 Once you've confirmed this, run this command:
 
-    git clone https://github.com/alopez/en600.468.git
+    git clone https://github.com/xutaima/jhu-mt-hw
 
-In the `aligner` directory you will find a python program called
+In the `hw2` directory you will find a python program called
 `align`, which contains a complete but very simple alignment algorithm.
 For every word, it computes the set of sentences that the word appears in. 
 Intuititvely, word pairs that appear in similar sets of sentences are likely
