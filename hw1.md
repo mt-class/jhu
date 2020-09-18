@@ -83,7 +83,7 @@ This command stores the output in `dice.a`. To compute accuracy, run:
     python score-alignments < dice.a
 
 This compares the alignments against human-produced alignments, computing 
-[alignment error rate](http://aclweb.org/anthology-new/P/P00/P00-1056.pdf), 
+[alignment error rate](https://www.aclweb.org/anthology/P00-1056.pdf), 
 which balances precision and recall. It will also show you the comparison 
 in a grid. Look at the terrible output of this heuristic method -- it's 
 better than chance, but not any good. Try training on 10,000 sentences:
