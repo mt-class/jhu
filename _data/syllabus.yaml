@@ -121,6 +121,13 @@ past:
     date: 2020-09-22
     title: Evaluation
     slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/evaluation.mov
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=Iso8dl8Ay6E
     reading:
       -
         author: Koehn (2010)
@@ -137,6 +144,14 @@ past:
     date: 2020-09-24
     title: Introduction to Neural Networks
     slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/nn-intro.mov
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=Nx6rXYU-dls
+
     reading:
       -
         author: Koehn (2020)
