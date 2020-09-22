@@ -10,7 +10,7 @@ active_tab: homework
 <span class="text-muted">Homework 3:</span> Decoding
 =============================================================
 
-Due  October 11th, 2018 at noon
+Due  October 1st, 2020 11:59PM
 
 Decoding is process of taking input in one language (e.g. French):
 
@@ -40,25 +40,24 @@ $$\begin{align*} \textbf{e}^* & = \arg \max_{\textbf{e}} p(\textbf{e} \mid \text
 Getting Started
 ---------------
 
-If you have a clone of the repository from 
-[word alignment](hw1.html), you can update it 
-from your working directory:
+If you have a clone of the repository from [word alignment](hw1.html),
+you can update it from your working directory:
 
     git pull origin master
 
 Alternatively, get a fresh copy:
 
-    git clone https://github.com/alopez/en600.468.git
+    git clone https://github.com/xutaima/jhu-mt-hw
 
-Under the `decode` directory, you now have simple decoder.
-Test it out!
+Under the `hw3` directory, you now have simple decoder.
+Test it out (Make sure to use python3)!
 
-    python decode > output
+    python decode > translations
 
-This creates the file `output` with translations of `data/input`.
+This creates the translations of `data/input`.
 You can compute $$p(\textbf{e} \mid \textbf{f})$$ using `compute-model-score`.
 
-    python compute-model-score < output
+    python compute-model-score < translations
 
 This command sums over all possible ways that the model could have 
 generated the English from the French, including translations
@@ -136,8 +135,12 @@ This means that $$p(\textbf{e},\textbf{a} \mid \textbf{f})$$ is proportional to
 the product of the n-gram probabilities in $$p_{\textrm{LM}}(\textbf{e})$$
 and the phrase translation probabilities in $$p_{\textrm{TM}}(\textbf{f},\textbf{a} \mid \textbf{e})$$. To 
 avoid numerical underflow we work in logspace, seeking
-$$\arg \max_{\textbf{e}} \max_{\textbf{a}} \log p_{\textrm{TM}}(\textbf{f},\textbf{a} \mid \textbf{e}) + \log p_{\textrm{LM}}(\textbf{e})$$. The
-baseline decoder works with log probabilities, so you can
+
+<center>
+$$\arg \max_{\textbf{e}} \max_{\textbf{a}} \log p_{\textrm{TM}}(\textbf{f},\textbf{a} \mid \textbf{e}) + \log p_{\textrm{LM}}(\textbf{e})$$.
+</center>
+
+The baseline decoder works with log probabilities, so you can
 simply follow what it does. 
 
 To pass, you must implement a beam-search 
@@ -175,20 +178,20 @@ Ground Rules
 
 * You can work in independently or in groups of up to three, under these 
   conditions: 
-  1. You must announce the group publicly on piazza.
-  1. You agree that everyone in the group will receive the same grade on the assignment. 
-  1. You can add people or merge groups at any time before the assignment is
+  - You must announce the group publicly on piazza.
+  - You agree that everyone in the group will receive the same grade on the assignment. 
+  - You can add people or merge groups at any time before the assignment is
      due. **You cannot drop people from your group once you've added them.**
   We encourage collaboration, but we will not adjudicate Rashomon-style 
   stories about who did or did not contribute.
- 1. You must submit the assignment once per group on Gradescope, and indicate your collaborators once you upload the files.  
+  - You must submit the assignment once per group on Gradescope, and indicate your collaborators once you upload the files.  
  * You must turn in three things to [Gradescope](https://www.gradescope.com/):
-  1. Your translations of the entire dataset. You can upload new output as often as you like, up until the assignment deadline. **Your translated file must be named `translations`.**
-  1. Your code, uploaded to [Gradescope](https://www.gradescope.com/).  You are free to extend the code we provide or roll your own in whatever langugage you like, but the code should be self-contained, and easy to use. Please include a readme for your code. 
-  1. A clear, mathematical description of your algorithm and its motivation
+    1. Your best translations of the entire dataset. **Your translated file must be named `translations`.**
+    2. Your code, uploaded to [Gradescope](https://www.gradescope.com/).  You are free to extend the code we provide but the code should be self-contained, and easy to use. **You must submit at least two files `decode` and `decoder-ext`. While `python decode` generates the translations from the basic decoding algorithm, `python decoder-ext` generates the translations from your best extended algorithm.** Please include a `README` for your code. Please also include a `requirement.txt` file if you use any additional package.
+    3. A clear, mathematical description of your algorithm and its motivation
      written in scientific style, uploaded to [Gradescope](https://www.gradescope.com/). This needn't be long, but it should be
      clear enough that one of your fellow students could re-implement it 
-     exactly. If you modified your algorithm or have more than 1 algorithm, explain each modification/algorithm clearly. Give the dev scores for each modification/algorithm, and the test score for your final choice.
+     exactly. If you modified your algorithm or have more than 1 algorithm, explain each modification/algorithm clearly. 
 *  You do not need any other data than what we provide. You can
    free to use any code or software you like, __except for those
    expressly intended to decode machine translation models__. 
