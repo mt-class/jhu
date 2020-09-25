@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp -r /autograder/submission/* /autograder/source
+
+cd /autograder/source
+
+if [ -e requirement.txt ]
+then
+    pip3 install -r requirement.txt
+fi
+
+python3 run_tests.py > /autograder/results/results.json
