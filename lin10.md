@@ -46,7 +46,7 @@ Presentations
 |       | Hindi | Ishita Tripathi, Ankur Kejriwal, Shreyash Kumar |
 | 10/20 | Swahili | Ayush Dalmia, Rachel Rosset, Jada Campbell, Mary Joseph |
 |       | Russian | Yuwei Wan, Yang Liu, Hanwen Shen, Kevin Sherman |
-| 10/27 | Swedish | Kaitlyn Chiu, Minqi Ma, Randy Kuang |
+| 10/27&nbsp;&nbsp; | Swedish | Kaitlyn Chiu, Minqi Ma, Randy Kuang |
 |       | Latin | Gabriel Givelber, James Scharf |
 | 11/3  | Arabic | Max Fleming, Milind Agarwal |
 |       | Cantonese | Shiqing Sun, Yiran Xu, Yuanye Ma |
@@ -55,7 +55,7 @@ Presentations
 | 11/17 | Japanese | Ruzhang Zhao, Guanghui Qin |
 |       | Korean | Nuri Ha, Dara Moini |
 | 12/1  | Navajo | Rachel Wicks |
-|       | Yoloxochitl&nbsp;Mixtec&nbsp; | Jiatong Shi, Yingqi Ding, Xuankai Chang |
+|       | Yoloxochitl&nbsp;Mixtec&nbsp;&nbsp; | Jiatong Shi, Yingqi Ding, Xuankai Chang |
 
 Based on [sign up](https://docs.google.com/document/d/16nZiuk4555oQNVJ5H7AH_WpmanYC7H74H95ZczqRA-Y/edit?usp=sharing).
 
