@@ -38,12 +38,26 @@ something really cool? Tell us!
 Presentations
 -------------
 
-Please [sign up](https://docs.google.com/document/d/16nZiuk4555oQNVJ5H7AH_WpmanYC7H74H95ZczqRA-Y/edit?usp=sharing) with your language preference by September 14.
+| **Day** | **Language**&nbsp;&nbsp; | **Presenter(s)** |
+| 9/22  | Polish | Katarina Mayer, Darius Irani |
+| 9/29  | Sanskrit | Amrit Nidhi, Ramchandran Muthukumar |
+| 10/6  | Chinese | Wenqian Xu, Yifan Gao, Bohao Tang, Zixuan Wang, Taiyi Wang, Quanjun Lang |
+| 10/13 | Spanish | Shuhao Lai, Brian Gabriele, Matthew Ost |
+|.      | Hindi | Ishita Tripathi, Ankur Kejriwal, Shreyash Kumar |
+| 10/20 | Swahili | Ayush Dalmia, Rachel Rosset, Jada Campbell, Mary Joseph |
+|.      | Russian | Yuwei Wan, Yang Liu, Hanwen Shen, Kevin Sherman |
+| 10/27 | Swedish | Kaitlyn Chiu, Minqi Ma, Randy Kuang |
+|.      | Latin | Gabriel Givelber, James Scharf |
+| 11/3  | Arabic | Max Fleming, Milind Agarwal |
+|       | Cantonese | Shiqing Sun, Yiran Xu, Yuanye Ma |
+| 11/10 | French | Emma Gan, Uju Duru |
+|       | Celtic | Hao Yan |
+| 11/17 | Japanese | Ruzhang Zhao, Guanghui Qin |
+|       | Korean | Nuri Ha, Dara Moini |
+| 12/1. | Navajo | Rachel Wicks |
+|       | Yoloxochitl Mixtec | Jiatong Shi, Yingqi Ding, Xuankai Chang |
 
-| **Day**      | **Language**&nbsp;&nbsp; | **Presenter(s)** |
-| TBD | TBD | TBD |
-
-
+Based on [sign up](https://docs.google.com/document/d/16nZiuk4555oQNVJ5H7AH_WpmanYC7H74H95ZczqRA-Y/edit?usp=sharing).
 
 
 
