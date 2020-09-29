@@ -38,7 +38,7 @@ something really cool? Tell us!
 Presentations
 -------------
 
-| **Day**&nbsp; | **Language**&nbsp;&nbsp; | **Presenter(s)** |
+| **Day**&nbsp;&nbsp; | **Language**&nbsp;&nbsp; | **Presenter(s)** |
 | 9/22  | Polish | Katarina Mayer, Darius Irani |
 | 9/29  | Sanskrit | Amrit Nidhi, Ramchandran Muthukumar |
 | 10/6  | Chinese | Wenqian Xu, Yifan Gao, Bohao Tang, Zixuan Wang, Taiyi Wang, Quanjun Lang |
@@ -55,7 +55,7 @@ Presentations
 | 11/17 | Japanese | Ruzhang Zhao, Guanghui Qin |
 |       | Korean | Nuri Ha, Dara Moini |
 | 12/1  | Navajo | Rachel Wicks |
-|       | Yoloxochitl Mixtec | Jiatong Shi, Yingqi Ding, Xuankai Chang |
+|       | Yoloxochitl&nbsp;Mixtec&nbsp; | Jiatong Shi, Yingqi Ding, Xuankai Chang |
 
 Based on [sign up](https://docs.google.com/document/d/16nZiuk4555oQNVJ5H7AH_WpmanYC7H74H95ZczqRA-Y/edit?usp=sharing).
 
