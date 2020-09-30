@@ -144,16 +144,15 @@ The baseline decoder works with log probabilities, so you can
 simply follow what it does.
 
 To pass, you must implement a beam-search
-decoder like the one we have given you
-that is also capable of _swapping adjacent phrases_. To get
-full credit, you __must__ additionally experiment with another decoding algorithm.
+decoder which is capable of _reordering_,
+shown in page 16 from the [slides](slides/lecture-decoding.pdf).
 Any permutation of phrases is a valid translation, so we strongly suggest
 searching over all or some part of this larger space. This search is
-NP-Hard, so it will not be easy. You
-can trade efficiency for search effectiveness
-by implementing histogram pruning or threshold pruning, or by using
-reordering limits as described in the textbook (Chapter 6). Or, you might
-consider implementing other approaches to solving this combinatorial
+NP-Hard, so it will not be easy. You can trade efficiency for search effectiveness
+by implementing histogram pruning or threshold pruning,
+****or**** by using reordering limits as described in the textbook (Chapter 6).
+To get full credit, you __must__ additionally experiment with another decoding algorithm.
+You might consider implementing other approaches to solving this combinatorial
 optimization problem:
 
 * [Implement a greedy decoder](http://www.iro.umontreal.ca/~felipe/bib2webV0.81/cv/papers/paper-tmi-2007.pdf).
