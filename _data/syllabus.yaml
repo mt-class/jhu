@@ -223,6 +223,13 @@ past:
     date: 2020-10-06
     title: Neural Translation Models
     slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/nmt.mov
+      - 
+        text: Youtube
+        url: https://youtu.be/1uoOk2S6GUk
     reading:
       -
         author: Koehn (2020)
@@ -236,6 +243,13 @@ past:
     date: 2020-10-08
     title: Decoding in Neural Translation Models
     slides: http://mt-class.org/jhu/slides/lecture-nmt-decoding.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/nmt-decoding.mov
+      - 
+        text: Youtube
+        url: https://youtu.be/0DsWLXNIxeA
     reading:
       -
         author: Koehn (2020)
