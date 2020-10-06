@@ -41,18 +41,18 @@ Presentations
 | **Day**&nbsp;&nbsp; | **Language**&nbsp;&nbsp; | **Presenter(s)** |
 | 9/22  | Polish | Katarina Mayer, Darius Irani |
 | 9/29  | Sanskrit | Amrit Nidhi, Ramchandran Muthukumar |
-| 10/6  | Chinese | Wenqian Xu, Yifan Gao, Bohao Tang, Zixuan Wang, Taiyi Wang, Quanjun Lang |
+| 10/6  | Chinese | Yifan Gao, Zixuan Wang, Taiyi Wang, Quanjun Lang |
 | 10/13 | Spanish | Shuhao Lai, Brian Gabriele, Matthew Ost |
 |       | Hindi | Ishita Tripathi, Ankur Kejriwal, Shreyash Kumar |
 | 10/20 | Swahili | Ayush Dalmia, Rachel Rosset, Jada Campbell, Mary Joseph |
-|       | Russian | Yuwei Wan, Yang Liu, Hanwen Shen, Kevin Sherman |
-| 10/27&nbsp;&nbsp; | Swedish | Kaitlyn Chiu, Minqi Ma, Randy Kuang |
 |       | Latin | Gabriel Givelber, James Scharf |
+| 10/27&nbsp;&nbsp; | Swedish | Kaitlyn Chiu, Minqi Ma, Randy Kuang |
+|       | Russian | Yuwei Wan, Yang Liu, Hanwen Shen, Kevin Sherman |
 | 11/3  | Arabic | Max Fleming, Milind Agarwal |
-|       | Cantonese | Shiqing Sun, Yiran Xu, Yuanye Ma |
+|       | Cantonese | Shiqing Sun, Yiran Xu, Yuanye Ma, Bohao Tang |
 | 11/10 | French | Emma Gan, Uju Duru |
 |       | Celtic | Hao Yan |
-| 11/17 | Japanese | Ruzhang Zhao, Guanghui Qin |
+| 11/17 | Japanese | Ruzhang Zhao, Guanghui Qin, Wenqian Xu |
 |       | Korean | Nuri Ha, Dara Moini |
 | 12/1  | Navajo | Rachel Wicks |
 |       | Yoloxochitl&nbsp;Mixtec&nbsp;&nbsp; | Jiatong Shi, Yingqi Ding, Xuankai Chang |
