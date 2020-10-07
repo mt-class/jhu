@@ -3,11 +3,11 @@ layout: default
 img: voynich
 img_link: http://en.wikipedia.org/wiki/Voynich_manuscript 
 caption: The Voynich manuscript
-title: Homework 4 | NMT
+title: Homework 4 | Neural Machine Translation - Part 1
 active_tab: homework
 ---
 
-<span class="text-muted">Homework 4:</span> NMT
+<span class="text-muted">Homework 4:</span> Neural Machine Translation - Part 1
 =============================================================
 
 Due October 19th, 2020 at 11:59 PM
