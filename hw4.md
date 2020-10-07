@@ -79,7 +79,7 @@ Students __MAY NOT__ view that tutorial or use it as a reference in any way.
      clear enough that one of your fellow students could re-implement it 
      exactly. Please disucuss how your modification(s) impact performance and analyze the results.
 *  Neural machine translation software including (but not limited to)
-   OpenNMT, AWS Sockeye, or Marian,  is off-limits. You may of course inspect 
+   OpenNMT, AWS Sockeye, Marian, or Fairseq is off-limits. You may of course inspect 
    these systems if it helps you understand how they work. But be warned: they are
    generally quite complicated because they provide a great deal of other
    functionality that is not the focus of this assignment.
