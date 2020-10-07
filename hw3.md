@@ -18,9 +18,13 @@ In this assignment, you will be building a sequence to sequence neural machine t
 
 Getting Started
 ---------------
-You can get the starter code for this assignment here: 
+If you have a clone of the repository from previous homework:
 
-    git clone https://github.com/thompsonb/601.468_HW4.git
+    git pull origin master
+
+Alternatively, get a fresh copy:
+
+    git clone https://github.com/xutaima/jhu-mt-hw
 
 In this assignment, you will be building a basic NMT model with attention. In the next assignment you will be creating extensions and adding speedups. Your next assignment will build upon this one. 
 
