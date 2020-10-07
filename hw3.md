@@ -10,7 +10,7 @@ active_tab: homework
 <span class="text-muted">Homework 4:</span> NMT
 =============================================================
 
-Due  October 25th, 2018 at noon
+Due October 19th, 2020 at 11:59 PM
 
 
 In this assignment, you will be building a sequence to sequence neural machine translation model. 
