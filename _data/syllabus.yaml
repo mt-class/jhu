@@ -298,6 +298,13 @@ past:
     date: 2016-10-20
     title: Words and Morphology
     slides: http://mt-class.org/jhu/slides/lecture-words.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/words.mov
+      - 
+        text: Youtube
+        url: https://youtu.be/tZH1TltU3HQ
     reading:
       -
         author: Koehn (2010)
