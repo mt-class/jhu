@@ -50,8 +50,7 @@ Presentations
 |       | Russian | Yuwei Wan, Yang Liu, Hanwen Shen, Kevin Sherman |
 | 11/3  | Arabic | Max Fleming, Milind Agarwal |
 |       | Cantonese | Shiqing Sun, Yiran Xu, Yuanye Ma, Bohao Tang |
-| 11/10 | French | Emma Gan, Uju Duru |
-|       | Celtic | Hao Yan |
+| 11/10 | French | Emma Gan, Hao Yan |
 | 11/17 | Japanese | Ruzhang Zhao, Guanghui Qin, Wenqian Xu |
 |       | Korean | Nuri Ha, Dara Moini |
 | 12/1  | Navajo | Rachel Wicks |
