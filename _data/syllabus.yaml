@@ -316,6 +316,13 @@ past:
     date: 2020-10-27
     title: Adaptation
     slides: http://mt-class.org/jhu/slides/lecture-adaptation.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/adaptation.mov
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=CbyoJ960uNo
     reading:
       -
         author: Koehn (2020)
@@ -333,6 +340,11 @@ past:
       -
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 14
+      -
+        author: Fan (2020)
+        title: Introducing the First AI Model That Translates 100 Languages Without Relying on English
+        url: https://about.fb.com/news/2020/10/first-multilingual-machine-translation-model/
+        optional: true
   -
     date: 2020-11-03
     title: Syntax and Semantics
