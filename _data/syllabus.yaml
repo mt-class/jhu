@@ -336,6 +336,13 @@ past:
     date: 2020-10-29
     title: Beyond Parallel Data
     slides: http://mt-class.org/jhu/slides/lecture-beyond-parallel.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/beyond-parallel.mov
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=ECBKgGv3BYg
     reading:
       -
         author: Koehn (2020)
