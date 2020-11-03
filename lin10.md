@@ -48,7 +48,7 @@ Presentations
 |       | Latin | Gabriel Givelber, James Scharf |
 | 10/27&nbsp;&nbsp; | Swedish | Kaitlyn Chiu, Minqi Ma, Randy Kuang |
 | 11/3  | Arabic | Max Fleming, Milind Agarwal |
-|       | Cantonese | Shiqing Sun, Yiran Xu, Yuanye Ma, Bohao Tang |
+|       | Quechua | Shiqing Sun, Yiran Xu, Yuanye Ma, Bohao Tang |
 | 11/10 | French | Emma Gan, Hao Yan |
 |       | Russian | Yuwei Wan, Yang Liu, Hanwen Shen, Kevin Sherman |
 | 11/17 | Japanese | Ruzhang Zhao, Guanghui Qin, Wenqian Xu |
