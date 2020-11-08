@@ -6,7 +6,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/intro.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/intro.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=DuYkqCQEbpo
@@ -31,7 +31,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/foundations.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/foundations.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=dsBioR-U5P4
@@ -46,7 +46,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/lm.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/lm.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=Vj4wZsSnO1Q
@@ -61,7 +61,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/ibm-model1.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/ibm-model1.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=5etGx8OZE7I
@@ -81,7 +81,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/phrase-based-models.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/phrase-based-models.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=AwZSgHikWwk
@@ -101,7 +101,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/decoding.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/decoding.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=dBEOdWs15oY
@@ -124,7 +124,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/evaluation.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/evaluation.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=Iso8dl8Ay6E
@@ -147,7 +147,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/nn-intro.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/nn-intro.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=Nx6rXYU-dls
@@ -177,7 +177,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/nn-computation-graphs.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/nn-computation-graphs.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=vD3vSif6OVA
@@ -196,7 +196,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/nn-lm.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/nn-lm.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=Sho-b4-9ODE
@@ -226,7 +226,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/nmt.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/nmt.mp4
       - 
         text: Youtube
         url: https://youtu.be/1uoOk2S6GUk
@@ -246,7 +246,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/nmt-decoding.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/nmt-decoding.mp4
       - 
         text: Youtube
         url: https://youtu.be/0DsWLXNIxeA
@@ -261,7 +261,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/mk-tricks.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/mk-tricks.mp4
       - 
         text: Youtube
         url: https://youtu.be/J3v5b27NDtc
@@ -276,7 +276,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/alt-architectures.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/alt-architectures.mp4
       - 
         text: Youtube
         url: https://youtu.be/p8bj_sIfN6w
@@ -301,7 +301,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/words.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/words.mp4
       - 
         text: Youtube
         url: https://youtu.be/tZH1TltU3HQ
@@ -319,7 +319,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/adaptation.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/adaptation.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=CbyoJ960uNo
@@ -339,7 +339,7 @@ past:
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/beyond-parallel.mov
+        url: http://www.cs.jhu.edu/~phi/mt-class/beyond-parallel.mp4
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=ECBKgGv3BYg
@@ -356,6 +356,13 @@ past:
     date: 2020-11-03
     title: Syntax and Semantics
     slides: http://mt-class.org/jhu/slides/lecture-syntax-semantics.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/syntax-semantics.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=NAKQta_fjlg
     reading:
       -
         author: Koehn (2020)
@@ -374,6 +381,13 @@ past:
     date: 2020-11-05
     title: Current Challenges
     slides: http://mt-class.org/jhu/slides/lecture-challenges.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/challenges.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=761DkYRtoF8
     reading:
       -
         author: Koehn (2020)
