@@ -406,6 +406,13 @@ past:
     date: 2020-11-10
     title: Analysis and Visualization
     slides: http://mt-class.org/jhu/slides/lecture-viz.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/viz.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?9YXw2uAhjes
     reading:
       -
         author: Koehn (2020)
@@ -414,6 +421,13 @@ past:
     date: 2020-11-12
     title: Corpus Acquisition from the Internet
     slides: http://mt-class.org/jhu/slides/lecture-data.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/data.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?DNJl766bxuM
     reading:
       -
         author: Uszkoreit et al. (2010)
