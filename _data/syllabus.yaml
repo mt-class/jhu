@@ -453,6 +453,13 @@ past:
     date: 2020-11-17
     title: Computer Aided Translation
     slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/computer-aided-translation.mp4
+      - 
+        text: Youtube
+        url: https://youtu.be/c0-xaBcJGKg
     reading:
       -
         author: Barrachina et al. (2009)
