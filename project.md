@@ -31,10 +31,26 @@ Project Presentations
 ---------------------
 
 | **Day**      | **Presenter(s)** |
-| November 19&nbsp;&nbsp;&nbsp; | TBD  |
-| December 1 | TBD  |
-| December 3 | TBD  |
-| December 8 | TBD  |
+| December 1&nbsp;&nbsp;&nbsp; | Kaithlyn Chiu, Minqi Ma |
+| | Randy Kuang, Ayush Delmia, Mary Joseph, Jada Campbell |
+| | Yuanye Ma, Yiran Xu |
+| | Milind Agarwal |
+| | Guanghui Qin, Ruzhang Zhao |
+| December 3 | Maxwell Fleming  |
+| | Bohao Tang, Shiqing Sun |
+| | Dara Moini, Nuri Son Ha |
+| | Yifan Gao |
+| | Wenqian Xu, Hanwen Shen, Taiyi Wang |
+| | Zixuan Wang, Quanjun Lang |
+| | Rachel Elizabeth Wicks |
+| December 8 | Matthew Ost, Shuhao Lai, Ramchandran Muthukumar  |
+| | Ankur Kejriwal, Ishita Tripathi |
+| | Jiatong Shi, Yingqi Ding, Xuankai Chang |
+| | Yuwei Wan, Yang Liu, Hao Yan |
+| | Kevin M Sherman, Gabriel Myer Givelber, Emma Gan |
+| | Darius Irani, Katarina Mayer, James Scharf, Rachel Rosset |
+| | Amrit Nidhi |
+
 
 Project Proposal
 ----------------
