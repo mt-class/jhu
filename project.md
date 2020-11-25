@@ -38,7 +38,6 @@ Project Presentations
 | | Guanghui Qin, Ruzhang Zhao |
 | December 3 | Maxwell Fleming  |
 | | Bohao Tang, Shiqing Sun |
-| | Dara Moini, Nuri Son Ha |
 | | Yifan Gao |
 | | Wenqian Xu, Hanwen Shen, Taiyi Wang |
 | | Zixuan Wang, Quanjun Lang |
@@ -46,6 +45,7 @@ Project Presentations
 | December 8 | Matthew Ost, Shuhao Lai, Ramchandran Muthukumar  |
 | | Ankur Kejriwal, Ishita Tripathi |
 | | Jiatong Shi, Yingqi Ding, Xuankai Chang |
+| | Dara Moini, Nuri Son Ha |
 | | Yuwei Wan, Yang Liu, Hao Yan |
 | | Kevin M Sherman, Gabriel Myer Givelber, Emma Gan |
 | | Darius Irani, Katarina Mayer, James Scharf, Rachel Rosset |
