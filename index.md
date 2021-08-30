@@ -43,7 +43,7 @@ Format
 : This class will be delivered in person this year. Lectures were pre-recorded last year and these are still accessible through links on this web site and on Youtube. 
 
 Discussion Forum
-: [Piazza](http://piazza.com/jhu/fall2020/en601468)
+: [Piazza](https://piazza.com/jhu/fall2021/en601468/home)
 
 Textbooks
 : The class follows closely two textbooks.
