@@ -20,10 +20,10 @@ input, output, and evaluation measures. You should make an appointment with
 the instructors to discuss your project prior to the first due date. To
 keep you on track, there are three:
 
-* BEFORE October 26: Meet with your instructors, by [appointment](https://docs.google.com/document/d/1cjrpvD4bYlDFLD5ROpFlsx-rNC7JE1r2JGxjLOOPjNI/edit).
-* October 26: Project proposals (10 points)
-* November 14: Interim report (5 points)
-* December 7: Final project report (15 points)
+* BEFORE October 26: Meet with your instructors, by [appointment](https://docs.google.com/document/d/1YuO0i3M1xT1Qj0Usdw6SHvf27OBoOrD3XM5vdv3ixCQ/edit?usp=sharing).
+* October 25: Project proposals (10 points)
+* November 13: Interim report (5 points)
+* December 6: Final project report (15 points)
 
 All projects will be graded on a final written report.
 
@@ -31,26 +31,9 @@ Project Presentations
 ---------------------
 
 | **Day**      | **Presenter(s)** |
-| December 1&nbsp;&nbsp;&nbsp; | Kaithlyn Chiu, Minqi Ma |
-| | Randy Kuang, Ayush Delmia, Mary Joseph, Jada Campbell |
-| | Yuanye Ma, Yiran Xu |
-| | Milind Agarwal |
-| | Guanghui Qin, Ruzhang Zhao |
-| December 3 | Maxwell Fleming  |
-| | Bohao Tang, Shiqing Sun |
-| | Yifan Gao |
-| | Wenqian Xu, Hanwen Shen, Taiyi Wang |
-| | Zixuan Wang, Quanjun Lang |
-| | Rachel Elizabeth Wicks |
-| December 8 | Matthew Ost, Shuhao Lai, Ramchandran Muthukumar  |
-| | Ankur Kejriwal, Ishita Tripathi |
-| | Jiatong Shi, Yingqi Ding, Xuankai Chang |
-| | Dara Moini, Nuri Son Ha |
-| | Yuwei Wan, Yang Liu, Hao Yan |
-| | Kevin M Sherman, Gabriel Myer Givelber, Emma Gan |
-| | Darius Irani, Katarina Mayer, James Scharf, Rachel Rosset |
-| | Amrit Nidhi |
-
+| November 30 1&nbsp;&nbsp;&nbsp; | TBD | 
+| December 2 | TBD |
+| December 7 | TBD |
 
 Project Proposal
 ----------------

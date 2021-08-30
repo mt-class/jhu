@@ -39,24 +39,22 @@ Presentations
 -------------
 
 | **Day**&nbsp;&nbsp; | **Language**&nbsp;&nbsp; | **Presenter(s)** |
-| 9/22  | Polish | Katarina Mayer, Darius Irani |
-| 9/29  | Sanskrit | Amrit Nidhi, Ramchandran Muthukumar |
-| 10/6  | Chinese | Yifan Gao, Zixuan Wang, Taiyi Wang, Quanjun Lang |
-| 10/13 | Spanish | Shuhao Lai, Brian Gabriele, Matthew Ost |
-|       | Hindi | Ishita Tripathi, Ankur Kejriwal, Shreyash Kumar |
-| 10/20 | Swahili | Ayush Dalmia, Rachel Rosset, Jada Campbell, Mary Joseph |
-|       | Latin | Gabriel Givelber, James Scharf |
-| 10/27&nbsp;&nbsp; | Swedish | Kaitlyn Chiu, Minqi Ma, Randy Kuang |
-| 11/3  | Arabic | Max Fleming, Milind Agarwal |
-|       | Quechua | Shiqing Sun, Yiran Xu, Yuanye Ma, Bohao Tang |
-| 11/10 | French | Emma Gan, Hao Yan |
-|       | Russian | Yuwei Wan, Yang Liu, Hanwen Shen, Kevin Sherman |
-| 11/17 | Japanese | Ruzhang Zhao, Guanghui Qin, Wenqian Xu |
-|       | Korean | Nuri Ha, Dara Moini |
-| 12/1  | Navajo | Rachel Wicks |
-|       | Yoloxochitl&nbsp;Mixtec&nbsp;&nbsp; | Jiatong Shi, Yingqi Ding, Xuankai Chang |
+| 9/21  | | | 
+| 9/23  | | | 
+| 9/28  | | | 
+| 9/30  | | | 
+| 10/5  | | | 
+| 10/7  | | | 
+| 10/12 | | | 
+| 10/14 | | | 
+| 10/19 | | | 
+| 10/21 | | | 
+| 10/26 | | | 
+| 10/28 | | | 
+| 11/3  | | | 
+| 11/5  | | | 
 
-Based on [sign up](https://docs.google.com/document/d/16nZiuk4555oQNVJ5H7AH_WpmanYC7H74H95ZczqRA-Y/edit?usp=sharing).
+Based on [sign up](https://docs.google.com/document/d/1FkkhtPAwUXGvmdigfIZvUmH2IUyWgI9cnt8gu9A2rhE/edit?usp=sharing).
 
 
 
