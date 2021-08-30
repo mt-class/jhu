@@ -9,9 +9,9 @@ active_tab: main_page
 ---
 
 EN 601.468/668 Machine Translation
-: Fall 2020
+: Fall 2021
 : Tuesdays and Thursdays 1:30-2:45
-: Online, MS Teams
+: Online, Hodson 213
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
@@ -33,14 +33,14 @@ Instructor
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) (<phi@jhu.edu>)
 
 TA
-: Xutai Ma (<xutai_ma@jhu.edu>)
+: Kelly Marchisio (kmarc@jhu.edu)
 
 Office hours
 : **Professor** by Appointment
-: **TA** Friday 11:00-12:00, or by Appointment
+: **TA** TBD
 
 Format
-: This class will be delivered online this year. Lectures will be pre-recorded and made accessible through links on this web site. The class will meet only Tuesdays for discussion and student presentations.
+: This class will be delivered in person this year. Lectures were pre-recorded last year and these are still accessible through links on this web site and on Youtube. 
 
 Discussion Forum
 : [Piazza](http://piazza.com/jhu/fall2020/en601468)
