@@ -31,7 +31,7 @@ Project Presentations
 ---------------------
 
 | **Day**      | **Presenter(s)** |
-| November 30 1&nbsp;&nbsp;&nbsp; | TBD | 
+| November 30&nbsp;&nbsp;&nbsp; | TBD | 
 | December 2 | TBD |
 | December 7 | TBD |
 
