@@ -11,7 +11,7 @@ active_tab: main_page
 EN 601.468/668 Machine Translation
 : Fall 2021
 : Tuesdays and Thursdays 1:30-2:45
-:  Hodson 213
+: Hodson 213
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
@@ -63,9 +63,9 @@ We will mainly grade hands-on work.
 Homework Schedule
 : There will be five homework assignments, tentative schedule:
 * [HW1: Analysis](hw0.html), due September 9
-* [HW2: Word alignment](hw1.md), due September 20
-* [HW3: Decoding](hw2.md), due October 4
-* [HW4: Neural translation model part 1](hw3.md), due October 18
-* [HW5: Neural translation model part 2](hw4.md), due November 5
+* [HW2: Word alignment](hw1.md), due September 23
+* [HW3: Decoding](hw2.md), due October 7
+* [HW4: Neural translation model part 1](hw3.md), due October 21
+* [HW5: Neural translation model part 2](hw4.md), due November 8
 
-Late penalty for homework assignments: 10% per day.
+Late penalty for homework assignments: 10% per day, after 5 free "late days".
