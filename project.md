@@ -21,7 +21,7 @@ the instructors to discuss your project prior to the first due date. To
 keep you on track, there are three:
 
 * BEFORE October 19: Meet with your instructors, by [appointment](https://docs.google.com/document/d/1YuO0i3M1xT1Qj0Usdw6SHvf27OBoOrD3XM5vdv3ixCQ/edit?usp=sharing).
-* October 18: Project proposals (10 points)
+* October 25: Project proposals (10 points)
 * November 13: Interim report (5 points)
 * December 6: Final project report (15 points)
 
