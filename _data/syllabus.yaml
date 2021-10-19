@@ -313,7 +313,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 12
   -
-    date: 2021-10-26
+    date: 2021-10-21
     title: Adaptation
     slides: http://mt-class.org/jhu/slides/lecture-adaptation.pdf
     links:
@@ -333,7 +333,7 @@ past:
         url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
         optional: true
   -
-    date: 2021-10-28
+    date: 2021-10-26
     title: Beyond Parallel Data
     slides: http://mt-class.org/jhu/slides/lecture-beyond-parallel.pdf
     links:
@@ -353,7 +353,7 @@ past:
         url: https://about.fb.com/news/2020/10/first-multilingual-machine-translation-model/
         optional: true
   -
-    date: 2021-11-02
+    date: 2021-10-28
     title: Syntax and Semantics
     slides: http://mt-class.org/jhu/slides/lecture-syntax-semantics.pdf
     links:
@@ -378,7 +378,7 @@ past:
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
   -
-    date: 2021-11-04
+    date: 2021-11-02
     title: Current Challenges
     slides: http://mt-class.org/jhu/slides/lecture-challenges.pdf
     links:
@@ -403,7 +403,7 @@ past:
         url: http://aclweb.org/anthology/W18-2709.pdf
         optional: true
   -
-    date: 2021-11-09
+    date: 2021-11-04
     title: Analysis and Visualization
     slides: http://mt-class.org/jhu/slides/lecture-viz.pdf
     links:
