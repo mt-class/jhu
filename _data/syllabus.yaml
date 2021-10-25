@@ -404,21 +404,6 @@ past:
         optional: true
   -
     date: 2021-11-04
-    title: Analysis and Visualization
-    slides: http://mt-class.org/jhu/slides/lecture-viz.pdf
-    links:
-      -
-        text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/viz.mp4
-      - 
-        text: Youtube
-        url: https://www.youtube.com/watch?9YXw2uAhjes
-    reading:
-      -
-        author: Koehn (2020)
-        title: Neural Machine Translation, Chapter 17
-  -
-    date: 2021-11-11
     title: Corpus Acquisition from the Internet
     slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     links:
@@ -449,6 +434,24 @@ past:
         title: Findings of the WMT 2018 Shared Task on Parallel Corpus Filtering
         url: http://aclweb.org/anthology/W18-6453
         optional: true
+  -
+    date: 2021-11-09
+    title: Analysis and Visualization
+    slides: http://mt-class.org/jhu/slides/lecture-viz.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/viz.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?9YXw2uAhjes
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 17
+  -
+    date: 2021-11-11
+    title: Speech Translation
   -
     date: 2021-11-16
     title: Computer Aided Translation
@@ -482,4 +485,7 @@ past:
     title: Project Presentations
   -
     date: 2021-12-07
+    title: Project Presentations
+  -
+    date: 2021-12-09
     title: Project Presentations
