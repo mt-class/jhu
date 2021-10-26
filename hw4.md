@@ -23,7 +23,6 @@ You will be starting with your homework assignment with your code from Homework 
 In this assignment, you will be improving your basic NMT model with attention and adding speedups. 
 
 This code is based on the [tutorial by Sean Robertson](https://github.com/spro/practical-pytorch) found [here](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html). 
-Students __MAY NOT__ view that tutorial or use it as a reference in any way. 
 
 
 Part 1
