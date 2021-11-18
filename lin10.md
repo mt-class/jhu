@@ -38,23 +38,7 @@ something really cool? Tell us!
 Presentations
 -------------
 
-| **Day**&nbsp;&nbsp; | **Language**&nbsp;&nbsp; | **Presenter(s)** |
-| 9/21  | | | 
-| 9/23  | | | 
-| 9/28  | | | 
-| 9/30  | | | 
-| 10/5  | | | 
-| 10/7  | | | 
-| 10/12 | | | 
-| 10/14 | | | 
-| 10/19 | | | 
-| 10/21 | | | 
-| 10/26 | | | 
-| 10/28 | | | 
-| 11/3  | | | 
-| 11/5  | | | 
-
-Based on [sign up](https://docs.google.com/document/d/1FkkhtPAwUXGvmdigfIZvUmH2IUyWgI9cnt8gu9A2rhE/edit?usp=sharing).
+See schedule: [sign up](https://docs.google.com/document/d/1FkkhtPAwUXGvmdigfIZvUmH2IUyWgI9cnt8gu9A2rhE/edit?usp=sharing).
 
 
 
