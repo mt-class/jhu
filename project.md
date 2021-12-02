@@ -30,7 +30,7 @@ All projects will be graded on a final written report.
 Project Presentations
 ---------------------
 
-Please [sign up](https://docs.google.com/document/d/1e7jBcHhFx1zH2jhkhKpAKIS9MOAfGUzeAC7AQaEMC-g/edit?usp=sharing)
+Please [sign up](https://docs.google.com/document/d/1e7jBcHhFx1zH2jhkhKpAKIS9MOAfGUzeAC7AQaEMC-g/edit?usp=sharing).
 
 Note that Tuesdays presentation will be in-class and Thursdays presentations will be [online](https://wse.zoom.us/j/9585197149).
 
