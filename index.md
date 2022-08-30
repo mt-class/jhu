@@ -28,7 +28,6 @@ machine learning (especially deep learning), algorithms, and data structures,
 showing how they apply to a difficult
 real-word artificial intelligence problem.
 
-
 Instructor
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) (<phi@jhu.edu>)
 
