@@ -10,7 +10,7 @@ active_tab: homework
 <span class="text-muted">Homework 4:</span> Neural Machine Translation - Part 1
 =============================================================
 
-Due October 21, 2021 at 11:59 PM
+Due October 20, 2022 at 11:59 PM
 
 
 In this assignment, you will be building a sequence to sequence neural machine translation model. 

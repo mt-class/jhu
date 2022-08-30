@@ -8,7 +8,7 @@ active_tab: homework
 ---
 
 <div class="alert alert-danger">
-  <b>April 24, 9:54 AM</b>. Please see crucial update in format for
+  Please see crucial update in format for
   uploading data. You need to upload a concatenated file containing
   inflections of both <code>data/dtest.lemma</code> <i>and</i>
   <code>data/etest.lemma</code>. The file you upload should have 8,714 lines.

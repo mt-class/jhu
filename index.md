@@ -9,9 +9,9 @@ active_tab: main_page
 ---
 
 EN 601.468/668 Machine Translation
-: Fall 2021
+: Fall 2022
 : Tuesdays and Thursdays 1:30-2:45
-: Hodson 213
+: Hodson 210
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
@@ -33,17 +33,17 @@ Instructor
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) (<phi@jhu.edu>)
 
 TA
-: Kelly Marchisio (kmarc@jhu.edu)
+: Yi Zhang (yzhan286@jhu.edu)
 
 Office hours
 : **Professor** by Appointment
-: **TA** Tuesdays 3-4pm, Hackerman 111
+: **TA** Wednesdays 3-4pm, Malone 222
 
 Format
 : This class will be delivered in person this year. Lectures were pre-recorded last year and these are still accessible through links on this web site and on Youtube. 
 
 Discussion Forum
-: [Piazza](https://piazza.com/jhu/fall2021/en601468/home)
+: [Piazza](https://piazza.com/jhu/fall2022/en601468/home)
 
 Textbooks
 : The class follows closely two textbooks.
@@ -62,10 +62,10 @@ We will mainly grade hands-on work.
 
 Homework Schedule
 : There will be five homework assignments, tentative schedule:
-* [HW1: Analysis](hw0.html), due September 9
-* [HW2: Word alignment](hw1.md), due September 20
-* [HW3: Decoding](hw2.md), due October 7
-* [HW4: Neural translation model part 1](hw3.md), due October 21
-* [HW5: Neural translation model part 2](hw4.md), due November 5
+* [HW1: Analysis](hw0.html), due September 8
+* [HW2: Word alignment](hw1.md), due September 21
+* [HW3: Decoding](hw2.md), due October 6
+* [HW4: Neural translation model part 1](hw3.md), due October 20
+* [HW5: Neural translation model part 2](hw4.md), due November 4
 
 Late penalty for homework assignments: 10% per day, after 5 free "late days".

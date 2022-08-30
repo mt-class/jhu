@@ -10,7 +10,7 @@ active_tab: homework
 <span class="text-muted">Homework 2:</span> Word Alignment
 =============================================================
 
-Due: Sep 20 2021
+Due: September 20, 2022
 
 Aligning words is a key task in machine translation. We start with
 a large _parallel corpus_ of aligned sentences. For example, we might
