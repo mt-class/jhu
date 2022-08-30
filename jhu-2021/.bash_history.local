@@ -1,0 +1,215 @@
+2020-09-19:10:32:58 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   504  cd ../git/slides/
+2020-09-19:10:33:04 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   505  git add lecture-nn-intro.*pdf
+2020-09-19:10:33:19 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   506  git commit -am nn-intro
+2020-09-19:10:33:27 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   507  git push
+2020-09-19:10:47:08 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   508  df -hl
+2020-09-26:13:45:16 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   625  cd ../git/slides/
+2020-09-26:13:45:27 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   626  git add lecture-nn-lm.*pdf
+2020-09-26:13:45:40 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   627  git commit -am lecture-nn-lm
+2020-09-26:13:45:52 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   628  git push
+2020-09-26:13:45:55 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   629  jobs
+2020-10-03:12:27:09 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   563  cd ../git/slides/
+2020-10-03:12:27:16 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   564  git add lecture-nmt.*pdf
+2020-10-03:12:27:20 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   565  git oull
+2020-10-03:12:27:23 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   566  giot pull
+2020-10-03:12:27:28 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   567  git pull
+2020-10-03:12:27:44 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   568  git commit -m 'lecture-nmt' lecture-nmt.*pdf
+2020-10-03:12:27:52 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   569  git pusg
+2020-10-03:12:28:00 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   570  git push
+2020-10-03:13:31:42 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   575  cd ../git/slides/
+2020-10-03:13:31:49 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   576  git add lecture-nmt.*pdf
+2020-10-03:13:31:59 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   577  git commit -am lecture-nmt
+2020-10-03:13:32:06 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   578  git push
+2020-10-03:14:58:30 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   591  cd ../git/slides/
+2020-10-03:14:58:37 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   592  git add lecture-nmt-decoding.*pdf
+2020-10-03:14:58:45 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   593  git commit -am 'lecture-nmt-decoding'
+2020-10-03:14:58:51 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   594  git push
+2020-10-04:22:27:34 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   594  git push
+2020-10-04:22:27:36 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   595  pwd
+2020-10-04:22:27:49 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   596  ls -l lecture-nmt-decoding.*
+2020-10-04:22:28:10 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   597  cp ../../slides/lecture-nmt-decoding.pdf .
+2020-10-04:22:28:17 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   598  git add lecture-nmt-decoding.pdf 
+2020-10-04:22:28:31 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   599  git commit -am lecture-nmt-decoding
+2020-10-04:22:28:41 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   600  git push
+2020-10-10:10:59:12 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   677  cd ../git/slides/
+2020-10-10:10:59:22 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   678  git add lecture-ml-tricks.*pdf
+2020-10-10:10:59:25 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   679  git pull
+2020-10-10:10:59:42 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   680  git commit -am 'lecture-ml-tricks'
+2020-10-10:10:59:49 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   681  git push
+2020-10-11:11:27:02 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   699  cd ../git/slides/
+2020-10-11:11:27:05 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   700  git pull
+2020-10-11:11:27:14 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   701  git add lecture-alt-architectures.*pdf
+2020-10-11:11:27:24 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   702  git commit -am 'lecture-alt-architectures'
+2020-10-11:11:27:31 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   703  git push
+2020-10-11:11:32:14 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   708  cd -
+2020-10-11:11:32:24 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   709  git add lecture-ml-tricks.*pdf 
+2020-10-11:11:32:41 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   710  git commit -am 'fixes to lecture-ml-tricks'
+2020-10-11:11:32:48 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   711  git push
+2020-10-11:11:45:17 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   712  open lecture-alt-architectures.pdf 
+2020-10-11:11:45:25 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   713  open lecture-alt-architectures.view.pdf
+2020-10-11:11:46:19 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   718  cd ../git/slides/
+2020-10-11:11:48:00 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   719  git add lecture-alt-architectures.*pdf
+2020-10-11:11:48:03 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   720  git commit -am 'lecture-alt-architectures for realz'
+2020-10-11:11:48:10 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   721  git push
+2020-10-18:11:21:51 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   516  cd ../git/slides/
+2020-10-18:11:21:59 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   517  git add lecture-nn-lm.*pdf
+2020-10-18:11:22:02 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   518  git pull
+2020-10-18:11:22:18 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   519  git commit 'fixes to image in lecture-nn-lm'
+2020-10-18:11:22:21 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   520  git push
+2020-10-18:11:22:30 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   521  git commit -am 'fixes to image in lecture-nn-lm'
+2020-10-18:11:22:31 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   522  git push
+2020-10-18:11:22:51 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   523  git push
+2020-10-18:12:15:39 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   539  cd ../git/slides/
+2020-10-18:12:15:42 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   540  git add lecture-words.*pdf
+2020-10-18:12:15:44 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   541  git commit -am lecture-words
+2020-10-18:12:15:53 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   542  git push
+2020-10-18:13:30:20 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   548  cd ../git/slides/
+2020-10-18:13:30:26 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   549  git add lecture-words.*pdf
+2020-10-18:13:30:31 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   550  git commit -am lecture-words
+2020-10-18:13:30:39 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   551  git push
+2020-10-25:11:29:12 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   547  cd ../git/slides/
+2020-10-25:11:29:15 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   548  git pull
+2020-10-25:11:29:27 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   549  git add lecture-domain-adaptation.*pdf
+2020-10-25:11:29:42 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   550  git commit -am 'lecture-domain-adaptation'
+2020-10-25:11:29:48 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   551  git push
+2020-10-25:11:36:16 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   555  cd -
+2020-10-25:11:36:29 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   556  mv lecture-domain-adaptation.pdf lecture-adaptation.pdf 
+2020-10-25:11:36:38 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   557  mv lecture-domain-adaptation.view.pdf lecture-adaptation.view.pf
+2020-10-25:11:36:46 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   558  mv lecture-adaptation.view.pf lecture-adaptation.view.pdf
+2020-10-25:11:37:09 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   559  git add lecture-adaptation.view.pf lecture-adaptation.pdf
+2020-10-25:11:37:36 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   560  git add lecture-adaptation.view.pdf
+2020-10-25:11:37:48 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   561  git commit -am 'adaptation'
+2020-10-25:11:37:53 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   562  git push
+2020-10-25:11:39:37 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   563  ls -l lecture-adaptation.*
+2020-10-25:11:39:48 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   564  ls -l ../../slides/lecture-domain-adaptation.pdf 
+2020-10-25:11:40:11 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   565  touch lecture-domain-adaptation.pdf
+2020-10-25:11:40:13 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   566  touch lecture-domain-adaptation.view.pdf
+2020-10-25:11:40:19 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   567  git rm lecture-domain-adaptation.pdf
+2020-10-25:11:40:31 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   568  git push
+2020-10-25:11:40:34 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   569  git pull
+2020-10-25:11:40:45 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   570  open lecture-adaptation.pdf 
+2020-10-25:11:41:55 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   574  cd ../git/slides/
+2020-10-25:11:42:04 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   575  git rm lecture-adaptation.view.pdf 
+2020-10-25:11:42:11 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   576  git add lecture-adaptation.pdf 
+2020-10-25:11:42:20 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   577  cp lecture-adaptation.pdf lecture-adaptation.view.pdf
+2020-10-25:11:42:26 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   578  git add lecture-adaptation.view.pdf
+2020-10-25:11:42:41 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   579  git commit -am 'adaptation'
+2020-10-25:11:42:48 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   580  git push
+2020-10-25:12:19:58 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   588  cd ../git/slides/
+2020-10-25:12:20:25 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   589  git add lecture-adaptation.pdf lecture-adaptation.view.pdf ; git commit -am 'adaptation' ; git push
+2020-10-25:12:20:48 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   590  git add lecture-adaptation.pdf lecture-adaptation.view.pdf
+2020-10-25:12:20:53 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   591  git commit -am 'adaptation'
+2020-10-25:12:21:03 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   592  git push
+2020-10-25:12:21:14 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   593  git pull
+2020-10-25:12:21:20 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   594  git push
+2020-10-25:13:08:29 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   599  cd ../git/slides/
+2020-10-25:13:08:31 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   600  git pull
+2020-10-25:13:08:40 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   601  git add lecture-adaptation.view.pdf 
+2020-10-25:13:09:06 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   602  git add lecture-adaptation.pdf lecture-adaptation.view.pdf ; git commit -am 'adaptation' ; git push
+2020-10-25:21:08:42 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   641  cd ../git/slides/
+2020-10-25:21:08:44 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   642  git pull
+2020-10-25:21:10:09 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   643  cp lecture-beyond-parallel.*pdf ../git/slides
+2020-10-25:21:10:15 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   644  cp lecture-beyond-parallel.*pdf ../git/slides
+2020-10-25:21:10:22 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   647  cd -
+2020-10-25:21:10:24 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   648  git pull
+2020-10-25:21:10:30 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   649  git add lecture-beyond-parallel.*pdf
+2020-10-25:21:10:45 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   650  git commit -am lecture-beyond
+2020-10-25:21:10:53 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   651  git push
+2020-10-25:22:12:37 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   652  df -hl
+2020-10-25:22:28:10 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   654  cd -
+2020-10-25:22:31:09 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   659  cd ../git/slides/
+2020-10-25:22:31:15 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   660  git add lecture-beyond-parallel.*pdf
+2020-10-25:22:31:29 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   661  git commit -am lecture-beyond
+2020-10-25:22:31:32 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   662  git pull
+2020-10-25:22:31:35 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   663  git push
+2020-10-25:22:31:46 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   664  git commit -am lecture-beyond
+2020-10-25:22:31:56 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   665  git rm lecture-domain-adaptation.pdf 
+2020-10-25:22:32:28 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   666  git add lecture-beyond-parallel.*pdf
+2020-10-25:22:32:34 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   667  ls -l lecture-beyond-parallel.*pdf
+2020-10-25:22:32:55 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   670  cd -
+2020-10-25:22:32:58 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   671  git add lecture-beyond-parallel.*pdf
+2020-10-25:22:33:01 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   672  git commit -am lecture-beyond
+2020-10-25:22:33:10 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   673  git push
+2020-10-31:09:47:19 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   518  cd ../git/slides/
+2020-10-31:09:47:29 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   519  git add lecture-syntax-semantics.*pdf
+2020-10-31:09:47:51 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   520  git commit -am 'syntax-semantics'
+2020-10-31:09:47:54 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   521  git push
+2020-10-31:09:48:08 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   522  git pull
+2020-10-31:09:48:15 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   523  git push
+2020-10-31:09:48:18 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   524  git statys
+2020-10-31:09:48:26 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   525  git status
+2020-10-31:09:49:36 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   526  ls -l lecture-syntax-semantics.view.pdf 
+2020-10-31:11:04:14 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   530  cd -
+2020-10-31:11:04:21 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   531  git add lecture-syntax-semantics.*pdf
+2020-10-31:11:04:29 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   532  git commit -am 'syntax-semantics'
+2020-10-31:11:04:37 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   533  git push
+2020-10-31:21:40:41 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   549  cd ../git/slides/
+2020-10-31:21:40:48 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   550  git add lecture-challenges.*pdf
+2020-10-31:21:40:54 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   551  git commit -am challenges
+2020-10-31:21:41:01 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   552  git push
+2020-11-08:10:07:17 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   630  cd ../git/slides/
+2020-11-08:10:07:22 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   631  git add lecture-viz.*pdf
+2020-11-08:10:07:25 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   632  git commit -am 'lecture-viz'
+2020-11-08:10:07:32 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   633  git pull
+2020-11-08:10:07:40 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   634  git push
+2020-11-08:10:08:05 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   635  pwd
+2020-11-08:10:44:39 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   639  cd -
+2020-11-08:10:44:43 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   640  git add lecture-viz.*pdf
+2020-11-08:10:44:46 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   641  git commit -am 'lecture-viz'
+2020-11-08:10:45:03 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   644  cd -
+2020-11-08:10:45:06 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   645  git add lecture-viz.*pdf
+2020-11-08:10:45:09 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   646  git commit -am 'lecture-viz'
+2020-11-08:10:45:11 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   647  git oush
+2020-11-08:10:45:19 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   648  git push
+2020-11-08:22:20:54 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   649  open ~/LaTex/nmt-book/analysis.tex 
+2020-11-08:22:22:51 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   650  cp -p ~/LaTex/nmt-book/Images/saliency-word-alignment?.png .
+2020-11-08:22:32:13 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   651  mv saliency-word-alignment* ../slides/
+2020-11-08:22:32:17 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   652  mv saliency-word-alignment* ../../slides/
+2020-11-08:22:57:59 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   655  cd -
+2020-11-08:22:58:08 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   656  git add lecture-viz.*pdf
+2020-11-08:22:58:18 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   657  git commit -am 'added saliency'
+2020-11-08:22:58:28 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   658  git push
+2020-11-08:22:58:49 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   661  cd -
+2020-11-08:22:58:55 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   662  git add lecture-viz.*pdf
+2020-11-08:22:58:58 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   663  git commit -am 'added saliency'
+2020-11-08:22:59:04 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   664  git push
+2020-11-08:23:40:50 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   676  cd ../git/slides/
+2020-11-08:23:40:56 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   677  git add lecture-data.*pdf
+2020-11-08:23:41:05 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   678  git commit -am lecture-data
+2020-11-08:23:41:43 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   679  git push
+2020-11-09:00:40:26 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   680  ls ~/LaTex/facebook-talk20/talk.tex 
+2020-11-09:00:40:31 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   681  open ~/LaTex/facebook-talk20/talk.tex 
+2020-11-09:01:16:19 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   697  cd ../git/slides/
+2020-11-09:01:16:30 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   698  git add lecture-data.*pdf
+2020-11-09:01:16:55 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   702  cd -
+2020-11-09:01:16:59 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   703  git add lecture-data.*pdf
+2020-11-09:01:17:14 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   704  git commit -am lecture-data
+2020-11-09:01:17:23 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   705  git push
+2020-11-14:07:26:28 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   684  cd ../git/slides/
+2020-11-14:07:26:31 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   685  git pull
+2020-11-14:07:26:49 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   686  pwd
+2020-11-14:07:27:04 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   687  git add lecture-computer-aided-translation.*pdf
+2020-11-14:07:27:12 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   688  git commit -am lecture-computer-aided-translation
+2020-11-14:07:27:22 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   689  git push
+2020-11-14:10:25:51 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   690  pwd
+2020-11-14:10:25:56 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   691  java -jar ~/Code/bin/pp4p.jar lecture-computer-aided-translation.pdf lecture-computer-aided-translation.view.pdf 
+2020-11-14:10:25:58 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   692  cp lecture-computer-aided-translation.*pdf ../git/slides/
+2020-11-14:10:26:15 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   696  cd -
+2020-11-14:10:26:27 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   697  git add lecture-computer-aided-translation.*pdf
+2020-11-14:10:26:39 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   698  git commit -am 'fixed typos'
+2020-11-14:10:26:45 macbookphi2019.lan /Users/pkoehn/LaTex/mt-class/git/slides   699  git push
+2021-08-31:12:08:20 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   656  cd slides/
+2021-08-31:12:08:20 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   657  ls
+2021-09-14:12:29:07 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   568  cd ../git/slides/
+2021-09-14:12:29:30 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   569  cp ../../slides/lecture-phrase-based-models.*pdf .
+2021-09-16:13:24:07 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/mt-class/git/slides   520  cd ../git/slides/
+2021-09-16:13:24:17 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/mt-class/git/slides   521  git add lecture-decoding.*pdf
+2021-09-16:13:24:28 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/mt-class/git/slides   522  git commit -am lecture-decoding
+2021-09-16:13:24:31 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/mt-class/git/slides   523  git push
+2021-09-16:13:24:34 macbookphi2019.win.ad.jhu.edu /Users/pkoehn/LaTex/mt-class/git/slides   524  ls -lt | head -20
+2021-09-23:12:57:46 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   610  cd ../git/slides/
+2021-09-23:12:57:53 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   611  git add lecture-nn-intro.*
+2021-09-23:12:57:59 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   612  git push -am lecture-nn-intro
+2021-09-23:12:58:06 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   613  git commit -am lecture-nn-intro
+2021-09-23:12:58:09 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   614  git push
+2021-09-23:12:58:13 MacBook-Phi-2019.local /Users/pkoehn/LaTex/mt-class/git/slides   615  git status
