@@ -38,7 +38,7 @@ something really cool? Tell us!
 Presentations
 -------------
 
-See schedule: [sign up](https://docs.google.com/document/d/1FkkhtPAwUXGvmdigfIZvUmH2IUyWgI9cnt8gu9A2rhE/edit?usp=sharing).
+See schedule: [sign up](https://docs.google.com/document/d/1UYjsU6uN3rSJSAfHnynRg7gjT_1TLLz-8HHnCBlCJxg/edit?usp=sharing).
 
 
 

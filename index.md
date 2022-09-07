@@ -32,7 +32,7 @@ Instructor
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) (<phi@jhu.edu>)
 
 TA
-: Yi Zhang (yzhan286@jhu.edu)
+: Yi Zhang (yzh@jhu.edu)
 
 Office hours
 : **Professor** by Appointment
