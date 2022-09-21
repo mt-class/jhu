@@ -17,7 +17,7 @@ past:
       -
         author: Weaver (1949)
         title: Translation
-        url: http://www.mt-archive.info/Weaver-1949.pdf
+        url: http://www.mt-archive.info/Weaver-1949.pd
         optional: true
       -
         author: Kay 
@@ -163,7 +163,7 @@ past:
       -
         author: LeCun et al. (1998) 
         title: Efficient BackProp
-        url: http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+        url: https://cseweb.ucsd.edu/classes/wi08/cse253/Handouts/lecun-98b.pdf
         optional: true
       -
         author: Srivastava et al. (2014)
