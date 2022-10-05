@@ -32,8 +32,6 @@ Project Presentations
 
 Please [sign up](https://docs.google.com/document/d/116YjbaF189kINjbIXRviO5AQnb4edqANs-GBqGbuZRc/edit?usp=sharing).
 
-Note that Tuesdays presentation will be in-class and Thursdays presentations will be [online](https://wse.zoom.us/j/9585197149).
-
 Project Proposal
 ----------------
 Your project proposal must identify a concrete research plan. A survey
