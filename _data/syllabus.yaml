@@ -280,6 +280,9 @@ past:
       - 
         text: Youtube
         url: https://youtu.be/p8bj_sIfN6w
+      -
+        text: 2022 Version of Slides
+        url: http://mt-class.org/jhu/slides/lecture-alt-architectures-2022-steven-tan.pdf
     reading:
       -
         author: Koehn (2020)
