@@ -1,0 +1,492 @@
+past:
+  - 
+    date: 2022-08-30
+    title: Introduction
+    slides: http://mt-class.org/jhu/slides/lecture-introduction.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/intro.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=DuYkqCQEbpo
+    reading:
+      -
+        author: Koehn (2010) 
+        title: Statistical Machine Translation, Chapter 1.2
+      -
+        author: Weaver (1949)
+        title: Translation
+        url: http://www.mt-archive.info/Weaver-1949.pd
+        optional: true
+      -
+        author: Kay 
+        title: Translation
+        url: http://www.stanford.edu/~mjkay/CurrentState.pdf
+        optional: true
+  -
+    date: 2022-09-01
+    title: Basics in Language and Probability 
+    slides: http://mt-class.org/jhu/slides/lecture-foundations.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/foundations.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=dsBioR-U5P4
+    reading:
+      -
+        author: Koehn (2010) 
+        title: Statistical Machine Translation, Chapter 2.1 and 3
+  -
+    date: 2022-09-06
+    title: Language Models
+    slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/lm.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=Vj4wZsSnO1Q
+    reading: 
+      -
+        author: Koehn (2010) 
+        title: Statistical Machine Translation, Chapter 7
+  -
+    date: 2022-09-08
+    title: IBM Model 1 and the EM Algorithm
+    slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/ibm-model1.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=5etGx8OZE7I
+    reading:
+      -
+        author: Koehn (2010) 
+        title: Statistical Machine Translation, Chapter 4.1-4.2
+      -
+        author: Knight (1997)
+        title:  Automating Knowledge Acquisition for Machine Translation
+        url: http://www.isi.edu/natural-language/mt/aimag97.pdf
+        optional: true
+  -
+    date: 2022-09-13
+    title: Phrase-Based Models
+    slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/phrase-based-models.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=AwZSgHikWwk
+    reading:
+      -
+        author: Koehn (2010)
+        title: Statistical Machine Translation, Chapter 5
+      -
+        author: Durrani et al. (2013)
+        title: Can Markov Models Over Minimal Translation Units Help Phrase-Based SMT?
+        url: http://homepages.inf.ed.ac.uk/dnadir/osmoses.pdf
+        optional: true
+  -
+    date: 2022-09-15
+    title: Decoding
+    slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/decoding.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=dBEOdWs15oY
+      -
+        text: Demo
+        url: stack-decoder/
+    reading:
+      -
+        author: Koehn (2010)
+        title: Statistical Machine Translation, Chapter 6
+      -
+        author: Heafield et al. (2014)
+        title: Faster Phrase-Based Decoding by Refining Feature State
+        url: https://kheafield.com/professional/stanford/mtplz_paper.pdf
+        optional: true
+  -
+    date: 2022-09-20
+    title: Evaluation
+    slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/evaluation.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=Iso8dl8Ay6E
+    reading:
+      -
+        author: Koehn (2010)
+        title: Statistical Machine Translation, Chapter 8
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 4
+      -
+        author: Graham et al. (2014)
+        title: Is Machine Translation Getting Better over Time?
+        url: http://www.aclweb.org/anthology/E/E14/E14-1047.pdf
+        optional: true
+  -
+    date: 2022-09-22
+    title: Introduction to Neural Networks
+    slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/nn-intro.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=Nx6rXYU-dls
+
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 5
+      -
+        author: Makin (2006)
+        title: Backpropagation
+        url: https://inst.eecs.berkeley.edu/~cs182/sp06/notes/backprop.pdf
+      -
+        author: LeCun et al. (1998) 
+        title: Efficient BackProp
+        url: https://cseweb.ucsd.edu/classes/wi08/cse253/Handouts/lecun-98b.pdf
+        optional: true
+      -
+        author: Srivastava et al. (2014)
+        title: Dropout - A Simple Way to Prevent Neural Networks from Overfitting
+        url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
+        optional: true
+  -
+    date: 2022-09-27
+    title: Computation Graphs
+    slides: http://mt-class.org/jhu/slides/lecture-nn-computation-graphs.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/nn-computation-graphs.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=vD3vSif6OVA
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 6
+      -
+        author: Tensorflow
+        title: Neural network online demo
+        url: http://playground.tensorflow.org/
+  -
+    date: 2022-09-29
+    title: Neural Language Models
+    slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/nn-lm.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=Sho-b4-9ODE
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 7
+      -
+        author: Bengio et al. (2002)
+        title: A Neural Probabilistic Language Model
+        url: http://jmlr.csail.mit.edu/papers/volume3/bengio03a/bengio03a.pdf
+        optional: true
+      -
+        author: Tomas Mikolov (2012)
+        title: Statistical Language Models Based on Neural Networks, Chapter 3
+        url: http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf
+        optional: true
+      -
+        author: Karpathy et al. (2015)
+        title: Visualizing and Understanding Recurrent Networks
+        url: https://arxiv.org/pdf/1506.02078
+        optional: true
+  -
+    date: 2022-10-04
+    title: Neural Translation Models
+    slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/nmt.mp4
+      - 
+        text: Youtube
+        url: https://youtu.be/1uoOk2S6GUk
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 8
+      -
+        author: Bahdanau et al. (2015)
+        title: Neural Machine Translation by Jointly Learning to Align and Translate
+        url: http://arxiv.org/pdf/1409.0473v5.pdf
+        optional: true
+  -
+    date: 2022-10-06
+    title: Decoding in Neural Translation Models
+    slides: http://mt-class.org/jhu/slides/lecture-nmt-decoding.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/nmt-decoding.mp4
+      - 
+        text: Youtube
+        url: https://youtu.be/0DsWLXNIxeA
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 9
+  -
+    date: 2022-10-11
+    title: Machine Learning Tricks
+    slides: http://mt-class.org/jhu/slides/lecture-ml-tricks.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/mk-tricks.mp4
+      - 
+        text: Youtube
+        url: https://youtu.be/J3v5b27NDtc
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 10
+  -
+    date: 2022-10-13
+    title: Alternative Architectures 
+    slides: http://mt-class.org/jhu/slides/lecture-alt-architectures.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/alt-architectures.mp4
+      - 
+        text: Youtube
+        url: https://youtu.be/p8bj_sIfN6w
+      -
+        text: 2022 Version of Slides
+        url: http://mt-class.org/jhu/slides/lecture-alt-architectures-2022-steven-tan.pdf
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 11
+      -
+        author: Vaswani et al. (2017)
+        title: Attention Is All You Need
+        url: https://arxiv.org/abs/1706.03762
+        optional: true
+      -
+        author: Gehring et al. (2017)
+        title: Convolutional Sequence to Sequence Learning
+        url: https://arxiv.org/abs/1705.03122
+        optional: true
+  -
+    date: 2022-10-18
+    title: Words and Morphology
+    slides: http://mt-class.org/jhu/slides/lecture-words.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/words.mp4
+      - 
+        text: Youtube
+        url: https://youtu.be/tZH1TltU3HQ
+    reading:
+      -
+        author: Koehn (2010)
+        title: Statistical Machine Translation, Chapter 10.2
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 12
+  -
+    date: 2022-10-25
+    title: Adaptation
+    slides: http://mt-class.org/jhu/slides/lecture-adaptation.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/adaptation.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=CbyoJ960uNo
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 13
+      -
+        author: Axelrod et al. (2011)
+        title: Domain adaptation via pseudo in-domain data selection
+        url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
+        optional: true
+  -
+    date: 2022-10-27
+    title: Beyond Parallel Data
+    slides: http://mt-class.org/jhu/slides/lecture-beyond-parallel.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/beyond-parallel.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=ECBKgGv3BYg
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 14
+      -
+        author: Fan (2020)
+        title: Introducing the First AI Model That Translates 100 Languages Without Relying on English
+        url: https://about.fb.com/news/2020/10/first-multilingual-machine-translation-model/
+        optional: true
+  -
+    date: 2022-11-01
+    title: Syntax and Semantics
+    slides: http://mt-class.org/jhu/slides/lecture-syntax-semantics.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/syntax-semantics.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=NAKQta_fjlg
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 15
+      -
+        author: Cook et al. (2011)
+        title: The World Color Survey Database - History and Use
+        url: http://www1.icsi.berkeley.edu/~kay/claire7.pdf
+        optional: true
+      -
+        author: Banarescu et al. (2013)
+        title: Abstract Meaning Representation for Sembanking
+        url: http://www.isi.edu/natural-language/amr/a.pdf
+        optional: true
+  -
+    date: 2022-11-03
+    title: Current Challenges
+    slides: http://mt-class.org/jhu/slides/lecture-challenges.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/challenges.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?v=761DkYRtoF8
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 16
+      -
+        author: Koehn and Knowles (2017)
+        title: Six Challenges for Neural Machine Translation
+        url: http://www.aclweb.org/anthology/W/W17/W17-3204.pdf
+        optional: true
+      -
+        author: Khayrallah and Koehn (2018)
+        title: On the Impact of Various Types of Noise on Neural Machine Translation
+        url: http://aclweb.org/anthology/W18-2709.pdf
+        optional: true
+  -
+    date: 2022-11-08
+    title: Corpus Acquisition from the Internet
+    slides: http://mt-class.org/jhu/slides/lecture-data.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/data.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?DNJl766bxuM
+    reading:
+      -
+        author: Uszkoreit et al. (2010)
+        title: Large Scale Parallel Document Mining for Machine Translation
+        url: http://aclweb.org/anthology/C/C10/C10-1124.pdf
+        optional: true
+      -
+        author: Resnik and Smith (2003)
+        title: The Web as a Parallel Corpus
+        url: http://www.aclweb.org/anthology/J03-3002.pdf
+        optional: true
+      -
+        author: Buck and Heafield (2014)
+        title: N-gram Counts and Language Models from the Common Crawl
+        url: http://statmt.org/ngrams/BuckEtAl_LREC2014_CommonCrawlLM.pdf
+        optional: true
+      -
+        author: Koehn et al. (2018)
+        title: Findings of the WMT 2018 Shared Task on Parallel Corpus Filtering
+        url: http://aclweb.org/anthology/W18-6453
+        optional: true
+  -
+    date: 2022-11-10
+    title: Analysis and Visualization
+    slides: http://mt-class.org/jhu/slides/lecture-viz.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/viz.mp4
+      - 
+        text: Youtube
+        url: https://www.youtube.com/watch?9YXw2uAhjes
+    reading:
+      -
+        author: Koehn (2020)
+        title: Neural Machine Translation, Chapter 17
+  -
+    date: 2022-11-15
+    title: Speech Translation
+    slides: http://mt-class.org/jhu/slides/lecture-speech-translation.pdf
+  -
+    date: 2022-11-17
+    title: Computer Aided Translation
+    slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
+    links:
+      -
+        text: Video
+        url: http://www.cs.jhu.edu/~phi/mt-class/computer-aided-translation.mp4
+      - 
+        text: Youtube
+        url: https://youtu.be/c0-xaBcJGKg
+    reading:
+      -
+        author: Barrachina et al. (2009)
+        title: Statistical Approaches to Computer-Assisted Translation
+        url: http://www.aclweb.org/anthology/J09-1002.pdf
+        optional: true
+      -
+        author: Knowles and Koehn (2017)
+        title: Neural Interactive Machine Translation
+        url: https://www.cs.jhu.edu/~phi/publications/neural-interactive-translation.pdf
+        optional: true
+  -
+    date: 2022-11-29
+    title: Project Presentations
+  -
+    date: 2022-12-01
+    title: Project Presentations
+  -
+    date: 2022-12-06
+    title: Project Presentations
+  -
+    date: 2022-12-08
+    title: Project Presentations
