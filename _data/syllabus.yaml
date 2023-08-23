@@ -1,6 +1,6 @@
 past:
   - 
-    date: 2022-08-30
+    date: 2023-08-29
     title: Introduction
     slides: http://mt-class.org/jhu/slides/lecture-introduction.pdf
     links:
@@ -25,7 +25,7 @@ past:
         url: http://www.stanford.edu/~mjkay/CurrentState.pdf
         optional: true
   -
-    date: 2022-09-01
+    date: 2023-08-31
     title: Basics in Language and Probability 
     slides: http://mt-class.org/jhu/slides/lecture-foundations.pdf
     links:
@@ -40,7 +40,7 @@ past:
         author: Koehn (2010) 
         title: Statistical Machine Translation, Chapter 2.1 and 3
   -
-    date: 2022-09-06
+    date: 2023-09-05
     title: Language Models
     slides: http://mt-class.org/jhu/slides/lecture-lm.pdf
     links:
@@ -55,7 +55,7 @@ past:
         author: Koehn (2010) 
         title: Statistical Machine Translation, Chapter 7
   -
-    date: 2022-09-08
+    date: 2023-09-07
     title: IBM Model 1 and the EM Algorithm
     slides: http://mt-class.org/jhu/slides/lecture-ibm-model1.pdf
     links:
@@ -75,7 +75,7 @@ past:
         url: http://www.isi.edu/natural-language/mt/aimag97.pdf
         optional: true
   -
-    date: 2022-09-13
+    date: 2023-09-12
     title: Phrase-Based Models
     slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
     links:
@@ -95,7 +95,7 @@ past:
         url: http://homepages.inf.ed.ac.uk/dnadir/osmoses.pdf
         optional: true
   -
-    date: 2022-09-15
+    date: 2023-09-14
     title: Decoding
     slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
     links:
@@ -118,7 +118,7 @@ past:
         url: https://kheafield.com/professional/stanford/mtplz_paper.pdf
         optional: true
   -
-    date: 2022-09-20
+    date: 2023-09-19
     title: Evaluation
     slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
     links:
@@ -141,7 +141,7 @@ past:
         url: http://www.aclweb.org/anthology/E/E14/E14-1047.pdf
         optional: true
   -
-    date: 2022-09-22
+    date: 2023-09-21
     title: Introduction to Neural Networks
     slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     links:
@@ -171,7 +171,7 @@ past:
         url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
         optional: true
   -
-    date: 2022-09-27
+    date: 2023-09-26
     title: Computation Graphs
     slides: http://mt-class.org/jhu/slides/lecture-nn-computation-graphs.pdf
     links:
@@ -190,7 +190,7 @@ past:
         title: Neural network online demo
         url: http://playground.tensorflow.org/
   -
-    date: 2022-09-29
+    date: 2023-09-28
     title: Neural Language Models
     slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     links:
@@ -220,7 +220,7 @@ past:
         url: https://arxiv.org/pdf/1506.02078
         optional: true
   -
-    date: 2022-10-04
+    date: 2023-10-03
     title: Neural Translation Models
     slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
     links:
@@ -240,7 +240,7 @@ past:
         url: http://arxiv.org/pdf/1409.0473v5.pdf
         optional: true
   -
-    date: 2022-10-06
+    date: 2023-10-05
     title: Decoding in Neural Translation Models
     slides: http://mt-class.org/jhu/slides/lecture-nmt-decoding.pdf
     links:
@@ -255,7 +255,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 9
   -
-    date: 2022-10-11
+    date: 2023-10-10
     title: Machine Learning Tricks
     slides: http://mt-class.org/jhu/slides/lecture-ml-tricks.pdf
     links:
@@ -270,7 +270,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 10
   -
-    date: 2022-10-13
+    date: 2023-10-12
     title: Alternative Architectures 
     slides: http://mt-class.org/jhu/slides/lecture-alt-architectures.pdf
     links:
@@ -280,9 +280,6 @@ past:
       - 
         text: Youtube
         url: https://youtu.be/p8bj_sIfN6w
-      -
-        text: 2022 Version of Slides
-        url: http://mt-class.org/jhu/slides/lecture-alt-architectures-2022-steven-tan.pdf
     reading:
       -
         author: Koehn (2020)
@@ -298,7 +295,7 @@ past:
         url: https://arxiv.org/abs/1705.03122
         optional: true
   -
-    date: 2022-10-18
+    date: 2023-10-17
     title: Words and Morphology
     slides: http://mt-class.org/jhu/slides/lecture-words.pdf
     links:
@@ -316,7 +313,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 12
   -
-    date: 2022-10-25
+    date: 2023-10-24
     title: Adaptation
     slides: http://mt-class.org/jhu/slides/lecture-adaptation.pdf
     links:
@@ -336,7 +333,7 @@ past:
         url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
         optional: true
   -
-    date: 2022-10-27
+    date: 2023-10-26
     title: Beyond Parallel Data
     slides: http://mt-class.org/jhu/slides/lecture-beyond-parallel.pdf
     links:
@@ -356,7 +353,7 @@ past:
         url: https://about.fb.com/news/2020/10/first-multilingual-machine-translation-model/
         optional: true
   -
-    date: 2022-11-01
+    date: 2023-10-31
     title: Syntax and Semantics
     slides: http://mt-class.org/jhu/slides/lecture-syntax-semantics.pdf
     links:
@@ -381,7 +378,7 @@ past:
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
   -
-    date: 2022-11-03
+    date: 2023-11-02
     title: Current Challenges
     slides: http://mt-class.org/jhu/slides/lecture-challenges.pdf
     links:
@@ -406,7 +403,7 @@ past:
         url: http://aclweb.org/anthology/W18-2709.pdf
         optional: true
   -
-    date: 2022-11-08
+    date: 2023-11-05
     title: Corpus Acquisition from the Internet
     slides: http://mt-class.org/jhu/slides/lecture-data.pdf
     links:
@@ -438,7 +435,7 @@ past:
         url: http://aclweb.org/anthology/W18-6453
         optional: true
   -
-    date: 2022-11-10
+    date: 2023-11-09
     title: Analysis and Visualization
     slides: http://mt-class.org/jhu/slides/lecture-viz.pdf
     links:
@@ -453,11 +450,11 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 17
   -
-    date: 2022-11-15
+    date: 2023-11-14
     title: Speech Translation
     slides: http://mt-class.org/jhu/slides/lecture-speech-translation.pdf
   -
-    date: 2022-11-17
+    date: 2023-11-16
     title: Computer Aided Translation
     slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     links:
@@ -479,14 +476,14 @@ past:
         url: https://www.cs.jhu.edu/~phi/publications/neural-interactive-translation.pdf
         optional: true
   -
-    date: 2022-11-29
+    date: 2023-11-28
     title: Project Presentations
   -
-    date: 2022-12-01
+    date: 2023-11-30
     title: Project Presentations
   -
-    date: 2022-12-06
+    date: 2022-12-05
     title: Project Presentations
   -
-    date: 2022-12-08
+    date: 2022-12-07
     title: Project Presentations
