@@ -20,7 +20,7 @@ input, output, and evaluation measures. You should make an appointment with
 the instructors to discuss your project prior to the first due date. To
 keep you on track, there are three:
 
-* BEFORE October 19: Meet with your instructors, by [appointment](https://docs.google.com/document/d/1DVmTdxl9WqlrV7VVZB5uw5ix5WtnEmfGLrGk2JHueUo/edit?usp=sharing).
+* BEFORE October 19: Meet with your instructors, by [appointment](https://docs.google.com/document/d/1-eS9G5xOmdxBy9nTpZkxUzEmHv1wLEZ-j9Y3oSd2vUM/edit?usp=sharing).
 * October 25: Project proposals (10 points)
 * November 15: Interim report (5 points)
 * December 6: Final project report (15 points)
@@ -30,7 +30,7 @@ All projects will be graded on a final written report.
 Project Presentations
 ---------------------
 
-Please [sign up](https://docs.google.com/document/d/116YjbaF189kINjbIXRviO5AQnb4edqANs-GBqGbuZRc/edit?usp=sharing).
+Please [sign up](https://docs.google.com/document/d/11EIsdE9jDcn4bFHeGr1W269Kpz_ayvUVayMRspOIhAY/edit?usp=sharing).
 
 Project Proposal
 ----------------
