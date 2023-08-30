@@ -36,7 +36,7 @@ TA
 
 Office hours
 : **Professor** by Appointment
-: **TA** TBD
+: **TA** Tuesday 3-4pm, Hackerman 2nd floor, kitchen area
 
 Format
 : This class will be delivered in person this year. Lectures were pre-recorded last year and these are still accessible through links on this web site and on Youtube. 
