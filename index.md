@@ -43,6 +43,7 @@ Format
 
 Discussion Forum
 : [Piazza](https://piazza.com/jhu/fall2023/en601468/home) access code: 8dk9w3pxe8w
+! [Gradescope](https://www.gradescope.com/courses/608121) access code: 7DGJ6D
 
 Textbooks
 : The class follows closely two textbooks.
