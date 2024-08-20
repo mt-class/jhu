@@ -9,7 +9,7 @@ active_tab: main_page
 ---
 
 EN 601.468/668 Machine Translation
-: Fall 2023
+: Fall 2024
 : Tuesdays and Thursdays 1:30-2:45
 : Room: Maryland 110
 : [Computer Science Department](http://www.cs.jhu.edu/)
