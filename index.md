@@ -11,7 +11,7 @@ active_tab: main_page
 EN 601.468/668 Machine Translation
 : Fall 2024
 : Tuesdays and Thursdays 1:30-2:45
-: Room: Maryland 110
+: Room: Hodson 210
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
@@ -32,18 +32,18 @@ Instructor
 : [Philipp Koehn](http://www.cs.jhu.edu/~phi/) (<phi@jhu.edu>)
 
 TA
-: Haoran Xu (hxu64@jhu.edu)
+: Bismarck Odoom (bodoom1@jhu.edu)
 
 Office hours
 : **Professor** by Appointment
-: **TA** Tuesday 3-4pm, Hackerman 2nd floor, kitchen area
+: **TA** TBD
 
 Format
-: This class will be delivered in person this year. Lectures were pre-recorded last year and these are still accessible through links on this web site and on Youtube. 
+: This class will be delivered in person this year. Lectures were pre-recorded in 2020 and these are still accessible through links on this web site and on Youtube. Note that a good portion has changed since.
 
 Discussion Forum
-: [Piazza](https://piazza.com/jhu/fall2023/en601468/home) access code: 8dk9w3pxe8w
-! [Gradescope](https://www.gradescope.com/courses/608121) access code: 7DGJ6D
+: [Piazza](https://piazza.com/jhu/fall2024/en601468/home) access code: nobxprze2nm
+! [Gradescope](https://www.gradescope.com/courses/829984) access code: 7EXJ44
 
 Textbooks
 : The class follows closely two textbooks.
@@ -62,10 +62,10 @@ We will mainly grade hands-on work.
 
 Homework Schedule
 : There will be five homework assignments, tentative schedule:
-* [HW1: Analysis](hw0.html), due September 7
-* [HW2: Word alignment](hw1.html), due September 20
-* [HW3: Decoding](hw2.html), due October 5
-* HW4: Neural translation model part 1, due October 19
-* HW5: Neural translation model part 2, due November 3
+* [HW1: Analysis](hw0.html), due September 5
+* [HW2: Word alignment](hw1.html), due September 18
+* [HW3: Decoding](hw2.html), due October 3
+* HW4: Neural translation model part 1, due October 17
+* HW5: Neural translation model part 2, due November 1
 
 Late penalty for homework assignments: 10% per day, after 5 free "late days".
