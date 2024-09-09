@@ -36,7 +36,8 @@ TA
 
 Office hours
 : **Professor** by Appointment
-: **TA** TBD
+: **TA** Bismarck Bamfo Odoom, Wednesday 1-2pm, Malone 122
+: **CAs** Lavanya Shankar, Monday 3-4pm; Angad Sandhu, Tuesday 1-2pm; Kshitij Joshi, Friday 2-3pm; Weina Dai, Thursday 2-3pm
 
 Format
 : This class will be delivered in person this year. Lectures were pre-recorded in 2020 and these are still accessible through links on this web site and on Youtube. Note that a good portion has changed since.
