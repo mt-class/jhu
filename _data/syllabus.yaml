@@ -451,10 +451,6 @@ past:
         title: Neural Machine Translation, Chapter 17
   -
     date: 2024-11-12
-    title: Speech Translation
-    slides: http://mt-class.org/jhu/slides/lecture-speech-translation.pdf
-  -
-    date: 2024-11-14
     title: Computer Aided Translation
     slides: http://mt-class.org/jhu/slides/lecture-computer-aided-translation.pdf
     links:
@@ -475,6 +471,10 @@ past:
         title: Neural Interactive Machine Translation
         url: https://www.cs.jhu.edu/~phi/publications/neural-interactive-translation.pdf
         optional: true
+  -
+    date: 2024-11-14
+    title: Speech Translation
+    slides: http://mt-class.org/jhu/slides/lecture-speech-translation.pdf
   -
     date: 2024-11-19
     title: Project Presentations
