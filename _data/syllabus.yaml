@@ -296,8 +296,8 @@ past:
         optional: true
   -
     date: 2024-10-15
-    title: Words and Morphology
-    slides: http://mt-class.org/jhu/slides/lecture-words.pdf
+    title: Linguistic Intermezzo
+    slides: http://mt-class.org/jhu/slides/lecture-linguistic-intermezzo.pdf
     links:
       -
         text: Video
@@ -305,35 +305,31 @@ past:
       - 
         text: Youtube
         url: https://youtu.be/tZH1TltU3HQ
+      -
+        text: Video 2
+        url: http://www.cs.jhu.edu/~phi/mt-class/syntax-semantics.mp4
+      - 
+        text: Youtube 2
+        url: https://www.youtube.com/watch?v=NAKQta_fjlg
     reading:
       -
         author: Koehn (2010)
         title: Statistical Machine Translation, Chapter 10.2
       -
         author: Koehn (2020)
-        title: Neural Machine Translation, Chapter 12
-  -
-    date: 2024-10-22
-    title: Adaptation
-    slides: http://mt-class.org/jhu/slides/lecture-adaptation.pdf
-    links:
+        title: Neural Machine Translation, Chapter 12, 15
       -
-        text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/adaptation.mp4
-      - 
-        text: Youtube
-        url: https://www.youtube.com/watch?v=CbyoJ960uNo
-    reading:
+        author: Cook et al. (2011)
+        title: The World Color Survey Database - History and Use
+        url: http://www1.icsi.berkeley.edu/~kay/claire7.pdf
+        optional: true
       -
-        author: Koehn (2020)
-        title: Neural Machine Translation, Chapter 13
-      -
-        author: Axelrod et al. (2011)
-        title: Domain adaptation via pseudo in-domain data selection
-        url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
+        author: Banarescu et al. (2013)
+        title: Abstract Meaning Representation for Sembanking
+        url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
   -
-    date: 2024-10-24
+    date: 2024-10-22
     title: Beyond Parallel Data
     slides: http://mt-class.org/jhu/slides/lecture-beyond-parallel.pdf
     links:
@@ -353,29 +349,27 @@ past:
         url: https://about.fb.com/news/2020/10/first-multilingual-machine-translation-model/
         optional: true
   -
+    date: 2024-10-24
+    title: Large Language Models
+  -
     date: 2024-10-29
-    title: Syntax and Semantics
-    slides: http://mt-class.org/jhu/slides/lecture-syntax-semantics.pdf
+    title: Adaptation
+    slides: http://mt-class.org/jhu/slides/lecture-adaptation.pdf
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/syntax-semantics.mp4
+        url: http://www.cs.jhu.edu/~phi/mt-class/adaptation.mp4
       - 
         text: Youtube
-        url: https://www.youtube.com/watch?v=NAKQta_fjlg
+        url: https://www.youtube.com/watch?v=CbyoJ960uNo
     reading:
       -
         author: Koehn (2020)
-        title: Neural Machine Translation, Chapter 15
+        title: Neural Machine Translation, Chapter 13
       -
-        author: Cook et al. (2011)
-        title: The World Color Survey Database - History and Use
-        url: http://www1.icsi.berkeley.edu/~kay/claire7.pdf
-        optional: true
-      -
-        author: Banarescu et al. (2013)
-        title: Abstract Meaning Representation for Sembanking
-        url: http://www.isi.edu/natural-language/amr/a.pdf
+        author: Axelrod et al. (2011)
+        title: Domain adaptation via pseudo in-domain data selection
+        url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
         optional: true
   -
     date: 2024-10-31
