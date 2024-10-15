@@ -66,7 +66,7 @@ Homework Schedule
 * [HW1: Analysis](hw0.html), due September 5
 * [HW2: Word alignment](hw1.html), due September 19
 * [HW3: Decoding](hw2.html), due October 3
-* HW4: Neural translation model part 1, due October 17
+* [HW4: Neural translation model part 1](hw3.html), due October 17
 * HW5: Neural translation model part 2, due October 31
 
 Late penalty for homework assignments: 10% per day, after 5 free "late days".
