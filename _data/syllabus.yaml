@@ -351,6 +351,7 @@ past:
   -
     date: 2024-10-24
     title: Large Language Models
+    slides: http://mt-class.org/jhu/slides/lecture-large-language-models.pdf
   -
     date: 2024-10-29
     title: Adaptation
