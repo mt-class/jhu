@@ -352,6 +352,17 @@ past:
     date: 2024-10-24
     title: Large Language Models
     slides: http://mt-class.org/jhu/slides/lecture-large-language-models.pdf
+    reading:
+      -
+        author: Radford et al. (2019)
+        title: Language Models are Unsupervised Multitask Learners
+        url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+        optional: true
+      -
+        author: Llama Team, Meta AI (2024)
+        title: The Llama 3 Herd of Models
+        url: https://arxiv.org/pdf/2407.21783
+        optional: true
   -
     date: 2024-10-29
     title: Adaptation
