@@ -363,6 +363,11 @@ past:
         title: The Llama 3 Herd of Models
         url: https://arxiv.org/pdf/2407.21783
         optional: true
+      -
+        author: Briakou et al. (2023)
+        title: On the Role of Incidental Bilingualism in PaLM’s Translation Capability
+        url: https://aclanthology.org/2023.acl-long.524.pdf
+        optional: true
   -
     date: 2024-10-29
     title: Adaptation
