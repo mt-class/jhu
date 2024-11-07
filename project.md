@@ -30,7 +30,7 @@ All projects will be graded on a final written report.
 Project Presentations
 ---------------------
 
-Please [sign up](https://docs.google.com/document/d/11EIsdE9jDcn4bFHeGr1W269Kpz_ayvUVayMRspOIhAY/edit?usp=sharing).
+Please [sign up](https://docs.google.com/document/d/1yOjD3gURurYKfY2ZSAw65KxwNmrFhbHYw_l8CWuIN8U/edit?usp=sharing)
 
 Project Proposal
 ----------------
