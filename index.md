@@ -9,9 +9,9 @@ active_tab: main_page
 ---
 
 EN 601.468/668 Machine Translation
-: Fall 2024
+: Fall 2025
 : Tuesdays and Thursdays 1:30-2:45
-: Room: Hodson 210
+: Room: Mudd 26
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
@@ -36,15 +36,15 @@ TA
 
 Office hours
 : **Professor** by Appointment
-: **TA** Bismarck Bamfo Odoom, Wednesday 1-2pm, Malone 122
-: **CAs** Lavanya Shankar, Monday 3-4pm; Angad Sandhu, Tuesday 1-2pm; Kshitij Joshi, Friday 2-3pm; Weina Dai, Thursday 2-3pm; Malone 216
+: **TA** Bismarck Bamfo Odoom, TBA
+: **CAs** TBA
 
 Format
 : This class will be delivered in person this year. Lectures were pre-recorded in 2020 and these are still accessible through links on this web site and on Youtube. Note that a good portion has changed since.
 
 Discussion Forum
-: [Piazza](https://piazza.com/jhu/fall2024/en601468/home) access code: nobxprze2nm
-! [Gradescope](https://www.gradescope.com/courses/829984) access code: 7EXJ44
+: [Piazza](https://piazza.com/jhu/fall2025/en601468) access code: 2qze3gdjr6h
+! [Gradescope](https://www.gradescope.com/courses/829984) access code: GVGR43
 
 Textbooks
 : The class follows closely two textbooks.
@@ -63,10 +63,10 @@ We will mainly grade hands-on work.
 
 Homework Schedule
 : There will be five homework assignments, tentative schedule:
-* [HW1: Analysis](hw0.html), due September 5
-* [HW2: Word alignment](hw1.html), due September 19
-* [HW3: Decoding](hw2.html), due October 3
-* [HW4: Neural translation model part 1](hw3.html), due October 17
-* HW5: Neural translation model part 2, due October 31
+* [HW1: Analysis](hw0.html), due September 4
+* [HW2: Word alignment](hw1.html), due September 18
+* [HW3: Decoding](hw2.html), due October 2
+* [HW4: Neural translation model part 1](hw3.html), due October 16
+* HW5: Neural translation model part 2, due October 30
 
 Late penalty for homework assignments: 10% per day, after 5 free "late days".
