@@ -20,7 +20,7 @@ Translate with Google Translate
 2. Find a news site, Wikipedia articles, or social media posts.
 3. Translate it with [Google Translate](https://translate.google.com/)
 
-Try to find challenging cases, either due to the language (not one of the top 100 languages in terms of resources), specialized domain (e.g., technical jargon), or writing style (e.g., social media with creative and ungrammatical expressions).
+Try to find challenging cases, either due to the language (not one of the top 100 languages in terms of resources), specialized domain (e.g., technical jargon), linguistic constructions, or writing style (e.g., social media with creative and ungrammatical expressions).
 
 Analyse the Translations
 ========================
