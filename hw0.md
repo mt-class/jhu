@@ -13,12 +13,14 @@ Examining the Quality of Machine Translation
 
 The first homework assignment does not involve any programming. Instead, you will take a closer look at the quality of todays's machine translation systems.
 
-Translate a Web Page with Google Translate
-==========================================
+Translate with Google Translate
+===============================
 
 1. Pick a foreign language (preferable one that you have some understanding of - or an easy one like French or Spanish)
-2. Find a news site that publishes news stories in that language. You can also look at Wikipedia articles, if you prefer that.
-3. Pick a web page to translate and enter it with [Google Translate](https://translate.google.com/)
+2. Find a news site, Wikipedia articles, or social media posts.
+3. Translate it with [Google Translate](https://translate.google.com/)
+
+Try to find challenging cases, either due to the language (not one of the top 100 languages in terms of resources), specialized domain (e.g., technical jargon), or writing style (e.g., social media with creative and ungrammatical expressions).
 
 Analyse the Translations
 ========================
@@ -46,7 +48,5 @@ Conclude your report with a summary of your impression of the major quality prob
 What to Hand in
 ===============
 
-Turn in a written report on Thursday, September 4 by noon, on Gradescope.
-
-
+Turn in a written report on Sunday, September 7 by midnight, on Gradescope.
 
