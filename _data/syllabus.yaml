@@ -76,8 +76,8 @@ past:
         optional: true
   -
     date: 2024-09-10
-    title: Phrase-Based Models
-    slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models.pdf
+    title: Phrase-Based Models and Decoding
+    slides: http://mt-class.org/jhu/slides/lecture-phrase-based-models-and-decoding.pdf
     links:
       -
         text: Video
@@ -85,25 +85,11 @@ past:
       - 
         text: Youtube
         url: https://www.youtube.com/watch?v=AwZSgHikWwk
-    reading:
       -
-        author: Koehn (2010)
-        title: Statistical Machine Translation, Chapter 5
-      -
-        author: Durrani et al. (2013)
-        title: Can Markov Models Over Minimal Translation Units Help Phrase-Based SMT?
-        url: http://homepages.inf.ed.ac.uk/dnadir/osmoses.pdf
-        optional: true
-  -
-    date: 2024-09-12
-    title: Decoding
-    slides: http://mt-class.org/jhu/slides/lecture-decoding.pdf
-    links:
-      -
-        text: Video
+        text: Video 2
         url: http://www.cs.jhu.edu/~phi/mt-class/decoding.mp4
       - 
-        text: Youtube
+        text: Youtube 2
         url: https://www.youtube.com/watch?v=dBEOdWs15oY
       -
         text: Demo
@@ -111,14 +97,9 @@ past:
     reading:
       -
         author: Koehn (2010)
-        title: Statistical Machine Translation, Chapter 6
-      -
-        author: Heafield et al. (2014)
-        title: Faster Phrase-Based Decoding by Refining Feature State
-        url: https://kheafield.com/professional/stanford/mtplz_paper.pdf
-        optional: true
+        title: Statistical Machine Translation, Chapter 5, 6
   -
-    date: 2024-09-17
+    date: 2024-09-12
     title: Evaluation
     slides: http://mt-class.org/jhu/slides/lecture-evaluation.pdf
     links:
@@ -141,7 +122,7 @@ past:
         url: http://www.aclweb.org/anthology/E/E14/E14-1047.pdf
         optional: true
   -
-    date: 2024-09-19
+    date: 2024-09-17
     title: Introduction to Neural Networks
     slides: http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
     links:
@@ -171,7 +152,7 @@ past:
         url: http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
         optional: true
   -
-    date: 2024-09-24
+    date: 2024-09-19
     title: Computation Graphs
     slides: http://mt-class.org/jhu/slides/lecture-nn-computation-graphs.pdf
     links:
@@ -190,7 +171,7 @@ past:
         title: Neural network online demo
         url: http://playground.tensorflow.org/
   -
-    date: 2024-09-26
+    date: 2024-09-24
     title: Neural Language Models
     slides: http://mt-class.org/jhu/slides/lecture-nn-lm.pdf
     links:
@@ -220,7 +201,7 @@ past:
         url: https://arxiv.org/pdf/1506.02078
         optional: true
   -
-    date: 2024-10-01
+    date: 2024-09-26
     title: Neural Translation Models
     slides: http://mt-class.org/jhu/slides/lecture-nmt.pdf
     links:
@@ -240,7 +221,7 @@ past:
         url: http://arxiv.org/pdf/1409.0473v5.pdf
         optional: true
   -
-    date: 2024-10-03
+    date: 2024-10-01
     title: Decoding in Neural Translation Models
     slides: http://mt-class.org/jhu/slides/lecture-nmt-decoding.pdf
     links:
@@ -255,7 +236,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 9
   -
-    date: 2024-10-08
+    date: 2024-10-03
     title: Machine Learning Tricks
     slides: http://mt-class.org/jhu/slides/lecture-ml-tricks.pdf
     links:
@@ -270,7 +251,7 @@ past:
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 10
   -
-    date: 2024-10-10
+    date: 2024-10-08
     title: Alternative Architectures 
     slides: http://mt-class.org/jhu/slides/lecture-alt-architectures.pdf
     links:
@@ -295,7 +276,7 @@ past:
         url: https://arxiv.org/abs/1705.03122
         optional: true
   -
-    date: 2024-10-15
+    date: 2024-10-10
     title: Linguistic Intermezzo
     slides: http://mt-class.org/jhu/slides/lecture-linguistic-intermezzo.pdf
     links:
@@ -329,7 +310,7 @@ past:
         url: http://www.isi.edu/natural-language/amr/a.pdf
         optional: true
   -
-    date: 2024-10-22
+    date: 2024-10-15
     title: Beyond Parallel Data
     slides: http://mt-class.org/jhu/slides/lecture-beyond-parallel.pdf
     links:
@@ -349,7 +330,7 @@ past:
         url: https://about.fb.com/news/2020/10/first-multilingual-machine-translation-model/
         optional: true
   -
-    date: 2024-10-24
+    date: 2024-10-22
     title: Large Language Models
     slides: http://mt-class.org/jhu/slides/lecture-large-language-models.pdf
     reading:
@@ -369,7 +350,7 @@ past:
         url: https://aclanthology.org/2023.acl-long.524.pdf
         optional: true
   -
-    date: 2024-10-29
+    date: 2024-10-24
     title: Adaptation
     slides: http://mt-class.org/jhu/slides/lecture-adaptation.pdf
     links:
@@ -388,6 +369,9 @@ past:
         title: Domain adaptation via pseudo in-domain data selection
         url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
         optional: true
+  -
+    date: 2024-10-29
+    title: Preference Training and Agents
   -
     date: 2024-10-31
     title: Current Challenges
