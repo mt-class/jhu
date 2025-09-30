@@ -235,7 +235,16 @@ past:
       -
         author: Koehn (2020)
         title: Neural Machine Translation, Chapter 9
-  -
+      -
+        author: Freitag et al. (2022)
+        title: High Quality Rather than High Model Probability: Minimum Bayes Risk Decoding with Neural Metrics
+        url: https://aclanthology.org/2022.tacl-1.47.pdf
+        optional: true
+      -
+        author: Post and Vilar (2018)
+        title: Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation
+        url: https://aclanthology.org/N18-1119.pdf
+        optional: true
     date: 2024-10-02
     title: Machine Learning Tricks
     slides: http://mt-class.org/jhu/slides/lecture-ml-tricks.pdf
