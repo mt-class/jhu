@@ -245,6 +245,7 @@ past:
         title: Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation
         url: https://aclanthology.org/N18-1119.pdf
         optional: true
+  -
     date: 2024-10-02
     title: Machine Learning Tricks
     slides: http://mt-class.org/jhu/slides/lecture-ml-tricks.pdf
