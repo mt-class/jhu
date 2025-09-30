@@ -237,7 +237,7 @@ past:
         title: Neural Machine Translation, Chapter 9
       -
         author: Freitag et al. (2022)
-        title: High Quality Rather than High Model Probability: Minimum Bayes Risk Decoding with Neural Metrics
+        title: Minimum Bayes Risk Decoding with Neural Metrics
         url: https://aclanthology.org/2022.tacl-1.47.pdf
         optional: true
       -
