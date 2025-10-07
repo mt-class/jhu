@@ -396,7 +396,7 @@ past:
         optional: true
   -
     date: 2025-10-30
-    title: Preference Training and Agents
+    title: Preference Training
   -
     date: 2025-11-04
     title: Speech Translation
