@@ -30,7 +30,10 @@ All projects will be graded on a final written report.
 Project Presentations
 ---------------------
 
-Please [sign up](https://docs.google.com/document/d/1yOjD3gURurYKfY2ZSAw65KxwNmrFhbHYw_l8CWuIN8U/edit?usp=sharing)
+This year, the final projects will be presented as a poster during the last week of classes.
+There will be two poster sessions (Tuesday and Thursday).
+
+Please [sign up](https://docs.google.com/document/d/1qLgWDGR8oHjMuFXXRYwhsWNR5qhN5KyRHaS9plKD_9g/edit?usp=sharing)
 
 Project Proposal
 ----------------
