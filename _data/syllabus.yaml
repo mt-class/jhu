@@ -397,6 +397,18 @@ past:
   -
     date: 2025-10-30
     title: Preference Training
+    slides: http://mt-class.org/jhu/slides/lecture-preference-training.pdf
+    reading:
+      -
+        author: Rafailov et al. (2023)
+        title: Direct Preference Optimization - Your Language Model is Secretly a Reward Model
+        url: https://arxiv.org/pdf/2305.18290
+        optional: true
+      -
+        author: Rei et al. (2023)
+        title: Scaling up COMETKIWI
+        url: https://aclanthology.org/2023.wmt-1.73.pdf
+        optional: true
   -
     date: 2025-11-04
     title: Speech Translation
