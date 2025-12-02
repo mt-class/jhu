@@ -31,7 +31,8 @@ Project Presentations
 ---------------------
 
 This year, the final projects will be presented as a poster during the last week of classes.
-There will be two poster sessions (Tuesday and Thursday).
+There will be two poster sessions (Tuesday and Thursday) in Hackerman Hall, 2nd floor, in front
+of office 227.
 
 Please [sign up](https://docs.google.com/document/d/1qLgWDGR8oHjMuFXXRYwhsWNR5qhN5KyRHaS9plKD_9g/edit?usp=sharing)
 
