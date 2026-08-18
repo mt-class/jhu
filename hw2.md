@@ -10,7 +10,7 @@ active_tab: homework
 <span class="text-muted">Homework 3:</span> Decoding
 =============================================================
 
-Due  October 2, 2025, at 11:59 PM
+Due  October 8, 2026, at 11:59 PM
 
 Decoding is process of taking input in one language (e.g. French):
 

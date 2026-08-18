@@ -9,9 +9,9 @@ active_tab: main_page
 ---
 
 EN 601.468/668 Machine Translation
-: Fall 2025
+: Fall 2026
 : Tuesdays and Thursdays 1:30-2:45
-: Room: Mudd 26
+: Room: Bloomberg 272
 : [Computer Science Department](http://www.cs.jhu.edu/)
 : [Johns Hopkins University](http://www.jhu.edu/)
 
@@ -37,14 +37,14 @@ TA
 Office hours
 : **Professor** by Appointment
 : **TA** Bismarck Bamfo Odoom, TBA
-: **CAs** TBA
+: **CAs** Keerthi Aluvala (kaluval1@jh.edu), TBA
 
 Format
 : This class will be delivered in person this year. Lectures were pre-recorded in 2020 and these are still accessible through links on this web site and on Youtube. Note that a good portion has changed since.
 
 Discussion Forum
-: [Piazza](https://piazza.com/jhu/fall2025/en601468) access code: 2qze3gdjr6h
-! [Gradescope](https://www.gradescope.com/courses/829984) access code: GVGR43
+: [Piazza](https://piazza.com/jhu/fall2026/en601468) access code: tg641uqhg8k
+! [Gradescope](https://www.gradescope.com/courses/1355884) access code: 7K6Z7Y
 
 Textbooks
 : The class follows closely two textbooks.
