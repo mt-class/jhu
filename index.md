@@ -37,7 +37,7 @@ TA
 Office hours
 : **Professor** by Appointment
 : **TA** Bismarck Bamfo Odoom, TBA
-: **CAs** Keerthi Aluvala (kaluval1@jh.edu), TBA
+: **CA** Keerthi Aluvala (kaluval1@jh.edu), TBA
 
 Format
 : This class will be delivered in person this year. Lectures were pre-recorded in 2020 and these are still accessible through links on this web site and on Youtube. Note that a good portion has changed since.
