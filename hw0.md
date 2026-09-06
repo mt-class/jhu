@@ -48,5 +48,5 @@ Conclude your report with a summary of your impression of the major quality prob
 What to Hand in
 ===============
 
-Turn in a written report on Sunday, September 7 by midnight, on Gradescope.
+Turn in a written report on Sunday, September 15 by midnight, on Gradescope.
 
