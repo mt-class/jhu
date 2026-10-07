@@ -307,19 +307,24 @@ past:
         optional: true
   -
     date: 2026-10-20
-    title: Analysis and Visualization
-    slides: http://mt-class.org/jhu/slides/lecture-viz.pdf
+    title: Adaptation
+    slides: http://mt-class.org/jhu/slides/lecture-adaptation.pdf
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/viz.mp4
+        url: http://www.cs.jhu.edu/~phi/mt-class/adaptation.mp4
       - 
         text: Youtube
-        url: https://www.youtube.com/watch?9YXw2uAhjes
+        url: https://www.youtube.com/watch?v=CbyoJ960uNo
     reading:
       -
         author: Koehn (2020)
-        title: Neural Machine Translation, Chapter 17
+        title: Neural Machine Translation, Chapter 13
+      -
+        author: Axelrod et al. (2011)
+        title: Domain adaptation via pseudo in-domain data selection
+        url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
+        optional: true
   -
     date: 2026-10-27
     title: Linguistic Intermezzo
@@ -395,24 +400,19 @@ past:
         optional: true
   -
     date: 2026-11-10
-    title: Adaptation
-    slides: http://mt-class.org/jhu/slides/lecture-adaptation.pdf
+    title: Analysis and Visualization
+    slides: http://mt-class.org/jhu/slides/lecture-viz.pdf
     links:
       -
         text: Video
-        url: http://www.cs.jhu.edu/~phi/mt-class/adaptation.mp4
+        url: http://www.cs.jhu.edu/~phi/mt-class/viz.mp4
       - 
         text: Youtube
-        url: https://www.youtube.com/watch?v=CbyoJ960uNo
+        url: https://www.youtube.com/watch?9YXw2uAhjes
     reading:
       -
         author: Koehn (2020)
-        title: Neural Machine Translation, Chapter 13
-      -
-        author: Axelrod et al. (2011)
-        title: Domain adaptation via pseudo in-domain data selection
-        url: http://plata.ar.media.kyoto-u.ac.jp/mori/research/survey/EMNLP/D11-1033.pdf
-        optional: true
+        title: Neural Machine Translation, Chapter 17
   -
     date: 2026-11-12
     title: Corpus Acquisition from the Internet
